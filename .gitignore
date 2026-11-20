@@ -1,0 +1,5 @@
+cache/
+fd/
+data/soccer.duckdb
+__pycache__/
+*.pyc
