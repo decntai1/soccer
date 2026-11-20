@@ -154,12 +154,133 @@ def load_tables(out: Path | None = None) -> dict:
     return T
 
 
-def matches_frame(T: dict) -> pd.DataFrame:
-    """One row per finished game whose goal check did not fail: what the model is fitted on."""
+def ref_key(r) -> str | None:
+    """'Andy Davies, England' (API) and 'A Davies' (football-data) -> 'a davies'."""
+    if not isinstance(r, str) or not r.strip() or r.strip().lower() in ("nan", "none"):
+        return None
+    t = norm(r.split(",")[0]).split()
+    return f"{t[0][0]} {t[-1]}" if len(t) >= 2 else (t[0] if t else None)
+
+
+WEAK_NOISE = {"fc", "cf", "sc", "afc", "ssc", "ss", "ac", "as", "us", "cd", "sd", "ud", "rc", "bsc", "tsv", "vfl", "vfb", "fsv", "sv",
+              "spvgg", "1", "club", "calcio", "de", "the", "cp", "sad"}
+SYN = {"ii": "b", "utd": "united", "munchen": "munich", "1860": "1860"}
+
+
+def _toks(s: str) -> list[str]:
+    return [SYN.get(t, t) for t in norm(s).split() if t not in WEAK_NOISE] or norm(s).split()
+
+
+def _tok_match(x: str, y: str) -> float:
+    if x == y:
+        return 1.0
+    a, b = (x, y) if len(x) <= len(y) else (y, x)
+    if len(a) >= 2 and b.startswith(a):
+        return 1.0
+    it = iter(b)
+    return 0.8 if len(a) >= 2 and a[0] == b[0] and all(c in it for c in a) else 0.0        # 'rvs' in 'rovers'
+
+
+def _sim(a: str, b: str) -> float:
+    """Name similarity for one club written two ways ('Sheffield Wednesday' / 'Sheffield Weds', 'QPR', 'Sp Gijon').
+    Every word of the shorter name must match a word of the longer one: 'Sheffield Weds' scores 1.0 against
+    'Sheffield Wednesday' and 0.5 against 'Sheffield United'."""
+    ta, tb = _toks(a), _toks(b)
+    if not ta or not tb:
+        return 0.0
+    short, long_ = (ta, tb) if len(ta) <= len(tb) else (tb, ta)
+    tok = sum(max(_tok_match(x, y) for y in long_) for x in short) / len(short)
+    if len(short) == 1 and len(long_) > 2:
+        tok *= 0.9                                                   # one word against a long name: a little less sure
+    ini = lambda t: "".join(w[0] for w in t)
+    abbr = 0.95 if (len(short) == 1 and len(short[0]) >= 2 and short[0] in (ini(long_), ini(long_)[:3])) else 0.0
+    seq = difflib.SequenceMatcher(None, " ".join(ta), " ".join(tb)).ratio()
+    return max(tok, abbr, seq)
+
+
+def map_fd_teams(T: dict, FD: pd.DataFrame, out: Path | None = None, quiet: bool = True) -> tuple[dict, list]:
+    """football-data team name -> API team id, per league of the current season. Evidence: games both sources hold
+    (same league, date +-1, same score) count 1 each; name similarity breaks ties; one name per id (assignment).
+    Overrides in data/soccer_team_map.csv (fd_name,team_id). Returns (map, unmapped names)."""
+    from scipy.optimize import linear_sum_assignment
+    import soccer_ingest as SI
+    code_of = {lid: v[2] for lid, v in SI.LEAGUES.items()}
+    F = T["fixtures"]
+    m, unmapped = {}, []
+    over = Path(out or OUT) / "soccer_team_map.csv"
+    if over.exists():
+        m.update({str(k): int(v) for k, v in pd.read_csv(over)[["fd_name", "team_id"]].values})
+    if F.empty or FD.empty:
+        return m, unmapped
+    for lid, G in F.groupby("league_id"):
+        code = code_of.get(lid)
+        season = G.season.max()
+        X = FD[(FD.league == code) & (FD.season == season)]
+        if X.empty:
+            continue
+        api = pd.concat([G[["home_id", "home"]].set_axis(["id", "name"], axis=1), G[["away_id", "away"]].set_axis(["id", "name"], axis=1)]).drop_duplicates("id")
+        names = sorted(set(X.home) | set(X.away))
+        ai = {t: i for i, t in enumerate(api.id)}
+        ni = {n: j for j, n in enumerate(names)}
+        S = np.array([[_sim(a, n) for n in names] for a in api.name])
+        votes = np.zeros_like(S)
+        done = G[G.status.isin(["FT", "AET", "PEN"]) & G.ft_home.notna()]
+        for r in done.itertuples():
+            c = X[(X.hg == r.ft_home) & (X.ag == r.ft_away) & ((X.date - r.date.normalize()).abs() <= pd.Timedelta(days=1))]
+            for x in c.itertuples():
+                votes[ai[r.home_id], ni[x.home]] += 1 / len(c)
+                votes[ai[r.away_id], ni[x.away]] += 1 / len(c)
+        score = S + votes
+        rows, cols = linear_sum_assignment(-score)
+        taken = {v for v in m.values()}
+        for i, j in zip(rows, cols):
+            n, tid = names[j], int(api.id.iloc[i])
+            if n in m or tid in taken:
+                continue
+            if votes[i, j] >= 1.5 or (votes[i, j] >= 0.5 and S[i, j] >= 0.3) or S[i, j] >= 0.6:
+                m[n] = tid
+            else:
+                unmapped.append(f"{n} (best guess {api.name.iloc[i]}, similarity {S[i, j]:.2f}, results {votes[i, j]:.0f})")
+        unmapped += [n for n in names if n not in m and not any(u.startswith(n + " (") for u in unmapped)]
+    return m, unmapped
+
+
+def fd_matches(T: dict, out: Path | None = None) -> tuple[pd.DataFrame, dict]:
+    """football-data.co.uk games (current and the two seasons before), teams translated to API ids. Teams that are
+    not in our current API leagues keep a stable negative id: they are opponents in the history only."""
+    try:
+        import soccer_bandit as SB
+        import soccer_ingest as SI
+    except ImportError:
+        return pd.DataFrame(), {}
+    F = T["fixtures"]
+    cur = int(F.season.max()) if len(F) else None
+    if cur is None or not Path(SB.FD).exists():
+        return pd.DataFrame(), dict(note="no football-data files (run soccer_bandit.py download)")
+    FD = SB.load([cur - 2, cur - 1, cur])
+    if FD.empty:
+        return FD, dict(note="football-data files empty")
+    m, unmapped = map_fd_teams(T, FD, out)
+    lid_of = {v[2]: lid for lid, v in SI.LEAGUES.items()}
+    tid = lambda n: m.get(n, -(int(hashlib.md5(n.encode()).hexdigest()[:7], 16)))
+    X = pd.DataFrame(dict(fixture_id=None, date=FD.date, league=FD.league.map(lid_of), season=FD.season, home=FD.home.map(tid), away=FD.away.map(tid),
+                          hg=FD.hg, ag=FD.ag, hthg=FD.hthg, htag=FD.htag, referee=FD.referee, h_corners=FD.hc, a_corners=FD.ac,
+                          h_cards=FD.hy + FD.hr, a_cards=FD.ay + FD.ar, h_shots=FD.hsh, a_shots=FD.ash, h_sot=FD.hst, a_sot=FD.ast, source="football-data"))
+    cur_names = set(FD[FD.season == cur].home) | set(FD[FD.season == cur].away)
+    info = dict(games=len(X), current=int((X.season == cur).sum()), mapped=len([n for n in cur_names if n in m]), teams=len(cur_names), unmapped=unmapped)
+    return X, info
+
+
+def matches_frame(T: dict, with_fd: bool = True) -> pd.DataFrame:
+    """One row per finished game whose goal check did not fail: what the model is fitted on. API games first; on
+    the free plan the API only reaches back to yesterday, so football-data.co.uk fills the rest of the history (a
+    game both sources hold is kept once, from the API)."""
     F = T["fixtures"]
     if F.empty:
         return pd.DataFrame()
     F = F[F.status.isin(["FT", "AET", "PEN"]) & F.ft_home.notna() & (F.check_goals.astype(str) != "False")]
+    if with_fd:
+        F = F[F.season == F.season.max()]                        # older seasons come from football-data, once
     M = pd.DataFrame(dict(fixture_id=F.fixture_id, date=F.date, league=F.league_id, season=F.season, home=F.home_id, away=F.away_id,
                           hg=F.ft_home, ag=F.ft_away, hthg=F.ht_home, htag=F.ht_away, referee=F.referee))
     S = T["team_match_stats"]
@@ -168,7 +289,17 @@ def matches_frame(T: dict) -> pd.DataFrame:
         for flag, pre in ((True, "h_"), (False, "a_")):
             x = S[S.is_home == flag][["fixture_id", "corners", "cards", "shots", "sot"]].add_prefix(pre).rename(columns={pre + "fixture_id": "fixture_id"})
             M = M.merge(x, on="fixture_id", how="left")
-    return M.reset_index(drop=True)
+    M["source"] = "api"
+    if with_fd:
+        X, info = T["fd"] if "fd" in T else fd_matches(T)
+        T["fd"], T["fd_info"] = (X, info), info
+        if len(X):
+            key = lambda d: set(zip(d.league, d.home, d.away, d.date.dt.normalize()))
+            have = key(M) | key(M.assign(date=M.date - pd.Timedelta(days=1))) | key(M.assign(date=M.date + pd.Timedelta(days=1)))
+            keep = [k not in have for k in zip(X.league, X.home, X.away, X.date.dt.normalize())]
+            M = pd.concat([M, X[keep]], ignore_index=True)
+    M["referee"] = M.referee.map(ref_key)
+    return M.sort_values("date").reset_index(drop=True)
 
 
 # ------------------------------------------------------------------ board reading (Altenar .net.json captures)
@@ -313,8 +444,7 @@ class Matcher:
     def _score(self, board: str, api: str, tid) -> float:
         if self.alias.get(norm(board)) == tid:
             return 1.0
-        a, b = team_key(board), team_key(api)
-        return 1.0 if a == b else difflib.SequenceMatcher(None, a, b).ratio() * (0.95 if a in b or b in a else 0.9)
+        return _sim(board, api)
 
     def find(self, ev: dict, day: str):
         if self.F.empty:
@@ -374,7 +504,7 @@ def price_event(ev: dict, day: str, T: dict, M: pd.DataFrame, match: Matcher, mo
                 PS = PS[PS.league_id == fx.league_id]
             models[key] = (lm, PlayerModel(PS, T["events"], day) if len(PS) else None)
         lm, pm = models[key]
-        gm = lm.game(fx.home_id, fx.away_id, fx.referee) if lm is not None and lm.dc is not None else None
+        gm = lm.game(fx.home_id, fx.away_id, ref_key(fx.referee)) if lm is not None and lm.dc is not None else None
     rows = []
     for r in raw_rows(ev):
         c = classify(r, home, away)
@@ -500,6 +630,12 @@ def price(day: str, boards: str, con, out: Path | None = None, quiet: bool = Fal
         typed = D.type.notna()
         print(f"{day}: {len(latest)} games, {len(D)} rows; typed {typed.mean():.0%} ({int(typed.sum())}), two-way de-margined {int((D.p_method == 'no_vig').sum())}, "
               f"one-way {int((D.p_method == 'one_way').sum())}, with a model number {int(D.p_model.notna().sum())}, flagged {int(D.flag.notna().sum())}")
+        fi = T.get("fd_info") or {}
+        if fi.get("note"):
+            print(f"  model history: API games only ({fi['note']})")
+        elif fi:
+            print(f"  model history: {fi['games']} football-data games ({fi['current']} this season); teams mapped {fi['mapped']} of {fi['teams']}"
+                  + (f"; NOT MAPPED (their football-data games are left out; fix in data/soccer_team_map.csv): {fi['unmapped'][:8]}" if fi["unmapped"] else ""))
         nf = D[D.fixture_id.isna()].game.unique()
         if len(nf):
             print(f"  NOT MATCHED to a fixture (kept, not graded): {list(nf)}")

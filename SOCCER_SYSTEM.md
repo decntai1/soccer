@@ -1,4 +1,4 @@
-# Soccer system: status (soccer-0.1, built 2026-11-20)
+# Soccer system: status (soccer-0.1, free-plan ingest, 2026-11-20)
 
 Built from `SOCCER_MODEL_SPEC.md`. **Nothing here has touched live data.** The build machine could not reach
 API-Football or football-data.co.uk, so every test ran against simulated responses. Treat all of it as unproven
@@ -15,58 +15,58 @@ until the first-run checklist below is done.
 | `soccer_selftest.py`, `soccer_fake.py` | Offline tests and the simulated API / board they run on. |
 | `.github/workflows/soccer.yml` | Daily ingest + grade, pricing on board push, manual backtest and lineups jobs. |
 
-## Setup (GitHub Actions, same pattern as the NHL repo)
+## The free plan (tested 2026-11-20 with your key)
 
-1. New repo, upload everything including `.github/workflows/soccer.yml` and `.gitignore`.
-2. Settings -> Secrets -> Actions: `APIFOOTBALL_KEY` (and `PROLYT_API_KEY` if wanted). The key goes nowhere else.
-3. Actions -> soccer -> Run workflow, job `daily`. First run: about 30 requests for the current season so far.
-4. Actions -> soccer -> Run workflow, job `backtest`. No API calls; about 10 minutes.
-5. Boards go to `boards/soccer/<UTC date of kick-off>/*.net.json`. The push prices them and builds paper slips.
+| Works | Refused |
+|---|---|
+| `fixtures?date=` for yesterday, today, tomorrow (109 games returned for 19 Nov) | any `season=2025` or `2026` (only 2022-2024) |
+| `fixtures/events?fixture=` for a current-season game from yesterday | `ids=` (batching) |
+| | dates outside D-1..D+1 |
 
-Local: `pip install pandas numpy scipy duckdb tabulate`, `export APIFOOTBALL_KEY=...`, then the same commands.
+API-Football's helper said current-season games are refused even inside the window. The live test says
+otherwise. The first real run settles it: a refused game prints `REFUSED BY PLAN`, nothing is guessed.
 
-## First-run checklist (spec section 8)
+So the ingest now does, per run: 3 date calls, then 1 `fixtures?id=` call per finished game of our six leagues
+(if that call turns out not to carry events and statistics, it switches to 4 calls per game and says so). Busy
+Saturday: ~50 games, ~55 calls. **A game whose day leaves the window unfetched is gone for good on this plan**:
+the workflow runs at 05:23 and 23:41 UTC so one failed run loses nothing, and the log lists `LOST` games.
 
-| # | Task | Command | What must be true |
-|---|---|---|---|
-| 1 | League ids + coverage | `soccer_ingest.py run` | No `ERROR`/`WARNING` id lines; `data/soccer_2026_coverage.csv` read by eye |
-| 2 | Current season | same run | All three `Sanity` lines say OK. No `REFUSED BY PLAN` line |
-| 3 | Bandit 1 | `soccer_bandit.py download`, then `backtest` | Read `results/bandit1_report.md`; check `closing prices` is near 100% for recent seasons |
-| 4 | First real board | `soccer_system.py unread --boards DIR` | Send me the output: the market patterns get fixed from it |
-| 5 | One matchday | `price`, next day `grade`, then `handcheck` | Five printed results match the match reports -> `handcheck --confirm` |
-| 6 | Slips | `slips` | Only after 5. Paper only |
+Everything before the first run (this season since August, and the two before) comes from football-data.co.uk:
+results, half-time, shots, corners, cards, referee (England). Its team names are mapped to API team ids, by results
+where both sources hold a game and by name otherwise. Check the `model history: ... teams mapped X of Y` line of
+the first `price`. Fix misses in `data/soccer_team_map.csv` (`fd_name,team_id`).
 
-Until step 5 is confirmed, `report` prints no numbers.
+Player lines need API games: the player model and scorer grading start from the first run, with no history.
 
-## Tested (all on simulated data)
+## Setup
 
-- `soccer_system.py selftest`: 37 checks pass. Request budget (stops at 5 left, 20 ids a call, no finished game
-  fetched twice, plan refusal reported), keys verified before being declared, the three sanity checks under both
-  ways the API might list own goals, 59 hand-written settlement cases (quarter lines, pushes, halves, own goals,
-  did-not-play, unconfirmed rules), de-margining back to the simulation's true prices, the one-way cap, slip rules,
-  weights staying at 0.
-- `soccer_bandit.py simulate`: against a book that is exactly right the bandit loses the margin (-4.4% a bet) and
-  is not "in profit in most seasons"; against a book that prices home wins 10 points too low it finds it.
+Repo `decntai1/soccer`, secret `APIFOOTBALL_KEY`. Actions -> soccer -> Run workflow, job `daily`. Boards go to
+`boards/soccer/<UTC date of kick-off>/*.net.json`.
+
+## First-run checklist
+
+| # | Task | What must be true |
+|---|---|---|
+| 1 | `daily` run | `plan: free`, no `REFUSED BY PLAN`, the three `Sanity` lines OK, no `WARNING` on league ids |
+| 2 | First `price` | `teams mapped` close to all; `unread` list sent to me |
+| 3 | `backtest` job | `results/bandit1_report.md` read (no API requests) |
+| 4 | One matchday priced and graded | `handcheck` on five results, then `handcheck --confirm` |
+
+## Tested (simulated data only)
+
+- `selftest`: 45 checks. New for the free plan: only date and id calls, never season/ids; 3 date calls on a repeat
+  run; LOST games reported and not requested; the 4-call fallback; coverage inferred and marked as inferred; all
+  teams mapped from football-data names; the full price/grade loop with football-data as the model's history.
+- `soccer_bandit.py simulate`: 7 checks, unchanged.
 
 ## Not tested, in order of risk
 
-1. **Free-plan season access.** API-Football says the free plan covers "recent seasons" and paid plans unlock
-   deeper history. If the key cannot read 2026, 2025 or 2024, the run prints `REFUSED BY PLAN` with the API's own
-   message and skips that season. If 2026 is refused, the live model has no data and the cheapest fix is the
-   $19/month plan or fitting the team model from football-data.co.uk (not built).
-2. **API field names** are from documentation and memory, not a live response. Wrong names show up as failed
-   sanity checks or empty stat columns, not as silent bad grades.
-3. **The board reader.** The capture layout (markets / odds / childMarkets / desktopOddIds / sv / competitorId) is
-   taken from the NHL captures. The Hungarian soccer market names are the spec's guesses. Expect a long `unread`
-   list on the first real board.
-4. **vegas.hu rules** (`RULES` in `soccer_system.py`): second yellow, coach cards, booking points, first scorer
-   after an own goal, late substitutes. All unset. A row whose result depends on an unset rule is not graded.
-   Quarter-line stake splitting is assumed.
-5. **Team names** on the board against the API's: matched by date and fuzzy name; no unique match = game kept,
-   not graded. Fix misses in `data/soccer_aliases.csv` (`board_name,team_id`).
-6. **football-data.co.uk columns**: names taken from published listings of the files, both the old (`BbAv*`) and
-   new (`AvgC*`, `AHCh`) layouts. Check the price-source column in the backtest report.
-7. **ProLyt upload**: written to the spec (`POST {url}/upload`, `X-API-Key`, `overwrite=1`), never executed.
+1. Whether the free plan serves our six leagues' current games through `fixtures?id=` (tested: Brazil's Serie A).
+2. The board reader: Hungarian soccer market names are still the spec's guesses.
+3. vegas.hu settlement rules (`RULES`): unset; rows that depend on them are not graded.
+4. football-data columns for 2. Bundesliga, Serie B and Segunda: shots/corners/cards may be missing there.
+5. The team-name map on real names (tested on simulated names and on 35 real pairs by hand).
+6. ProLyt upload: never executed.
 
 ## Things the simulations already say
 

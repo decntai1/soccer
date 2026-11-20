@@ -27,9 +27,10 @@ STATS = ["Shots on Goal", "Total Shots", "Fouls", "Corner Kicks", "Offsides", "B
 
 class World:
     def __init__(self, seed=1, season=2026, n_teams=8, today=None, og_listed_under="scorer", leagues=(40, 79),
-                 block_before: int | None = None, coverage_holes=()):
+                 block_before: int | None = None, coverage_holes=(), free: bool = False, id_detail: bool = True):
         self.seed = seed
         self.season, self.og, self.block_before, self.holes = season, og_listed_under, block_before, set(coverage_holes)
+        self.free, self.id_detail = free, id_detail          # free: the rules API-Football's Free plan applies (seen 2026-11-20)
         self.today = today or dt.date(season, 11, 20)
         self.teams, self.fx, self.calls, self.left = {}, {}, [], 100
         tid = 1000 * (season % 100)
@@ -170,6 +171,17 @@ class World:
         head = {"x-ratelimit-requests-remaining": str(self.left), "x-ratelimit-remaining": "9"}
         env = lambda resp, err=None: (dict(get=path, parameters=params, errors=err or [], results=len(resp), response=resp), head)
         season = int(params["season"]) if "season" in params else None
+        win = [(self.today + dt.timedelta(days=k)).isoformat() for k in (-1, 0, 1)]
+        if self.free:
+            if "ids" in params:
+                return env([], dict(plan="Free plans do not have access to the Ids parameter."))
+            if season is not None and not 2022 <= season <= 2024:
+                return env([], dict(plan="Free plans do not have access to this season, try from 2022 to 2024."))
+            if "date" in params and params["date"] not in win:
+                return env([], dict(plan=f"Free plans do not have access to this date, try from {win[0]} to {win[-1]}."))
+            fid = params.get("id") or params.get("fixture")
+            if fid is not None and int(fid) in self.fx and self.fx[int(fid)]["fixture"]["date"][:10] not in win:
+                return env([], dict(plan=f"Free plans do not have access to this date, try from {win[0]} to {win[-1]}."))
         if season is not None and self.block_before and season < self.block_before:
             return env([], dict(plan=f"Free plans do not have access to this season, try from {self.block_before} to {self.season}."))
         strip = lambda f: {k: v for k, v in f.items() if k not in ("events", "lineups", "statistics", "players")}
@@ -180,6 +192,12 @@ class World:
                                                                        statistics_players=lid not in self.holes)))])
                         for lid in sorted({t["league"] for t in self.teams.values()})]
                        + [dict(league=dict(id=72, name="Serie B", type="League"), country=dict(name="Brazil", code="BR"), seasons=[])])
+        if path == "fixtures" and "id" in params:
+            f = self.fx.get(int(params["id"]))
+            return env([] if f is None else [f if self.id_detail else strip(f)])
+        if path.startswith("fixtures/") and "fixture" in params:
+            f = self.fx.get(int(params["fixture"]), {})
+            return env(f.get(path.split("/")[1], []))
         if path == "fixtures" and "ids" in params:
             ids = [int(x) for x in str(params["ids"]).split("-")]
             if len(ids) > 20:
@@ -190,6 +208,38 @@ class World:
         if path == "fixtures" and "date" in params:
             return env([strip(f) for f in self.fx.values() if f["fixture"]["date"][:10] == params["date"]])
         return env([], dict(endpoint="This endpoint does not exist."))
+
+    # ---------------------------------------------------------------- football-data.co.uk CSVs
+    def fd_name(self, tid: int) -> str:
+        """football-data spells clubs its own way and never uses one name twice: 'Championship Aatown' -> 'Aatown',
+        'Bundesliga Aatown' -> 'Bund Aatown'."""
+        w = self.teams[tid]["name"].split()
+        return w[-1] if self.teams[tid]["league"] == 40 else f"{w[0][:4]} {w[-1]}"
+
+    def write_fd(self, root: Path) -> None:
+        """This season's played games in football-data's layout, one file per division."""
+        import pandas as pd
+        code = {40: "E1", 41: "E2", 42: "E3", 79: "D2", 136: "I2", 141: "SP2"}
+        rows = {}
+        for f in self.fx.values():
+            if f["fixture"]["status"]["short"] != "FT":
+                continue
+            h, a = f["teams"]["home"]["id"], f["teams"]["away"]["id"]
+            st = {b["team"]["id"]: {x["type"]: x["value"] for x in b["statistics"]} for b in f["statistics"]}
+            g = lambda t, k: int(st[t][k] or 0)
+            r = dict(Div=code[f["league"]["id"]], Date=dt.date.fromisoformat(f["fixture"]["date"][:10]).strftime("%d/%m/%Y"),
+                     HomeTeam=self.fd_name(h), AwayTeam=self.fd_name(a), FTHG=f["goals"]["home"], FTAG=f["goals"]["away"],
+                     HTHG=f["score"]["halftime"]["home"], HTAG=f["score"]["halftime"]["away"], HS=g(h, "Total Shots"), AS=g(a, "Total Shots"),
+                     HST=g(h, "Shots on Goal"), AST=g(a, "Shots on Goal"), HC=g(h, "Corner Kicks"), AC=g(a, "Corner Kicks"),
+                     HY=g(h, "Yellow Cards"), AY=g(a, "Yellow Cards"), HR=g(h, "Red Cards"), AR=g(a, "Red Cards"))
+            if f["league"]["id"] == 40:                          # only the English files carry the referee
+                n = f["fixture"]["referee"].split(",")[0].split()
+                r["Referee"] = f"{n[0][0]} {n[-1]}"
+            rows.setdefault(r["Div"], []).append(r)
+        p = root / f"{self.season % 100:02d}{(self.season + 1) % 100:02d}"
+        p.mkdir(parents=True, exist_ok=True)
+        for c, rr in rows.items():
+            pd.DataFrame(rr).to_csv(p / f"{c}.csv", index=False)
 
     # ---------------------------------------------------------------- a board in the Altenar shape
     def board(self, fid: int, margin=0.06, path: Path | None = None) -> dict:

@@ -1,15 +1,23 @@
 #!/usr/bin/env python3
 """soccer_ingest.py: API-Football v3 -> CSV tables for six second-tier leagues (spec section 2).
 
-    python soccer_ingest.py run                  # daily: ids + coverage, fixture lists, yesterday, work the queue, build, check, publish
+    python soccer_ingest.py run                  # daily: yesterday/today/tomorrow, detail of finished games, build, check, publish
     python soccer_ingest.py build                # rebuild tables + checks from the cache, no API calls
     python soccer_ingest.py lineups --date D     # pre-match starting XIs of that day's games (slip rule 6), ~2-4 calls
     python soccer_ingest.py status               # what is cached, what is queued, calls used today
 
-Env: APIFOOTBALL_KEY (required for run/lineups), SOCCER_CACHE (cache), SOCCER_OUT (data), SOCCER_BUDGET (95 calls/day),
-     PROLYT_API_KEY, PROLYT_URL (https://analytiq.dcentai.tech).
+Env: APIFOOTBALL_KEY (required for run/lineups), SOCCER_PLAN (free | paid, default free), SOCCER_CACHE (cache),
+     SOCCER_OUT (data), SOCCER_BUDGET (95 calls/day), PROLYT_API_KEY, PROLYT_URL (https://analytiq.dcentai.tech).
 
-The free plan counts REQUESTS (100 a day), so the design uses only batched calls:
+FREE PLAN (tested 2026-11-20 with the user's key; confirmed by API-Football's helper): no current season by season
+parameter, no `ids`, `date` only D-1 / D / D+1. So, per run:
+    fixtures?date=D-1, D, D+1        3 calls: every game in the window (filtered to our six leagues)
+    fixtures?id=X                    1 call per finished game: events, lineups, team and player statistics
+A busy Saturday is about 50 of our games: ~55 calls. A game whose day has left the window can never be fetched
+again on this plan, so the run must happen every day (the workflow runs twice a day). History before the first
+run comes from football-data.co.uk (soccer_bandit.py download), not from this API.
+
+PAID PLAN (SOCCER_PLAN=paid): the batched design below.
     leagues?season=S                 1 call: ids, names and the coverage block of every league that season
     fixtures?league=L&season=S       1 call per league season: the whole fixture list with FT and HT scores
     fixtures?date=D                  1 call per day: every game that day
@@ -39,6 +47,7 @@ OUT = Path(os.environ.get("SOCCER_OUT", "data"))
 BUDGET = int(os.environ.get("SOCCER_BUDGET", "95"))
 SLEEP = float(os.environ.get("SOCCER_SLEEP", "7"))          # free plan: 10 requests a minute
 STOP_AT = 5                                                 # stop when the API says this many requests are left
+PLAN = os.environ.get("SOCCER_PLAN", "free")
 
 # id (from memory, VERIFIED on every run against the live /leagues response), country, name as the API spells it,
 # football-data.co.uk division code
@@ -283,18 +292,112 @@ def run(api: Api) -> None:
     print(f"calls used today: {api.used} (API says {api.left} left); queue: {len(queue(index, seasons))} games still to fetch")
 
 
-def lineups_cmd(api: Api, date: str) -> None:
+def detail_ok(f: dict) -> bool:
+    """A fixtures?id response carries the match detail (it did in the documentation; not yet seen live on Free)."""
+    return any(k in f for k in ("events", "statistics", "players", "lineups"))
+
+
+def fetch_detail(api: Api, fid: int) -> dict | None:
+    """One finished game. fixtures?id first; if that answer has no detail blocks, the four per-game endpoints."""
+    mode = api.state.get("detail_mode", "id")
+    if mode == "id":
+        resp = api.get("fixtures", id=fid)
+        if not resp:
+            return None
+        f = resp[0]
+        if detail_ok(f):
+            return f
+        api.state["detail_mode"] = "split"
+        print("  NOTE: fixtures?id returned no events/statistics: switching to 4 calls per game (events, lineups, statistics, players)")
+    else:
+        resp = api.get("fixtures", id=fid)
+        if not resp:
+            return None
+        f = resp[0]
+    for key, path in (("events", "fixtures/events"), ("lineups", "fixtures/lineups"), ("statistics", "fixtures/statistics"), ("players", "fixtures/players")):
+        f[key] = api.get(path, fixture=fid)
+    return f
+
+
+def run_free(api: Api) -> None:
+    """Free plan: the D-1 / D / D+1 window, then one detail call per finished game of our leagues."""
+    CACHE.mkdir(parents=True, exist_ok=True)
+    index = jload(CACHE / "index.json", {}) or {}
+    today = now_utc().date()
+    window = [today - dt.timedelta(days=1), today, today + dt.timedelta(days=1)]
+    ours, seen = set(LEAGUES), api.state.setdefault("league_check", {})
+    fetched = lost_now = 0
+    try:
+        for d in window:
+            day = api.get("fixtures", date=d.isoformat())
+            for f in day:
+                lid, cty, nm = f["league"]["id"], f["league"].get("country"), f["league"].get("name")
+                for want, (c, n, _) in LEAGUES.items():                    # the ids are checked on every response
+                    if c == cty and n.lower() == str(nm).lower() and lid != want:
+                        print(f"  WARNING: {c} {n} appears with id {lid}, not {want}: fix LEAGUES")
+                if lid in ours:
+                    seen[str(lid)] = nm
+                    index[str(f["fixture"]["id"])] = slim(f)
+        jsave(CACHE / "index.json", index)
+        first = window[0].isoformat()
+        cut = now_utc().timestamp() - 3 * 3600                             # statistics settle soon after the whistle
+        todo = sorted((f for f in index.values() if f["status"] in FINISHED and f["season"] >= current_season() and not detail_path(f["fixture_id"]).exists()
+                       and (f.get("ts") or 0) < cut), key=lambda f: f.get("ts") or 0)
+        lost = api.state.setdefault("lost", {})
+        for f in index.values():                                           # listed once, now out of the window for good
+            if (f["season"] >= current_season() and f["date"][:10] < first and f["status"] not in DEAD
+                    and not detail_path(f["fixture_id"]).exists() and str(f["fixture_id"]) not in lost):
+                lost[str(f["fixture_id"])] = f["date"][:10]
+                lost_now += 1
+        for f in todo:
+            if f["date"][:10] < first:
+                continue
+            try:
+                g = fetch_detail(api, f["fixture_id"])
+            except PlanError as e:
+                print(f"  REFUSED BY PLAN for fixture {f['fixture_id']} ({f['date'][:10]}): {e}")
+                continue
+            if g and (g["fixture"].get("status") or {}).get("short") in FINISHED:
+                jsave(detail_path(f["fixture_id"]), g)
+                fetched += 1
+    except Stop as e:
+        print(f"stopped: {e}")
+    except PlanError as e:
+        print(f"REFUSED BY PLAN: {e}")
+    finally:
+        jsave(CACHE / "index.json", index)
+        jsave(CACHE / "state.json", api.state)
+    missing = [l for l in LEAGUES if str(l) not in seen]
+    print(f"window {window[0]}..{window[-1]}: {sum(1 for f in index.values() if f['date'][:10] >= window[0].isoformat())} of our games listed, "
+          f"{fetched} finished games fetched; calls used today: {api.used} (API says {api.left} left)")
+    if missing:
+        print(f"  leagues not seen in any window yet (no games, or a wrong id): {[LEAGUES[l][1] for l in missing]}")
+    if lost_now or api.state.get("lost"):
+        print(f"  LOST: {lost_now} new, {len(api.state['lost'])} in all: finished games whose date left the window before they were "
+              f"fetched (a missed run). They are graded from nothing and kept out of the player model.")
+
+
+def lineups_cmd(api: Api, date: str, limit: int = 20) -> None:
     """Pre-match lineups: written to soccer_prematch_lineups.csv (never into the finished-game cache)."""
     index = jload(CACHE / "index.json", {}) or {}
-    ours = set(verify_leagues(api, current_season(dt.date.fromisoformat(date))))
+    ours = set(LEAGUES) if PLAN == "free" else set(verify_leagues(api, current_season(dt.date.fromisoformat(date))))
     day = [f for f in api.get("fixtures", date=date) if f["league"]["id"] in ours]
     for f in day:
         index[str(f["fixture"]["id"])] = slim(f)
     jsave(CACHE / "index.json", index)
-    rows, ids = [], [f["fixture"]["id"] for f in day if (f["fixture"].get("status") or {}).get("short") not in DEAD]
-    for k in range(0, len(ids), 20):
-        for f in api.get("fixtures", ids="-".join(map(str, ids[k:k + 20]))):
-            rows += lineup_rows(f)
+    now = now_utc().timestamp()
+    rows, ids = [], [f["fixture"]["id"] for f in day if (f["fixture"].get("status") or {}).get("short") == "NS"
+                     and 0 < (f["fixture"].get("timestamp") or 0) - now < 2 * 3600]           # kick-off within 2 hours
+    try:
+        if PLAN == "free":
+            for fid in ids[:limit]:                                         # 1 call per game on Free: capped
+                rows += lineup_rows(dict(fixture=dict(id=fid), lineups=api.get("fixtures/lineups", fixture=fid)))
+        else:
+            for k in range(0, len(ids), 20):
+                for f in api.get("fixtures", ids="-".join(map(str, ids[k:k + 20]))):
+                    rows += lineup_rows(f)
+    except Stop as e:
+        print(f"stopped: {e}")
     OUT.mkdir(parents=True, exist_ok=True)
     old = pd.read_csv(OUT / "soccer_prematch_lineups.csv") if (OUT / "soccer_prematch_lineups.csv").exists() else pd.DataFrame()
     new = pd.DataFrame(rows)
@@ -438,6 +541,20 @@ def build() -> dict:
                                         check_goals=None, check_players=None, check_ht=None))
         for side in ("home", "away"):
             acc["teams"].append(dict(team_id=f[f"{side}_id"], team=f[side], league_id=f["league_id"], season=f["season"]))
+    # Free plan: no coverage block for the current season. Inferred from what the detail calls returned (a league
+    # season counts as covered for a block when at least 80% of its fetched games have it). Recorded as such.
+    F0 = pd.DataFrame(acc["fixtures"])
+    if len(F0):
+        got = F0[F0[["has_events", "has_stats", "has_players", "has_lineups"]].any(axis=1)]
+        for (lid, season), g in got.groupby(["league_id", "season"]):
+            if (lid, season) not in cov:
+                c, n, code = LEAGUES.get(lid, ("?", "?", None))
+                cov[(lid, season)] = dict(league_id=lid, season=season, league=n, country=c, fd_code=code, start=None, end=None, current=None,
+                                          events=bool(g.has_events.mean() >= 0.8), lineups=bool(g.has_lineups.mean() >= 0.8),
+                                          statistics_fixtures=bool(g.has_stats.mean() >= 0.8), statistics_players=bool(g.has_players.mean() >= 0.8),
+                                          source=f"inferred from {len(g)} games")
+    for k in cov:
+        cov[k].setdefault("source", "api coverage block")
     acc["coverage"] = list(cov.values())
     D = {t: pd.DataFrame(acc[t]) for t in TABLES}
     if len(D["teams"]):
@@ -580,6 +697,7 @@ def main() -> None:
     sub.add_parser("status")
     s = sub.add_parser("lineups")
     s.add_argument("--date", required=True)
+    s.add_argument("--max", type=int, default=20, help="free plan: at most this many games (1 request each)")
     a = ap.parse_args()
     cmd = a.cmd or "run"
     if cmd in ("run", "lineups") and not os.environ.get("APIFOOTBALL_KEY"):
@@ -587,9 +705,10 @@ def main() -> None:
     if cmd == "status":
         return status()
     if cmd == "lineups":
-        return lineups_cmd(Api(), a.date)
+        return lineups_cmd(Api(), a.date, a.max)
     if cmd == "run":
-        run(Api())
+        print(f"plan: {PLAN}")
+        (run_free if PLAN == "free" else run)(Api())
     res = build()
     if cmd == "run" and not publish(res["files"]):
         sys.exit(1)

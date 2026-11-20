@@ -24,13 +24,15 @@ import pandas as pd
 
 def main() -> int:
     tmp = Path(tempfile.mkdtemp(prefix="soccer_selftest_"))
-    os.environ.update(SOCCER_CACHE=str(tmp / "cache"), SOCCER_OUT=str(tmp / "data"), SOCCER_SLEEP="0", SOCCER_DB=str(tmp / "ledger/s.sqlite"))
+    os.environ.update(SOCCER_CACHE=str(tmp / "cache"), SOCCER_OUT=str(tmp / "data"), SOCCER_SLEEP="0", SOCCER_DB=str(tmp / "ledger/s.sqlite"),
+                      SOCCER_FD=str(tmp / "fd"))
     os.environ.pop("PROLYT_API_KEY", None)
     import soccer_fake as K
+    import soccer_bandit as SB
     import soccer_ingest as I
     import soccer_model as Mo
     import soccer_system as S
-    I.CACHE, I.OUT, I.SLEEP, S.OUT, S.DB = tmp / "cache", tmp / "data", 0.0, tmp / "data", str(tmp / "ledger/s.sqlite")
+    I.CACHE, I.OUT, I.SLEEP, S.OUT, S.DB, SB.FD = tmp / "cache", tmp / "data", 0.0, tmp / "data", str(tmp / "ledger/s.sqlite"), tmp / "fd"
     checks: list = []
     ok = lambda name, cond, info="": checks.append((name, bool(cond), info))
     def run_quiet(fn, *a, **k):
@@ -119,7 +121,8 @@ def main() -> int:
        [(x["result"], x["actual"]) for x in a] == [("lost", 3.0), ("won", 45.0), ("won", 1.0), ("lost", 0.0)], a)
     S.RULES.update(second_yellow_is_two_cards=None, coach_cards_count=None, booking_points=None, first_scorer_own_goal=None, first_scorer_late_sub=None)
 
-    # ---------------------------------------------------------------- C. ingest against the simulated API
+    # ---------------------------------------------------------------- C. ingest against the simulated API (paid plan)
+    I.PLAN = "paid"
     clock = [dt.datetime(2026, 11, 20, 9, 0, tzinfo=dt.timezone.utc)]
     I.now_utc = lambda: clock[0]
     I.current_season = lambda d=None: 2026
@@ -152,17 +155,49 @@ def main() -> int:
     (_, out) = run_quiet(lambda: (I.run(I.Api(key="x", fetch=W3.fetch)), I.build()))
     cov = pd.read_csv(tmp / "d3/soccer_2026_coverage.csv").set_index("league_id")
     ok("ingest: the coverage block is recorded per league (no player statistics for league 79)", not cov.statistics_players[79] and cov.statistics_players[40], cov)
+    # ---------------------------------------------------------------- C2. the free plan (its rules as seen on 2026-11-20)
+    I.PLAN = "free"
+    I.CACHE, I.OUT = tmp / "c4", tmp / "d4"
+    clock[0] = dt.datetime(2026, 11, 22, 9, 0, tzinfo=dt.timezone.utc)          # Sunday: Saturday's games are D-1
+    W4 = mk(free=True)
+    I.jsave(I.CACHE / "index.json", {"1": dict(fixture_id=1, league_id=40, season=2024, date="2024-12-01T15:00:00+00:00", ts=1, status="FT",
+                                               home_id=1, home="Old", away_id=2, away="Older", ft_home=1, ft_away=0)})   # last season, from a paid-style run
+    (_, out) = run_quiet(lambda: (I.run_free(I.Api(key="x", fetch=W4.fetch)), I.build()))
+    kinds = sorted({(c[0], tuple(sorted(c[1]))) for c in W4.calls})
+    ok("free: only date calls for D-1/D/D+1 and one id call per finished game; never season, ids or a refused call",
+       kinds == [("fixtures", ("date",)), ("fixtures", ("id",))] and sum(1 for c in W4.calls if "date" in c[1]) == 3
+       and sum(1 for c in W4.calls if "id" in c[1]) == 10 and "REFUSED" not in out, (kinds, out[-500:]))
+    ok("free: the three sanity checks pass on the fetched games", out.count(": OK (10 of 10 games)") == 3, out[-700:])
+    cov = pd.read_csv(tmp / "d4/soccer_2026_coverage.csv")
+    ok("free: coverage inferred from the fetched games and marked as inferred", len(cov) == 2 and cov.source.str.startswith("inferred").all() and cov.events.all(), cov)
+    n0 = len(W4.calls)
+    run_quiet(lambda: I.run_free(I.Api(key="x", fetch=W4.fetch)))
+    ok("free: a second run the same day costs 3 date calls and fetches nothing again", len(W4.calls) - n0 == 3, W4.calls[n0:])
+    clock[0] = dt.datetime(2026, 11, 27, 9, 0, tzinfo=dt.timezone.utc)          # Friday: lists Saturday the 28th
+    W4 = mk(free=True)
+    run_quiet(lambda: I.run_free(I.Api(key="x", fetch=W4.fetch)))
+    clock[0] = dt.datetime(2026, 11, 30, 9, 0, tzinfo=dt.timezone.utc)          # Monday: Saturday and Sunday runs were missed
+    W4 = mk(free=True)
+    (_, out) = run_quiet(lambda: I.run_free(I.Api(key="x", fetch=W4.fetch)))
+    ok("free: games whose day left the window unfetched are reported LOST (last season's listed games are not), not requested", "LOST: 10 new, 10 in all" in out and not any("id" in c[1] for c in W4.calls), out[-400:])
+    I.CACHE, I.OUT = tmp / "c5", tmp / "d5"
+    clock[0] = dt.datetime(2026, 11, 22, 9, 0, tzinfo=dt.timezone.utc)
+    W5 = mk(free=True, id_detail=False)
+    (_, out) = run_quiet(lambda: (I.run_free(I.Api(key="x", fetch=W5.fetch)), I.build()))
+    ok("free: if fixtures?id carries no detail, the four per-game endpoints are used and the checks still pass",
+       "switching to 4 calls" in out and out.count(": OK (10 of 10 games)") == 3 and sum(1 for c in W5.calls if c[0] == "fixtures/players") == 10, out[-600:])
     I.CACHE, I.OUT = c2, d2
 
-    # ---------------------------------------------------------------- D. eight matchdays end to end
+    # ---------------------------------------------------------------- D. three matchdays end to end, free plan + football-data history
     con = S.connect()
     sat = dt.date(2026, 11, 21)
     truth = []
     for k in range(3):
         day = sat + dt.timedelta(days=7 * k)
         clock[0] = dt.datetime(day.year, day.month, day.day, 9, 0, tzinfo=dt.timezone.utc) - dt.timedelta(days=1)
-        W = mk()
-        run_quiet(lambda: (I.run(I.Api(key="x", fetch=W.fetch)), I.build()))
+        W = mk(free=True)
+        W.write_fd(tmp / "fd")                                   # football-data: every game played so far
+        run_quiet(lambda: (I.run_free(I.Api(key="x", fetch=W.fetch)), I.build()))
         bdir = tmp / "boards" / day.isoformat()
         todays = [f for f, x in W.fx.items() if x["fixture"]["date"][:10] == day.isoformat()]
         for f in todays:
@@ -184,8 +219,8 @@ def main() -> int:
         if k == 0:
             B0, legs0 = B.copy(), pd.read_sql("SELECT l.*, p.type, p.subject, p.fixture_id FROM slip_legs l JOIN predictions p USING (matchday, row_key)", con)
         clock[0] += dt.timedelta(days=2)
-        W = mk()
-        run_quiet(lambda: (I.run(I.Api(key="x", fetch=W.fetch)), I.build()))
+        W = mk(free=True)
+        run_quiet(lambda: (I.run_free(I.Api(key="x", fetch=W.fetch)), I.build()))
         if k == 1:                                               # a version bump between pricing and grading
             con.execute("UPDATE predictions SET model_version = 'soccer-0.0' WHERE matchday = ?", [day.isoformat()])
         (_, out_grade) = run_quiet(S.grade, day.isoformat(), con, str(bdir))
@@ -193,6 +228,11 @@ def main() -> int:
             ok("grade: rows priced under an older version are re-priced first", "re-priced under" in out_grade
                and con.execute("SELECT count(*) FROM predictions WHERE model_version != ?", [S.MODEL_VERSION]).fetchone()[0] == 0, out_grade[:200])
 
+    ok("model history: football-data games used, all 20 teams mapped to API ids by name", "teams mapped 20 of 20" in out_price and "NOT MAPPED" not in out_price, out_price[:600])
+    T_ = S.load_tables()
+    m_, un_ = S.map_fd_teams(T_, SB.load([2026]))
+    ok("team map: every football-data name maps to the right API team (checked against the simulation)",
+       len(m_) == 20 and all(W.fd_name(v) == k for k, v in m_.items()) and not un_, (len(m_), un_))
     ok("board: every market is typed or listed as unread with its reason", "UNREAD" in out_unread and all(x in out_unread for x in
        ("'Valami egészen új piac'", "[combination market not read]", "[period or time-window market not read] 'Félidő/Végeredmény'")), out_unread[-700:])
     typed = D0[D0.type.notna()]
