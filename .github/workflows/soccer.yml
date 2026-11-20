@@ -1,5 +1,7 @@
 # .github/workflows/soccer.yml
-# Morning run:      ingest (API-Football, max 95 requests), grade yesterday's boards, refit weights, write the report.
+# Scheduled runs (05:23 and 23:41 UTC): football-data download, ingest (API-Football free plan: D-1/D/D+1 only, so a
+#                   day that is missed is gone; two runs a day so one failure loses nothing), re-price boards dated
+#                   today or later, build paper slips, grade every past board day with open rows, report.
 # Push of boards:   price every board folder dated today or later and build the paper slips.
 # Manual "backtest": download the football-data.co.uk CSVs and run bandit 1 on every past season.
 #
@@ -13,6 +15,7 @@ name: soccer
 on:
   schedule:
     - cron: "23 5 * * *"               # 05:23 UTC: every game of the day before is over and its statistics have settled
+    - cron: "41 23 * * *"              # 23:41 UTC: today's games, while today is still inside the free plan's window
   push:
     paths: ["boards/soccer/**"]
   workflow_dispatch:
@@ -65,9 +68,17 @@ jobs:
       - uses: actions/cache/restore@v4
         if: github.event.inputs.job != 'backtest'
         with:
-          path: cache
+          path: |
+            cache
+            fd
           key: soccer-cache-${{ github.run_id }}
           restore-keys: soccer-cache-
+
+      - name: football-data.co.uk (model history; free, no API requests)
+        if: github.event_name != 'workflow_dispatch' || github.event.inputs.job == 'daily'
+        run: |
+          y=$(date -u +%Y); m=$(date -u +%-m); [ "$m" -lt 7 ] && y=$((y - 1))
+          python soccer_bandit.py download --seasons "$((y - 2))-$y" | tail -3
 
       - name: Ingest
         id: ingest
@@ -85,14 +96,16 @@ jobs:
           DATE: ${{ github.event.inputs.date }}
           APIFOOTBALL_KEY: ${{ secrets.APIFOOTBALL_KEY }}
 
-      - uses: actions/cache/save@v4    # saved even when a later step fails, or the next run downloads the season again
+      - uses: actions/cache/save@v4    # saved even when a later step fails: on the free plan a lost cache cannot be re-fetched
         if: always() && github.event.inputs.job != 'backtest'
         with:
-          path: cache
+          path: |
+            cache
+            fd
           key: soccer-cache-${{ github.run_id }}
 
       - name: Price boards and build paper slips
-        if: github.event_name == 'push'
+        if: github.event_name != 'workflow_dispatch' || github.event.inputs.job == 'daily'
         run: |
           today=$(date -u +%F)
           for dir in boards/soccer/*/; do
@@ -105,12 +118,14 @@ jobs:
       - name: Grade and report
         if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && github.event.inputs.job == 'daily')
         run: |
-          d="${DATE:-$(date -u -d yesterday +%F)}"
-          if [ -d "boards/soccer/$d" ]; then
-            python soccer_system.py grade --date "$d" --boards "boards/soccer/$d" | tee "results/grade-$d.txt"
-          else
-            echo "no boards for $d: nothing to grade"
-          fi
+          today=$(date -u +%F)
+          for dir in boards/soccer/*/; do
+            [ -d "$dir" ] || continue
+            d=$(basename "$dir")
+            [ -n "$DATE" ] && [ "$d" != "$DATE" ] && continue
+            [[ "$d" < "$today" ]] || continue              # a day is graded once it is over; open rows get another try each run
+            python soccer_system.py grade --date "$d" --boards "$dir" | tee "results/grade-$d.txt"
+          done
           python soccer_system.py report > /dev/null && cp ledger/soccer_report.md results/soccer_report.md || true
         env:
           DATE: ${{ github.event.inputs.date }}
