@@ -121,6 +121,46 @@ def main() -> int:
        [(x["result"], x["actual"]) for x in a] == [("lost", 3.0), ("won", 45.0), ("won", 1.0), ("lost", 0.0)], a)
     S.RULES.update(second_yellow_is_two_cards=None, coach_cards_count=None, booking_points=None, first_scorer_own_goal=None, first_scorer_late_sub=None)
 
+    # ---------------------------------------------------------------- B2. wording read off real vegas.hu boards (EFL, 2026-11-21)
+    H, A = dict(id=1, name="Millwall", abbreviation="MIL"), dict(id=2, name="QPR", abbreviation="QPR")
+    rr = lambda m, s, sv=None, comp=None, child=None, cc=None: dict(market=m, selection=s, sv=sv, comp=comp, child=child, child_comp=cc)
+    real = [
+        (rr("1X2", "Millwall", comp=1), ("1X2", "FT", "1", None, None)), (rr("1X2", "Döntetlen"), ("1X2", "FT", "X", None, None)),
+        (rr("Hendikep", "Millwall (+0,75)", "+0.75", 1), ("AH", "FT", "1", 0.75, None)), (rr("Hendikep", "QPR (-0,75)", "+0.75", 2), ("AH", "FT", "2", -0.75, None)),
+        (rr("Hendikep", "QPR (-0)", "+0", 2), ("AH", "FT", "2", 0.0, None)), (rr("1. félidő - Hendikep", "QPR (+0,5)", "-0.5", 2), ("AH", "H1", "2", 0.5, None)),
+        (rr("Hendikep 1X2", "Millwall (0:1)", "0:1", 1), ("EH", "FT", "1", -1.0, None)), (rr("Hendikep 1X2", "Döntetlen (2:0)", "2:0"), ("EH", "FT", "X", 2.0, None)),
+        (rr("Szöglet hendikep", "QPR (+0,5)", "-0.5", 2), ("CORNERS_AH", "FT", "2", 0.5, None)),
+        (rr("Gólok száma", "2,25 felett", "2.25"), ("TOTAL", "FT", "over", 2.25, None)), (rr("Gólok száma", "2"), (None,) * 5),
+        (rr("2. félidő - Gólok száma", "1,5 alatt", "1.5"), ("TOTAL", "H2", "under", 1.5, None)),
+        (rr("QPR gólok száma", "1,5 felett", "1.5"), ("TEAM_TOTAL", "FT", "over", 1.5, "away")), (rr("Millwall gólt szerez", "Nem"), ("TEAM_TOTAL", "FT", "under", 0.5, "home")),
+        (rr("Mindkét csapat szerez gólt", "Igen"), ("BTTS", "FT", "yes", None, None)), (rr("Mindkét csapat szerez gólt mindkét félidőben", "Igen"), (None,) * 5),
+        (rr("Kétesély", "Döntetlen vagy QPR"), ("DC", "FT", "X2", None, None)), (rr("Döntetlennél a tét visszajár", "QPR", comp=2), ("DNB", "FT", "2", None, None)),
+        (rr("Pontos végeredmény", "2:1"), ("CS", "FT", "2:1", None, None)), (rr("1. félidő - Pontos végeredmény", "1:0"), ("CS", "H1", "1:0", None, None)),
+        (rr("Szögletek száma", "9,5 felett", "9.5"), ("CORNERS", "FT", "over", 9.5, None)), (rr("Szögletek száma", "9-11"), (None,) * 5),
+        (rr("Millwall szögletek száma", "5,5 alatt", "5.5"), ("CORNERS", "FT", "under", 5.5, "home")),
+        (rr("Büntetőlapok száma", "4,5 felett", "4.5"), ("CARDS", "FT", "over", 4.5, None)), (rr("Büntetőlapok 1X2", "QPR", comp=2), (None,) * 5),
+        (rr("Kaput eltaláló lövések száma (Rendes játékidő)", "8,5 felett", "8.5"), ("SOT", "FT", "over", 8.5, None)),
+        (rr("QPR összes kaput eltaláló lövések száma (Rendes játékidő)", "3,5 alatt", "3.5|13218"), ("SOT", "FT", "under", 3.5, "away")),
+        (rr("Összes Lövés (Rendes játékidő)", "26,5 felett", "26.5"), ("SHOTS", "FT", "over", 26.5, None)),
+        (rr("Gólszerző", "Bármikor", "0.5|ws:player:1|1", child="Josh Coburn", cc=1), ("SCORER_ANY", "FT", "yes", 0.5, None)),
+        (rr("Gólszerző", "1. gólszerző", child="Josh Coburn", cc=1), ("SCORER_FIRST", "FT", "yes", None, None)),
+        (rr("Gólszerző", "Utolsó", child="Josh Coburn", cc=1), (None,) * 5), (rr("Gólszerző (Szupercserével)", "Bármikor", child="Josh Coburn", cc=1), (None,) * 5),
+        (rr("Hány gólt szerez?", "2+ gólt szerez", child="Josh Coburn", cc=1), ("SCORER_ANY", "FT", "yes", 1.5, None)),
+        (rr("Kaput eltaláló lövések (Rendes játékidő)", "1,5 felett", "1.5", child="Josh Coburn", cc=1), ("PL_SOT", "FT", "over", 1.5, None)),
+        (rr("Lövések (Rendes játékidő)", "2,5 felett", "2.5", child="Josh Coburn", cc=1), ("PL_SHOTS", "FT", "over", 2.5, None)),
+        (rr("Lapok", "0,5 felett", "0.5", child="Paul Smyth", cc=2), (None,) * 5),
+        (rr("1. Gólszerző + 1X2", "Millwall", child=None), (None,) * 5), (rr("Gólszerző & pontos végeredmény", "1:0"), (None,) * 5),
+        (rr("1X2 & gólok száma", "Millwall & 2,5 felett", "2.5"), (None,) * 5), (rr("Első/utolsó gólszerző", "Első vagy utolsó gólszerző", child="X", cc=1), (None,) * 5),
+        (rr("Millwall nyeri és nem kap gólt", "Igen"), (None,) * 5), (rr("Félidő/végeredmény", "Millwall/Millwall"), (None,) * 5),
+    ]
+    badr = []
+    for r, want_ in real:
+        c = S.classify(r, H, A)
+        got = (c["type"], c["scope"], c["side"], c["line"], c["who"]) if c["type"] else (None,) * 5
+        if got != want_ or (c["type"] is None and not c["reason"]):
+            badr.append((r["market"], r["selection"], "want", want_, "got", got, c["reason"]))
+    ok(f"board: {len(real)} market wordings from a real vegas.hu board are read as intended", not badr, badr[:4])
+
     # ---------------------------------------------------------------- C. ingest against the simulated API (paid plan)
     I.PLAN = "paid"
     clock = [dt.datetime(2026, 11, 20, 9, 0, tzinfo=dt.timezone.utc)]
@@ -218,6 +258,11 @@ def main() -> int:
         (B, out_slips) = run_quiet(S.slips, day.isoformat(), con, (3, 6, 9), None, 1)
         if k == 0:
             B0, legs0 = B.copy(), pd.read_sql("SELECT l.*, p.type, p.subject, p.fixture_id FROM slip_legs l JOIN predictions p USING (matchday, row_key)", con)
+            (B7, _) = run_quiet(S.slips, day.isoformat(), con, (3,), None, 1, False, (7,))
+            L7 = pd.read_sql("SELECT * FROM slip_legs WHERE matchday = ? AND slip_id LIKE '%7legs'", con, params=[day.isoformat()])
+            ok("slips: --legs 7 builds 7-leg slips, one leg per game", len(B7) and (B7.slip_id.str.endswith("7legs")).sum() >= 1
+               and len(L7) and all(len(g) == 7 and g.game.nunique() == 7 for _, g in L7.groupby("slip_id")), B7)
+            run_quiet(S.slips, day.isoformat(), con, (3, 6, 9), None, 1)                    # back to the default set
         clock[0] += dt.timedelta(days=2)
         W = mk(free=True)
         run_quiet(lambda: (I.run_free(I.Api(key="x", fetch=W.fetch)), I.build()))
@@ -228,13 +273,24 @@ def main() -> int:
             ok("grade: rows priced under an older version are re-priced first", "re-priced under" in out_grade
                and con.execute("SELECT count(*) FROM predictions WHERE model_version != ?", [S.MODEL_VERSION]).fetchone()[0] == 0, out_grade[:200])
 
+    T_ = S.load_tables()
+    T_["fixtures"] = pd.concat([T_["fixtures"], T_["fixtures"].head(3).assign(fixture_id=[-1, -2, -3], season=2024)])    # last season's games in the tables
+    M_ = S.matches_frame(T_)
+    ok("model history: older API seasons are left out (football-data has them), this season's API games are in",
+       2024 not in set(M_[M_.source == "api"].season) and (M_.source == "api").sum() >= 10, M_.groupby(["source", "season"]).size().to_dict())
     ok("model history: football-data games used, all 20 teams mapped to API ids by name", "teams mapped 20 of 20" in out_price and "NOT MAPPED" not in out_price, out_price[:600])
     T_ = S.load_tables()
     m_, un_ = S.map_fd_teams(T_, SB.load([2026]))
     ok("team map: every football-data name maps to the right API team (checked against the simulation)",
        len(m_) == 20 and all(W.fd_name(v) == k for k, v in m_.items()) and not un_, (len(m_), un_))
     ok("board: every market is typed or listed as unread with its reason", "UNREAD" in out_unread and all(x in out_unread for x in
-       ("'Valami egészen új piac'", "[combination market not read]", "[period or time-window market not read] 'Félidő/Végeredmény'")), out_unread[-700:])
+       ("'Valami egészen új piac'", "[combination market not read] 'Félidő/végeredmény'",
+        "[period or time-window market not read] 'Mindkét csapat szerez gólt mindkét félidőben'")), out_unread[-700:])
+    nba = tmp / "nba"
+    nba.mkdir()
+    (nba / "x.net.json").write_text('[{"url": "u", "body": {"sport": {"typeId": 12, "name": "Kosárlabda"}, "markets": [], "odds": [], "competitors": [{}, {}]}}]')
+    ok("board: another sport's capture in the folder is skipped", S.read_capture(str(nba / "x.net.json")) == [])
+    ok("board: a market listed twice is read once (3 rows of 1X2 per game)", (D0[(D0.type == "1X2") & (D0.scope == "FT")].groupby("game").size() == 3).all())
     typed = D0[D0.type.notna()]
     ok("board: the 14 known market types are all read", set(typed.type) >= {"1X2", "DC", "DNB", "BTTS", "TOTAL", "TEAM_TOTAL", "AH", "CORNERS", "CARDS", "BOOKING_PTS", "CS", "SCORER_ANY"}
        and {"H1"} <= set(typed.scope) and D0.fixture_id.notna().all(), sorted(set(typed.type)))

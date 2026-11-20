@@ -59,10 +59,30 @@ Repo `decntai1/soccer`, secret `APIFOOTBALL_KEY`. Actions -> soccer -> Run workf
   teams mapped from football-data names; the full price/grade loop with football-data as the model's history.
 - `soccer_bandit.py simulate`: 7 checks, unchanged.
 
+## The board reader (fitted to real vegas.hu boards, 2026-11-20)
+
+Fitted on 50 real boards (all six leagues, 20-21 Nov): every game matched to its API fixture, nothing misread, the
+book's margin 5-10% on main markets. Read and priced: 1X2, double chance, draw no bet, BTTS, goals totals, team
+totals and "team scores", Asian handicap ("Hendikep": the data's line is the home line on both sides), 3-way
+handicap ("Hendikep 1X2", head start a:b), correct score, corners and corner handicap, cards ("Büntetőlapok száma"),
+shots and shots on target, scorer (anytime / first; last is not read), 2+/3+ goals, player shots - full match,
+first half and second half. Never read: every combination (93% of a board's rows), odd/even, ranges, offsides, red
+cards, super-sub scorer, first-or-last scorer. The selftest holds 43 wordings copied from the real boards.
+
+A board for another sport in the folder is skipped. A market listed twice on the page is read once.
+
+## Slips
+
+`slips --date D --targets 3 6 9 --legs 7`: legs come from every game in that day's folder, all leagues together.
+Targets build the slip with the least margin paid that pays target..target x 1.25; `--legs N` builds slips of
+exactly N legs (each game's best leg, the N best games). Three strategies (book / stats / votes) each build their
+own; no game+quantity is in two slips of one strategy. All paper. On the 21 Nov boards: 3x at -11% to -21%,
+7 legs at -24% to -27%, 9x at -39% to -41% expected return, because most legs that pass the 60-88% rule are
+1.15-1.30 lines and each pays the margin.
+
 ## Not tested, in order of risk
 
 1. Whether the free plan serves our six leagues' current games through `fixtures?id=` (tested: Brazil's Serie A).
-2. The board reader: Hungarian soccer market names are still the spec's guesses.
 3. vegas.hu settlement rules (`RULES`): unset; rows that depend on them are not graded.
 4. football-data columns for 2. Bundesliga, Serie B and Segunda: shots/corners/cards may be missing there.
 5. The team-name map on real names (tested on simulated names and on 35 real pairs by hand).

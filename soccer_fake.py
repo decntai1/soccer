@@ -259,7 +259,7 @@ class World:
                 ids.append(n[0])
             n[0] += 1
             if child:
-                kids.append(dict(id=n[0], childName=child, desktopOddIds=[ids]))
+                kids.append(dict(id=n[0], childName=child, competitorId=sels[0][3], desktopOddIds=[ids]))
                 return n[0]
             mk.append(dict(id=n[0], name=name, typeId=0, desktopOddIds=[ids], childMarketIds=[]))
 
@@ -277,14 +277,15 @@ class World:
         M(f"{H} gólok száma", [("1,5 felett", 12, p("TEAM_TOTAL", side="over", line=1.5, who="home"), None, "1.5"),
                                ("1,5 alatt", 13, p("TEAM_TOTAL", side="under", line=1.5, who="home"), None, "1.5")])
         for ln in (-0.5, -0.75, -1.0, 0.25):
-            M("Ázsiai hendikep", [(f"{H} ({ln:+g})", 1714, p("AH", side="1", line=ln), h["id"], str(ln)),
+            M("Hendikep", [(f"{H} ({ln:+g})", 1714, p("AH", side="1", line=ln), h["id"], str(ln)),
                                   (f"{A} ({-ln:+g})", 1715, p("AH", side="2", line=-ln), a["id"], str(ln))])
         cm = lambda s, k, ln: float(poisson.sf(ln, k) if s == "over" else poisson.cdf(ln, k))
         M("Szögletek száma", [("9,5 felett", 12, cm("over", 9.6, 9.5), None, "9.5"), ("9,5 alatt", 13, cm("under", 9.6, 9.5), None, "9.5")])
-        M("Lapok száma", [("3,5 felett", 12, cm("over", 3.9, 3.5), None, "3.5"), ("3,5 alatt", 13, cm("under", 3.9, 3.5), None, "3.5")])
+        M("Büntetőlapok száma", [("3,5 felett", 12, cm("over", 3.9, 3.5), None, "3.5"), ("3,5 alatt", 13, cm("under", 3.9, 3.5), None, "3.5")])
         M("Büntetőpontok", [("40,5 felett", 12, 0.5, None, "40.5"), ("40,5 alatt", 13, 0.5, None, "40.5")])
-        M("Pontos eredmény", [(f"{i}:{j}", 500, p("CS", score=(i, j)), None, None) for i in range(3) for j in range(3)])
-        M("Félidő/Végeredmény", [(f"{H}/{H}", 600, 0.3, None, None), ("Döntetlen/Döntetlen", 601, 0.15, None, None)])
+        M("Pontos végeredmény", [(f"{i}:{j}", 500, p("CS", score=(i, j)), None, None) for i in range(3) for j in range(3)])
+        M("Félidő/végeredmény", [(f"{H}/{H}", 600, 0.3, None, None), ("Döntetlen/Döntetlen", 601, 0.15, None, None)])
+        M("Mindkét csapat szerez gólt mindkét félidőben", [("Igen", 704, 0.2, None, None), ("Nem", 705, 0.8, None, None)])
         M("Valami egészen új piac", [("Igen", 700, 0.5, None, None), ("Nem", 701, 0.5, None, None)])
         M("Mindkét csapat szerez gólt és 2,5 felett", [("Igen", 702, 0.4, None, None), ("Nem", 703, 0.6, None, None)])
         ids = []
@@ -292,9 +293,9 @@ class World:
             sq = self.teams[t["id"]]["squad"]
             w = np.array([q["w"] for q in sq[:11]])
             for q, wq in list(zip(sq[:11], w / w.sum()))[7:11] + [(sq[15], 0.02)]:   # four starters and a bench player who never comes on
-                ids.append(M(None, [(f"{q['name']} ({t['name'][:3].upper()})", 800, 1 - math.exp(-lam_t * 0.84 * wq) if wq > 0.02 else 0.05, t["id"], None)],
-                             child=q["name"]))
-        mk.append(dict(id=n[0] + 1, name="Gólt szerez", typeId=0, desktopOddIds=[], childMarketIds=ids))
+                ids.append(M(None, [("Bármikor", 800, 1 - math.exp(-lam_t * 0.84 * wq) if wq > 0.02 else 0.05, t["id"], None)], child=q["name"]))
+        mk.append(dict(id=n[0] + 1, name="Gólszerző", typeId=0, desktopOddIds=[], childMarketIds=ids))
+        mk.append(dict(mk[0]))                                   # the real page lists some markets twice under one id
         ev = dict(id=fid, name=f"{H} vs. {A}", startDate=f["fixture"]["date"].replace("+00:00", "Z"), sport="Labdarúgás",
                   champ=f["league"]["name"], category=f["league"]["country"],
                   competitors=[dict(id=h["id"], name=H, abbreviation=H[:3].upper()), dict(id=a["id"], name=A, abbreviation=A[:3].upper())],

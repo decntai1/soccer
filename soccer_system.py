@@ -135,7 +135,7 @@ def quantity(typ: str, subject=None) -> str:
     """Legs with the same game + quantity fail together and count as one quantity in slips."""
     if typ in PLAYER_T:
         return f"player:{subject}"
-    return "side" if typ in SIDE_T else "goals" if typ in GOAL_T else typ.lower().replace("booking_pts", "cards")
+    return "side" if typ in SIDE_T else "goals" if typ in GOAL_T else typ.lower().replace("booking_pts", "cards").replace("corners_ah", "corners")
 
 
 # ------------------------------------------------------------------ ingest tables
@@ -189,6 +189,13 @@ def _sim(a: str, b: str) -> float:
     if not ta or not tb:
         return 0.0
     short, long_ = (ta, tb) if len(ta) <= len(tb) else (tb, ta)
+    for x in short:                                                   # 'MK Dons': 'mk' = initials of 'milton keynes'
+        for k in range(len(long_)):
+            for n in (2, 3):
+                run = long_[k:k + n]
+                if len(run) == n and len(x) == n and x == "".join(w[0] for w in run):
+                    long_ = long_[:k] + [x] + long_[k + n:]
+                    break
     tok = sum(max(_tok_match(x, y) for y in long_) for x in short) / len(short)
     if len(short) == 1 and len(long_) > 2:
         tok *= 0.9                                                   # one word against a long name: a little less sure
@@ -255,9 +262,14 @@ def fd_matches(T: dict, out: Path | None = None) -> tuple[pd.DataFrame, dict]:
         return pd.DataFrame(), {}
     F = T["fixtures"]
     cur = int(F.season.max()) if len(F) else None
-    if cur is None or not Path(SB.FD).exists():
-        return pd.DataFrame(), dict(note="no football-data files (run soccer_bandit.py download)")
-    FD = SB.load([cur - 2, cur - 1, cur])
+    if cur is None:
+        return pd.DataFrame(), dict(note="no fixtures yet")
+    FD = SB.load([cur - 2, cur - 1, cur]) if Path(SB.FD).exists() else pd.DataFrame()
+    played = Path(out or OUT) / f"soccer_{cur}_played_fd.csv"
+    if FD.empty and played.exists():                             # the copy the ingest commits to data/ (this season only)
+        FD = pd.read_csv(played, parse_dates=["date"])
+    if FD.empty:
+        return FD, dict(note="no football-data files (run soccer_bandit.py download)")
     if FD.empty:
         return FD, dict(note="football-data files empty")
     m, unmapped = map_fd_teams(T, FD, out)
@@ -278,9 +290,10 @@ def matches_frame(T: dict, with_fd: bool = True) -> pd.DataFrame:
     F = T["fixtures"]
     if F.empty:
         return pd.DataFrame()
+    cur = F.season.max()                                         # the current season: listed games, played or not
     F = F[F.status.isin(["FT", "AET", "PEN"]) & F.ft_home.notna() & (F.check_goals.astype(str) != "False")]
     if with_fd:
-        F = F[F.season == F.season.max()]                        # older seasons come from football-data, once
+        F = F[F.season == cur]                                   # older seasons come from football-data, once
     M = pd.DataFrame(dict(fixture_id=F.fixture_id, date=F.date, league=F.league_id, season=F.season, home=F.home_id, away=F.away_id,
                           hg=F.ft_home, ag=F.ft_away, hthg=F.ht_home, htag=F.ht_away, referee=F.referee))
     S = T["team_match_stats"]
@@ -312,6 +325,10 @@ def read_capture(path: str) -> list[dict]:
     for g in d if isinstance(d, list) else [d]:
         b = g.get("body") if isinstance(g, dict) else None
         if isinstance(b, dict) and isinstance(b.get("markets"), list) and isinstance(b.get("odds"), list) and len(b.get("competitors") or []) == 2:
+            sp = b.get("sport") or {}
+            sp = sp if isinstance(sp, dict) else dict(name=sp)
+            if sp and sp.get("typeId") != 1 and sp.get("name") != "Labdarúgás":    # another sport's board in the folder
+                continue
             out.append(b)
     return out
 
@@ -319,22 +336,24 @@ def read_capture(path: str) -> list[dict]:
 def raw_rows(ev: dict) -> list[dict]:
     odds = {o["id"]: o for o in ev["odds"]}
     kids = {k["id"]: k for k in ev.get("childMarkets") or []}
-    rows = []
+    rows, seen = [], set()                     # a market can be listed twice (two sections of the page): each price once
 
-    def add(m, holder, child):
+    def add(m, holder, child, child_comp=None):
         for grp in holder.get("desktopOddIds") or []:
             for oid in grp if isinstance(grp, list) else [grp]:
                 o = odds.get(oid)
-                if o is None or not isinstance(o.get("price"), (int, float)):
+                if o is None or not isinstance(o.get("price"), (int, float)) or oid in seen:
                     continue
+                seen.add(oid)
                 rows.append(dict(market_id=holder["id"], market=str(m.get("name") or "").strip(), child=child, selection=str(o.get("name") or "").strip(),
-                                 sv=o.get("sv"), comp=o.get("competitorId"), odds=float(o["price"]), active=o.get("oddStatus", 0) == 0))
+                                 sv=o.get("sv"), comp=o.get("competitorId"), child_comp=child_comp, odds=float(o["price"]),
+                                 active=o.get("oddStatus", 0) == 0))
 
     for m in ev["markets"]:
         add(m, m, None)
         for cid in m.get("childMarketIds") or []:
             if cid in kids:
-                add(m, kids[cid], str(kids[cid].get("childName") or "").strip() or None)
+                add(m, kids[cid], str(kids[cid].get("childName") or "").strip() or None, kids[cid].get("competitorId"))
     return rows
 
 
@@ -349,89 +368,109 @@ def _f(s):
 
 
 def classify(r: dict, home: dict, away: dict) -> dict:
-    """market + selection wording -> type, scope, side, line, who, subject. Anything not understood: type None and
-    the reason. Never forces a row into a type. The patterns are the spec's guesses until a real board confirms them."""
+    """market + selection wording -> type, scope, side, line, who, subject. Patterns read off real vegas.hu boards
+    (EFL Championship, 2026-11-21 captures). Anything not understood: type None and the reason; never forced."""
     out = dict(type=None, scope="FT", side=None, line=None, who=None, subject=None, reason=None)
-    m, s = norm(r["market"]), norm(r["selection"])
-    hk, ak = norm(home["name"]), norm(away["name"])
     bad = lambda why: dict(out, type=None, reason=why)
-    if re.search(r"\b(1|elso) felido\b", m):
-        out["scope"], m = "H1", re.sub(r"\b(1|elso) felido\b", " ", m)
-    elif re.search(r"\b(2|masodik) felido\b", m):
-        out["scope"], m = "H2", re.sub(r"\b(2|masodik) felido\b", " ", m)
-    m = re.sub(r"\s+", " ", m).strip()
-    if re.search(r"\b(felido|perc|percben|percig|negyed|szunet|hosszabbitas)\b", m):
-        return bad("period or time-window market not read")
-    if re.search(r"\b(es|vagy|kombi|kombinacio)\b", m.replace(hk, "").replace(ak, "")):
+    raw, sel = r["market"], r["selection"]
+    for t, tag in ((home, " hteam "), (away, " ateam ")):              # team names in the market name -> tokens
+        if t.get("name") and t["name"] in raw:
+            raw = raw.replace(t["name"], tag)
+    m = norm(raw)
+    g = re.match(r"(1|2) felido (.*)", m)
+    if g:
+        out["scope"], m = f"H{g.group(1)}", g.group(2)
+    combo = r"&|(?<![\d(])\+(?!\d)"                                     # 'A + B', 'A & B'; not '(+0,75)' or '2+'
+    if re.search(combo + "|/", raw) or re.search(combo, sel) or re.search(r"\b(es|vagy)\b", m):
         return bad("combination market not read")
-    for t, key in ((home, hk), (away, ak)):
-        if key and key in m:
-            out["who"], m = ("home" if t is home else "away"), re.sub(r"\s+", " ", m.replace(key, " ")).strip()
-    ou = "over" if re.search(r"\b(felett|tobb mint)\b", s) else "under" if re.search(r"\b(alatt|kevesebb mint)\b", s) else None
-    num = re.search(_NUM, r["selection"].replace(home["name"], "").replace(away["name"], ""))
-    sv = _f(r["sv"])
-    team = "1" if (r["comp"] == home["id"] or (hk and hk in s and ak not in s)) else "2" if (r["comp"] == away["id"] or (ak and ak in s and hk not in s)) else None
-    draw = bool(re.fullmatch(r"x|dontetlen", s))
+    if re.search(r"\b(perc|percben|percig|negyed|felido|felidoben|felidot)\b", m):
+        return bad("period or time-window market not read")
+    if "hteam" in m.split() and "ateam" in m.split():
+        return bad("both teams in the market name: not read")
+    for tok, w in (("hteam", "home"), ("ateam", "away")):
+        if tok in m.split():
+            out["who"], m = w, re.sub(r"\s+", " ", m.replace(tok, " ")).strip()
+    s = norm(sel)
+    ou = "over" if re.search(r"\bfelett\b", s) else "under" if re.search(r"\balatt\b", s) else None
+    num = re.search(_NUM, sel.replace(home["name"], "").replace(away["name"], ""))
+    sv = _f(str(r["sv"]).split("|")[0]) if r["sv"] is not None else None
+    base = norm(re.sub(r"\(.*?\)", "", sel))
+    side = ("X" if re.fullmatch(r"x|dontetlen", base) else "1" if (r["comp"] == home["id"] or base == norm(home["name"])) else
+            "2" if (r["comp"] == away["id"] or base == norm(away["name"])) else None)
 
     def over_under(typ):
         line = sv if sv is not None else _f(num.group()) if num else None
         if ou is None or line is None:
-            return bad("over/under selection or line not read")
+            return bad("not an over/under selection (exact count, range or odd/even)")
         return dict(out, type=typ, side=ou, line=line)
 
-    if "pontos eredmeny" in m:
-        g = re.fullmatch(r"\s*(\d+)\s*[:\-]\s*(\d+)\s*", r["selection"])
-        return dict(out, type="CS", side=f"{g.group(1)}:{g.group(2)}", who=None) if g else bad("correct-score selection not read")
-    if "mindket csapat szerez golt" in m:
-        yn = "yes" if s == "igen" else "no" if s == "nem" else None
-        return dict(out, type="BTTS", side=yn, who=None) if yn else bad("yes/no not read")
+    # ---- player markets (one child market per player)
+    if r["child"]:
+        out["subject"] = r["child"]
+        if "szupercser" in m:
+            return bad("super-sub variant: book rules not read")
+        if m == "golszerzo":
+            kind = {"barmikor": "any", "1 golszerzo": "first", "utolso": "last"}.get(s)
+            if kind == "any":
+                return dict(out, type="SCORER_ANY", side="yes", line=0.5, who=None)
+            if kind == "first":
+                return dict(out, type="SCORER_FIRST", side="yes", who=None)
+            return bad("last scorer not read" if kind == "last" else "scorer selection not read")
+        if m == "hany golt szerez":
+            lad = re.match(r"(\d+)\+", sel.strip())
+            return dict(out, type="SCORER_ANY", side="yes", line=int(lad.group(1)) - 0.5, who=None) if lad else bad("scorer ladder not read")
+        if m == "golt szerez" and out["scope"] == "FT":                   # older board wording
+            return dict(out, type="SCORER_ANY", side="yes", line=0.5, who=None)
+        if m == "kaput eltalalo lovesek rendes jatekido":
+            return dict(over_under("PL_SOT"), subject=r["child"], who=None)
+        if m == "lovesek rendes jatekido":
+            return dict(over_under("PL_SHOTS"), subject=r["child"], who=None)
+        return bad("player market not read")
+    # ---- match and team markets
+    if m in ("1x2", "vegeredmeny") and out["who"] is None:
+        return dict(out, type="1X2", side=side) if side else bad("1X2 selection not read")
     if m == "ketesely":
-        has = (hk in s or bool(re.search(r"\b1\b", s)), "dontetlen" in s or "x" in s.split(), ak in s or bool(re.search(r"\b2\b", s)))
-        side = {(True, True, False): "1X", (True, False, True): "12", (False, True, True): "X2"}.get(has)
-        if s in ("1x", "12", "x2"):
-            side = s.upper()
-        return dict(out, type="DC", side=side, who=None) if side else bad("double-chance selection not read")
-    if "dontetlennel a tet visszajar" in m:
-        return dict(out, type="DNB", side=team, who=None) if team else bad("team not read")
-    if "hendikep" in m:
-        if draw:
-            return dict(out, type="EH", side="X", line=sv, who=None) if sv is not None else bad("handicap line not read")
-        if team is None:
-            return bad("team not read")
-        own = _f(num.group()) if num else None                 # the signed number next to the team, if shown
-        home_line = sv if sv is not None else (own if team == "1" else -own) if own is not None else None
-        if home_line is None:
-            return bad("handicap line not read")
-        if own is not None and sv is not None and abs(abs(own) - abs(sv)) > 1e-9:
-            return bad("handicap line in the name and in the data disagree")
-        if "azsiai" in m:
-            return dict(out, type="AH", side=team, line=home_line if team == "1" else -home_line, who=None)
-        return dict(out, type="EH", side=team, line=home_line, who=None)        # 3-way; a 2-way group is re-typed AH
-    if "buntetopont" in m:
-        return over_under("BOOKING_PTS")
-    if "szoglet" in m:
-        return over_under("CORNERS") if "szama" in m else bad("corner market other than a count")
-    if re.search(r"\blapok szama\b", m):
-        return over_under("CARDS")
-    if "elso golszerzo" in m or "golt szerez" in m or "golszerzo" in m:
-        name = r["child"] or re.sub(r"\(.*?\)", "", r["selection"]).strip()
-        if not name or s in ("igen", "nem") and not r["child"]:
-            return bad("scorer name not read")
-        if s == "nem" or re.search(r"\b(nem|nincs gol|senki)\b", norm(name)):
-            return bad("'no' side of a scorer market not read")
-        lad = re.search(r"(\d+)\+", r["selection"])
-        if "elso" in m:
-            return dict(out, type="SCORER_FIRST", side="yes", subject=name, who=None)
-        return dict(out, type="SCORER_ANY", side="yes", line=(int(lad.group(1)) - 0.5) if lad else 0.5, subject=name, who=None)
-    if "kapura loves" in m:
-        if r["child"]:
-            return dict(over_under("PL_SOT"), subject=r["child"]) if ou else bad("player line not read")
-        return over_under("SOT")
-    if re.fullmatch(r"(golok szama|golszam|osszes gol|gol szam)( \(.*\))?", m) or m in ("golok szama", "golszam"):
+        dc = s.upper().replace(" ", "") if s in ("1x", "12", "x2") else None
+        if dc is None:
+            has = (norm(home["name"]) in s, "dontetlen" in s, norm(away["name"]) in s)
+            dc = {(True, True, False): "1X", (True, False, True): "12", (False, True, True): "X2"}.get(has)
+        return dict(out, type="DC", side=dc) if dc else bad("double-chance selection not read")
+    if m == "dontetlennel a tet visszajar":
+        return dict(out, type="DNB", side=side) if side in ("1", "2") else bad("team not read")
+    if m == "mindket csapat szerez golt":
+        yn = {"igen": "yes", "nem": "no"}.get(s)
+        return dict(out, type="BTTS", side=yn) if yn else bad("yes/no not read")
+    if m in ("pontos vegeredmeny", "pontos eredmeny", "vegeredmeny xl"):
+        g = re.fullmatch(r"\s*(\d+)\s*[:\-]\s*(\d+)\s*", sel)
+        return dict(out, type="CS", side=f"{g.group(1)}:{g.group(2)}") if g else bad("correct-score selection not read")
+    if m == "golok szama":
         return over_under("TEAM_TOTAL" if out["who"] else "TOTAL")
-    if m in ("1x2", "vegeredmeny", "merkozes vegeredmenye", "1x2 vegeredmeny") or (m == "" and out["scope"] != "FT"):
-        side = "X" if draw else team if team else {"1": "1", "2": "2"}.get(s)
-        return dict(out, type="1X2", side=side, who=None) if side else bad("1X2 selection not read")
+    if m == "golt szerez" and out["who"]:
+        yn = {"igen": "over", "nem": "under"}.get(s)
+        return dict(out, type="TEAM_TOTAL", side=yn, line=0.5) if yn else bad("yes/no not read")
+    if m in ("hendikep", "azsiai hendikep", "szoglet hendikep"):
+        if side not in ("1", "2") or sv is None:
+            return bad("handicap side or line not read")
+        own = _f(num.group()) if num else None                              # the number shown next to the team
+        if own is not None and abs(abs(own) - abs(sv)) > 1e-9:
+            return bad("handicap line in the name and in the data disagree")
+        typ = "CORNERS_AH" if m.startswith("szoglet") else "AH"
+        return dict(out, type=typ, side=side, line=sv if side == "1" else -sv)    # sv is the home line on both sides
+    if m == "hendikep 1x2":
+        g = re.fullmatch(r"\s*(\d+)\s*:\s*(\d+)\s*", str(r["sv"] or ""))
+        if not g or side is None:
+            return bad("3-way handicap not read")
+        return dict(out, type="EH", side=side, line=float(int(g.group(1)) - int(g.group(2))))   # home starts a:b
+    if m == "szogletek szama":
+        return over_under("CORNERS")
+    if m in ("buntetolapok szama", "lapok szama"):
+        return over_under("CARDS")
+    if m.startswith("buntetopont"):
+        return over_under("BOOKING_PTS")
+    if m in ("kaput eltalalo lovesek szama rendes jatekido", "osszes kaput eltalalo lovesek szama rendes jatekido", "kapura lovesek"):
+        return over_under("SOT")
+    if m == "osszes loves rendes jatekido":
+        return over_under("SHOTS")
     return bad("unknown market")
 
 
@@ -452,8 +491,13 @@ class Matcher:
         d = pd.Timestamp(str(ev.get("startDate") or day)[:10])
         C = self.F[(self.F.date >= d - pd.Timedelta(days=1)) & (self.F.date < d + pd.Timedelta(days=2))]
         h, a = ev["competitors"][0]["name"], ev["competitors"][1]["name"]
-        sc = sorted(((min(self._score(h, r.home, r.home_id), self._score(a, r.away, r.away_id)), r.fixture_id) for r in C.itertuples()), reverse=True)
+        pairs = [(self._score(h, r.home, r.home_id), self._score(a, r.away, r.away_id), r.fixture_id) for r in C.itertuples()]
+        sc = sorted(((min(x, y), f) for x, y, f in pairs), reverse=True)
         if not sc or sc[0][0] < 0.72:
+            # a team plays once a day: one side certain, the other plausible, and no other candidate
+            sure = [(max(x, y), f) for x, y, f in pairs if max(x, y) >= 0.95 and min(x, y) >= 0.4]
+            if len(sure) == 1:
+                return C[C.fixture_id == sure[0][1]].iloc[0], None
             return None, f"no fixture found for '{h}' v '{a}' around {d.date()}"
         if len(sc) > 1 and sc[1][0] > sc[0][0] - 0.08:
             return None, f"two fixtures fit '{h}' v '{a}'"
@@ -515,7 +559,8 @@ def price_event(ev: dict, day: str, T: dict, M: pd.DataFrame, match: Matcher, mo
         if row["type"] and r["odds"] <= 1.0:
             row.update(type=None, reason="price not above 1.00")
         if row["type"] in PLAYER_T:
-            hit = find_player(row["subject"], roster)
+            team = None if fx is None else {home["id"]: fx.home_id, away["id"]: fx.away_id}.get(r.get("child_comp"))
+            hit = find_player(row["subject"], roster[roster.team_id == team] if team is not None and len(roster) else roster)
             tag = re.search(r"\(([A-Za-z]{2,4})\)", r["selection"])
             if hit is None:
                 row.update(type=None, reason="player not matched to one player of the two squads (no team tag: not priced)")
@@ -535,11 +580,11 @@ def price_event(ev: dict, day: str, T: dict, M: pd.DataFrame, match: Matcher, mo
         if row["type"] is None:
             continue
         t = row["type"]
-        lk = None if row["line"] is None else round(row["line"] if t != "AH" or row["side"] == "1" else -row["line"], 2)
+        lk = None if row["line"] is None else round(row["line"] if t not in ("AH", "CORNERS_AH") or row["side"] == "1" else -row["line"], 2)
         G.setdefault((row["market_id"], t, row["scope"], row["who"] if t not in PLAYER_T else None, row["subject"], lk), []).append(i)
     for (mid, t, *_), idx in G.items():
         sides = [rows[i]["side"] for i in idx]
-        want = ({"1", "X", "2"} if t in ("1X2", "EH") else {"1X", "12", "X2"} if t == "DC" else {"1", "2"} if t in ("DNB", "AH") else
+        want = ({"1", "X", "2"} if t in ("1X2", "EH") else {"1X", "12", "X2"} if t == "DC" else {"1", "2"} if t in ("DNB", "AH", "CORNERS_AH") else
                 {"yes", "no"} if t == "BTTS" else {"over", "under"} if t in OU_T else None)
         if t == "EH" and set(sides) == {"1", "2"} and len(idx) == 2:               # a plain "Hendikep" with two sides is Asian
             for i in idx:
@@ -635,7 +680,8 @@ def price(day: str, boards: str, con, out: Path | None = None, quiet: bool = Fal
             print(f"  model history: API games only ({fi['note']})")
         elif fi:
             print(f"  model history: {fi['games']} football-data games ({fi['current']} this season); teams mapped {fi['mapped']} of {fi['teams']}"
-                  + (f"; NOT MAPPED (their football-data games are left out; fix in data/soccer_team_map.csv): {fi['unmapped'][:8]}" if fi["unmapped"] else ""))
+                  + (f"; not mapped yet (a team maps once the API window has listed it; a wrong pair goes in data/soccer_team_map.csv): "
+                     f"{[u.split(' (')[0] for u in fi['unmapped']][:12]}" if fi["unmapped"] else ""))
         nf = D[D.fixture_id.isna()].game.unique()
         if len(nf):
             print(f"  NOT MATCHED to a fixture (kept, not graded): {list(nf)}")
@@ -727,6 +773,14 @@ def settle(r, facts: Facts) -> dict:
     if t == "EH":
         adj = h - a + r.line
         return done(*(1, 0) if {"1": adj > 0, "X": adj == 0, "2": adj < 0}[r.side] else (0, 1), h - a)
+    if t == "CORNERS_AH":
+        if r.scope != "FT":
+            return no("no corners by half in the data")
+        if cov is None or not cov.statistics_fixtures or len(g["ts"]) != 2 or g["ts"]["corners"].isna().any():
+            return no("corners not covered for this league/game")
+        v = g["ts"].set_index("is_home")["corners"]
+        mg = (v[True] - v[False]) if r.side == "1" else (v[False] - v[True])
+        return done(*line_fracs(mg, -r.line, "over"), mg, "quarter line: split-stake rule assumed" if round(r.line * 4) % 2 == 1 else None)
     if t in ("CORNERS", "SHOTS", "SOT"):
         col = {"CORNERS": "corners", "SHOTS": "shots", "SOT": "shots_on_target"}[t]
         if r.scope != "FT":
@@ -1015,7 +1069,16 @@ def arm_stats(con) -> pd.DataFrame:
     return pd.DataFrame(rows)
 
 
-def slips(day: str, con, targets=(3, 6, 9), out: Path | None = None, seed: int | None = None, quiet: bool = False) -> pd.DataFrame:
+def fixed_legs(d: pd.DataFrame, n: int) -> pd.DataFrame | None:
+    """Exactly n legs, one per game: each game's best leg by score, then the n best games."""
+    if d.empty or d.game.nunique() < n:
+        return None
+    best = d.sort_values("score", ascending=False).groupby("game").head(1)
+    return best.head(n)
+
+
+def slips(day: str, con, targets=(3, 6, 9), out: Path | None = None, seed: int | None = None, quiet: bool = False,
+          legs: tuple = ()) -> pd.DataFrame:
     pool = leg_pool(day, con, out)
     con.execute("DELETE FROM slip_legs WHERE matchday = ? AND slip_id IN (SELECT slip_id FROM slips WHERE matchday = ? AND status = 'open')", [day, day])
     con.execute("DELETE FROM slips WHERE matchday = ? AND status = 'open'", [day])
@@ -1036,22 +1099,24 @@ def slips(day: str, con, targets=(3, 6, 9), out: Path | None = None, seed: int |
     for st, pick in STRATEGIES.items():
         used = set()                                             # no quantity in two slips of one strategy
         cand = pick(pool) if len(pool) else pool
-        for tg in targets:
+        for kind, tg in [("x", t) for t in targets] + [("legs", n) for n in legs]:
             c = cand[[(g, q) not in used for g, q in zip(cand.game, cand.quantity)]] if len(cand) else cand
-            legs = build_slip(c, tg, "score") if len(c) else None
-            if legs is None:
+            L = (build_slip(c, tg, "score") if kind == "x" else fixed_legs(c, int(tg))) if len(c) else None
+            if L is None:
+                if not quiet and kind == "legs":
+                    print(f"\n  {st}-{tg:g}legs: not enough games with a candidate leg ({c.game.nunique() if len(c) else 0})")
                 continue
-            used |= set(zip(legs.game, legs.quantity))
-            sid = f"{st}-{tg:g}x"
-            o, p = float(np.prod(legs.odds)), float(np.prod(legs.p))
-            con.execute("INSERT INTO slips (matchday, slip_id, strategy, target, odds, p, legs) VALUES (?,?,?,?,?,?,?)", [day, sid, st, tg, o, p, len(legs)])
+            used |= set(zip(L.game, L.quantity))
+            sid, strat = (f"{st}-{tg:g}x", st) if kind == "x" else (f"{st}-{tg:g}legs", f"{st}/legs")
+            o, p = float(np.prod(L.odds)), float(np.prod(L.p))
+            con.execute("INSERT INTO slips (matchday, slip_id, strategy, target, odds, p, legs) VALUES (?,?,?,?,?,?,?)", [day, sid, strat, tg, o, p, len(L)])
             con.executemany("INSERT INTO slip_legs VALUES (?,?,?,?,?,?,?,?,?)",
-                            [(day, sid, r.row_key, r.game, r.market, r.selection, r.odds, r.p, f"{r.votes}/4") for r in legs.itertuples()])
-            built.append(dict(slip_id=sid, strategy=st, target=tg, odds=o, p=p, legs=len(legs)))
+                            [(day, sid, r.row_key, r.game, r.market, r.selection, r.odds, r.p, f"{r.votes}/4") for r in L.itertuples()])
+            built.append(dict(slip_id=sid, strategy=strat, target=tg, odds=o, p=p, legs=len(L)))
             if not quiet:
-                print(f"\n  {sid}: pays {o:.2f}, {len(legs)} legs, stated chance {p:.1%} (1 in {1 / p:.1f}), expected return {p * o - 1:+.1%}")
-                for r in legs.itertuples():
-                    print(f"     {r.game[:34]:<34} {r.market[:28]:<28} {r.selection[:22]:<22} @{r.odds:.2f}  {r.p:.0%}  votes {r.votes}/4")
+                print(f"\n  {sid}: pays {o:.2f}, {len(L)} legs, stated chance {p:.1%} (1 in {1 / p:.1f}), expected return {p * o - 1:+.1%}")
+                for r in L.sort_values("kickoff").itertuples():
+                    print(f"     {str(r.kickoff)[5:16]:<11} {r.game[:32]:<32} {r.market[:28]:<28} {r.selection[:22]:<22} @{r.odds:.2f}  {r.p:.0%}  votes {r.votes}/4")
     B = pd.DataFrame(built)
     for tg in targets:                                           # bandit 2: which strategy would be played at each target
         a = A[(A.target == tg) & A.strategy.isin(B[B.target == tg].strategy if len(B) else [])]
@@ -1181,7 +1246,7 @@ def report(con, path: str | None = None) -> str:
     else:
         L += ["| strategy | target | slips | expected wins | wins | return per slip |", "|---|---|---|---|---|---|"]
         for (st, tg), x in S.groupby(["strategy", "target"]):
-            L.append(f"| {st} | {tg:g}x | {len(x)} | {x.p.sum():.1f} | {int((x.result == 'won').sum())} | {x.paid.mean() - 1:+.1%} |")
+            L.append(f"| {st} | {tg:g}{' legs' if st.endswith('/legs') else 'x'} | {len(x)} | {x.p.sum():.1f} | {int((x.result == 'won').sum())} | {x.paid.mean() - 1:+.1%} |")
         Aa = arm_stats(con)
         L += ["", "Bandit 2 (prior: every arm loses the book's margin, -8%, worth two matchdays):", "",
               "| arm | matchdays | posterior mean | +-sd | status |", "|---|---|---|---|---|"]
@@ -1230,6 +1295,7 @@ def main() -> None:
     s = sub.add_parser("unread"); s.add_argument("--boards", required=True)
     s = sub.add_parser("price"); s.add_argument("--date", required=True); s.add_argument("--boards", required=True)
     s = sub.add_parser("slips"); s.add_argument("--date", required=True); s.add_argument("--targets", nargs="+", type=float, default=[3, 6, 9])
+    s.add_argument("--legs", nargs="*", type=int, default=[], help="also build slips of exactly this many legs, e.g. --legs 7")
     s = sub.add_parser("grade"); s.add_argument("--date", required=True); s.add_argument("--boards")
     s = sub.add_parser("handcheck"); s.add_argument("--confirm", action="store_true")
     sub.add_parser("report")
@@ -1243,7 +1309,7 @@ def main() -> None:
     if a.cmd == "price":
         price(a.date, a.boards, con)
     elif a.cmd == "slips":
-        slips(a.date, con, a.targets)
+        slips(a.date, con, a.targets, legs=tuple(a.legs))
     elif a.cmd == "grade":
         grade(a.date, con, a.boards)
         fit_weights(con, quiet=True)
