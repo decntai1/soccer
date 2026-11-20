@@ -112,7 +112,7 @@ jobs:
             d=$(basename "$dir")
             [[ "$d" < "$today" ]] && continue          # never re-price a day that has been played
             python soccer_system.py price --date "$d" --boards "$dir" | tee "results/price-$d.txt"
-            python soccer_system.py slips --date "$d" --targets 3 6 9 | tee "results/slips-$d.txt"
+            python soccer_system.py slips --date "$d" --targets 3 6 9 --legs 7 | tee "results/slips-$d.txt"
           done
 
       - name: Grade and report
