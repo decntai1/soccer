@@ -585,6 +585,9 @@ def build() -> dict:
         else:
             files.append(OUT / f"soccer_all_{t}.csv")
             df.to_csv(files[-1], index=False)
+    played = export_played(current_season())
+    if played:
+        files.append(played)
     rel = verify_keys(D)
     jsave(OUT / "soccer_relationships.json", rel)
     sanity(D)
@@ -599,6 +602,32 @@ def build() -> dict:
     except ImportError:
         print("duckdb not installed: CSVs written, no .duckdb file")
     return dict(files=files, tables=D)
+
+
+def export_played(season: int) -> Path | None:
+    """football-data.co.uk's games played so far this season (downloaded by `soccer_bandit.py download`) as one table
+    in data/: what the model is fitted on before the API's D-1 window has anything. No API requests."""
+    fd = Path(os.environ.get("SOCCER_FD", "fd"))
+    if not (fd / f"{season % 100:02d}{(season + 1) % 100:02d}").exists():
+        print(f"football-data: no files for {season} under {fd}/ (run soccer_bandit.py download)")
+        return None
+    import soccer_bandit as SB
+    SB.FD = fd
+    X = SB.load([season])
+    if X.empty:
+        print(f"football-data: files for {season} are empty")
+        return None
+    X.insert(0, "league_id", X.league.map({v[2]: k for k, v in LEAGUES.items()}))
+    X = X.drop(columns=["block"], errors="ignore")
+    p = OUT / f"soccer_{season}_played_fd.csv"
+    X.to_csv(p, index=False)
+    by = X.groupby("league").agg(games=("home", "size"), last=("date", "max"), shots=("hst", lambda v: v.notna().mean()),
+                                 corners=("hc", lambda v: v.notna().mean()), cards=("hy", lambda v: v.notna().mean()))
+    print(f"football-data: {len(X)} games played this season -> {p.name}")
+    for lg, r in by.iterrows():
+        print(f"  {lg:<4} {LEAGUES.get(X.league_id[X.league == lg].iloc[0], ('', '?'))[1]:<18} {r.games:>4} games, last {r['last']:%Y-%m-%d}, "
+              f"with shots {r.shots:.0%}, corners {r.corners:.0%}, cards {r.cards:.0%}")
+    return p
 
 
 def verify_keys(D: dict) -> dict:
