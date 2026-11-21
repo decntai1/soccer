@@ -1,9 +1,9 @@
 fixture_id,league_id,season,round,date,ts,status,referee,venue,home_id,home,away_id,away,ft_home,ft_away,ht_home,ht_away,has_events,has_stats,has_players,has_lineups,check_goals,check_players,check_ht
-1576233,79,2026,Regular Season - 12,2026-11-20T17:30:00Z,1795195800,NS,Florian Lechner,Schüco-Arena,188,Arminia Bielefeld,179,1. FC Magdeburg,,,,,False,False,False,False,,,
-1576235,79,2026,Regular Season - 12,2026-11-20T17:30:00Z,1795195800,NS,Felix Wagner,Merck-Stadion am Böllenfalltor,181,SV Darmstadt 98,180,1. FC Heidenheim,,,,,False,False,False,False,,,
-1570025,141,2026,Regular Season - 15,2026-11-20T19:30:00Z,1795203000,NS,Jose Guzman,Estadi de la FAF,8157,FC Andorra,537,Leganes,,,,,False,False,False,False,,,
-1601612,136,2026,Regular Season - 12,2026-11-20T19:30:00Z,1795203000,NS,Simone Galipo,Marc'Antonio Bentegodi,504,Hellas Verona,509,Cesena,,,,,False,False,False,False,,,
-1564415,41,2026,Regular Season - 16,2026-11-20T20:00:00Z,1795204800,NS,,Oakwell Ground,747,Barnsley,74,Sheffield Wednesday,,,,,False,False,False,False,,,
+1576233,79,2026,Regular Season - 12,2026-11-20T17:30:00Z,1795195800,FT,Florian Lechner,Schüco-Arena,188,Arminia Bielefeld,179,1. FC Magdeburg,1.0,2.0,0.0,2.0,True,True,True,True,True,True,True
+1576235,79,2026,Regular Season - 12,2026-11-20T17:30:00Z,1795195800,FT,Felix Wagner,Merck-Stadion am Böllenfalltor,181,SV Darmstadt 98,180,1. FC Heidenheim,3.0,1.0,2.0,1.0,True,True,True,True,True,True,True
+1570025,141,2026,Regular Season - 15,2026-11-20T19:30:00Z,1795203000,FT,Jose Guzman,Estadi de la FAF,8157,FC Andorra,537,Leganes,1.0,3.0,1.0,2.0,True,True,True,True,True,True,True
+1601612,136,2026,Regular Season - 12,2026-11-20T19:30:00Z,1795203000,FT,Simone Galipo,Marc'Antonio Bentegodi,504,Hellas Verona,509,Cesena,0.0,2.0,0.0,1.0,True,True,True,True,True,True,True
+1564415,41,2026,Regular Season - 16,2026-11-20T20:00:00Z,1795204800,FT,,Oakwell Ground,747,Barnsley,74,Sheffield Wednesday,1.0,2.0,1.0,2.0,True,True,True,True,True,True,True
 1576236,79,2026,Regular Season - 12,2026-11-21T12:00:00Z,1795262400,NS,Marc Philip Eckermann,Heinz-von-Heiden-Arena ,166,Hannover 96,178,SpVgg Greuther Fürth,,,,,False,False,False,False,,,
 1576239,79,2026,Regular Season - 12,2026-11-21T12:00:00Z,1795262400,NS,Justin Joel Hasmann,Max-Morlock-Stadion,171,1. FC Nürnberg,744,Eintracht Braunschweig,,,,,False,False,False,False,,,
 1576241,79,2026,Regular Season - 12,2026-11-21T12:00:00Z,1795262400,NS,Felix Prigan,Volkswagen Arena,161,VfL Wolfsburg,191,Holstein Kiel,,,,,False,False,False,False,,,
@@ -14,7 +14,7 @@ fixture_id,league_id,season,round,date,ts,status,referee,venue,home_id,home,away
 1563870,42,2026,Regular Season - 16,2026-11-21T12:30:00Z,1795264200,NS,,Rodney Parade,1367,Newport County,1353,Swindon Town,,,,,False,False,False,False,,,
 1564416,41,2026,Regular Season - 16,2026-11-21T12:30:00Z,1795264200,NS,,Bloomfield Road,1356,Blackpool,61,Wigan,,,,,False,False,False,False,,,
 1564426,41,2026,Regular Season - 16,2026-11-21T12:30:00Z,1795264200,NS,,Madejski Stadium,53,Reading,1832,Bromley,,,,,False,False,False,False,,,
-1570034,141,2026,Regular Season - 15,2026-11-21T13:00:00Z,1795266000,NS,,Nova Creu Alta,9593,Sabadell,715,Granada CF,,,,,False,False,False,False,,,
+1570034,141,2026,Regular Season - 15,2026-11-21T13:00:00Z,1795266000,NS,Rafael Sanchez Lopez,Nova Creu Alta,9593,Sabadell,715,Granada CF,,,,,False,False,False,False,,,
 1601604,136,2026,Regular Season - 12,2026-11-21T14:00:00Z,1795269600,NS,Michael Fabbri,Cino e Lillo Del Duca,507,Ascoli,1584,Vicenza Virtus,,,,,False,False,False,False,,,
 1601606,136,2026,Regular Season - 12,2026-11-21T14:00:00Z,1795269600,NS,Dario Madonia,Stadio dei Marmi,1581,Carrarese,527,Virtus Entella,,,,,False,False,False,False,,,
 1601609,136,2026,Regular Season - 12,2026-11-21T14:00:00Z,1795269600,NS,Rosario Abisso,Alberto Braglia,899,Modena,863,Juve Stabia,,,,,False,False,False,False,,,
@@ -47,9 +47,20 @@ fixture_id,league_id,season,round,date,ts,status,referee,venue,home_id,home,away
 1564423,41,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,NS,,Meadow Lane,1376,Notts County,1368,Stevenage,,,,,False,False,False,False,,,
 1564424,41,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,NS,,Kassam Stadium,1338,Oxford United,1358,Wycombe,,,,,False,False,False,False,,,
 1564425,41,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,NS,,Home Park,1357,Plymouth,1350,Peterborough,,,,,False,False,False,False,,,
-1570033,141,2026,Regular Season - 15,2026-11-21T15:15:00Z,1795274100,NS,,Estadio Ciudad Deportiva Zubieta,9585,Real Sociedad II,724,Cadiz,,,,,False,False,False,False,,,
+1570033,141,2026,Regular Season - 15,2026-11-21T15:15:00Z,1795274100,NS,Saul Ais Reig,Estadio Ciudad Deportiva Zubieta,9585,Real Sociedad II,724,Cadiz,,,,,False,False,False,False,,,
 1601607,136,2026,Regular Season - 12,2026-11-21T16:15:00Z,1795277700,NS,Ermanno Feliciani,Stadio Nicola Ceravolo,1687,Catanzaro,522,Palermo,,,,,False,False,False,False,,,
-1570027,141,2026,Regular Season - 15,2026-11-21T17:30:00Z,1795282200,NS,,Estadio Municipal Castalia,5254,Castellón,9692,Eldense,,,,,False,False,False,False,,,
+1570027,141,2026,Regular Season - 15,2026-11-21T17:30:00Z,1795282200,NS,Morales Moreno Pablo,Estadio Municipal Castalia,5254,Castellón,9692,Eldense,,,,,False,False,False,False,,,
 1601608,136,2026,Regular Season - 12,2026-11-21T18:30:00Z,1795285800,NS,Federico La Penna,Carlo Castellani,511,Empoli,801,Pisa,,,,,False,False,False,False,,,
 1576240,79,2026,Regular Season - 12,2026-11-21T19:30:00Z,1795289400,NS,Daniel Schlager,Millerntor-Stadion,186,FC St. Pauli,176,VfL Bochum,,,,,False,False,False,False,,,
-1570035,141,2026,Regular Season - 15,2026-11-21T20:00:00Z,1795291200,NS,,Heliodoro Rodríguez López,719,Tenerife,798,Mallorca,,,,,False,False,False,False,,,
+1570035,141,2026,Regular Season - 15,2026-11-21T20:00:00Z,1795291200,NS,"Gordillo, Juan",Heliodoro Rodríguez López,719,Tenerife,798,Mallorca,,,,,False,False,False,False,,,
+1563264,40,2026,Regular Season - 16,2026-11-22T12:00:00Z,1795348800,NS,Lewis Smith,Turf Moor,44,Burnley,67,Blackburn,,,,,False,False,False,False,,,
+1576234,79,2026,Regular Season - 12,2026-11-22T12:30:00Z,1795350600,NS,Florian Exner,Stadion der Freundschaft,1320,Energie Cottbus,159,Hertha BSC,,,,,False,False,False,False,,,
+1576237,79,2026,Regular Season - 12,2026-11-22T12:30:00Z,1795350600,NS,Lars Erbst,Fritz-Walter-Stadion,745,1. FC Kaiserslautern,183,Dynamo Dresden,,,,,False,False,False,False,,,
+1576238,79,2026,Regular Season - 12,2026-11-22T12:30:00Z,1795350600,NS,Cristian Ballweg,BBBank Wildpark,785,Karlsruher SC,1324,VfL Osnabrück,,,,,False,False,False,False,,,
+1570030,141,2026,Regular Season - 15,2026-11-22T13:00:00Z,1795352400,NS,,Estadio Nuevo Arcángel,713,Cordoba,718,Oviedo,,,,,False,False,False,False,,,
+1601605,136,2026,Regular Season - 12,2026-11-22T14:00:00Z,1795356000,NS,Mattia Drigo,Partenio-Adriano Lombardi,528,Avellino,1693,Mantova,,,,,False,False,False,False,,,
+1570031,141,2026,Regular Season - 15,2026-11-22T15:15:00Z,1795360500,NS,,El Molinón-Enrique Castro Quini,731,Sporting Gijon,534,Las Palmas,,,,,False,False,False,False,,,
+1601603,136,2026,Regular Season - 12,2026-11-22T16:15:00Z,1795364100,NS,Daniele Perenzoni,Stadio Città di Arezzo,876,Arezzo,870,Padova,,,,,False,False,False,False,,,
+1570028,141,2026,Regular Season - 15,2026-11-22T17:30:00Z,1795368600,NS,,Municipal de Balaídos,9571,Celta de Vigo II,720,Valladolid,,,,,False,False,False,False,,,
+1570032,141,2026,Regular Season - 15,2026-11-22T17:30:00Z,1795368600,NS,,Estadi Montilivi,547,Girona,545,Eibar,,,,,False,False,False,False,,,
+1570026,141,2026,Regular Season - 15,2026-11-22T20:00:00Z,1795377600,NS,,Municipal El Plantio,9580,Burgos,722,Albacete,,,,,False,False,False,False,,,

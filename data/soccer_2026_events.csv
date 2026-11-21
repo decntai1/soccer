@@ -1,0 +1,97 @@
+fixture_id,seq,minute,extra,team_id,player_id,player,assist_id,type,detail,comments,scoring_team_id,season
+1576233,0,12,,179,414474.0,Felipe Chávez,145059.0,goal,Normal Goal,,179.0,2026
+1576233,1,45,1.0,179,25108.0,Emmanuel Iyoha,25126.0,goal,Normal Goal,,179.0,2026
+1576233,2,46,,179,125714.0,Alexander Nollenberger,,yellow,Yellow Card,Foul,,2026
+1576233,3,61,,188,24958.0,Arne Sicker,341250.0,sub,Substitution 1,,,2026
+1576233,4,61,,188,108604.0,Jonas Thomas Kersken,145480.0,sub,Substitution 2,,,2026
+1576233,5,61,,188,202616.0,Monju Thaddäus Momuluh,319858.0,sub,Substitution 3,,,2026
+1576233,6,61,,188,298254.0,Felix Hagmann,91180.0,sub,Substitution 4,,,2026
+1576233,7,62,,188,319858.0,Henri Koudossou,,goal,Normal Goal,,188.0,2026
+1576233,8,70,,179,145059.0,Moritz-Broni Kwarteng,,sub,Substitution 1,,,2026
+1576233,9,73,,188,372558.0,Marius Worl,,yellow,Yellow Card,Foul,,2026
+1576233,10,79,,188,1665.0,Leon Jensen,25049.0,sub,Substitution 5,,,2026
+1576233,11,80,,179,40460.0,Mateusz Zukowski,135328.0,sub,Substitution 2,,,2026
+1576233,12,81,,179,24951.0,Dominik Reimann,,yellow,Yellow Card,Time Wasting,,2026
+1576233,13,86,,179,25108.0,Emmanuel Iyoha,400756.0,sub,Substitution 3,,,2026
+1576233,14,86,,179,25126.0,Barış Atik,271066.0,sub,Substitution 4,,,2026
+1576233,15,86,,179,280459.0,Pierre Nadjombe,119158.0,sub,Substitution 5,,,2026
+1576235,0,5,,180,24641.0,Budu Zivzivadze,,goal,Normal Goal,,180.0,2026
+1576235,1,22,,181,202783.0,Lars Kehl,25307.0,goal,Normal Goal,,181.0,2026
+1576235,2,24,,180,585756.0,Marko Zrilić,,yellow,Yellow Card,Foul,,2026
+1576235,3,27,,181,8725.0,Aleksandar Vukotić,25307.0,goal,Normal Goal,,181.0,2026
+1576235,4,40,,180,127619.0,Jan Schoppner,,yellow,Yellow Card,Foul,,2026
+1576235,5,45,,180,15732.0,Mikkel Kaufmann,24955.0,sub,Substitution 1,,,2026
+1576235,6,45,,180,585756.0,Marko Zrilić,25178.0,sub,Substitution 2,,,2026
+1576235,7,55,,181,8725.0,Aleksandar Vukotić,,yellow,Yellow Card,Foul,,2026
+1576235,8,62,,181,202783.0,Lars Kehl,,goal,Normal Goal,,181.0,2026
+1576235,9,70,,181,202783.0,Lars Kehl,177802.0,sub,Substitution 1,,,2026
+1576235,10,71,,180,25232.0,Marcel Costly,336031.0,sub,Substitution 3,,,2026
+1576235,11,71,,180,127619.0,Jan Schoppner,125720.0,sub,Substitution 4,,,2026
+1576235,12,77,,180,64302.0,Christian Conteh,128849.0,sub,Substitution 5,,,2026
+1576235,13,78,,181,25307.0,Marco Richter,202727.0,sub,Substitution 2,,,2026
+1576235,14,79,,180,24955.0,Mathias Honsak,,yellow,Yellow Card,Foul,,2026
+1576235,15,84,,181,24788.0,Matthias Bader,177451.0,sub,Substitution 3,,,2026
+1576235,16,90,2.0,180,282953.0,Oualid Mhamdi,,yellow,Yellow Card,Foul,,2026
+1570025,0,10,,537,182668.0,Álex Millán,,yellow,Yellow Card,Foul,,2026
+1570025,1,15,,8157,386187.0,Hugo Solozábal,,var,Card upgrade confirmed,,,2026
+1570025,2,16,,8157,386187.0,Hugo Solozábal,,red,Red Card,Serious Foul,,2026
+1570025,3,31,,8157,85703.0,Thomas Carrique,348410.0,goal,Normal Goal,,8157.0,2026
+1570025,4,37,,537,182668.0,Álex Millán,59.0,goal,Normal Goal,,537.0,2026
+1570025,5,44,,537,59.0,Álvaro Morata,184459.0,goal,Normal Goal,,537.0,2026
+1570025,6,45,2.0,537,181867.0,Miguel Atienza,,yellow,Yellow Card,Foul,,2026
+1570025,7,45,4.0,8157,327489.0,Marc Doménech Costa,,yellow,Yellow Card,Foul,,2026
+1570025,8,45,6.0,537,46742.0,Dani Rodriguez,,missed_penalty,Missed Penalty,,,2026
+1570025,9,54,,537,59.0,Álvaro Morata,,var,Penalty cancelled,,,2026
+1570025,10,59,,8157,161843.0,Juan Sebastián Serrano,,yellow,Yellow Card,Foul,,2026
+1570025,11,60,,537,182668.0,Álex Millán,310196.0,sub,Substitution 1,,,2026
+1570025,12,60,,8157,514913.0,Hugo López,161962.0,sub,Substitution 1,,,2026
+1570025,13,60,,8157,182480.0,Lautaro De León,371929.0,sub,Substitution 2,,,2026
+1570025,14,61,,8157,327489.0,Marc Doménech Costa,335335.0,sub,Substitution 3,,,2026
+1570025,15,70,,8157,1557.0,Pau López,,yellow,Yellow Card,Dissent,,2026
+1570025,16,71,,537,59.0,Álvaro Morata,36302.0,sub,Substitution 2,,,2026
+1570025,17,71,,537,554038.0,Unax del Cura,174937.0,sub,Substitution 3,,,2026
+1570025,18,76,,537,,Jorge Martínez,,yellow,Yellow Card,Handball,,2026
+1570025,19,77,,8157,348410.0,Moró Sidibe,325993.0,sub,Substitution 4,,,2026
+1570025,20,80,,537,184459.0,Alejandro San Cristobal Sanchez,327622.0,sub,Substitution 4,,,2026
+1570025,21,80,,537,336706.0,Marvelous Antolín Garzón,129657.0,sub,Substitution 5,,,2026
+1570025,22,83,,537,327622.0,Naim Garcia,310196.0,goal,Normal Goal,,537.0,2026
+1570025,23,90,,8157,215900.0,Randy Schneider,540292.0,sub,Substitution 5,,,2026
+1570025,24,90,3.0,8157,161962.0,Nacho Quintana,,yellow,Yellow Card,Dissent,,2026
+1601612,0,7,,509,325400.0,Matteo Francesconi,31517.0,goal,Normal Goal,,509.0,2026
+1601612,1,26,,509,343383.0,Riccardo Pagano,,yellow,Yellow Card,Argument,,2026
+1601612,2,26,,504,562612.0,andrea le borgne,,yellow,Yellow Card,Foul,,2026
+1601612,3,45,,504,562612.0,andrea le borgne,281291.0,sub,Substitution 1,,,2026
+1601612,4,48,,509,325400.0,Matteo Francesconi,,yellow,Yellow Card,Foul,,2026
+1601612,5,57,,504,91490.0,Samuele Mulattieri,3430.0,sub,Substitution 2,,,2026
+1601612,6,57,,504,266178.0,Kacper Sezonienko,343287.0,sub,Substitution 3,,,2026
+1601612,7,57,,509,449943.0,X. Druiventak,347393.0,sub,Substitution 1,,,2026
+1601612,8,62,,504,30921.0,Paweł Dawidowicz,,yellow,Yellow Card,Foul,,2026
+1601612,9,62,,509,347393.0,Antonio Fiori,,var,Penalty confirmed,,,2026
+1601612,10,65,,504,15909.0,Martin Frese,,yellow,Yellow Card,Foul,,2026
+1601612,11,65,,509,325403.0,Cristian Shpendi,,penalty,Penalty,,509.0,2026
+1601612,12,68,,509,325400.0,Matteo Francesconi,385810.0,sub,Substitution 2,,,2026
+1601612,13,68,,509,437089.0,Marco Dalla Vecchia,31139.0,sub,Substitution 3,,,2026
+1601612,14,68,,509,418334.0,Maat Daniel Caprini,341978.0,sub,Substitution 4,,,2026
+1601612,15,72,,504,37437.0,Abdou Harroui,59421.0,sub,Substitution 4,,,2026
+1601612,16,73,,509,56270.0,Alessandro Siano,,yellow,Yellow Card,Time Wasting,,2026
+1601612,17,76,,509,341978.0,Luca D'Andrea,,yellow,Yellow Card,Foul,,2026
+1601612,18,82,,504,15909.0,Martin Frese,14327.0,sub,Substitution 5,,,2026
+1601612,19,85,,509,56384.0,Massimiliano Mangraviti,354109.0,sub,Substitution 5,,,2026
+1564415,0,8,,74,19866.0,Jamal Lowe,19118.0,goal,Normal Goal,,74.0,2026
+1564415,1,14,,74,19866.0,Jamal Lowe,19387.0,goal,Normal Goal,,74.0,2026
+1564415,2,29,,747,430829.0,Vimal Yoganathan,,yellow,Yellow Card,Foul,,2026
+1564415,3,35,,747,667790.0,Arley Kay,,yellow,Yellow Card,Foul,,2026
+1564415,4,40,,747,430829.0,Vimal Yoganathan,292116.0,goal,Normal Goal,,747.0,2026
+1564415,5,41,,74,19642.0,Billy Mitchell,,yellow,Yellow Card,Foul,,2026
+1564415,6,53,,74,18951.0,Callum Slattery,,yellow,Yellow Card,Foul,,2026
+1564415,7,69,,74,18942.0,Yan Valery,,yellow,Yellow Card,Foul,,2026
+1564415,8,71,,74,19866.0,Jamal Lowe,175414.0,sub,Substitution 1,,,2026
+1564415,9,71,,74,19642.0,Billy Mitchell,162168.0,sub,Substitution 2,,,2026
+1564415,10,71,,74,284523.0,Sil swinkels,19394.0,sub,Substitution 3,,,2026
+1564415,11,78,,74,19387.0,Barry Bannan,443634.0,sub,Substitution 4,,,2026
+1564415,12,81,,747,430829.0,Vimal Yoganathan,406846.0,sub,Substitution 1,,,2026
+1564415,13,81,,747,328997.0,Makenzie Kirk,354845.0,sub,Substitution 2,,,2026
+1564415,14,86,,747,138891.0,Jubril Okedina,,sub,Substitution 3,,,2026
+1564415,15,86,,747,315767.0,Patrick Kelly,19451.0,sub,Substitution 4,,,2026
+1564415,16,87,,74,138807.0,Di'Shon Bernard,18382.0,sub,Substitution 5,,,2026
+1564415,17,90,,747,,Royce Brownlie,331548.0,sub,Substitution 5,,,2026
