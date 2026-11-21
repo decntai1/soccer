@@ -1,0 +1,54 @@
+# NCAAB results 2025-12-15 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:45Z
+
+GAME Bryan Lions@Samford Bulldogs
+H Samford Bulldogs: 60 46
+H Bryan Lions: 18 33
+
+GAME Albany State Golden Rams@Florida A&M Rattlers
+H Florida A&M Rattlers: 47 46
+H Albany State Golden Rams: 35 42
+
+GAME Ecclesia Royals@Arkansas-Pine Bluff Golden Lions
+H Arkansas-Pine Bluff Golden Lions: 47 67
+H Ecclesia Royals: 38 26
+
+GAME Wofford Terriers@Gardner-Webb Runnin' Bulldogs
+H Gardner-Webb Runnin' Bulldogs: 27 30
+H Wofford Terriers: 34 49
+
+GAME Rhodes Lynx@Stetson Hatters
+H Stetson Hatters: 46 49
+H Rhodes Lynx: 39 37
+
+GAME Niagara Purple Eagles@VCU Rams
+H VCU Rams: 37 47
+H Niagara Purple Eagles: 34 24
+
+GAME East Texas A&M Lions@SE Louisiana Lions
+H SE Louisiana Lions: 33 36
+H East Texas A&M Lions: 33 37
+
+GAME Campbellsville Tigers@Western Kentucky Hilltoppers
+H Western Kentucky Hilltoppers: 54 48
+H Campbellsville Tigers: 28 31
+
+GAME Crookston (MN) Golden Eagles@North Dakota State Bison
+H North Dakota State Bison: 57 44
+H Crookston (MN) Golden Eagles: 33 34
+
+GAME Wyoming Cowboys@South Dakota State Jackrabbits
+NEUTRAL
+H South Dakota State Jackrabbits: 29 43
+H Wyoming Cowboys: 40 47
+
+GAME North Alabama Lions@Alabama A&M Bulldogs
+H Alabama A&M Bulldogs: 28 40
+H North Alabama Lions: 29 31
+
+GAME McNeese Cowboys@Houston Christian Huskies
+H Houston Christian Huskies: 40 28
+H McNeese Cowboys: 33 45
+
+GAME Incarnate Word Cardinals@TCU Horned Frogs
+H TCU Horned Frogs: 31 38
+H Incarnate Word Cardinals: 37 28

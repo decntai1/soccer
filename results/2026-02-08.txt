@@ -1,0 +1,45 @@
+# NCAAB results 2026-02-08 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:46Z
+
+GAME Michigan Wolverines@Ohio State Buckeyes
+H Ohio State Buckeyes: 34 27
+H Michigan Wolverines: 44 38
+
+GAME Texas Tech Red Raiders@West Virginia Mountaineers
+H West Virginia Mountaineers: 27 36
+H Texas Tech Red Raiders: 39 31
+
+GAME Tulsa Golden Hurricane@South Florida Bulls
+H South Florida Bulls: 39 41
+H Tulsa Golden Hurricane: 35 39
+
+GAME USC Trojans@Penn State Nittany Lions
+H Penn State Nittany Lions: 40 35
+H USC Trojans: 36 41
+
+GAME UNC Greensboro Spartans@Furman Paladins
+H Furman Paladins: 32 32
+H UNC Greensboro Spartans: 39 28
+
+GAME Wichita State Shockers@Tulane Green Wave
+H Tulane Green Wave: 26 35
+H Wichita State Shockers: 31 44
+
+GAME Charlotte 49ers@Memphis Tigers
+H Memphis Tigers: 37 40
+H Charlotte 49ers: 17 37
+
+GAME UCF Knights@Cincinnati Bearcats
+H Cincinnati Bearcats: 40 52
+H UCF Knights: 28 44
+
+GAME Maryland Terrapins@Minnesota Golden Gophers
+H Minnesota Golden Gophers: 33 29
+H Maryland Terrapins: 32 35
+
+GAME Rice Owls@UAB Blazers
+H UAB Blazers: 34 37
+H Rice Owls: 33 32
+
+GAME Northwestern Wildcats@Iowa Hawkeyes
+H Iowa Hawkeyes: 39 37
+H Northwestern Wildcats: 35 35

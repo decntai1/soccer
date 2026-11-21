@@ -1,0 +1,45 @@
+# NCAAB results 2025-12-04 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:44Z
+
+GAME Manor Blue Jays@Fairleigh Dickinson Knights
+H Fairleigh Dickinson Knights: 44 42
+H Manor Blue Jays: 21 17
+
+GAME The Citadel Bulldogs@Davidson Wildcats
+H Davidson Wildcats: 36 43
+H The Citadel Bulldogs: 29 34
+
+GAME Utah State Aggies@South Florida Bulls
+H South Florida Bulls: 41 33
+H Utah State Aggies: 20 41
+
+GAME Rider Broncs@Merrimack Warriors
+H Merrimack Warriors: 37 31
+H Rider Broncs: 33 33
+
+GAME Warren Wilson Owls@Charleston Southern Buccaneers
+H Charleston Southern Buccaneers: 74 50
+H Warren Wilson Owls: 24 39
+
+GAME Robert Morris Colonials@Green Bay Phoenix
+H Green Bay Phoenix: 33 45
+H Robert Morris Colonials: 36 44
+
+GAME Long Beach State Beach@UC Santa Barbara Gauchos
+H UC Santa Barbara Gauchos: 31 36 17
+H Long Beach State Beach: 30 37 10
+
+GAME Cal State Bakersfield Roadrunners@Cal State Northridge Matadors
+H Cal State Northridge Matadors: 44 43
+H Cal State Bakersfield Roadrunners: 32 34
+
+GAME Cal Poly Mustangs@Cal State Fullerton Titans
+H Cal State Fullerton Titans: 44 47
+H Cal Poly Mustangs: 43 51
+
+GAME UC Riverside Highlanders@UC Irvine Anteaters
+H UC Irvine Anteaters: 37 36
+H UC Riverside Highlanders: 26 34
+
+GAME UC Davis Aggies@Hawai'i Rainbow Warriors
+H Hawai'i Rainbow Warriors: 33 42
+H UC Davis Aggies: 28 41

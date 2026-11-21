@@ -1,0 +1,104 @@
+# NCAAB results 2026-03-14 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:47Z
+
+GAME Virginia Cavaliers@Duke Blue Devils
+NEUTRAL
+H Duke Blue Devils: 38 36
+H Virginia Cavaliers: 36 34
+
+GAME Houston Cougars@Arizona Wildcats
+NEUTRAL
+H Arizona Wildcats: 44 35
+H Houston Cougars: 36 38
+
+GAME Wisconsin Badgers@Michigan Wolverines
+NEUTRAL
+H Michigan Wolverines: 28 40
+H Wisconsin Badgers: 28 37
+
+GAME Vanderbilt Commodores@Florida Gators
+NEUTRAL
+H Florida Gators: 34 40
+H Vanderbilt Commodores: 47 44
+
+GAME UConn Huskies@St. John's Red Storm
+H St. John's Red Storm: 40 32
+H UConn Huskies: 27 25
+
+GAME Ole Miss Rebels@Arkansas Razorbacks
+NEUTRAL
+H Arkansas Razorbacks: 37 42 14
+H Ole Miss Rebels: 36 43 11
+
+GAME Purdue Boilermakers@UCLA Bruins
+NEUTRAL
+H UCLA Bruins: 27 39
+H Purdue Boilermakers: 34 39
+
+GAME Cornell Big Red@Yale Bulldogs
+NEUTRAL
+H Yale Bulldogs: 49 39
+H Cornell Big Red: 42 34
+
+GAME Vermont Catamounts@UMBC Retrievers
+H UMBC Retrievers: 30 44
+H Vermont Catamounts: 28 31
+
+GAME North Carolina Central Eagles@Howard Bison
+NEUTRAL
+H Howard Bison: 26 44
+H North Carolina Central Eagles: 23 40
+
+GAME Dayton Flyers@Saint Louis Billikens
+NEUTRAL
+H Saint Louis Billikens: 36 33
+H Dayton Flyers: 33 37
+
+GAME Pennsylvania Quakers@Harvard Crimson
+NEUTRAL
+H Harvard Crimson: 26 27 7
+H Pennsylvania Quakers: 30 23 9
+
+GAME Charlotte 49ers@South Florida Bulls
+NEUTRAL
+H South Florida Bulls: 40 46
+H Charlotte 49ers: 33 31
+
+GAME Saint Joseph's Hawks@VCU Rams
+NEUTRAL
+H VCU Rams: 44 33
+H Saint Joseph's Hawks: 21 43
+
+GAME Tulsa Golden Hurricane@Wichita State Shockers
+NEUTRAL
+H Wichita State Shockers: 39 42
+H Tulsa Golden Hurricane: 33 35
+
+GAME San Diego State Aztecs@Utah State Aggies
+NEUTRAL
+H Utah State Aggies: 34 39
+H San Diego State Aztecs: 35 27
+
+GAME Prairie View A&M Panthers@Southern Jaguars
+NEUTRAL
+H Southern Jaguars: 28 38
+H Prairie View A&M Panthers: 41 31
+
+GAME Toledo Rockets@Akron Zips
+NEUTRAL
+H Akron Zips: 30 49
+H Toledo Rockets: 42 34
+
+GAME Kennesaw State Owls@Louisiana Tech Bulldogs
+NEUTRAL
+H Louisiana Tech Bulldogs: 32 28
+H Kennesaw State Owls: 35 36
+
+GAME Hawai'i Rainbow Warriors@UC Irvine Anteaters
+NEUTRAL
+H UC Irvine Anteaters: 30 34
+H Hawai'i Rainbow Warriors: 31 40
+
+GAME California Baptist Lancers@Utah Valley Wolverines
+NEUTRAL
+H Utah Valley Wolverines: 26 35
+H California Baptist Lancers: 26 37

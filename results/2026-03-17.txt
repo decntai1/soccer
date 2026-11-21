@@ -1,0 +1,43 @@
+# NCAAB results 2026-03-17 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:47Z
+
+GAME Texas Longhorns@NC State Wolfpack
+NEUTRAL
+H NC State Wolfpack: 29 37
+H Texas Longhorns: 30 38
+
+GAME UMBC Retrievers@Howard Bison
+NEUTRAL
+H Howard Bison: 49 37
+H UMBC Retrievers: 41 42
+
+GAME Liberty Flames@George Mason Patriots
+H George Mason Patriots: 24 47
+H Liberty Flames: 34 43
+
+GAME UNC Wilmington Seahawks@Yale Bulldogs
+H Yale Bulldogs: 32 35
+H UNC Wilmington Seahawks: 26 42
+
+GAME Wyoming Cowboys@Wichita State Shockers
+H Wichita State Shockers: 28 46
+H Wyoming Cowboys: 24 46
+
+GAME Davidson Wildcats@Oklahoma State Cowboys
+H Oklahoma State Cowboys: 40 44
+H Davidson Wildcats: 50 30
+
+GAME Stephen F. Austin Lumberjacks@Tulsa Golden Hurricane
+H Tulsa Golden Hurricane: 36 40 13
+H Stephen F. Austin Lumberjacks: 39 37 8
+
+GAME St. Thomas Tommies@Seattle U Redhawks
+H Seattle U Redhawks: 30 37
+H St. Thomas Tommies: 31 21
+
+GAME South Alabama Jaguars@Auburn Tigers
+H Auburn Tigers: 30 48
+H South Alabama Jaguars: 36 31
+
+GAME UNLV Rebels@UC Irvine Anteaters
+H UC Irvine Anteaters: 24 48
+H UNLV Rebels: 37 38

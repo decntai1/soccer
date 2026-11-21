@@ -1,0 +1,202 @@
+# NCAAB results 2025-11-19 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:44Z
+
+GAME Arizona Wildcats@UConn Huskies
+H UConn Huskies: 33 34
+H Arizona Wildcats: 35 36
+
+GAME Middle Tennessee Blue Raiders@Michigan Wolverines
+H Michigan Wolverines: 36 50
+H Middle Tennessee Blue Raiders: 30 31
+
+GAME Alabama Crimson Tide@Illinois Fighting Illini
+NEUTRAL
+H Illinois Fighting Illini: 42 44
+H Alabama Crimson Tide: 41 49
+
+GAME Jackson State Tigers@Auburn Tigers
+H Auburn Tigers: 55 57
+H Jackson State Tigers: 24 42
+
+GAME Alabama State Hornets@Air Force Falcons
+H Air Force Falcons: 32 34
+H Alabama State Hornets: 39 25
+
+GAME Misericordia Cougars@Binghamton Bearcats
+H Binghamton Bearcats: 38 31
+H Misericordia Cougars: 24 34
+
+GAME Ohio Christian Trailblazers@Furman Paladins
+H Furman Paladins: 32 47
+H Ohio Christian Trailblazers: 23 21
+
+GAME Harvard Crimson@Penn State Nittany Lions
+H Penn State Nittany Lions: 35 49
+H Harvard Crimson: 38 42
+
+GAME North Greenville Trailblazers@The Citadel Bulldogs
+H The Citadel Bulldogs: 35 35
+H North Greenville Trailblazers: 23 34
+
+GAME Chattanooga Mocs@South Carolina State Bulldogs
+H South Carolina State Bulldogs: 23 43
+H Chattanooga Mocs: 32 46
+
+GAME South Alabama Jaguars@Jacksonville State Gamecocks
+H Jacksonville State Gamecocks: 31 34
+H South Alabama Jaguars: 25 46
+
+GAME Bethune-Cookman Wildcats@Ohio Bobcats
+H Ohio Bobcats: 29 44
+H Bethune-Cookman Wildcats: 37 39
+
+GAME Louisiana Tech Bulldogs@Indiana State Sycamores
+H Indiana State Sycamores: 30 30
+H Louisiana Tech Bulldogs: 25 26
+
+GAME Hofstra Pride@Temple Owls
+H Temple Owls: 33 48
+H Hofstra Pride: 31 45
+
+GAME Tennessee Tech Golden Eagles@South Carolina Upstate Spartans
+H South Carolina Upstate Spartans: 41 43
+H Tennessee Tech Golden Eagles: 41 47
+
+GAME Howard Bison@Stetson Hatters
+H Stetson Hatters: 31 33
+H Howard Bison: 21 39
+
+GAME North Florida Ospreys@Wofford Terriers
+H Wofford Terriers: 34 52
+H North Florida Ospreys: 35 43
+
+GAME William & Mary Tribe@Bowling Green Falcons
+H Bowling Green Falcons: 26 48
+H William & Mary Tribe: 41 41
+
+GAME Florida Gulf Coast Eagles@Samford Bulldogs
+H Samford Bulldogs: 33 29
+H Florida Gulf Coast Eagles: 41 36
+
+GAME Youngstown State Penguins@Toledo Rockets
+H Toledo Rockets: 41 51
+H Youngstown State Penguins: 35 40
+
+GAME Valparaiso Beacons@Cleveland State Vikings
+H Cleveland State Vikings: 27 48
+H Valparaiso Beacons: 39 51
+
+GAME Villanova Wildcats@La Salle Explorers
+H La Salle Explorers: 28 27
+H Villanova Wildcats: 37 33
+
+GAME City College NY Beavers@Quinnipiac Bobcats
+H Quinnipiac Bobcats: 58 54
+H City College NY Beavers: 16 36
+
+GAME Bryant Bulldogs@Virginia Tech Hokies
+H Virginia Tech Hokies: 32 46
+H Bryant Bulldogs: 24 37
+
+GAME Bellarmine Knights@Notre Dame Fighting Irish
+H Notre Dame Fighting Irish: 37 49
+H Bellarmine Knights: 30 49
+
+GAME VMI Keydets@Richmond Spiders
+H Richmond Spiders: 49 38
+H VMI Keydets: 26 28
+
+GAME UMBC Retrievers@George Washington Revolutionaries
+H George Washington Revolutionaries: 47 42
+H UMBC Retrievers: 17 35
+
+GAME Loyola Maryland Greyhounds@Duquesne Dukes
+H Duquesne Dukes: 47 45
+H Loyola Maryland Greyhounds: 36 42
+
+GAME Mount St. Mary's Mountaineers@Maryland Terrapins
+H Maryland Terrapins: 40 37 18
+H Mount St. Mary's Mountaineers: 32 45 13
+
+GAME William Carey Crusaders@SE Louisiana Lions
+H SE Louisiana Lions: 36 35
+H William Carey Crusaders: 14 31
+
+GAME Dallas Christian Crusaders@East Texas A&M Lions
+H East Texas A&M Lions: 53 62
+H Dallas Christian Crusaders: 19 25
+
+GAME Wyoming Cowboys@Sam Houston Bearkats
+H Sam Houston Bearkats: 37 41
+H Wyoming Cowboys: 32 38
+
+GAME Maine Black Bears@Merrimack Warriors
+H Merrimack Warriors: 34 38
+H Maine Black Bears: 27 38
+
+GAME Dayton Flyers@Marquette Golden Eagles
+H Marquette Golden Eagles: 34 34 3
+H Dayton Flyers: 39 29 9
+
+GAME UNC Asheville Bulldogs@Western Carolina Catamounts
+H Western Carolina Catamounts: 41 39
+H UNC Asheville Bulldogs: 38 35
+
+GAME Concordia (NE) Clippers@Omaha Mavericks
+H Omaha Mavericks: 45 51
+H Concordia (NE) Clippers: 44 36
+
+GAME Jamestown Jimmies@North Dakota State Bison
+H North Dakota State Bison: 41 41
+H Jamestown Jimmies: 36 31
+
+GAME UC Irvine Anteaters@Utah Valley Wolverines
+H Utah Valley Wolverines: 31 48
+H UC Irvine Anteaters: 27 45
+
+GAME UMass Lowell River Hawks@Bradley Braves
+H Bradley Braves: 38 49
+H UMass Lowell River Hawks: 43 34
+
+GAME Tiffin Dragons@Eastern Illinois Panthers
+H Eastern Illinois Panthers: 36 26
+H Tiffin Dragons: 20 30
+
+GAME North Dakota Fighting Hawks@Creighton Bluejays
+H Creighton Bluejays: 47 28
+H North Dakota Fighting Hawks: 36 24
+
+GAME South Florida Bulls@Oklahoma State Cowboys
+H Oklahoma State Cowboys: 44 59
+H South Florida Bulls: 45 50
+
+GAME Kansas City Roos@TCU Horned Frogs
+H TCU Horned Frogs: 51 30
+H Kansas City Roos: 28 17
+
+GAME Lipscomb Bisons@Belmont Bruins
+H Belmont Bruins: 25 50
+H Lipscomb Bisons: 24 44
+
+GAME St. Thomas (TX) Celts@UTEP Miners
+H UTEP Miners: 30 42 12
+H St. Thomas (TX) Celts: 41 31 11
+
+GAME Arkansas State Red Wolves@Saint Mary's Gaels
+H Saint Mary's Gaels: 47 38
+H Arkansas State Red Wolves: 39 33
+
+GAME Campbell Fighting Camels@Weber State Wildcats
+H Weber State Wildcats: 45 46
+H Campbell Fighting Camels: 37 48
+
+GAME Evergreen State Geoducks@Portland State Vikings
+H Portland State Vikings: 40 50
+H Evergreen State Geoducks: 27 34
+
+GAME Nobel Knights@Long Beach State Beach
+H Long Beach State Beach: 31 56
+H Nobel Knights: 24 30
+
+GAME Southern Utah Thunderbirds@Washington State Cougars
+H Washington State Cougars: 54 44
+H Southern Utah Thunderbirds: 40 34

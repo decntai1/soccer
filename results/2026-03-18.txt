@@ -1,0 +1,43 @@
+# NCAAB results 2026-03-18 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:47Z
+
+GAME Miami (OH) RedHawks@SMU Mustangs
+NEUTRAL
+H SMU Mustangs: 34 45
+H Miami (OH) RedHawks: 43 46
+
+GAME Prairie View A&M Panthers@Lehigh Mountain Hawks
+NEUTRAL
+H Lehigh Mountain Hawks: 29 26
+H Prairie View A&M Panthers: 27 40
+
+GAME Navy Midshipmen@Wake Forest Demon Deacons
+H Wake Forest Demon Deacons: 38 44
+H Navy Midshipmen: 34 38
+
+GAME Kent State Golden Flashes@Illinois State Redbirds
+H Illinois State Redbirds: 45 34
+H Kent State Golden Flashes: 25 33
+
+GAME George Washington Revolutionaries@Utah Valley Wolverines
+H Utah Valley Wolverines: 29 49
+H George Washington Revolutionaries: 45 34
+
+GAME Dayton Flyers@Bradley Braves
+H Bradley Braves: 30 36
+H Dayton Flyers: 47 33
+
+GAME Sam Houston Bearkats@New Mexico Lobos
+H New Mexico Lobos: 51 56
+H Sam Houston Bearkats: 39 44
+
+GAME Murray State Racers@Nevada Wolf Pack
+H Nevada Wolf Pack: 41 48
+H Murray State Racers: 39 36
+
+GAME Saint Joseph's Hawks@Colorado State Rams
+H Colorado State Rams: 28 36
+H Saint Joseph's Hawks: 33 36
+
+GAME UIC Flames@California Golden Bears
+H California Golden Bears: 39 52
+H UIC Flames: 35 38

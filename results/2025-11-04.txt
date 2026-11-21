@@ -1,0 +1,146 @@
+# NCAAB results 2025-11-04 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:44Z
+
+GAME Evansville Purple Aces@Purdue Boilermakers
+H Purdue Boilermakers: 41 41
+H Evansville Purple Aces: 22 29
+
+GAME Texas Longhorns@Duke Blue Devils
+NEUTRAL
+H Duke Blue Devils: 32 43
+H Texas Longhorns: 33 27
+
+GAME Nicholls Colonels@Kentucky Wildcats
+H Kentucky Wildcats: 28 49
+H Nicholls Colonels: 15 36
+
+GAME Lindenwood Lions@Texas Tech Red Raiders
+H Texas Tech Red Raiders: 58 40
+H Lindenwood Lions: 30 30
+
+GAME Penn State York Nittany Lions@UMBC Retrievers
+H UMBC Retrievers: 39 35
+H Penn State York Nittany Lions: 25 28
+
+GAME East West Phantoms@SIU Edwardsville Cougars
+H SIU Edwardsville Cougars: 62 57
+H East West Phantoms: 27 23
+
+GAME North Carolina A&T Aggies@South Carolina Gamecocks
+H South Carolina Gamecocks: 46 45
+H North Carolina A&T Aggies: 28 44
+
+GAME Alcorn State Braves@Florida State Seminoles
+H Florida State Seminoles: 58 50
+H Alcorn State Braves: 44 32
+
+GAME Converse Valkyries@East Tennessee State Buccaneers
+H East Tennessee State Buccaneers: 56 46
+H Converse Valkyries: 23 27
+
+GAME Caldwell Cougars@Monmouth Hawks
+H Monmouth Hawks: 54 42
+H Caldwell Cougars: 25 43
+
+GAME St. Joseph's Brooklyn Bears@Manhattan Jaspers
+H Manhattan Jaspers: 55 70
+H St. Joseph's Brooklyn Bears: 27 32
+
+GAME Merchant Marine Mariners@Sacred Heart Pioneers
+H Sacred Heart Pioneers: 45 58
+H Merchant Marine Mariners: 25 21
+
+GAME NJIT Highlanders@Fordham Rams
+H Fordham Rams: 26 35
+H NJIT Highlanders: 37 35
+
+GAME Georgia Southern Eagles@East Carolina Pirates
+H East Carolina Pirates: 44 48
+H Georgia Southern Eagles: 42 47
+
+GAME Mount St. Mary's Mountaineers@West Virginia Mountaineers
+H West Virginia Mountaineers: 35 35
+H Mount St. Mary's Mountaineers: 29 25
+
+GAME UNC Asheville Bulldogs@Wichita State Shockers
+H Wichita State Shockers: 34 41
+H UNC Asheville Bulldogs: 30 28
+
+GAME West Coast Baptist Eagles@Utah Valley Wolverines
+H Utah Valley Wolverines: 64 52
+H West Coast Baptist Eagles: 16 19
+
+GAME College of Biblical Studies Ambassadors@Rice Owls
+H Rice Owls: 65 44
+H College of Biblical Studies Ambassadors: 18 20
+
+GAME Arkansas Baptist Buffaloes@Little Rock Trojans
+H Little Rock Trojans: 37 55
+H Arkansas Baptist Buffaloes: 42 21
+
+GAME Missouri Southern State Lions@Missouri State Bears
+H Missouri State Bears: 40 48
+H Missouri Southern State Lions: 43 27
+
+GAME Eastern Illinois Panthers@Valparaiso Beacons
+H Valparaiso Beacons: 31 35
+H Eastern Illinois Panthers: 25 38
+
+GAME UNC Greensboro Spartans@Kansas State Wildcats
+H Kansas State Wildcats: 33 60
+H UNC Greensboro Spartans: 34 30
+
+GAME Oral Roberts Golden Eagles@Oklahoma State Cowboys
+H Oklahoma State Cowboys: 50 45
+H Oral Roberts Golden Eagles: 46 25
+
+GAME Robert Morris Colonials@Iowa Hawkeyes
+H Iowa Hawkeyes: 49 52
+H Robert Morris Colonials: 26 43
+
+GAME Adams State Grizzlies@New Mexico State Aggies
+H New Mexico State Aggies: 43 40
+H Adams State Grizzlies: 36 36
+
+GAME San Francisco State Gators@UC Santa Barbara Gauchos
+H UC Santa Barbara Gauchos: 58 40
+H San Francisco State Gators: 35 32
+
+GAME Occidental Tigers@San Diego Toreros
+H San Diego Toreros: 57 31
+H Occidental Tigers: 28 31
+
+GAME Southern Utah Thunderbirds@Arizona State Sun Devils
+H Arizona State Sun Devils: 40 41
+H Southern Utah Thunderbirds: 28 36
+
+GAME Dominican (CA) Penguins@Sacramento State Hornets
+H Sacramento State Hornets: 41 62
+H Dominican (CA) Penguins: 39 40
+
+GAME Louisiana Tech Bulldogs@Nevada Wolf Pack
+H Nevada Wolf Pack: 34 43
+H Louisiana Tech Bulldogs: 18 32
+
+GAME Cal Poly Humboldt Lumberjacks@Santa Clara Broncos
+H Santa Clara Broncos: 45 38
+H Cal Poly Humboldt Lumberjacks: 25 28
+
+GAME Park University Gilbert Buccaneers@Idaho State Bengals
+H Idaho State Bengals: 35 46
+H Park University Gilbert Buccaneers: 41 30
+
+GAME Long Beach State Beach@San Diego State Aztecs
+H San Diego State Aztecs: 40 37
+H Long Beach State Beach: 25 20
+
+GAME UT Martin Skyhawks@UNLV Rebels
+H UNLV Rebels: 43 38
+H UT Martin Skyhawks: 39 47
+
+GAME Portland State Vikings@Stanford Cardinal
+H Stanford Cardinal: 37 52
+H Portland State Vikings: 30 49
+
+GAME Hawai'i Rainbow Warriors@Oregon Ducks
+H Oregon Ducks: 33 27
+H Hawai'i Rainbow Warriors: 26 33

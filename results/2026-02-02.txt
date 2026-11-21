@@ -1,0 +1,73 @@
+# NCAAB results 2026-02-02 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:46Z
+
+GAME Kansas Jayhawks@Texas Tech Red Raiders
+H Texas Tech Red Raiders: 29 32
+H Kansas Jayhawks: 32 32
+
+GAME Syracuse Orange@North Carolina Tar Heels
+H North Carolina Tar Heels: 46 41
+H Syracuse Orange: 32 45
+
+GAME Maryland Eastern Shore Hawks@North Carolina Central Eagles
+H North Carolina Central Eagles: 26 39
+H Maryland Eastern Shore Hawks: 24 39
+
+GAME Howard Bison@Coppin State Eagles
+H Coppin State Eagles: 24 29
+H Howard Bison: 31 41
+
+GAME Florida A&M Rattlers@Alabama State Hornets
+H Alabama State Hornets: 29 50
+H Florida A&M Rattlers: 35 31
+
+GAME Boston University Terriers@Holy Cross Crusaders
+H Holy Cross Crusaders: 29 35
+H Boston University Terriers: 32 40
+
+GAME SE Louisiana Lions@Lamar Cardinals
+H Lamar Cardinals: 31 42
+H SE Louisiana Lions: 26 28
+
+GAME Houston Christian Huskies@UT Rio Grande Valley Vaqueros
+H UT Rio Grande Valley Vaqueros: 45 29
+H Houston Christian Huskies: 28 29
+
+GAME Nicholls Colonels@Northwestern State Demons
+H Northwestern State Demons: 20 38
+H Nicholls Colonels: 34 27
+
+GAME McNeese Cowboys@Stephen F. Austin Lumberjacks
+H Stephen F. Austin Lumberjacks: 31 36
+H McNeese Cowboys: 19 41
+
+GAME LSU New Orleans Privateers@East Texas A&M Lions
+H East Texas A&M Lions: 35 50
+H LSU New Orleans Privateers: 52 42
+
+GAME Bethune-Cookman Wildcats@Alabama A&M Bulldogs
+H Alabama A&M Bulldogs: 32 30
+H Bethune-Cookman Wildcats: 42 38
+
+GAME Southern Jaguars@Jackson State Tigers
+H Jackson State Tigers: 37 47 7
+H Southern Jaguars: 48 36 12
+
+GAME Grambling Tigers@Alcorn State Braves
+H Alcorn State Braves: 25 25
+H Grambling Tigers: 39 35
+
+GAME Tennessee Tech Golden Eagles@Tennessee State Tigers
+H Tennessee State Tigers: 31 54
+H Tennessee Tech Golden Eagles: 46 44
+
+GAME Incarnate Word Cardinals@Texas A&M-Corpus Christi Islanders
+H Texas A&M-Corpus Christi Islanders: 26 43
+H Incarnate Word Cardinals: 32 39
+
+GAME Weber State Wildcats@Sacramento State Hornets
+H Sacramento State Hornets: 53 51
+H Weber State Wildcats: 32 58
+
+GAME Idaho State Bengals@Portland State Vikings
+H Portland State Vikings: 43 45
+H Idaho State Bengals: 32 33

@@ -1,0 +1,29 @@
+# NCAAB results 2026-01-16 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:45Z
+
+GAME Creighton Bluejays@Providence Friars
+H Providence Friars: 45 48
+H Creighton Bluejays: 46 42
+
+GAME Toledo Rockets@Kent State Golden Flashes
+H Kent State Golden Flashes: 35 52
+H Toledo Rockets: 41 43
+
+GAME Baylor Bears@Kansas Jayhawks
+H Kansas Jayhawks: 43 37
+H Baylor Bears: 37 25
+
+GAME Loyola Chicago Ramblers@Dayton Flyers
+H Dayton Flyers: 31 47
+H Loyola Chicago Ramblers: 30 21
+
+GAME Marquette Golden Eagles@DePaul Blue Demons
+H DePaul Blue Demons: 36 44
+H Marquette Golden Eagles: 44 31
+
+GAME Ohio Bobcats@Ball State Cardinals
+H Ball State Cardinals: 44 32
+H Ohio Bobcats: 31 40
+
+GAME Colorado State Rams@Boise State Broncos
+H Boise State Broncos: 39 40
+H Colorado State Rams: 30 43

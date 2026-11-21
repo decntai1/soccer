@@ -1,0 +1,144 @@
+# NCAAB results 2025-12-09 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:44Z
+
+GAME Villanova Wildcats@Michigan Wolverines
+H Michigan Wolverines: 53 36
+H Villanova Wildcats: 23 38
+
+GAME Florida Gators@UConn Huskies
+NEUTRAL
+H UConn Huskies: 39 38
+H Florida Gators: 32 41
+
+GAME Clemson Tigers@BYU Cougars
+NEUTRAL
+H BYU Cougars: 22 45
+H Clemson Tigers: 43 21
+
+GAME Illinois Fighting Illini@Ohio State Buckeyes
+H Ohio State Buckeyes: 42 38
+H Illinois Fighting Illini: 48 40
+
+GAME Maryland Eastern Shore Hawks@Virginia Cavaliers
+H Virginia Cavaliers: 46 38
+H Maryland Eastern Shore Hawks: 32 28
+
+GAME Arkansas Baptist Buffaloes@UL Monroe Warhawks
+H UL Monroe Warhawks: 32 47
+H Arkansas Baptist Buffaloes: 24 45
+
+GAME Buffalo Bulls@UMBC Retrievers
+H UMBC Retrievers: 43 36
+H Buffalo Bulls: 39 44
+
+GAME Loyola Maryland Greyhounds@VMI Keydets
+H VMI Keydets: 51 35
+H Loyola Maryland Greyhounds: 32 38
+
+GAME Regis College Pride@Holy Cross Crusaders
+H Holy Cross Crusaders: 26 43
+H Regis College Pride: 15 32
+
+GAME Toccoa Falls Eagles@Winthrop Eagles
+H Winthrop Eagles: 48 63
+H Toccoa Falls Eagles: 34 28
+
+GAME Bob Jones Bruins@Furman Paladins
+H Furman Paladins: 47 58
+H Bob Jones Bruins: 30 27
+
+GAME Southern Wesleyan Warriors@The Citadel Bulldogs
+H The Citadel Bulldogs: 54 44
+H Southern Wesleyan Warriors: 40 33
+
+GAME Oakwood Ambassadors@Chattanooga Mocs
+H Chattanooga Mocs: 58 45
+H Oakwood Ambassadors: 20 26
+
+GAME North Carolina Central Eagles@Kentucky Wildcats
+H Kentucky Wildcats: 52 51
+H North Carolina Central Eagles: 31 36
+
+GAME North Carolina A&T Aggies@Howard Bison
+NEUTRAL
+H Howard Bison: 41 32
+H North Carolina A&T Aggies: 30 39
+
+GAME Georgian Court Lions@Temple Owls
+H Temple Owls: 43 60
+H Georgian Court Lions: 24 33
+
+GAME Brescia Bearcats@Northern Kentucky Norse
+H Northern Kentucky Norse: 50 42
+H Brescia Bearcats: 21 32
+
+GAME Coppin State Eagles@Saint Joseph's Hawks
+H Saint Joseph's Hawks: 43 44
+H Coppin State Eagles: 26 39
+
+GAME Culver Stockton Wildcats@Lindenwood Lions
+H Lindenwood Lions: 60 50
+H Culver Stockton Wildcats: 19 25
+
+GAME South Dakota State Jackrabbits@Ball State Cardinals
+H Ball State Cardinals: 40 24
+H South Dakota State Jackrabbits: 39 29
+
+GAME Little Rock Trojans@West Virginia Mountaineers
+H West Virginia Mountaineers: 47 43
+H Little Rock Trojans: 23 35
+
+GAME Columbia Lions@Stony Brook Seawolves
+H Stony Brook Seawolves: 30 35 12
+H Columbia Lions: 17 48 8
+
+GAME McNeese Cowboys@Rhode Island Rams
+H Rhode Island Rams: 37 27
+H McNeese Cowboys: 37 29
+
+GAME Bucknell Bison@Rider Broncs
+H Rider Broncs: 16 22
+H Bucknell Bison: 26 25
+
+GAME Brown Bears@Providence Friars
+H Providence Friars: 42 44
+H Brown Bears: 37 42
+
+GAME Doane Tigers@Omaha Mavericks
+H Omaha Mavericks: 46 33
+H Doane Tigers: 33 37
+
+GAME Morgan State Bears@DePaul Blue Demons
+H DePaul Blue Demons: 46 46
+H Morgan State Bears: 15 34
+
+GAME Penn State Nittany Lions@Indiana Hoosiers
+H Indiana Hoosiers: 58 55
+H Penn State Nittany Lions: 26 46
+
+GAME South Dakota Coyotes@Wyoming Cowboys
+H Wyoming Cowboys: 48 58
+H South Dakota Coyotes: 32 47
+
+GAME Colorado Christian Cougars@Denver Pioneers
+H Denver Pioneers: 46 49
+H Colorado Christian Cougars: 29 30
+
+GAME USC Trojans@San Diego Toreros
+H San Diego Toreros: 38 43
+H USC Trojans: 38 56
+
+GAME Dartmouth Big Green@Colorado State Rams
+H Colorado State Rams: 33 43
+H Dartmouth Big Green: 24 31
+
+GAME Northern Arizona Lumberjacks@Arizona State Sun Devils
+H Arizona State Sun Devils: 35 38
+H Northern Arizona Lumberjacks: 26 22
+
+GAME Long Beach State Beach@San José State Spartans
+H San José State Spartans: 39 38 12
+H Long Beach State Beach: 39 38 6
+
+GAME Dominican (CA) Penguins@California Golden Bears
+H California Golden Bears: 28 65
+H Dominican (CA) Penguins: 31 40

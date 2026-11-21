@@ -1,0 +1,161 @@
+# NCAAB results 2025-11-20 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:44Z
+
+GAME Memphis Tigers@Purdue Boilermakers
+NEUTRAL
+H Purdue Boilermakers: 36 44
+H Memphis Tigers: 35 36
+
+GAME Rider Broncs@Houston Cougars
+H Houston Cougars: 47 44
+H Rider Broncs: 25 20
+
+GAME Bucknell Bison@St. John's Red Storm
+H St. John's Red Storm: 41 56
+H Bucknell Bison: 25 24
+
+GAME Wake Forest Demon Deacons@Texas Tech Red Raiders
+NEUTRAL
+H Texas Tech Red Raiders: 35 49
+H Wake Forest Demon Deacons: 34 49
+
+GAME Tennessee State Tigers@Tennessee Volunteers
+H Tennessee Volunteers: 43 46
+H Tennessee State Tigers: 21 39
+
+GAME Southern Indiana Screaming Eagles@Incarnate Word Cardinals
+NEUTRAL
+H Incarnate Word Cardinals: 41 46
+H Southern Indiana Screaming Eagles: 38 43
+
+GAME High Point Panthers@UIC Flames
+NEUTRAL
+H UIC Flames: 39 41
+H High Point Panthers: 41 49
+
+GAME Arkansas-Pine Bluff Golden Lions@Marshall Thundering Herd
+H Marshall Thundering Herd: 35 63
+H Arkansas-Pine Bluff Golden Lions: 37 33
+
+GAME Nobel Knights@Montana State Bobcats
+NEUTRAL
+H Montana State Bobcats: 54 38
+H Nobel Knights: 26 29
+
+GAME Lindenwood Lions@Indiana Hoosiers
+H Indiana Hoosiers: 34 39
+H Lindenwood Lions: 18 35
+
+GAME Robert Morris Colonials@St. Bonaventure Bonnies
+H St. Bonaventure Bonnies: 37 38
+H Robert Morris Colonials: 33 28
+
+GAME Brown Bears@Stony Brook Seawolves
+H Stony Brook Seawolves: 49 31
+H Brown Bears: 32 38
+
+GAME Kean Cougars@Delaware State Hornets
+H Delaware State Hornets: 38 28
+H Kean Cougars: 37 27
+
+GAME Colgate Raiders@Cornell Big Red
+H Cornell Big Red: 37 38 8 12
+H Colgate Raiders: 41 34 8 11
+
+GAME Nebraska Cornhuskers@New Mexico Lobos
+NEUTRAL
+H New Mexico Lobos: 25 47
+H Nebraska Cornhuskers: 43 41
+
+GAME Texas Southern Tigers@Vanderbilt Commodores
+H Vanderbilt Commodores: 60 49
+H Texas Southern Tigers: 33 41
+
+GAME Northeastern Huskies@Princeton Tigers
+H Princeton Tigers: 33 37
+H Northeastern Huskies: 20 37
+
+GAME Pacific Tigers@Florida Atlantic Owls
+H Florida Atlantic Owls: 40 42
+H Pacific Tigers: 28 31
+
+GAME UNC Greensboro Spartans@Queens University Royals
+H Queens University Royals: 51 50
+H UNC Greensboro Spartans: 39 55
+
+GAME Ohio Wesleyan Battling Bishops@Wright State Raiders
+H Wright State Raiders: 52 48
+H Ohio Wesleyan Battling Bishops: 24 23
+
+GAME Northern Kentucky Norse@Central Michigan Chippewas
+H Central Michigan Chippewas: 30 36
+H Northern Kentucky Norse: 44 46
+
+GAME Chicago State Cougars@Iowa Hawkeyes
+H Iowa Hawkeyes: 40 53
+H Chicago State Cougars: 24 30
+
+GAME Mercyhurst Lakers@Miami (OH) RedHawks
+H Miami (OH) RedHawks: 37 39
+H Mercyhurst Lakers: 29 42
+
+GAME Pittsburgh Panthers@UCF Knights
+NEUTRAL
+H UCF Knights: 38 39
+H Pittsburgh Panthers: 36 31
+
+GAME Long Island University Sharks@Fordham Rams
+H Fordham Rams: 38 31
+H Long Island University Sharks: 29 24
+
+GAME Elon Phoenix@Miami Hurricanes
+H Miami Hurricanes: 48 51
+H Elon Phoenix: 41 31
+
+GAME College of Biblical Studies Ambassadors@Houston Christian Huskies
+H Houston Christian Huskies: 45 40
+H College of Biblical Studies Ambassadors: 23 44
+
+GAME Western Michigan Broncos@Ohio State Buckeyes
+H Ohio State Buckeyes: 49 42
+H Western Michigan Broncos: 24 34
+
+GAME Tarleton State Texans@Rice Owls
+H Rice Owls: 38 36
+H Tarleton State Texans: 37 53
+
+GAME Oral Roberts Golden Eagles@Oklahoma Sooners
+H Oklahoma Sooners: 42 53
+H Oral Roberts Golden Eagles: 24 47
+
+GAME Central Arkansas Bears@North Texas Mean Green
+H North Texas Mean Green: 28 46
+H Central Arkansas Bears: 26 30
+
+GAME Rockford Regents@Illinois State Redbirds
+H Illinois State Redbirds: 48 45
+H Rockford Regents: 21 27
+
+GAME South Dakota Coyotes@Missouri Tigers
+H Missouri Tigers: 53 49
+H South Dakota Coyotes: 42 26
+
+GAME Cal Poly Mustangs@Utah Utes
+H Utah Utes: 39 46
+H Cal Poly Mustangs: 50 42
+
+GAME Mississippi State Bulldogs@Kansas State Wildcats
+NEUTRAL
+H Kansas State Wildcats: 44 54
+H Mississippi State Bulldogs: 36 41
+
+GAME Troy Trojans@USC Trojans
+H USC Trojans: 29 39 10 11 18
+H Troy Trojans: 29 39 10 11 17
+
+GAME Saint Joseph's Hawks@UNLV Rebels
+H UNLV Rebels: 45 54
+H Saint Joseph's Hawks: 40 45
+
+GAME Arizona State Sun Devils@Hawai'i Rainbow Warriors
+H Hawai'i Rainbow Warriors: 35 41
+H Arizona State Sun Devils: 34 49

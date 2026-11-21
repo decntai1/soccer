@@ -1,0 +1,101 @@
+# NCAAB results 2026-02-01 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:46Z
+
+GAME Illinois Fighting Illini@Nebraska Cornhuskers
+H Nebraska Cornhuskers: 39 30
+H Illinois Fighting Illini: 33 45
+
+GAME Iowa State Cyclones@Kansas State Wildcats
+H Kansas State Wildcats: 21 40
+H Iowa State Cyclones: 50 45
+
+GAME Purdue Boilermakers@Maryland Terrapins
+H Maryland Terrapins: 28 35
+H Purdue Boilermakers: 49 44
+
+GAME Alabama Crimson Tide@Florida Gators
+H Florida Gators: 46 54
+H Alabama Crimson Tide: 36 41
+
+GAME Rhode Island Rams@Duquesne Dukes
+H Duquesne Dukes: 37 39
+H Rhode Island Rams: 27 34
+
+GAME Sacred Heart Pioneers@Merrimack Warriors
+H Merrimack Warriors: 41 34
+H Sacred Heart Pioneers: 32 26
+
+GAME Siena Saints@Canisius Golden Griffins
+H Canisius Golden Griffins: 29 34
+H Siena Saints: 40 38
+
+GAME Samford Bulldogs@Western Carolina Catamounts
+H Western Carolina Catamounts: 39 35
+H Samford Bulldogs: 41 47
+
+GAME Chattanooga Mocs@Furman Paladins
+H Furman Paladins: 42 33
+H Chattanooga Mocs: 23 47
+
+GAME Kansas City Roos@St. Thomas Tommies
+H St. Thomas Tommies: 52 47
+H Kansas City Roos: 25 39
+
+GAME Wichita State Shockers@Tulsa Golden Hurricane
+H Tulsa Golden Hurricane: 43 50
+H Wichita State Shockers: 39 44
+
+GAME East Carolina Pirates@Florida Atlantic Owls
+H Florida Atlantic Owls: 36 39
+H East Carolina Pirates: 38 38
+
+GAME TCU Horned Frogs@Colorado Buffaloes
+H Colorado Buffaloes: 38 49
+H TCU Horned Frogs: 25 36
+
+GAME Minnesota Golden Gophers@Penn State Nittany Lions
+H Penn State Nittany Lions: 41 36
+H Minnesota Golden Gophers: 31 44
+
+GAME Saint Peter's Peacocks@Rider Broncs
+H Rider Broncs: 39 42
+H Saint Peter's Peacocks: 40 38
+
+GAME Quinnipiac Bobcats@Fairfield Stags
+H Fairfield Stags: 41 24
+H Quinnipiac Bobcats: 33 39
+
+GAME Wright State Raiders@Green Bay Phoenix
+H Green Bay Phoenix: 28 47
+H Wright State Raiders: 38 45
+
+GAME Marist Red Foxes@Niagara Purple Eagles
+H Niagara Purple Eagles: 19 27
+H Marist Red Foxes: 27 31
+
+GAME Manhattan Jaspers@Mount St. Mary's Mountaineers
+H Mount St. Mary's Mountaineers: 32 40
+H Manhattan Jaspers: 27 38
+
+GAME Coastal Carolina Chanticleers@UL Monroe Warhawks
+H UL Monroe Warhawks: 38 41
+H Coastal Carolina Chanticleers: 43 40
+
+GAME Tulane Green Wave@Memphis Tigers
+H Memphis Tigers: 31 45
+H Tulane Green Wave: 39 39
+
+GAME Cleveland State Vikings@Milwaukee Panthers
+H Milwaukee Panthers: 39 49
+H Cleveland State Vikings: 44 46
+
+GAME Northern Kentucky Norse@Oakland Golden Grizzlies
+H Oakland Golden Grizzlies: 29 47
+H Northern Kentucky Norse: 30 35
+
+GAME East Tennessee State Buccaneers@Wofford Terriers
+H Wofford Terriers: 39 33
+H East Tennessee State Buccaneers: 41 45
+
+GAME Iowa Hawkeyes@Oregon Ducks
+H Oregon Ducks: 26 40
+H Iowa Hawkeyes: 35 49

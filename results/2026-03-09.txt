@@ -1,0 +1,71 @@
+# NCAAB results 2026-03-09 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:47Z
+
+GAME Oregon State Beavers@Gonzaga Bulldogs
+NEUTRAL
+H Gonzaga Bulldogs: 38 27
+H Oregon State Beavers: 24 32
+
+GAME Santa Clara Broncos@Saint Mary's Gaels
+NEUTRAL
+H Saint Mary's Gaels: 35 36
+H Santa Clara Broncos: 32 44
+
+GAME Alcorn State Braves@Alabama State Hornets
+NEUTRAL
+H Alabama State Hornets: 31 34
+H Alcorn State Braves: 32 45
+
+GAME Campbell Fighting Camels@Monmouth Hawks
+NEUTRAL
+H Monmouth Hawks: 30 44
+H Campbell Fighting Camels: 24 40
+
+GAME LSU New Orleans Privateers@Texas A&M-Corpus Christi Islanders
+NEUTRAL
+H Texas A&M-Corpus Christi Islanders: 37 37
+H LSU New Orleans Privateers: 30 31
+
+GAME Georgia Southern Eagles@Troy Trojans
+NEUTRAL
+H Troy Trojans: 38 39
+H Georgia Southern Eagles: 25 36
+
+GAME Furman Paladins@East Tennessee State Buccaneers
+NEUTRAL
+H East Tennessee State Buccaneers: 35 26
+H Furman Paladins: 42 34
+
+GAME Northern Kentucky Norse@Wright State Raiders
+NEUTRAL
+H Wright State Raiders: 46 57
+H Northern Kentucky Norse: 44 46
+
+GAME Northern Colorado Bears@Montana Grizzlies
+NEUTRAL
+H Montana Grizzlies: 49 46
+H Northern Colorado Bears: 32 57
+
+GAME Towson Tigers@Hofstra Pride
+NEUTRAL
+H Hofstra Pride: 27 28 13
+H Towson Tigers: 28 27 10
+
+GAME Mississippi Valley State Delta Devils@Grambling Tigers
+NEUTRAL
+H Grambling Tigers: 34 43
+H Mississippi Valley State Delta Devils: 19 33
+
+GAME Nicholls Colonels@UT Rio Grande Valley Vaqueros
+NEUTRAL
+H UT Rio Grande Valley Vaqueros: 44 42
+H Nicholls Colonels: 32 36
+
+GAME Detroit Mercy Titans@Robert Morris Colonials
+NEUTRAL
+H Robert Morris Colonials: 36 28
+H Detroit Mercy Titans: 33 37
+
+GAME Weber State Wildcats@Eastern Washington Eagles
+NEUTRAL
+H Eastern Washington Eagles: 46 38
+H Weber State Wildcats: 32 47

@@ -1,0 +1,73 @@
+# NCAAB results 2025-12-01 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:44Z
+
+GAME Saint Xavier Cougars@Chicago State Cougars
+H Chicago State Cougars: 47 38
+H Saint Xavier Cougars: 34 28
+
+GAME Louisiana Christian Wildcats@Southern Jaguars
+H Southern Jaguars: 59 42
+H Louisiana Christian Wildcats: 15 33
+
+GAME Temple Owls@Villanova Wildcats
+H Villanova Wildcats: 29 45
+H Temple Owls: 28 28
+
+GAME Central State Marauders@Toledo Rockets
+H Toledo Rockets: 46 56
+H Central State Marauders: 21 37
+
+GAME Apprentice School Builders@Hampton Pirates
+H Hampton Pirates: 47 47
+H Apprentice School Builders: 25 33
+
+GAME West Georgia Wolves@Troy Trojans
+H Troy Trojans: 28 37 12 12
+H West Georgia Wolves: 27 38 12 16
+
+GAME Iona Gaels@Delaware Blue Hens
+H Delaware Blue Hens: 33 33
+H Iona Gaels: 39 50
+
+GAME North Alabama Lions@Jacksonville State Gamecocks
+H Jacksonville State Gamecocks: 34 32
+H North Alabama Lions: 26 47
+
+GAME Tarleton State Texans@Cincinnati Bearcats
+H Cincinnati Bearcats: 31 45
+H Tarleton State Texans: 29 29
+
+GAME Saint Francis Red Wolves@Xavier Musketeers
+H Xavier Musketeers: 44 52
+H Saint Francis Red Wolves: 33 41
+
+GAME UAB Blazers@Middle Tennessee Blue Raiders
+H Middle Tennessee Blue Raiders: 32 44
+H UAB Blazers: 33 28
+
+GAME McNeese Cowboys@Incarnate Word Cardinals
+H Incarnate Word Cardinals: 34 37
+H McNeese Cowboys: 32 35
+
+GAME Coe Kohawks@Northern Iowa Panthers
+H Northern Iowa Panthers: 46 53
+H Coe Kohawks: 18 16
+
+GAME Bowling Green Falcons@Kansas State Wildcats
+H Kansas State Wildcats: 35 31
+H Bowling Green Falcons: 49 33
+
+GAME West Coast Baptist Eagles@Southern Utah Thunderbirds
+H Southern Utah Thunderbirds: 61 63
+H West Coast Baptist Eagles: 26 33
+
+GAME New Mexico Highlands Cowboys@New Mexico Lobos
+H New Mexico Lobos: 44 53
+H New Mexico Highlands Cowboys: 21 26
+
+GAME California Baptist Lancers@Colorado Buffaloes
+H Colorado Buffaloes: 32 46
+H California Baptist Lancers: 34 36
+
+GAME Portland Pilots@Stanford Cardinal
+H Stanford Cardinal: 51 43
+H Portland Pilots: 31 41

@@ -1,0 +1,120 @@
+# NCAAB results 2026-11-12 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:52Z
+
+GAME Montana State Bobcats@BYU Cougars
+H BYU Cougars: 43 43
+H Montana State Bobcats: 29 42
+
+GAME Kansas City Roos@George Mason Patriots
+NEUTRAL
+H George Mason Patriots: 37 39
+H Kansas City Roos: 33 35
+
+GAME Bradley Braves@Coppin State Eagles
+NEUTRAL
+H Coppin State Eagles: 34 20
+H Bradley Braves: 32 24
+
+GAME Johnson & Wales Griffins@Boston University Terriers
+H Boston University Terriers: 51 49
+H Johnson & Wales Griffins: 40 34
+
+GAME Morgan State Bears@UMBC Retrievers
+H UMBC Retrievers: 42 43
+H Morgan State Bears: 39 31
+
+GAME Mercyhurst Lakers@Penn State Nittany Lions
+H Penn State Nittany Lions: 33 39
+H Mercyhurst Lakers: 29 28
+
+GAME Tennessee Tech Golden Eagles@Indiana Hoosiers
+H Indiana Hoosiers: 41 49
+H Tennessee Tech Golden Eagles: 37 29
+
+GAME Virginia Lynchburg Dragons@Coastal Carolina Chanticleers
+H Coastal Carolina Chanticleers: 55 48
+H Virginia Lynchburg Dragons: 32 22
+
+GAME Western Michigan Broncos@Purdue Fort Wayne Mastodons
+H Purdue Fort Wayne Mastodons: 28 31
+H Western Michigan Broncos: 35 46
+
+GAME LaGrange Panthers@Kennesaw State Owls
+H Kennesaw State Owls: 53 54
+H LaGrange Panthers: 28 26
+
+GAME Central Connecticut Blue Devils@Sacred Heart Pioneers
+H Sacred Heart Pioneers: 43 32
+H Central Connecticut Blue Devils: 31 48
+
+GAME Monmouth Hawks@Quinnipiac Bobcats
+H Quinnipiac Bobcats: 37 33
+H Monmouth Hawks: 36 38
+
+GAME Stetson Hatters@Howard Bison
+H Howard Bison: 40 35
+H Stetson Hatters: 37 25
+
+GAME Mercer Bears@West Virginia Mountaineers
+H West Virginia Mountaineers: 31 44
+H Mercer Bears: 28 33
+
+GAME Loyola Maryland Greyhounds@Towson Tigers
+H Towson Tigers: 40 50
+H Loyola Maryland Greyhounds: 24 36
+
+GAME Southern Utah Thunderbirds@High Point Panthers
+H High Point Panthers: 38 50
+H Southern Utah Thunderbirds: 31 28
+
+GAME Cal State Bakersfield Roadrunners@Western Illinois Leathernecks
+H Western Illinois Leathernecks: 38 45
+H Cal State Bakersfield Roadrunners: 32 59
+
+GAME Maryland Eastern Shore Hawks@Rhode Island Rams
+H Rhode Island Rams: 32 35
+H Maryland Eastern Shore Hawks: 28 19
+
+GAME Canisius Golden Griffins@Brown Bears
+H Brown Bears: 30 51
+H Canisius Golden Griffins: 44 42
+
+GAME Niagara Purple Eagles@Bowling Green Falcons
+H Bowling Green Falcons: 44 44
+H Niagara Purple Eagles: 31 45
+
+GAME West Florida Argonauts@Alabama A&M Bulldogs
+H Alabama A&M Bulldogs: 44 26 15
+H West Florida Argonauts: 32 38 13
+
+GAME Oklahoma State Cowboys@Texas A&M Aggies
+H Texas A&M Aggies: 50 38
+H Oklahoma State Cowboys: 37 32
+
+GAME Loyola Marymount Lions@South Alabama Jaguars
+NEUTRAL
+H South Alabama Jaguars: 39 40
+H Loyola Marymount Lions: 34 38
+
+GAME Southern Jaguars@Minnesota Golden Gophers
+H Minnesota Golden Gophers: 46 45
+H Southern Jaguars: 26 35
+
+GAME Richmond Spiders@Southern Illinois Salukis
+H Southern Illinois Salukis: 43 37
+H Richmond Spiders: 32 38
+
+GAME Lincoln (CA) Oaklanders@Cal State Fullerton Titans
+H Cal State Fullerton Titans: 48 53
+H Lincoln (CA) Oaklanders: 41 30
+
+GAME New Mexico State Aggies@UTEP Miners
+H UTEP Miners: 28 32
+H New Mexico State Aggies: 28 30
+
+GAME Grace (CA) Talons@Cal State Northridge Matadors
+H Cal State Northridge Matadors: 57 51
+H Grace (CA) Talons: 37 32
+
+GAME UC Riverside Highlanders@San José State Spartans
+H San José State Spartans: 37 38
+H UC Riverside Highlanders: 36 44

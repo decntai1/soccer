@@ -1,0 +1,89 @@
+# NCAAB results 2026-02-10 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:46Z
+
+GAME Houston Cougars@Utah Utes
+H Utah Utes: 25 27
+H Houston Cougars: 34 32
+
+GAME Duke Blue Devils@Pittsburgh Panthers
+H Pittsburgh Panthers: 29 25
+H Duke Blue Devils: 35 35
+
+GAME Iowa State Cyclones@TCU Horned Frogs
+H TCU Horned Frogs: 29 33
+H Iowa State Cyclones: 30 25
+
+GAME Purdue Boilermakers@Nebraska Cornhuskers
+H Nebraska Cornhuskers: 24 44 9
+H Purdue Boilermakers: 40 28 12
+
+GAME Wisconsin Badgers@Illinois Fighting Illini
+H Illinois Fighting Illini: 44 37 9
+H Wisconsin Badgers: 38 43 11
+
+GAME North Carolina Tar Heels@Miami Hurricanes
+H Miami Hurricanes: 43 32
+H North Carolina Tar Heels: 40 26
+
+GAME Washington State Cougars@Gonzaga Bulldogs
+H Gonzaga Bulldogs: 48 35
+H Washington State Cougars: 21 32
+
+GAME Virginia Cavaliers@Florida State Seminoles
+H Florida State Seminoles: 32 26
+H Virginia Cavaliers: 32 29
+
+GAME Vanderbilt Commodores@Auburn Tigers
+H Auburn Tigers: 31 45
+H Vanderbilt Commodores: 42 42
+
+GAME Arkansas Razorbacks@LSU Tigers
+H LSU Tigers: 27 35
+H Arkansas Razorbacks: 42 49
+
+GAME BYU Cougars@Baylor Bears
+H Baylor Bears: 41 53
+H BYU Cougars: 41 58
+
+GAME Milwaukee Panthers@IU Indianapolis Jaguars
+H IU Indianapolis Jaguars: 43 45
+H Milwaukee Panthers: 39 53
+
+GAME Rhode Island Rams@George Washington Revolutionaries
+H George Washington Revolutionaries: 34 41
+H Rhode Island Rams: 18 52
+
+GAME George Mason Patriots@Richmond Spiders
+H Richmond Spiders: 49 33
+H George Mason Patriots: 29 41
+
+GAME Fordham Rams@Saint Joseph's Hawks
+H Saint Joseph's Hawks: 42 22
+H Fordham Rams: 32 36
+
+GAME Notre Dame Fighting Irish@SMU Mustangs
+H SMU Mustangs: 43 46
+H Notre Dame Fighting Irish: 37 44
+
+GAME Marquette Golden Eagles@Villanova Wildcats
+H Villanova Wildcats: 36 41
+H Marquette Golden Eagles: 32 42
+
+GAME Eastern Illinois Panthers@Western Illinois Leathernecks
+H Western Illinois Leathernecks: 39 40
+H Eastern Illinois Panthers: 31 39
+
+GAME Fresno State Bulldogs@Utah State Aggies
+H Utah State Aggies: 47 44
+H Fresno State Bulldogs: 35 43
+
+GAME Oklahoma State Cowboys@Arizona State Sun Devils
+H Arizona State Sun Devils: 39 46
+H Oklahoma State Cowboys: 34 42
+
+GAME Colorado State Rams@Air Force Falcons
+H Air Force Falcons: 39 35
+H Colorado State Rams: 47 44
+
+GAME San José State Spartans@UNLV Rebels
+H UNLV Rebels: 45 37
+H San José State Spartans: 41 34

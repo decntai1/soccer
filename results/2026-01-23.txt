@@ -1,0 +1,101 @@
+# NCAAB results 2026-01-23 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:46Z
+
+GAME Ohio State Buckeyes@Michigan Wolverines
+H Michigan Wolverines: 33 41
+H Ohio State Buckeyes: 30 32
+
+GAME Saint Louis Billikens@St. Bonaventure Bonnies
+H St. Bonaventure Bonnies: 26 36
+H Saint Louis Billikens: 58 39
+
+GAME UL Monroe Warhawks@App State Mountaineers
+H App State Mountaineers: 28 31
+H UL Monroe Warhawks: 20 23
+
+GAME East Carolina Pirates@North Texas Mean Green
+H North Texas Mean Green: 23 36
+H East Carolina Pirates: 28 35
+
+GAME Mercyhurst Lakers@New Haven Chargers
+H New Haven Chargers: 28 29
+H Mercyhurst Lakers: 27 34
+
+GAME Stetson Hatters@Austin Peay Governors
+H Austin Peay Governors: 31 42
+H Stetson Hatters: 32 33
+
+GAME Florida Gulf Coast Eagles@Lipscomb Bisons
+H Lipscomb Bisons: 37 49
+H Florida Gulf Coast Eagles: 30 41
+
+GAME Kennesaw State Owls@Louisiana Tech Bulldogs
+H Louisiana Tech Bulldogs: 36 46
+H Kennesaw State Owls: 45 31
+
+GAME Furman Paladins@UNC Greensboro Spartans
+H UNC Greensboro Spartans: 30 36
+H Furman Paladins: 35 54
+
+GAME Indiana Hoosiers@Rutgers Scarlet Knights
+H Rutgers Scarlet Knights: 32 27
+H Indiana Hoosiers: 47 35
+
+GAME South Carolina Upstate Spartans@Gardner-Webb Runnin' Bulldogs
+H Gardner-Webb Runnin' Bulldogs: 29 38
+H South Carolina Upstate Spartans: 32 33
+
+GAME High Point Panthers@Radford Highlanders
+H Radford Highlanders: 48 35
+H High Point Panthers: 42 51
+
+GAME Charleston Southern Buccaneers@Longwood Lancers
+H Longwood Lancers: 40 27 14
+H Charleston Southern Buccaneers: 22 45 12
+
+GAME Massachusetts Minutemen@Buffalo Bulls
+H Buffalo Bulls: 29 38
+H Massachusetts Minutemen: 38 30
+
+GAME Chicago State Cougars@Saint Francis Red Wolves
+H Saint Francis Red Wolves: 47 34
+H Chicago State Cougars: 32 28
+
+GAME Long Island University Sharks@Stonehill Skyhawks
+H Stonehill Skyhawks: 36 27
+H Long Island University Sharks: 35 31
+
+GAME Wagner Seahawks@Le Moyne Dolphins
+H Le Moyne Dolphins: 29 40
+H Wagner Seahawks: 34 33
+
+GAME Fairleigh Dickinson Knights@Central Connecticut Blue Devils
+H Central Connecticut Blue Devils: 29 37
+H Fairleigh Dickinson Knights: 32 44
+
+GAME The Citadel Bulldogs@East Tennessee State Buccaneers
+H East Tennessee State Buccaneers: 49 35
+H The Citadel Bulldogs: 27 28
+
+GAME Middle Tennessee Blue Raiders@Jacksonville State Gamecocks
+H Jacksonville State Gamecocks: 39 36
+H Middle Tennessee Blue Raiders: 34 24
+
+GAME Tulane Green Wave@Charlotte 49ers
+H Charlotte 49ers: 23 50
+H Tulane Green Wave: 22 48
+
+GAME Marquette Golden Eagles@Butler Bulldogs
+H Butler Bulldogs: 41 46
+H Marquette Golden Eagles: 36 40
+
+GAME Akron Zips@Ohio Bobcats
+H Ohio Bobcats: 26 39
+H Akron Zips: 48 38
+
+GAME Western Illinois Leathernecks@Southern Indiana Screaming Eagles
+H Southern Indiana Screaming Eagles: 51 45
+H Western Illinois Leathernecks: 31 33
+
+GAME Utah State Aggies@Colorado State Rams
+H Colorado State Rams: 35 26
+H Utah State Aggies: 25 40

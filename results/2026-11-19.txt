@@ -1,0 +1,171 @@
+# NCAAB results 2026-11-19 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:53Z
+
+GAME Florida Gators@West Virginia Mountaineers
+NEUTRAL
+H West Virginia Mountaineers: 30 42
+H Florida Gators: 40 45
+RACE 5:A1 10:A1 15:A1 20:A1 25:A1 30:A1 35:A1 40:A1 45:A2 50:A2 55:A2 60:A2 65:A2 70:A2 75:A2 80:A2 85:A2
+
+GAME Southern Utah Thunderbirds@Texas Longhorns
+H Texas Longhorns: 40 52
+H Southern Utah Thunderbirds: 37 31
+RACE 5:H1 10:H1 15:A1 20:A1 25:A1 30:A1 35:A1 40:H1 45:H2 50:H2 55:H2 60:H2 65:H2 70:H2 75:H2 80:H2 85:H2 90:H2
+
+GAME Houston Cougars@Kansas Jayhawks
+NEUTRAL
+H Kansas Jayhawks: 34 49
+H Houston Cougars: 54 38
+RACE 5:A1 10:A1 15:A1 20:A1 25:A1 30:A1 35:A1 40:A1 45:A1 50:A1 55:A2 60:A2 65:A2 70:A2 75:A2 80:A2 85:A2 90:A2
+
+GAME Tarleton State Texans@USC Trojans
+H USC Trojans: 55 41
+H Tarleton State Texans: 21 30
+
+GAME Stetson Hatters@Louisville Cardinals
+H Louisville Cardinals: 42 41
+H Stetson Hatters: 37 32
+RACE 5:H1 10:H1 15:A1 20:A1 25:A1 30:A1 35:H1 40:H1 45:H2 50:H2 55:H2 60:H2 65:H2 70:H2 75:H2 80:H2
+
+GAME Notre Dame Fighting Irish@Auburn Tigers
+NEUTRAL
+H Auburn Tigers: 36 37
+H Notre Dame Fighting Irish: 42 36
+
+GAME Murray State Racers@NC State Wolfpack
+NEUTRAL
+H NC State Wolfpack: 48 45
+H Murray State Racers: 29 54
+
+GAME Robert Morris Colonials@Toledo Rockets
+H Toledo Rockets: 35 48
+H Robert Morris Colonials: 29 47
+RACE 5:H1 10:H1 15:H1 20:H1 25:H1 30:H1 35:H1 40:H2 45:H2 50:H2 55:H2 60:H2 65:H2 70:H2 75:H2 80:H2
+
+GAME Berea Mountaineers@Northern Kentucky Norse
+H Northern Kentucky Norse: 42 51
+H Berea Mountaineers: 17 24
+RACE 5:H1 10:H1 15:H1 20:H1 25:H1 30:H1 35:H1 40:H1 45:H2 50:H2 55:H2 60:H2 65:H2 70:H2 75:H2 80:H2 85:H2 90:H2
+
+GAME North Park Vikings@SIU Edwardsville Cougars
+H SIU Edwardsville Cougars: 36 28
+H North Park Vikings: 25 20
+RACE 5:H1 10:H1 15:H1 20:H1 25:H1 30:H1 35:H1 40:H2 45:H2 50:H2 55:H2 60:H2
+
+GAME Maine Black Bears@Quinnipiac Bobcats
+H Quinnipiac Bobcats: 21 46
+H Maine Black Bears: 33 36
+
+GAME Little Rock Trojans@Jacksonville Dolphins
+H Jacksonville Dolphins: 27 45
+H Little Rock Trojans: 34 44
+
+GAME Montana State Bobcats@High Point Panthers
+H High Point Panthers: 37 48
+H Montana State Bobcats: 37 37
+RACE 5:H1 10:A1 15:H1 20:H1 25:H1 30:H1 35:A1 40:A2 45:H2 50:H2 55:H2 60:H2 65:H2 70:H2 75:H2 80:H2 85:H2
+
+GAME UMBC Retrievers@Ohio State Buckeyes
+H Ohio State Buckeyes: 53 48
+H UMBC Retrievers: 29 33
+RACE 5:H1 10:H1 15:H1 20:H1 25:H1 30:H1 35:H1 40:H1 45:H1 50:H1 55:H2 60:H2 65:H2 70:H2 75:H2 80:H2 85:H2 90:H2 95:H2 100:H2
+
+GAME Mary Baldwin Fighting Squirrels@American University Eagles
+H American University Eagles: 45 37
+H Mary Baldwin Fighting Squirrels: 24 27
+RACE 5:H1 10:H1 15:H1 20:H1 25:H1 30:H1 35:H1 40:H1 45:H1 50:H2 55:H2 60:H2 65:H2 70:H2 75:H2 80:H2
+
+GAME Buffalo Bulls@St. Bonaventure Bonnies
+H St. Bonaventure Bonnies: 37 41
+H Buffalo Bulls: 27 42
+
+GAME Northeastern Huskies@Butler Bulldogs
+H Butler Bulldogs: 42 42
+H Northeastern Huskies: 39 38
+
+GAME Tusculum Pioneers@North Alabama Lions
+H North Alabama Lions: 38 36
+H Tusculum Pioneers: 29 38
+RACE 5:A1 10:A1 15:A1 20:H1 25:H1 30:H1 35:H1 40:H2 45:H2 50:A2 55:H2 60:H2 65:H2 70:H2
+
+GAME Charleston Cougars@Drake Bulldogs
+H Drake Bulldogs: 31 55
+H Charleston Cougars: 29 41
+RACE 5:A1 10:A1 15:A1 20:A1 25:A1 30:H1 35:H2 40:H2 45:H2 50:H2 55:H2 60:H2 65:H2 70:H2 75:H2 80:H2 85:H2
+
+GAME Tulane Green Wave@Louisiana Tech Bulldogs
+H Louisiana Tech Bulldogs: 31 43
+H Tulane Green Wave: 27 40
+
+GAME Mayville State Comets@North Dakota Fighting Hawks
+H North Dakota Fighting Hawks: 49 42
+H Mayville State Comets: 24 42
+RACE 5:A1 10:H1 15:H1 20:H1 25:H1 30:H1 35:H1 40:H1 45:H1 50:H2 55:H2 60:H2 65:H2 70:H2 75:H2 80:H2 85:H2 90:H2
+
+GAME Eureka Red Devils@Illinois State Redbirds
+H Illinois State Redbirds: 65 58
+H Eureka Red Devils: 29 19
+
+GAME Georgia Southern Eagles@Houston Christian Huskies
+H Houston Christian Huskies: 41 38
+H Georgia Southern Eagles: 41 45
+RACE 5:H1 10:H1 15:A1 20:A1 25:A1 30:A1 35:A1 40:A1 45:H2 50:A2 55:H2 60:H2 65:H2 70:H2 75:H2 80:A2 85:A2
+
+GAME Southeast Missouri State Redhawks@St. Thomas Tommies
+H St. Thomas Tommies: 45 48
+H Southeast Missouri State Redhawks: 25 36
+RACE 5:H1 10:H1 15:H1 20:H1 25:H1 30:H1 35:H1 40:H1 45:H1 50:H2 55:H2 60:H2 65:H2 70:H2 75:H2 80:H2 85:H2 90:H2
+
+GAME Texas A&M Aggies@TCU Horned Frogs
+H TCU Horned Frogs: 51 30 11
+H Texas A&M Aggies: 39 42 16
+RACE 5:A1 10:H1 15:H1 20:A1 25:H1 30:H1 35:H1 40:H1 45:H1 50:H1 55:H2 60:H2 65:H2 70:H2 75:H2 80:H2 85:A3 90:A3 95:A3
+
+GAME Seton Hall Pirates@Wisconsin Badgers
+NEUTRAL
+H Wisconsin Badgers: 23 46
+H Seton Hall Pirates: 40 34
+
+GAME Rutgers Scarlet Knights@UNLV Rebels
+NEUTRAL
+H UNLV Rebels: 32 38
+H Rutgers Scarlet Knights: 51 38
+
+GAME Oregon State Beavers@Oregon Ducks
+NEUTRAL
+H Oregon Ducks: 33 38
+H Oregon State Beavers: 30 52
+RACE 5:A1 10:A1 15:A1 20:A1 25:H1 30:H1 35:H2 40:H2 45:H2 50:A2 55:A2 60:H2 65:H2 70:A2 75:A2 80:A2
+
+GAME Southern Miss Golden Eagles@Grambling Tigers
+H Grambling Tigers: 44 31 12 13
+H Southern Miss Golden Eagles: 32 43 12 16
+
+GAME UC Santa Barbara Gauchos@Pepperdine Waves
+H Pepperdine Waves: 40 40
+H UC Santa Barbara Gauchos: 42 46
+
+GAME Utah Tech Trailblazers@Washington Huskies
+H Washington Huskies: 46 36
+H Utah Tech Trailblazers: 33 36
+
+GAME UTEP Miners@New Mexico State Aggies
+H New Mexico State Aggies: 34 35
+H UTEP Miners: 41 43
+
+GAME Northwest Indian RedHawks@Portland State Vikings
+H Portland State Vikings: 68 64
+H Northwest Indian RedHawks: 18 23
+RACE 5:H1 10:H1 15:H1 20:H1 25:H1 30:H1 35:H1 40:H1 45:H1 50:H1 55:H1 60:H1 65:H1 70:H2 75:H2 80:H2 85:H2 90:H2 95:H2 100:H2 105:H2 110:H2 115:H2 120:H2 125:H2 130:H2
+
+GAME Sacramento State Hornets@Stanford Cardinal
+H Stanford Cardinal: 34 44
+H Sacramento State Hornets: 36 29
+
+GAME East Texas A&M Lions@California Golden Bears
+H California Golden Bears: 44 42
+H East Texas A&M Lions: 28 26
+RACE 5:H1 10:H1 15:H1 20:H1 25:H1 30:H1 35:H1 40:H1 45:H2 50:H2 55:H2 60:H2 65:H2 70:H2 75:H2 80:H2 85:H2
+
+GAME VCU Rams@Santa Clara Broncos
+H Santa Clara Broncos: 46 25 6
+H VCU Rams: 34 37 12

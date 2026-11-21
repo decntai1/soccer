@@ -1,0 +1,11 @@
+# NCAAB results 2026-04-05 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:47Z
+
+GAME Oklahoma Sooners@West Virginia Mountaineers
+NEUTRAL
+H West Virginia Mountaineers: 37 39 13
+H Oklahoma Sooners: 41 35 6
+
+GAME Tulsa Golden Hurricane@Auburn Tigers
+NEUTRAL
+H Auburn Tigers: 48 30 14
+H Tulsa Golden Hurricane: 31 47 8

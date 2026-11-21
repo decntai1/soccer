@@ -1,0 +1,97 @@
+# NCAAB results 2026-02-16 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:46Z
+
+GAME Houston Cougars@Iowa State Cyclones
+H Iowa State Cyclones: 43 27
+H Houston Cougars: 40 27
+
+GAME Syracuse Orange@Duke Blue Devils
+H Duke Blue Devils: 40 61
+H Syracuse Orange: 24 40
+
+GAME SE Louisiana Lions@East Texas A&M Lions
+H East Texas A&M Lions: 35 35
+H SE Louisiana Lions: 20 33
+
+GAME Coppin State Eagles@South Carolina State Bulldogs
+H South Carolina State Bulldogs: 28 29
+H Coppin State Eagles: 22 37
+
+GAME Louisiana Ragin' Cajuns@Old Dominion Monarchs
+H Old Dominion Monarchs: 34 49
+H Louisiana Ragin' Cajuns: 33 39
+
+GAME Colgate Raiders@Boston University Terriers
+H Boston University Terriers: 36 49
+H Colgate Raiders: 23 35
+
+GAME Wagner Seahawks@Long Island University Sharks
+H Long Island University Sharks: 37 46
+H Wagner Seahawks: 31 34
+
+GAME Howard Bison@Delaware State Hornets
+H Delaware State Hornets: 26 33
+H Howard Bison: 51 40
+
+GAME Morgan State Bears@North Carolina Central Eagles
+H North Carolina Central Eagles: 51 29
+H Morgan State Bears: 30 46
+
+GAME Mississippi Valley State Delta Devils@Alabama State Hornets
+H Alabama State Hornets: 42 50
+H Mississippi Valley State Delta Devils: 25 30
+
+GAME Bethune-Cookman Wildcats@Jackson State Tigers
+H Jackson State Tigers: 39 52
+H Bethune-Cookman Wildcats: 37 49
+
+GAME Grambling Tigers@Prairie View A&M Panthers
+H Prairie View A&M Panthers: 35 33
+H Grambling Tigers: 33 30
+
+GAME Norfolk State Spartans@Maryland Eastern Shore Hawks
+H Maryland Eastern Shore Hawks: 28 38
+H Norfolk State Spartans: 31 39
+
+GAME South Alabama Jaguars@Marshall Thundering Herd
+H Marshall Thundering Herd: 48 36
+H South Alabama Jaguars: 35 45
+
+GAME Lamar Cardinals@UT Rio Grande Valley Vaqueros
+H UT Rio Grande Valley Vaqueros: 32 38
+H Lamar Cardinals: 30 35
+
+GAME LSU New Orleans Privateers@Incarnate Word Cardinals
+H Incarnate Word Cardinals: 28 36
+H LSU New Orleans Privateers: 39 39
+
+GAME McNeese Cowboys@Northwestern State Demons
+H Northwestern State Demons: 29 35
+H McNeese Cowboys: 43 32
+
+GAME Abilene Christian Wildcats@Tarleton State Texans
+H Tarleton State Texans: 22 36 7
+H Abilene Christian Wildcats: 26 32 4
+
+GAME Florida A&M Rattlers@Alcorn State Braves
+H Alcorn State Braves: 29 49
+H Florida A&M Rattlers: 39 47
+
+GAME Arkansas-Pine Bluff Golden Lions@Alabama A&M Bulldogs
+H Alabama A&M Bulldogs: 33 49
+H Arkansas-Pine Bluff Golden Lions: 31 39
+
+GAME Southern Jaguars@Texas Southern Tigers
+H Texas Southern Tigers: 27 47
+H Southern Jaguars: 41 32
+
+GAME Drexel Dragons@Stony Brook Seawolves
+H Stony Brook Seawolves: 36 36
+H Drexel Dragons: 35 34
+
+GAME Stephen F. Austin Lumberjacks@Texas A&M-Corpus Christi Islanders
+H Texas A&M-Corpus Christi Islanders: 16 52
+H Stephen F. Austin Lumberjacks: 37 41
+
+GAME Nicholls Colonels@Houston Christian Huskies
+H Houston Christian Huskies: 35 37
+H Nicholls Colonels: 29 39

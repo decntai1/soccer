@@ -1,0 +1,65 @@
+# NCAAB results 2026-03-22 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:47Z
+
+GAME Iowa Hawkeyes@Florida Gators
+NEUTRAL
+H Florida Gators: 31 41
+H Iowa Hawkeyes: 33 40
+
+GAME Utah State Aggies@Arizona Wildcats
+NEUTRAL
+H Arizona Wildcats: 33 45
+H Utah State Aggies: 24 42
+
+GAME Miami Hurricanes@Purdue Boilermakers
+NEUTRAL
+H Purdue Boilermakers: 38 41
+H Miami Hurricanes: 40 29
+
+GAME Kentucky Wildcats@Iowa State Cyclones
+NEUTRAL
+H Iowa State Cyclones: 31 51
+H Kentucky Wildcats: 30 33
+
+GAME UCLA Bruins@UConn Huskies
+NEUTRAL
+H UConn Huskies: 38 35
+H UCLA Bruins: 33 24
+
+GAME Tennessee Volunteers@Virginia Cavaliers
+NEUTRAL
+H Virginia Cavaliers: 31 41
+H Tennessee Volunteers: 36 43
+
+GAME St. John's Red Storm@Kansas Jayhawks
+NEUTRAL
+H Kansas Jayhawks: 26 39
+H St. John's Red Storm: 34 33
+
+GAME Texas Tech Red Raiders@Alabama Crimson Tide
+NEUTRAL
+H Alabama Crimson Tide: 49 41
+H Texas Tech Red Raiders: 25 40
+
+GAME Illinois State Redbirds@Wake Forest Demon Deacons
+H Wake Forest Demon Deacons: 32 43
+H Illinois State Redbirds: 32 46
+
+GAME Seattle U Redhawks@Auburn Tigers
+H Auburn Tigers: 42 49
+H Seattle U Redhawks: 31 54
+
+GAME UNLV Rebels@Tulsa Golden Hurricane
+H Tulsa Golden Hurricane: 36 41
+H UNLV Rebels: 24 42
+
+GAME George Washington Revolutionaries@New Mexico Lobos
+H New Mexico Lobos: 36 50
+H George Washington Revolutionaries: 32 29
+
+GAME Wichita State Shockers@Oklahoma State Cowboys
+H Oklahoma State Cowboys: 37 33
+H Wichita State Shockers: 44 52
+
+GAME Saint Joseph's Hawks@California Golden Bears
+H California Golden Bears: 41 34
+H Saint Joseph's Hawks: 33 43

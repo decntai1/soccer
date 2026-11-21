@@ -1,0 +1,141 @@
+# NCAAB results 2025-11-05 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:44Z
+
+GAME South Dakota Coyotes@Creighton Bluejays
+H Creighton Bluejays: 48 44
+H South Dakota Coyotes: 35 41
+
+GAME Milligan Buffaloes@Middle Tennessee Blue Raiders
+H Middle Tennessee Blue Raiders: 48 52
+H Milligan Buffaloes: 26 25
+
+GAME Bluefield Ramblin' Rams@Presbyterian Blue Hose
+H Presbyterian Blue Hose: 49 56
+H Bluefield Ramblin' Rams: 39 37
+
+GAME RIT Tigers@Binghamton Bearcats
+H Binghamton Bearcats: 34 32
+H RIT Tigers: 27 29
+
+GAME Rider Broncs@Rutgers Scarlet Knights
+H Rutgers Scarlet Knights: 35 46
+H Rider Broncs: 24 29
+
+GAME Carolina University Bruins@App State Mountaineers
+H App State Mountaineers: 53 39
+H Carolina University Bruins: 19 27
+
+GAME Coppin State Eagles@La Salle Explorers
+H La Salle Explorers: 47 40
+H Coppin State Eagles: 23 36
+
+GAME College of Biblical Studies Ambassadors@UTSA Roadrunners
+H UTSA Roadrunners: 56 41
+H College of Biblical Studies Ambassadors: 18 12
+
+GAME Mississippi U for Women Owls@Mississippi Valley State Delta Devils
+H Mississippi Valley State Delta Devils: 40 57
+H Mississippi U for Women Owls: 27 34
+
+GAME Washington and Lee Generals@James Madison Dukes
+H James Madison Dukes: 38 32
+H Washington and Lee Generals: 30 26
+
+GAME Dickinson Red Devils@Lafayette Leopards
+H Lafayette Leopards: 43 36
+H Dickinson Red Devils: 26 18
+
+GAME Regent Royals@Norfolk State Spartans
+H Norfolk State Spartans: 62 57
+H Regent Royals: 29 26
+
+GAME Belmont Abbey Crusaders@Elon Phoenix
+H Elon Phoenix: 64 35
+H Belmont Abbey Crusaders: 24 27
+
+GAME Dallas Crusaders@Prairie View A&M Panthers
+H Prairie View A&M Panthers: 43 51
+H Dallas Crusaders: 24 29
+
+GAME Delaware State Hornets@Temple Owls
+H Temple Owls: 35 48
+H Delaware State Hornets: 27 38
+
+GAME Plattsburgh Cardinals@Vermont Catamounts
+H Vermont Catamounts: 44 69
+H Plattsburgh Cardinals: 31 31
+
+GAME LaGrange Panthers@Mercer Bears
+H Mercer Bears: 56 45
+H LaGrange Panthers: 28 34
+
+GAME Lynchburg Hornets@Queens University Royals
+H Queens University Royals: 33 54
+H Lynchburg Hornets: 36 40
+
+GAME Maryland Eastern Shore Hawks@Georgia Bulldogs
+H Georgia Bulldogs: 43 51
+H Maryland Eastern Shore Hawks: 17 12
+
+GAME Southern Indiana Screaming Eagles@Butler Bulldogs
+H Butler Bulldogs: 52 36
+H Southern Indiana Screaming Eagles: 26 32
+
+GAME Southern Virginia Knights@Richmond Spiders
+H Richmond Spiders: 42 42
+H Southern Virginia Knights: 25 31
+
+GAME Texas A&M-San Antonio Jaguars@Texas State Bobcats
+H Texas State Bobcats: 53 61
+H Texas A&M-San Antonio Jaguars: 25 30
+
+GAME Alabama A&M Bulldogs@Indiana Hoosiers
+H Indiana Hoosiers: 58 40
+H Alabama A&M Bulldogs: 22 29
+
+GAME Tarleton State Texans@LSU Tigers
+H LSU Tigers: 47 49
+H Tarleton State Texans: 31 29
+
+GAME Southern Jaguars@Marquette Golden Eagles
+H Marquette Golden Eagles: 43 57
+H Southern Jaguars: 37 45
+
+GAME East Texas A&M Lions@New Mexico Lobos
+H New Mexico Lobos: 34 42
+H East Texas A&M Lions: 14 40
+
+GAME Ottawa (AZ) Spirit@Montana Grizzlies
+H Montana Grizzlies: 32 41
+H Ottawa (AZ) Spirit: 19 20
+
+GAME South Carolina Upstate Spartans@Fresno State Bulldogs
+H Fresno State Bulldogs: 36 30
+H South Carolina Upstate Spartans: 25 42
+
+GAME North Dakota State Bison@UC Davis Aggies
+H UC Davis Aggies: 26 54
+H North Dakota State Bison: 26 42
+
+GAME Northwest Indian RedHawks@Montana State Bobcats
+H Montana State Bobcats: 54 60
+H Northwest Indian RedHawks: 21 23
+
+GAME Bethesda Flames@Utah Tech Trailblazers
+H Utah Tech Trailblazers: 51 59
+H Bethesda Flames: 36 29
+
+GAME North Alabama Lions@Mississippi State Bulldogs
+H Mississippi State Bulldogs: 38 48
+H North Alabama Lions: 37 25
+
+GAME Pacific Lutheran Lutes@Cal Poly Mustangs
+H Cal Poly Mustangs: 41 60
+H Pacific Lutheran Lutes: 36 43
+
+GAME Life Pacific Warriors@Pacific Tigers
+H Pacific Tigers: 41 42
+H Life Pacific Warriors: 29 27
+
+GAME Eastern Washington Eagles@Loyola Marymount Lions
+H Loyola Marymount Lions: 32 38
+H Eastern Washington Eagles: 29 33

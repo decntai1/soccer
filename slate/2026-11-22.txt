@@ -1,0 +1,108 @@
+# NCAAB slate 2026-11-22 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:54Z
+
+GAME Nebraska Cornhuskers@Butler Bulldogs
+NEUTRAL
+
+GAME Miami (OH) RedHawks@UIC Flames
+NEUTRAL
+
+GAME Western Illinois Leathernecks@Canisius Golden Griffins
+
+GAME Lancaster Bible Chargers@UMBC Retrievers
+
+GAME Dayton Flyers@Northwestern Wildcats
+NEUTRAL
+
+GAME Fairfield Stags@Long Island University Sharks
+
+GAME Towson Tigers@American University Eagles
+
+GAME Chicago State Cougars@Marquette Golden Eagles
+
+GAME George Washington Revolutionaries@Western Kentucky Hilltoppers
+NEUTRAL
+
+GAME South Dakota Coyotes@Utah Tech Trailblazers
+NEUTRAL
+
+GAME UMass Lowell River Hawks@Cincinnati Bearcats
+
+GAME Wyoming Cowboys@Duquesne Dukes
+NEUTRAL
+
+GAME Evansville Purple Aces@Memphis Tigers
+
+GAME William & Mary Tribe@Youngstown State Penguins
+
+GAME San Diego Toreros@Fordham Rams
+NEUTRAL
+
+GAME Robert Morris Colonials@New Mexico State Aggies
+NEUTRAL
+
+GAME Southern Indiana Screaming Eagles@Texas Longhorns
+
+GAME Troy Trojans@Nicholls Colonels
+NEUTRAL
+
+GAME West Florida Argonauts@South Alabama Jaguars
+
+GAME McNeese Cowboys@Texas State Bobcats
+
+GAME Mercyhurst Lakers@UAlbany Great Danes
+NEUTRAL
+
+GAME Virginia Tech Hokies@Oklahoma State Cowboys
+NEUTRAL
+
+GAME Alice Lloyd Eagles@Eastern Kentucky Colonels
+
+GAME Richmond Spiders@Liberty Flames
+NEUTRAL
+
+GAME IU Indianapolis Jaguars@Maryland Eastern Shore Hawks
+NEUTRAL
+
+GAME UC Irvine Anteaters@Loyola Marymount Lions
+NEUTRAL
+
+GAME Rice Owls@Lamar Cardinals
+NEUTRAL
+
+GAME UNC Asheville Bulldogs@Samford Bulldogs
+
+GAME Milligan Buffaloes@Lipscomb Bisons
+
+GAME Cal State Fullerton Titans@Portland State Vikings
+
+GAME NJIT Highlanders@Boston College Eagles
+
+GAME Temple Owls@Stephen F. Austin Lumberjacks
+NEUTRAL
+
+GAME Southern Miss Golden Eagles@Valparaiso Beacons
+NEUTRAL
+
+GAME Utah Utes@Minnesota Golden Gophers
+NEUTRAL
+
+GAME Delaware Blue Hens@UCLA Bruins
+
+GAME Rhode Island Rams@UAB Blazers
+NEUTRAL
+
+GAME California Baptist Lancers@Portland Pilots
+NEUTRAL
+
+GAME Louisiana Ragin' Cajuns@USC Trojans
+
+GAME Menlo Oaks@Saint Mary's Gaels
+
+GAME UT Martin Skyhawks@Utah Valley Wolverines
+NEUTRAL
+
+GAME Seattle U Redhawks@UC San Diego Tritons
+NEUTRAL
+
+GAME San José State Spartans@Loyola Chicago Ramblers
+NEUTRAL

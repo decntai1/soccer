@@ -1,0 +1,11 @@
+# NCAAB results 2026-11-01 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:51Z
+
+GAME Notre Dame Fighting Irish@Villanova Wildcats
+NEUTRAL
+H Villanova Wildcats: 35 37
+H Notre Dame Fighting Irish: 31 43
+
+GAME Liberty Flames@High Point Panthers
+NEUTRAL
+H High Point Panthers: 37 35
+H Liberty Flames: 34 23

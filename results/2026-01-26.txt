@@ -1,0 +1,41 @@
+# NCAAB results 2026-01-26 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:46Z
+
+GAME Arizona Wildcats@BYU Cougars
+H BYU Cougars: 31 52
+H Arizona Wildcats: 44 42
+
+GAME Louisville Cardinals@Duke Blue Devils
+H Duke Blue Devils: 38 45
+H Louisville Cardinals: 28 24
+
+GAME Delaware State Hornets@South Carolina State Bulldogs
+H South Carolina State Bulldogs: 32 38
+H Delaware State Hornets: 25 39
+
+GAME Le Moyne Dolphins@Fairleigh Dickinson Knights
+H Fairleigh Dickinson Knights: 24 50
+H Le Moyne Dolphins: 39 48
+
+GAME Morgan State Bears@Norfolk State Spartans
+H Norfolk State Spartans: 42 36
+H Morgan State Bears: 36 43
+
+GAME Jackson State Tigers@Florida A&M Rattlers
+H Florida A&M Rattlers: 41 24
+H Jackson State Tigers: 32 34
+
+GAME Alcorn State Braves@Bethune-Cookman Wildcats
+H Bethune-Cookman Wildcats: 45 37
+H Alcorn State Braves: 31 42
+
+GAME Penn State Nittany Lions@Ohio State Buckeyes
+H Ohio State Buckeyes: 50 34
+H Penn State Nittany Lions: 32 46
+
+GAME Central Connecticut Blue Devils@Stonehill Skyhawks
+H Stonehill Skyhawks: 23 38
+H Central Connecticut Blue Devils: 24 35
+
+GAME UT Rio Grande Valley Vaqueros@Texas A&M-Corpus Christi Islanders
+H Texas A&M-Corpus Christi Islanders: 20 35
+H UT Rio Grande Valley Vaqueros: 24 40

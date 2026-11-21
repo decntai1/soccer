@@ -1,0 +1,53 @@
+# NCAAB results 2026-02-20 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:46Z
+
+GAME Indiana Hoosiers@Purdue Boilermakers
+H Purdue Boilermakers: 46 47
+H Indiana Hoosiers: 29 35
+
+GAME VCU Rams@Saint Louis Billikens
+H Saint Louis Billikens: 33 55
+H VCU Rams: 42 33
+
+GAME Bowling Green Falcons@Miami (OH) RedHawks
+H Miami (OH) RedHawks: 45 46
+H Bowling Green Falcons: 30 47
+
+GAME Akron Zips@Ball State Cardinals
+H Ball State Cardinals: 36 29
+H Akron Zips: 40 38
+
+GAME Saint Peter's Peacocks@Iona Gaels
+H Iona Gaels: 29 32 11
+H Saint Peter's Peacocks: 31 30 3
+
+GAME Sacred Heart Pioneers@Fairfield Stags
+H Fairfield Stags: 32 46
+H Sacred Heart Pioneers: 37 31
+
+GAME Princeton Tigers@Brown Bears
+H Brown Bears: 42 38
+H Princeton Tigers: 37 34
+
+GAME Milwaukee Panthers@Detroit Mercy Titans
+H Detroit Mercy Titans: 42 49
+H Milwaukee Panthers: 48 38
+
+GAME Green Bay Phoenix@Oakland Golden Grizzlies
+H Oakland Golden Grizzlies: 32 36
+H Green Bay Phoenix: 37 36
+
+GAME Niagara Purple Eagles@Mount St. Mary's Mountaineers
+H Mount St. Mary's Mountaineers: 31 45
+H Niagara Purple Eagles: 31 32
+
+GAME Canisius Golden Griffins@Rider Broncs
+H Rider Broncs: 30 36
+H Canisius Golden Griffins: 40 32
+
+GAME Marist Red Foxes@Manhattan Jaspers
+H Manhattan Jaspers: 35 35
+H Marist Red Foxes: 42 42
+
+GAME Siena Saints@Merrimack Warriors
+H Merrimack Warriors: 32 34 13
+H Siena Saints: 37 29 6

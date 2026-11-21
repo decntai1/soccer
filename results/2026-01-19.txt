@@ -1,0 +1,166 @@
+# NCAAB results 2026-01-19 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:45Z
+
+GAME Northeastern Huskies@Monmouth Hawks
+H Monmouth Hawks: 30 51
+H Northeastern Huskies: 38 30
+
+GAME Stonehill Skyhawks@Saint Francis Red Wolves
+H Saint Francis Red Wolves: 20 43
+H Stonehill Skyhawks: 25 36
+
+GAME Vermont Catamounts@UAlbany Great Danes
+H UAlbany Great Danes: 37 38
+H Vermont Catamounts: 29 39
+
+GAME Drexel Dragons@Towson Tigers
+H Towson Tigers: 20 39
+H Drexel Dragons: 32 26
+
+GAME Iona Gaels@Saint Peter's Peacocks
+H Saint Peter's Peacocks: 30 47
+H Iona Gaels: 33 30
+
+GAME Sacred Heart Pioneers@Rider Broncs
+H Rider Broncs: 38 47
+H Sacred Heart Pioneers: 51 54
+
+GAME Cornell Big Red@Brown Bears
+H Brown Bears: 28 39
+H Cornell Big Red: 45 44
+
+GAME Columbia Lions@Yale Bulldogs
+H Yale Bulldogs: 44 47
+H Columbia Lions: 35 39
+
+GAME Fairfield Stags@Siena Saints
+H Siena Saints: 41 44
+H Fairfield Stags: 32 45
+
+GAME Mount St. Mary's Mountaineers@Niagara Purple Eagles
+H Niagara Purple Eagles: 34 24
+H Mount St. Mary's Mountaineers: 30 38
+
+GAME Merrimack Warriors@Marist Red Foxes
+H Marist Red Foxes: 25 30
+H Merrimack Warriors: 29 39
+
+GAME Manhattan Jaspers@Quinnipiac Bobcats
+H Quinnipiac Bobcats: 38 42 18
+H Manhattan Jaspers: 37 43 12
+
+GAME Central Connecticut Blue Devils@Mercyhurst Lakers
+H Mercyhurst Lakers: 42 37
+H Central Connecticut Blue Devils: 28 33
+
+GAME Pennsylvania Quakers@Harvard Crimson
+H Harvard Crimson: 31 33
+H Pennsylvania Quakers: 26 37
+
+GAME Wagner Seahawks@Fairleigh Dickinson Knights
+H Fairleigh Dickinson Knights: 31 37
+H Wagner Seahawks: 29 32
+
+GAME New Hampshire Wildcats@Maine Black Bears
+H Maine Black Bears: 21 27
+H New Hampshire Wildcats: 34 31
+
+GAME UMBC Retrievers@Binghamton Bearcats
+H Binghamton Bearcats: 26 34
+H UMBC Retrievers: 38 40
+
+GAME Bryant Bulldogs@NJIT Highlanders
+H NJIT Highlanders: 29 50
+H Bryant Bulldogs: 23 32
+
+GAME Saint Joseph's Hawks@VCU Rams
+H VCU Rams: 34 45
+H Saint Joseph's Hawks: 29 43
+
+GAME Prairie View A&M Panthers@Alcorn State Braves
+H Alcorn State Braves: 39 37
+H Prairie View A&M Panthers: 39 36
+
+GAME Long Island University Sharks@Le Moyne Dolphins
+H Le Moyne Dolphins: 40 43
+H Long Island University Sharks: 34 43
+
+GAME Morehouse Maroon Tigers@Howard Bison
+H Howard Bison: 37 41
+H Morehouse Maroon Tigers: 34 35
+
+GAME McNeese Cowboys@Texas A&M-Corpus Christi Islanders
+H Texas A&M-Corpus Christi Islanders: 32 21
+H McNeese Cowboys: 40 29
+
+GAME George Washington Revolutionaries@George Mason Patriots
+H George Mason Patriots: 38 31
+H George Washington Revolutionaries: 30 34
+
+GAME Alabama A&M Bulldogs@Alabama State Hornets
+NEUTRAL
+H Alabama State Hornets: 32 37
+H Alabama A&M Bulldogs: 33 40
+
+GAME Princeton Tigers@Dartmouth Big Green
+H Dartmouth Big Green: 31 40
+H Princeton Tigers: 38 31
+
+GAME Providence Friars@Marquette Golden Eagles
+H Marquette Golden Eagles: 54 40 11
+H Providence Friars: 44 50 10
+
+GAME East Texas A&M Lions@Incarnate Word Cardinals
+H Incarnate Word Cardinals: 29 29
+H East Texas A&M Lions: 38 42
+
+GAME Bethune-Cookman Wildcats@Arkansas-Pine Bluff Golden Lions
+H Arkansas-Pine Bluff Golden Lions: 37 32 13
+H Bethune-Cookman Wildcats: 32 37 18
+
+GAME Elizabeth City State Vikings@Norfolk State Spartans
+H Norfolk State Spartans: 43 43
+H Elizabeth City State Vikings: 35 26
+
+GAME New Haven Chargers@Chicago State Cougars
+H Chicago State Cougars: 33 23
+H New Haven Chargers: 30 32
+
+GAME Loyola Maryland Greyhounds@Lehigh Mountain Hawks
+H Lehigh Mountain Hawks: 41 47
+H Loyola Maryland Greyhounds: 41 40
+
+GAME SE Louisiana Lions@UT Rio Grande Valley Vaqueros
+H UT Rio Grande Valley Vaqueros: 31 37
+H SE Louisiana Lions: 29 36
+
+GAME Stephen F. Austin Lumberjacks@Nicholls Colonels
+H Nicholls Colonels: 24 38
+H Stephen F. Austin Lumberjacks: 45 34
+
+GAME Florida A&M Rattlers@Mississippi Valley State Delta Devils
+H Mississippi Valley State Delta Devils: 17 31
+H Florida A&M Rattlers: 35 27
+
+GAME Texas Southern Tigers@Jackson State Tigers
+H Jackson State Tigers: 45 49
+H Texas Southern Tigers: 38 51
+
+GAME Northwestern State Demons@Houston Christian Huskies
+H Houston Christian Huskies: 41 41
+H Northwestern State Demons: 44 36
+
+GAME Lamar Cardinals@LSU New Orleans Privateers
+H LSU New Orleans Privateers: 41 48
+H Lamar Cardinals: 36 40
+
+GAME Montana State Bobcats@Northern Colorado Bears
+H Northern Colorado Bears: 27 41
+H Montana State Bobcats: 36 37
+
+GAME Montana Grizzlies@Northern Arizona Lumberjacks
+H Northern Arizona Lumberjacks: 36 36
+H Montana Grizzlies: 50 48
+
+GAME North Carolina A&T Aggies@Hampton Pirates
+H Hampton Pirates: 43 39
+H North Carolina A&T Aggies: 34 27

@@ -1,0 +1,394 @@
+# NCAAB results 2026-03-07 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:47Z
+
+GAME North Carolina Tar Heels@Duke Blue Devils
+H Duke Blue Devils: 39 37
+H North Carolina Tar Heels: 34 27
+
+GAME Arizona Wildcats@Colorado Buffaloes
+H Colorado Buffaloes: 38 41
+H Arizona Wildcats: 36 53
+
+GAME UConn Huskies@Marquette Golden Eagles
+H Marquette Golden Eagles: 33 35
+H UConn Huskies: 35 27
+
+GAME Florida Gators@Kentucky Wildcats
+H Kentucky Wildcats: 32 45
+H Florida Gators: 49 35
+
+GAME Arizona State Sun Devils@Iowa State Cyclones
+H Iowa State Cyclones: 37 49
+H Arizona State Sun Devils: 41 24
+
+GAME Houston Cougars@Oklahoma State Cowboys
+H Oklahoma State Cowboys: 41 34
+H Houston Cougars: 37 45
+
+GAME Texas Tech Red Raiders@BYU Cougars
+H BYU Cougars: 38 44
+H Texas Tech Red Raiders: 46 30
+
+GAME Virginia Tech Hokies@Virginia Cavaliers
+H Virginia Cavaliers: 41 35
+H Virginia Tech Hokies: 25 47
+
+GAME Kansas State Wildcats@Kansas Jayhawks
+H Kansas Jayhawks: 46 58
+H Kansas State Wildcats: 33 52
+
+GAME Wisconsin Badgers@Purdue Boilermakers
+H Purdue Boilermakers: 47 46
+H Wisconsin Badgers: 52 45
+
+GAME Auburn Tigers@Alabama Crimson Tide
+H Alabama Crimson Tide: 50 46
+H Auburn Tigers: 31 53
+
+GAME Arkansas Razorbacks@Missouri Tigers
+H Missouri Tigers: 36 38 10
+H Arkansas Razorbacks: 39 35 14
+
+GAME Louisville Cardinals@Miami Hurricanes
+H Miami Hurricanes: 37 52
+H Louisville Cardinals: 46 46
+
+GAME Vanderbilt Commodores@Tennessee Volunteers
+H Tennessee Volunteers: 22 60
+H Vanderbilt Commodores: 32 54
+
+GAME Saint Louis Billikens@George Mason Patriots
+H George Mason Patriots: 43 43
+H Saint Louis Billikens: 34 23
+
+GAME Campbell Fighting Camels@Stony Brook Seawolves
+NEUTRAL
+H Stony Brook Seawolves: 40 49
+H Campbell Fighting Camels: 48 48
+
+GAME The Citadel Bulldogs@East Tennessee State Buccaneers
+NEUTRAL
+H East Tennessee State Buccaneers: 36 47
+H The Citadel Bulldogs: 32 44
+
+GAME Stonehill Skyhawks@Mercyhurst Lakers
+H Mercyhurst Lakers: 23 33
+H Stonehill Skyhawks: 19 32
+
+GAME UNC Asheville Bulldogs@High Point Panthers
+NEUTRAL
+H High Point Panthers: 33 42
+H UNC Asheville Bulldogs: 34 37
+
+GAME Davidson Wildcats@St. Bonaventure Bonnies
+H St. Bonaventure Bonnies: 33 30
+H Davidson Wildcats: 36 32
+
+GAME Butler Bulldogs@DePaul Blue Demons
+H DePaul Blue Demons: 32 39
+H Butler Bulldogs: 39 42
+
+GAME Xavier Musketeers@Villanova Wildcats
+H Villanova Wildcats: 44 47
+H Xavier Musketeers: 32 46
+
+GAME Notre Dame Fighting Irish@Boston College Eagles
+H Boston College Eagles: 30 47
+H Notre Dame Fighting Irish: 33 36
+
+GAME Georgia Tech Yellow Jackets@Clemson Tigers
+H Clemson Tigers: 33 46
+H Georgia Tech Yellow Jackets: 39 37
+
+GAME Louisiana Tech Bulldogs@Delaware Blue Hens
+H Delaware Blue Hens: 22 16
+H Louisiana Tech Bulldogs: 40 41
+
+GAME UAlbany Great Danes@UMass Lowell River Hawks
+H UMass Lowell River Hawks: 35 46
+H UAlbany Great Danes: 42 34
+
+GAME New Hampshire Wildcats@UMBC Retrievers
+H UMBC Retrievers: 34 50
+H New Hampshire Wildcats: 30 39
+
+GAME La Salle Explorers@Saint Joseph's Hawks
+H Saint Joseph's Hawks: 35 53
+H La Salle Explorers: 34 42
+
+GAME South Carolina Gamecocks@Ole Miss Rebels
+H Ole Miss Rebels: 28 33
+H South Carolina Gamecocks: 34 30
+
+GAME Wagner Seahawks@Long Island University Sharks
+H Long Island University Sharks: 23 41
+H Wagner Seahawks: 23 33
+
+GAME Bryant Bulldogs@Vermont Catamounts
+H Vermont Catamounts: 38 39
+H Bryant Bulldogs: 27 30
+
+GAME Cornell Big Red@Dartmouth Big Green
+H Dartmouth Big Green: 43 47
+H Cornell Big Red: 59 52
+
+GAME George Washington Revolutionaries@Loyola Chicago Ramblers
+H Loyola Chicago Ramblers: 31 37
+H George Washington Revolutionaries: 27 35
+
+GAME Rhode Island Rams@Fordham Rams
+H Fordham Rams: 25 36
+H Rhode Island Rams: 28 21
+
+GAME Richmond Spiders@Duquesne Dukes
+H Duquesne Dukes: 28 51
+H Richmond Spiders: 49 28
+
+GAME Cincinnati Bearcats@TCU Horned Frogs
+H TCU Horned Frogs: 32 41
+H Cincinnati Bearcats: 29 34
+
+GAME SMU Mustangs@Florida State Seminoles
+H Florida State Seminoles: 45 46
+H SMU Mustangs: 27 51
+
+GAME Princeton Tigers@Yale Bulldogs
+H Yale Bulldogs: 32 46
+H Princeton Tigers: 30 23
+
+GAME Western Kentucky Hilltoppers@Florida International Panthers
+H Florida International Panthers: 45 47
+H Western Kentucky Hilltoppers: 33 34
+
+GAME Sam Houston Bearkats@Liberty Flames
+H Liberty Flames: 41 38
+H Sam Houston Bearkats: 31 41
+
+GAME Stanford Cardinal@NC State Wolfpack
+H NC State Wolfpack: 34 50
+H Stanford Cardinal: 37 48
+
+GAME Northeastern Huskies@Drexel Dragons
+NEUTRAL
+H Drexel Dragons: 39 45
+H Northeastern Huskies: 22 55
+
+GAME UNC Greensboro Spartans@Wofford Terriers
+NEUTRAL
+H Wofford Terriers: 32 40
+H UNC Greensboro Spartans: 36 39
+
+GAME Presbyterian Blue Hose@Winthrop Eagles
+NEUTRAL
+H Winthrop Eagles: 32 41
+H Presbyterian Blue Hose: 25 46
+
+GAME Middle Tennessee Blue Raiders@Missouri State Bears
+H Missouri State Bears: 27 36
+H Middle Tennessee Blue Raiders: 37 38
+
+GAME Jacksonville State Gamecocks@UTEP Miners
+H UTEP Miners: 29 32
+H Jacksonville State Gamecocks: 32 32
+
+GAME Drake Bulldogs@UIC Flames
+NEUTRAL
+H UIC Flames: 34 38
+H Drake Bulldogs: 27 24
+
+GAME Georgia Bulldogs@Mississippi State Bulldogs
+H Mississippi State Bulldogs: 47 49
+H Georgia Bulldogs: 42 60
+
+GAME Maine Black Bears@NJIT Highlanders
+H NJIT Highlanders: 32 28
+H Maine Black Bears: 29 29
+
+GAME New Mexico Lobos@Utah State Aggies
+H Utah State Aggies: 42 52
+H New Mexico Lobos: 43 47
+
+GAME Florida Atlantic Owls@Wichita State Shockers
+H Wichita State Shockers: 43 45
+H Florida Atlantic Owls: 41 29
+
+GAME Boise State Broncos@Colorado State Rams
+H Colorado State Rams: 28 39
+H Boise State Broncos: 36 42
+
+GAME California Golden Bears@Wake Forest Demon Deacons
+H Wake Forest Demon Deacons: 29 51
+H California Golden Bears: 37 36
+
+GAME Kennesaw State Owls@New Mexico State Aggies
+H New Mexico State Aggies: 37 42
+H Kennesaw State Owls: 33 43
+
+GAME Pittsburgh Panthers@Syracuse Orange
+H Syracuse Orange: 31 34 4
+H Pittsburgh Panthers: 28 37 6
+
+GAME Florida Gulf Coast Eagles@Central Arkansas Bears
+NEUTRAL
+H Central Arkansas Bears: 35 38
+H Florida Gulf Coast Eagles: 32 31
+
+GAME Wyoming Cowboys@San José State Spartans
+H San José State Spartans: 36 42
+H Wyoming Cowboys: 49 39
+
+GAME Utah Utes@Baylor Bears
+H Baylor Bears: 53 48
+H Utah Utes: 33 42
+
+GAME Indiana Hoosiers@Ohio State Buckeyes
+H Ohio State Buckeyes: 50 41
+H Indiana Hoosiers: 33 45
+
+GAME Hampton Pirates@Towson Tigers
+NEUTRAL
+H Towson Tigers: 30 44
+H Hampton Pirates: 17 51
+
+GAME Furman Paladins@Samford Bulldogs
+NEUTRAL
+H Samford Bulldogs: 46 35
+H Furman Paladins: 46 40
+
+GAME Northern Iowa Panthers@Bradley Braves
+NEUTRAL
+H Bradley Braves: 32 37
+H Northern Iowa Panthers: 45 28
+
+GAME Marist Red Foxes@Quinnipiac Bobcats
+NEUTRAL
+H Quinnipiac Bobcats: 32 43
+H Marist Red Foxes: 42 35
+
+GAME Texas A&M Aggies@LSU Tigers
+H LSU Tigers: 38 32 9 6 6
+H Texas A&M Aggies: 33 37 9 6 9
+
+GAME Southern Miss Golden Eagles@App State Mountaineers
+NEUTRAL
+H App State Mountaineers: 28 45
+H Southern Miss Golden Eagles: 44 42
+
+GAME Cal State Bakersfield Roadrunners@Cal Poly Mustangs
+H Cal Poly Mustangs: 62 46
+H Cal State Bakersfield Roadrunners: 41 35
+
+GAME UT Arlington Mavericks@Abilene Christian Wildcats
+H Abilene Christian Wildcats: 33 24
+H UT Arlington Mavericks: 25 39
+
+GAME Northern Arizona Lumberjacks@Idaho State Bengals
+NEUTRAL
+H Idaho State Bengals: 45 28
+H Northern Arizona Lumberjacks: 30 35
+
+GAME Queens University Royals@Austin Peay Governors
+NEUTRAL
+H Austin Peay Governors: 40 43
+H Queens University Royals: 47 43
+
+GAME Omaha Mavericks@North Dakota State Bison
+NEUTRAL
+H North Dakota State Bison: 40 34
+H Omaha Mavericks: 25 25
+
+GAME Fresno State Bulldogs@Grand Canyon Lopes
+H Grand Canyon Lopes: 44 41
+H Fresno State Bulldogs: 29 31
+
+GAME Cal State Fullerton Titans@Cal State Northridge Matadors
+H Cal State Northridge Matadors: 36 41
+H Cal State Fullerton Titans: 39 51
+
+GAME Providence Friars@Georgetown Hoyas
+H Georgetown Hoyas: 43 37
+H Providence Friars: 34 45
+
+GAME UC Davis Aggies@UC Irvine Anteaters
+H UC Irvine Anteaters: 28 37 14
+H UC Davis Aggies: 38 27 4
+
+GAME Elon Phoenix@William & Mary Tribe
+NEUTRAL
+H William & Mary Tribe: 35 37
+H Elon Phoenix: 31 31
+
+GAME Western Carolina Catamounts@Mercer Bears
+NEUTRAL
+H Mercer Bears: 35 38
+H Western Carolina Catamounts: 36 41
+
+GAME Oklahoma Sooners@Texas Longhorns
+H Texas Longhorns: 40 37 8
+H Oklahoma Sooners: 36 41 11
+
+GAME California Baptist Lancers@Southern Utah Thunderbirds
+H Southern Utah Thunderbirds: 32 43
+H California Baptist Lancers: 45 37
+
+GAME Mount St. Mary's Mountaineers@Siena Saints
+NEUTRAL
+H Siena Saints: 35 28
+H Mount St. Mary's Mountaineers: 21 37
+
+GAME Portland Pilots@San Francisco Dons
+NEUTRAL
+H San Francisco Dons: 29 53
+H Portland Pilots: 29 36
+
+GAME Morehead State Eagles@Tennessee State Tigers
+NEUTRAL
+H Tennessee State Tigers: 55 38
+H Morehead State Eagles: 34 33
+
+GAME UCLA Bruins@USC Trojans
+H USC Trojans: 30 38
+H UCLA Bruins: 45 44
+
+GAME Northwestern Wildcats@Minnesota Golden Gophers
+H Minnesota Golden Gophers: 39 28
+H Northwestern Wildcats: 29 37
+
+GAME UC San Diego Tritons@UC Santa Barbara Gauchos
+H UC Santa Barbara Gauchos: 29 34
+H UC San Diego Tritons: 31 33
+
+GAME Utah Valley Wolverines@Utah Tech Trailblazers
+H Utah Tech Trailblazers: 36 45 11 9
+H Utah Valley Wolverines: 40 41 11 12
+
+GAME Georgia Southern Eagles@Coastal Carolina Chanticleers
+NEUTRAL
+H Coastal Carolina Chanticleers: 42 30
+H Georgia Southern Eagles: 45 51
+
+GAME Sacramento State Hornets@Idaho Vandals
+NEUTRAL
+H Idaho Vandals: 27 41
+H Sacramento State Hornets: 13 32
+
+GAME Air Force Falcons@Nevada Wolf Pack
+H Nevada Wolf Pack: 32 42
+H Air Force Falcons: 25 34
+
+GAME North Dakota Fighting Hawks@St. Thomas Tommies
+NEUTRAL
+H St. Thomas Tommies: 34 32
+H North Dakota Fighting Hawks: 28 39
+
+GAME Washington Huskies@Oregon Ducks
+H Oregon Ducks: 44 41
+H Washington Huskies: 30 49
+
+GAME Seattle U Redhawks@Pacific Tigers
+NEUTRAL
+H Pacific Tigers: 32 29
+H Seattle U Redhawks: 29 29
+
+GAME Long Beach State Beach@Hawai'i Rainbow Warriors
+H Hawai'i Rainbow Warriors: 34 41
+H Long Beach State Beach: 44 40

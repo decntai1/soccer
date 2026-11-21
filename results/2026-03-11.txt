@@ -1,0 +1,190 @@
+# NCAAB results 2026-03-11 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:47Z
+
+GAME Arizona State Sun Devils@Iowa State Cyclones
+NEUTRAL
+H Iowa State Cyclones: 45 46
+H Arizona State Sun Devils: 16 26
+
+GAME SMU Mustangs@Louisville Cardinals
+NEUTRAL
+H Louisville Cardinals: 26 36
+H SMU Mustangs: 26 32
+
+GAME St. Bonaventure Bonnies@La Salle Explorers
+NEUTRAL
+H La Salle Explorers: 33 47
+H St. Bonaventure Bonnies: 48 51
+
+GAME Maryland Terrapins@Iowa Hawkeyes
+NEUTRAL
+H Iowa Hawkeyes: 25 50
+H Maryland Terrapins: 26 38
+
+GAME Pittsburgh Panthers@NC State Wolfpack
+NEUTRAL
+H NC State Wolfpack: 51 47
+H Pittsburgh Panthers: 50 38
+
+GAME LSU Tigers@Kentucky Wildcats
+NEUTRAL
+H Kentucky Wildcats: 46 41
+H LSU Tigers: 43 39
+
+GAME Prairie View A&M Panthers@Bethune-Cookman Wildcats
+NEUTRAL
+H Bethune-Cookman Wildcats: 32 35
+H Prairie View A&M Panthers: 32 39
+
+GAME Loyola Chicago Ramblers@Richmond Spiders
+NEUTRAL
+H Richmond Spiders: 38 29
+H Loyola Chicago Ramblers: 32 43
+
+GAME USC Trojans@Washington Huskies
+NEUTRAL
+H Washington Huskies: 33 38 12
+H USC Trojans: 40 31 8
+
+GAME Wyoming Cowboys@UNLV Rebels
+NEUTRAL
+H UNLV Rebels: 44 29
+H Wyoming Cowboys: 31 39
+
+GAME Mississippi State Bulldogs@Auburn Tigers
+NEUTRAL
+H Auburn Tigers: 30 49
+H Mississippi State Bulldogs: 33 28
+
+GAME Cincinnati Bearcats@UCF Knights
+NEUTRAL
+H UCF Knights: 26 32 8
+H Cincinnati Bearcats: 27 31 7
+
+GAME Providence Friars@Butler Bulldogs
+NEUTRAL
+H Butler Bulldogs: 42 39
+H Providence Friars: 40 51
+
+GAME McNeese Cowboys@Stephen F. Austin Lumberjacks
+NEUTRAL
+H Stephen F. Austin Lumberjacks: 25 34
+H McNeese Cowboys: 42 34
+
+GAME Air Force Falcons@Nevada Wolf Pack
+NEUTRAL
+H Nevada Wolf Pack: 39 41
+H Air Force Falcons: 10 35
+
+GAME Delaware State Hornets@Morgan State Bears
+NEUTRAL
+H Morgan State Bears: 15 45 10
+H Delaware State Hornets: 27 33 15
+
+GAME Missouri State Bears@Liberty Flames
+NEUTRAL
+H Liberty Flames: 37 32
+H Missouri State Bears: 33 44
+
+GAME Northwestern Wildcats@Indiana Hoosiers
+NEUTRAL
+H Indiana Hoosiers: 37 24
+H Northwestern Wildcats: 36 38
+
+GAME Xavier Musketeers@Marquette Golden Eagles
+NEUTRAL
+H Marquette Golden Eagles: 38 49
+H Xavier Musketeers: 38 51
+
+GAME Ole Miss Rebels@Texas Longhorns
+NEUTRAL
+H Texas Longhorns: 30 36
+H Ole Miss Rebels: 41 35
+
+GAME Boston University Terriers@Lehigh Mountain Hawks
+H Lehigh Mountain Hawks: 41 33
+H Boston University Terriers: 30 30
+
+GAME BYU Cougars@West Virginia Mountaineers
+NEUTRAL
+H West Virginia Mountaineers: 23 25
+H BYU Cougars: 31 37
+
+GAME Tulane Green Wave@Memphis Tigers
+NEUTRAL
+H Memphis Tigers: 31 38
+H Tulane Green Wave: 39 42
+
+GAME California Golden Bears@Florida State Seminoles
+NEUTRAL
+H Florida State Seminoles: 46 49
+H California Golden Bears: 32 57
+
+GAME Tarleton State Texans@Abilene Christian Wildcats
+NEUTRAL
+H Abilene Christian Wildcats: 39 45
+H Tarleton State Texans: 25 53
+
+GAME Jackson State Tigers@Florida A&M Rattlers
+NEUTRAL
+H Florida A&M Rattlers: 33 37
+H Jackson State Tigers: 34 26
+
+GAME Fresno State Bulldogs@Colorado State Rams
+NEUTRAL
+H Colorado State Rams: 27 40
+H Fresno State Bulldogs: 32 31
+
+GAME New Mexico State Aggies@Sam Houston Bearkats
+NEUTRAL
+H Sam Houston Bearkats: 37 32
+H New Mexico State Aggies: 26 35
+
+GAME Cal Poly Mustangs@UC San Diego Tritons
+NEUTRAL
+H UC San Diego Tritons: 26 46
+H Cal Poly Mustangs: 35 34
+
+GAME Rutgers Scarlet Knights@Minnesota Golden Gophers
+NEUTRAL
+H Minnesota Golden Gophers: 31 36
+H Rutgers Scarlet Knights: 29 43
+
+GAME Georgetown Hoyas@DePaul Blue Demons
+NEUTRAL
+H DePaul Blue Demons: 24 32
+H Georgetown Hoyas: 21 42
+
+GAME Wake Forest Demon Deacons@Clemson Tigers
+NEUTRAL
+H Clemson Tigers: 41 30
+H Wake Forest Demon Deacons: 23 39
+
+GAME South Carolina Gamecocks@Oklahoma Sooners
+NEUTRAL
+H Oklahoma Sooners: 42 44
+H South Carolina Gamecocks: 42 32
+
+GAME Temple Owls@Florida Atlantic Owls
+NEUTRAL
+H Florida Atlantic Owls: 29 34
+H Temple Owls: 27 32
+
+GAME Oklahoma State Cowboys@TCU Horned Frogs
+NEUTRAL
+H TCU Horned Frogs: 43 52
+H Oklahoma State Cowboys: 46 42
+
+GAME San José State Spartans@Boise State Broncos
+NEUTRAL
+H Boise State Broncos: 39 35
+H San José State Spartans: 41 43
+
+GAME UC Santa Barbara Gauchos@UC Davis Aggies
+NEUTRAL
+H UC Davis Aggies: 34 45
+H UC Santa Barbara Gauchos: 31 42
+
+GAME Idaho Vandals@Montana Grizzlies
+NEUTRAL
+H Montana Grizzlies: 31 35
+H Idaho Vandals: 30 47

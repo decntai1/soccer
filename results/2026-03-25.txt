@@ -1,0 +1,9 @@
+# NCAAB results 2026-03-25 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:47Z
+
+GAME Illinois State Redbirds@Dayton Flyers
+H Dayton Flyers: 23 32
+H Illinois State Redbirds: 33 28
+
+GAME Nevada Wolf Pack@Auburn Tigers
+H Auburn Tigers: 38 37
+H Nevada Wolf Pack: 26 43

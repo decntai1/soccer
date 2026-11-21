@@ -1,0 +1,139 @@
+# NCAAB results 2025-11-09 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:44Z
+
+GAME New Hampshire Wildcats@Harvard Crimson
+H Harvard Crimson: 32 54
+H New Hampshire Wildcats: 48 27
+
+GAME Western Michigan Broncos@Campbell Fighting Camels
+H Campbell Fighting Camels: 39 52
+H Western Michigan Broncos: 34 48
+
+GAME North Carolina Central Eagles@App State Mountaineers
+H App State Mountaineers: 38 38
+H North Carolina Central Eagles: 18 36
+
+GAME Indiana Hoosiers@Marquette Golden Eagles
+NEUTRAL
+H Marquette Golden Eagles: 38 39
+H Indiana Hoosiers: 56 44
+
+GAME Coppin State Eagles@James Madison Dukes
+H James Madison Dukes: 43 41
+H Coppin State Eagles: 28 42
+
+GAME Pennsylvania Quakers@American University Eagles
+H American University Eagles: 42 42
+H Pennsylvania Quakers: 37 41
+
+GAME Morehead State Eagles@Georgia Bulldogs
+H Georgia Bulldogs: 64 56
+H Morehead State Eagles: 42 39
+
+GAME Lipscomb Bisons@Mercer Bears
+H Mercer Bears: 46 46
+H Lipscomb Bisons: 35 42
+
+GAME Le Moyne Dolphins@Bowling Green Falcons
+H Bowling Green Falcons: 37 46
+H Le Moyne Dolphins: 36 24
+
+GAME Dominican (IL) Dominican@Purdue Fort Wayne Mastodons
+H Purdue Fort Wayne Mastodons: 70 67
+H Dominican (IL) Dominican: 26 30
+
+GAME Cal State Northridge Matadors@North Dakota Fighting Hawks
+H North Dakota Fighting Hawks: 37 48
+H Cal State Northridge Matadors: 44 49
+
+GAME South Dakota State Jackrabbits@Northern Iowa Panthers
+H Northern Iowa Panthers: 28 37
+H South Dakota State Jackrabbits: 25 33
+
+GAME Vermont Catamounts@Brown Bears
+H Brown Bears: 32 33 15 4
+H Vermont Catamounts: 24 41 15 9
+
+GAME Marist Red Foxes@Dartmouth Big Green
+H Dartmouth Big Green: 35 21
+H Marist Red Foxes: 40 35
+
+GAME Texas A&M Aggies@Oklahoma State Cowboys
+H Oklahoma State Cowboys: 43 44
+H Texas A&M Aggies: 29 34
+
+GAME Cornell Big Red@Illinois State Redbirds
+H Illinois State Redbirds: 34 42
+H Cornell Big Red: 32 33
+
+GAME Ozark Christian Ambassadors@South Dakota Coyotes
+H South Dakota Coyotes: 72 49
+H Ozark Christian Ambassadors: 35 30
+
+GAME Lyon Scots@Louisiana Tech Bulldogs
+H Louisiana Tech Bulldogs: 48 45
+H Lyon Scots: 22 13
+
+GAME Denver Pioneers@Montana State Bobcats
+H Montana State Bobcats: 38 35
+H Denver Pioneers: 38 37
+
+GAME Lehigh Mountain Hawks@West Virginia Mountaineers
+H West Virginia Mountaineers: 42 27
+H Lehigh Mountain Hawks: 20 27
+
+GAME Utah Tech Trailblazers@Arizona State Sun Devils
+H Arizona State Sun Devils: 39 42
+H Utah Tech Trailblazers: 25 41
+
+GAME Oakland City Mighty Oaks@Evansville Purple Aces
+H Evansville Purple Aces: 39 37
+H Oakland City Mighty Oaks: 26 21
+
+GAME VMI Keydets@Missouri Tigers
+H Missouri Tigers: 50 56
+H VMI Keydets: 40 28
+
+GAME North Texas Mean Green@Loyola Chicago Ramblers
+NEUTRAL
+H Loyola Chicago Ramblers: 20 42
+H North Texas Mean Green: 34 30
+
+GAME UC Davis Aggies@Portland Pilots
+H Portland Pilots: 31 36
+H UC Davis Aggies: 32 31
+
+GAME Idaho State Bengals@San Diego State Aztecs
+H San Diego State Aztecs: 34 39
+H Idaho State Bengals: 21 36
+
+GAME Grambling Tigers@Howard Bison
+H Howard Bison: 33 37
+H Grambling Tigers: 32 41
+
+GAME Florida Atlantic Owls@Liberty Flames
+H Liberty Flames: 48 40
+H Florida Atlantic Owls: 30 38
+
+GAME Manhattan Jaspers@USC Trojans
+H USC Trojans: 55 59
+H Manhattan Jaspers: 37 46
+
+GAME Omaha Mavericks@Colorado State Rams
+H Colorado State Rams: 48 49
+H Omaha Mavericks: 38 36
+
+GAME Southern Miss Golden Eagles@South Carolina Gamecocks
+H South Carolina Gamecocks: 38 32 13
+H Southern Miss Golden Eagles: 34 36 9
+
+GAME Kentucky Christian Knights@UT Martin Skyhawks
+H UT Martin Skyhawks: 44 53
+H Kentucky Christian Knights: 29 13
+
+GAME Washington Huskies@Baylor Bears
+H Baylor Bears: 38 40
+H Washington Huskies: 32 37
+
+GAME East Texas A&M Lions@Hawai'i Rainbow Warriors
+H Hawai'i Rainbow Warriors: 51 49
+H East Texas A&M Lions: 30 44

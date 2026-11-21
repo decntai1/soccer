@@ -1,0 +1,26 @@
+# NCAAB results 2026-03-15 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:47Z
+
+GAME Purdue Boilermakers@Michigan Wolverines
+NEUTRAL
+H Michigan Wolverines: 38 34
+H Purdue Boilermakers: 38 42
+
+GAME Vanderbilt Commodores@Arkansas Razorbacks
+NEUTRAL
+H Arkansas Razorbacks: 41 45
+H Vanderbilt Commodores: 39 36
+
+GAME Pennsylvania Quakers@Yale Bulldogs
+NEUTRAL
+H Yale Bulldogs: 39 36 9
+H Pennsylvania Quakers: 41 34 13
+
+GAME Dayton Flyers@VCU Rams
+NEUTRAL
+H VCU Rams: 40 30
+H Dayton Flyers: 25 37
+
+GAME Wichita State Shockers@South Florida Bulls
+NEUTRAL
+H South Florida Bulls: 33 37
+H Wichita State Shockers: 26 29

@@ -1,0 +1,53 @@
+# NCAAB results 2025-12-11 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:44Z
+
+GAME Iowa Hawkeyes@Iowa State Cyclones
+H Iowa State Cyclones: 25 41
+H Iowa Hawkeyes: 33 29
+
+GAME Green Bay Phoenix@IU Indianapolis Jaguars
+H IU Indianapolis Jaguars: 36 39
+H Green Bay Phoenix: 33 52
+
+GAME Bloomfield Deacons@Wagner Seahawks
+H Wagner Seahawks: 42 43 10
+H Bloomfield Deacons: 48 37 8
+
+GAME Coastal Georgia Mariner@Georgia Southern Eagles
+H Georgia Southern Eagles: 49 51
+H Coastal Georgia Mariner: 27 31
+
+GAME Trinity College of Jacksonville Eagles@Jacksonville Dolphins
+H Jacksonville Dolphins: 64 58
+H Trinity College of Jacksonville Eagles: 19 30
+
+GAME App State Mountaineers@East Carolina Pirates
+H East Carolina Pirates: 17 37
+H App State Mountaineers: 33 34
+
+GAME Western Carolina Catamounts@Virginia Tech Hokies
+H Virginia Tech Hokies: 53 43
+H Western Carolina Catamounts: 34 40
+
+GAME UT Arlington Mavericks@UT Rio Grande Valley Vaqueros
+H UT Rio Grande Valley Vaqueros: 27 23
+H UT Arlington Mavericks: 24 34
+
+GAME Saint John's (MN) Johnnies@St. Thomas Tommies
+H St. Thomas Tommies: 35 45
+H Saint John's (MN) Johnnies: 31 25
+
+GAME Alabama State Hornets@Missouri Tigers
+H Missouri Tigers: 52 33
+H Alabama State Hornets: 39 38
+
+GAME Alaska Anchorage Seawolves@Denver Pioneers
+H Denver Pioneers: 45 52
+H Alaska Anchorage Seawolves: 31 30
+
+GAME Saint Joseph's Hawks@Syracuse Orange
+H Syracuse Orange: 34 37
+H Saint Joseph's Hawks: 30 33
+
+GAME North Dakota State Bison@Cal State Bakersfield Roadrunners
+H Cal State Bakersfield Roadrunners: 30 39
+H North Dakota State Bison: 40 40

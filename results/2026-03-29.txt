@@ -1,0 +1,11 @@
+# NCAAB results 2026-03-29 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:47Z
+
+GAME Tennessee Volunteers@Michigan Wolverines
+NEUTRAL
+H Michigan Wolverines: 48 47
+H Tennessee Volunteers: 26 36
+
+GAME UConn Huskies@Duke Blue Devils
+NEUTRAL
+H Duke Blue Devils: 44 28
+H UConn Huskies: 29 44

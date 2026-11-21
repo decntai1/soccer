@@ -1,0 +1,37 @@
+# NCAAB results 2026-02-23 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:46Z
+
+GAME Houston Cougars@Kansas Jayhawks
+H Kansas Jayhawks: 31 38
+H Houston Cougars: 27 29
+
+GAME Louisville Cardinals@North Carolina Tar Heels
+H North Carolina Tar Heels: 39 38
+H Louisville Cardinals: 38 36
+
+GAME Texas A&M-Corpus Christi Islanders@SE Louisiana Lions
+H SE Louisiana Lions: 32 36
+H Texas A&M-Corpus Christi Islanders: 40 33
+
+GAME Nicholls Colonels@Lamar Cardinals
+H Lamar Cardinals: 23 29
+H Nicholls Colonels: 20 33
+
+GAME Incarnate Word Cardinals@Northwestern State Demons
+H Northwestern State Demons: 18 36
+H Incarnate Word Cardinals: 23 26
+
+GAME LSU New Orleans Privateers@Stephen F. Austin Lumberjacks
+H Stephen F. Austin Lumberjacks: 23 50
+H LSU New Orleans Privateers: 31 46
+
+GAME UT Rio Grande Valley Vaqueros@McNeese Cowboys
+H McNeese Cowboys: 34 41
+H UT Rio Grande Valley Vaqueros: 22 46
+
+GAME Houston Christian Huskies@East Texas A&M Lions
+H East Texas A&M Lions: 23 45
+H Houston Christian Huskies: 36 33
+
+GAME Mississippi Valley State Delta Devils@Grambling Tigers
+H Grambling Tigers: 38 45
+H Mississippi Valley State Delta Devils: 36 26

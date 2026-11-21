@@ -1,0 +1,171 @@
+# NCAAB results 2026-03-04 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:47Z
+
+GAME Baylor Bears@Houston Cougars
+H Houston Cougars: 35 42
+H Baylor Bears: 35 29
+
+GAME Purdue Boilermakers@Northwestern Wildcats
+H Northwestern Wildcats: 34 32
+H Purdue Boilermakers: 25 45
+
+GAME Texas Longhorns@Arkansas Razorbacks
+H Arkansas Razorbacks: 56 49
+H Texas Longhorns: 34 51
+
+GAME Miami Hurricanes@SMU Mustangs
+H SMU Mustangs: 31 38
+H Miami Hurricanes: 38 39
+
+GAME Loyola Chicago Ramblers@Saint Louis Billikens
+H Saint Louis Billikens: 40 39
+H Loyola Chicago Ramblers: 32 33
+
+GAME Jacksonville Dolphins@Bellarmine Knights
+NEUTRAL
+H Bellarmine Knights: 47 35
+H Jacksonville Dolphins: 32 47
+
+GAME North Alabama Lions@Florida Gulf Coast Eagles
+NEUTRAL
+H Florida Gulf Coast Eagles: 29 40
+H North Alabama Lions: 27 31
+
+GAME Stetson Hatters@Eastern Kentucky Colonels
+NEUTRAL
+H Eastern Kentucky Colonels: 41 35
+H Stetson Hatters: 54 38
+
+GAME Louisiana Ragin' Cajuns@James Madison Dukes
+NEUTRAL
+H James Madison Dukes: 37 50
+H Louisiana Ragin' Cajuns: 27 45
+
+GAME Creighton Bluejays@Butler Bulldogs
+H Butler Bulldogs: 36 23
+H Creighton Bluejays: 32 44
+
+GAME Fordham Rams@La Salle Explorers
+H La Salle Explorers: 46 41
+H Fordham Rams: 37 47
+
+GAME Minnesota Golden Gophers@Indiana Hoosiers
+H Indiana Hoosiers: 43 34
+H Minnesota Golden Gophers: 28 19
+
+GAME Eastern Illinois Panthers@SIU Edwardsville Cougars
+NEUTRAL
+H SIU Edwardsville Cougars: 31 34 6
+H Eastern Illinois Panthers: 40 25 12
+
+GAME Stonehill Skyhawks@Le Moyne Dolphins
+H Le Moyne Dolphins: 32 39
+H Stonehill Skyhawks: 39 42
+
+GAME Fairleigh Dickinson Knights@Mercyhurst Lakers
+H Mercyhurst Lakers: 35 35
+H Fairleigh Dickinson Knights: 28 33
+
+GAME Wagner Seahawks@Central Connecticut Blue Devils
+H Central Connecticut Blue Devils: 35 25
+H Wagner Seahawks: 31 39
+
+GAME Chicago State Cougars@Long Island University Sharks
+H Long Island University Sharks: 40 39
+H Chicago State Cougars: 33 42
+
+GAME Northern Kentucky Norse@Oakland Golden Grizzlies
+H Oakland Golden Grizzlies: 31 53
+H Northern Kentucky Norse: 37 48
+
+GAME Milwaukee Panthers@Detroit Mercy Titans
+H Detroit Mercy Titans: 38 46
+H Milwaukee Panthers: 24 39
+
+GAME Youngstown State Penguins@Robert Morris Colonials
+H Robert Morris Colonials: 28 40
+H Youngstown State Penguins: 23 30
+
+GAME Cleveland State Vikings@Wright State Raiders
+H Wright State Raiders: 37 53
+H Cleveland State Vikings: 32 29
+
+GAME St. Bonaventure Bonnies@George Washington Revolutionaries
+H George Washington Revolutionaries: 36 37 18
+H St. Bonaventure Bonnies: 35 38 9
+
+GAME Duquesne Dukes@Rhode Island Rams
+H Rhode Island Rams: 19 45
+H Duquesne Dukes: 24 28
+
+GAME Saint Joseph's Hawks@Davidson Wildcats
+H Davidson Wildcats: 35 32
+H Saint Joseph's Hawks: 37 33
+
+GAME UAB Blazers@Charlotte 49ers
+H Charlotte 49ers: 35 39
+H UAB Blazers: 33 47
+
+GAME Marquette Golden Eagles@Providence Friars
+H Providence Friars: 23 33
+H Marquette Golden Eagles: 37 41
+
+GAME California Golden Bears@Georgia Tech Yellow Jackets
+H Georgia Tech Yellow Jackets: 36 29
+H California Golden Bears: 32 44
+
+GAME Gardner-Webb Runnin' Bulldogs@South Carolina Upstate Spartans
+NEUTRAL
+H South Carolina Upstate Spartans: 30 34
+H Gardner-Webb Runnin' Bulldogs: 29 36
+
+GAME North Florida Ospreys@West Georgia Wolves
+NEUTRAL
+H West Georgia Wolves: 48 45
+H North Florida Ospreys: 35 50
+
+GAME Ohio State Buckeyes@Penn State Nittany Lions
+H Penn State Nittany Lions: 21 41
+H Ohio State Buckeyes: 45 49
+
+GAME Kansas City Roos@Oral Roberts Golden Eagles
+NEUTRAL
+H Oral Roberts Golden Eagles: 44 40
+H Kansas City Roos: 21 41
+
+GAME Rice Owls@North Texas Mean Green
+H North Texas Mean Green: 23 39
+H Rice Owls: 33 25
+
+GAME Maryland Terrapins@Wisconsin Badgers
+H Wisconsin Badgers: 34 44
+H Maryland Terrapins: 21 24
+
+GAME Villanova Wildcats@DePaul Blue Demons
+H DePaul Blue Demons: 24 33
+H Villanova Wildcats: 26 50
+
+GAME Old Dominion Monarchs@Georgia Southern Eagles
+NEUTRAL
+H Georgia Southern Eagles: 39 49
+H Old Dominion Monarchs: 37 47
+
+GAME Florida State Seminoles@Pittsburgh Panthers
+H Pittsburgh Panthers: 30 44
+H Florida State Seminoles: 46 29
+
+GAME Stanford Cardinal@Notre Dame Fighting Irish
+H Notre Dame Fighting Irish: 37 41
+H Stanford Cardinal: 45 41
+
+GAME Little Rock Trojans@Lindenwood Lions
+NEUTRAL
+H Lindenwood Lions: 35 37
+H Little Rock Trojans: 21 41
+
+GAME Colorado State Rams@New Mexico Lobos
+H New Mexico Lobos: 25 49
+H Colorado State Rams: 40 42
+
+GAME USC Trojans@Washington Huskies
+H Washington Huskies: 40 51
+H USC Trojans: 43 29

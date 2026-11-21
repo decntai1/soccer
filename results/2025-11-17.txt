@@ -1,0 +1,137 @@
+# NCAAB results 2025-11-17 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:44Z
+
+GAME Southern Utah Thunderbirds@Gonzaga Bulldogs
+H Gonzaga Bulldogs: 59 63
+H Southern Utah Thunderbirds: 27 23
+
+GAME Stonehill Skyhawks@Iowa State Cyclones
+H Iowa State Cyclones: 42 54
+H Stonehill Skyhawks: 27 30
+
+GAME Rice Owls@Tennessee Volunteers
+H Tennessee Volunteers: 39 52
+H Rice Owls: 26 40
+
+GAME SIU Edwardsville Cougars@Wisconsin Badgers
+H Wisconsin Badgers: 48 46
+H SIU Edwardsville Cougars: 41 28
+
+GAME VCU Rams@NC State Wolfpack
+H NC State Wolfpack: 39 46
+H VCU Rams: 35 44
+
+GAME Florida A&M Rattlers@Georgia Bulldogs
+H Georgia Bulldogs: 44 43
+H Florida A&M Rattlers: 22 35
+
+GAME Carolina University Bruins@Liberty Flames
+H Liberty Flames: 49 49
+H Carolina University Bruins: 19 27
+
+GAME Drake Bulldogs@Charleston Cougars
+H Charleston Cougars: 25 37
+H Drake Bulldogs: 28 43
+
+GAME Coastal Georgia Mariner@Florida Atlantic Owls
+H Florida Atlantic Owls: 50 42
+H Coastal Georgia Mariner: 33 30
+
+GAME West Georgia Wolves@Tennessee Tech Golden Eagles
+H Tennessee Tech Golden Eagles: 27 32
+H West Georgia Wolves: 33 28
+
+GAME Oakland Golden Grizzlies@UCF Knights
+H UCF Knights: 44 43
+H Oakland Golden Grizzlies: 40 43
+
+GAME Colgate Raiders@Siena Saints
+H Siena Saints: 28 41
+H Colgate Raiders: 30 42
+
+GAME Lafayette Leopards@West Virginia Mountaineers
+H West Virginia Mountaineers: 36 45
+H Lafayette Leopards: 25 34
+
+GAME Niagara Purple Eagles@Le Moyne Dolphins
+H Le Moyne Dolphins: 32 42
+H Niagara Purple Eagles: 32 36
+
+GAME Canisius Golden Griffins@High Point Panthers
+H High Point Panthers: 46 47
+H Canisius Golden Griffins: 17 33
+
+GAME Saint Joseph's Hawks@Pennsylvania Quakers
+H Pennsylvania Quakers: 41 42
+H Saint Joseph's Hawks: 41 33
+
+GAME Bucknell Bison@Pittsburgh Panthers
+H Pittsburgh Panthers: 38 46
+H Bucknell Bison: 25 25
+
+GAME Southwestern Adventist Knights@UT Rio Grande Valley Vaqueros
+H UT Rio Grande Valley Vaqueros: 58 52
+H Southwestern Adventist Knights: 30 23
+
+GAME Lamar Cardinals@UL Monroe Warhawks
+H UL Monroe Warhawks: 27 39
+H Lamar Cardinals: 40 39
+
+GAME Rhodes Lynx@UAB Blazers
+H UAB Blazers: 60 52
+H Rhodes Lynx: 34 22
+
+GAME Peru State PERU STATE@South Dakota State Jackrabbits
+H South Dakota State Jackrabbits: 46 48
+H Peru State PERU STATE: 22 24
+
+GAME Southern Illinois Salukis@North Dakota State Bison
+H North Dakota State Bison: 53 39
+H Southern Illinois Salukis: 46 39
+
+GAME Prairie View A&M Panthers@Missouri Tigers
+H Missouri Tigers: 49 42
+H Prairie View A&M Panthers: 27 46
+
+GAME Angelo State Rams@Tarleton State Texans
+H Tarleton State Texans: 44 33
+H Angelo State Rams: 25 29
+
+GAME Tulsa Golden Hurricane@Kansas State Wildcats
+H Kansas State Wildcats: 39 45
+H Tulsa Golden Hurricane: 34 49
+
+GAME Coe Kohawks@Western Illinois Leathernecks
+H Western Illinois Leathernecks: 34 40
+H Coe Kohawks: 36 27
+
+GAME Loyola Marymount Lions@UC Santa Barbara Gauchos
+H UC Santa Barbara Gauchos: 40 29 5
+H Loyola Marymount Lions: 31 38 9
+
+GAME Alabama State Hornets@Colorado Buffaloes
+H Colorado Buffaloes: 46 48
+H Alabama State Hornets: 22 44
+
+GAME Georgia State Panthers@Arizona State Sun Devils
+H Arizona State Sun Devils: 34 41
+H Georgia State Panthers: 39 23
+
+GAME North Alabama Lions@Clemson Tigers
+H Clemson Tigers: 45 36
+H North Alabama Lions: 22 39
+
+GAME Bethesda Flames@San José State Spartans
+H San José State Spartans: 54 56
+H Bethesda Flames: 24 32
+
+GAME Oregon State Beavers@Oregon Ducks
+H Oregon Ducks: 41 46
+H Oregon State Beavers: 34 41
+
+GAME Cal State Bakersfield Roadrunners@Portland State Vikings
+H Portland State Vikings: 42 51
+H Cal State Bakersfield Roadrunners: 32 48
+
+GAME Eastern Oregon Mountaineers@Eastern Washington Eagles
+H Eastern Washington Eagles: 44 47
+H Eastern Oregon Mountaineers: 37 36

@@ -1,0 +1,81 @@
+# NCAAB results 2026-01-11 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:45Z
+
+GAME Illinois Fighting Illini@Iowa Hawkeyes
+H Iowa Hawkeyes: 24 45
+H Illinois Fighting Illini: 35 40
+
+GAME Cincinnati Bearcats@UCF Knights
+H UCF Knights: 33 40
+H Cincinnati Bearcats: 32 40
+
+GAME Saint Joseph's Hawks@Richmond Spiders
+H Richmond Spiders: 33 32
+H Saint Joseph's Hawks: 45 22
+
+GAME Memphis Tigers@Florida Atlantic Owls
+H Florida Atlantic Owls: 36 53
+H Memphis Tigers: 34 44
+
+GAME Cleveland State Vikings@Detroit Mercy Titans
+H Detroit Mercy Titans: 46 48
+H Cleveland State Vikings: 40 44
+
+GAME Canisius Golden Griffins@Iona Gaels
+H Iona Gaels: 30 44
+H Canisius Golden Griffins: 25 23
+
+GAME Charlotte 49ers@Rice Owls
+H Rice Owls: 31 42
+H Charlotte 49ers: 33 41
+
+GAME UAB Blazers@East Carolina Pirates
+H East Carolina Pirates: 37 42 6
+H UAB Blazers: 39 40 8
+
+GAME Merrimack Warriors@Saint Peter's Peacocks
+H Saint Peter's Peacocks: 38 38
+H Merrimack Warriors: 25 38
+
+GAME Quinnipiac Bobcats@Sacred Heart Pioneers
+H Sacred Heart Pioneers: 32 28
+H Quinnipiac Bobcats: 26 44
+
+GAME Northern Kentucky Norse@Green Bay Phoenix
+H Green Bay Phoenix: 51 29
+H Northern Kentucky Norse: 35 43
+
+GAME Purdue Fort Wayne Mastodons@Robert Morris Colonials
+H Robert Morris Colonials: 37 37
+H Purdue Fort Wayne Mastodons: 43 36
+
+GAME Siena Saints@Mount St. Mary's Mountaineers
+H Mount St. Mary's Mountaineers: 25 25
+H Siena Saints: 29 38
+
+GAME Marist Red Foxes@Rider Broncs
+H Rider Broncs: 21 28
+H Marist Red Foxes: 30 41
+
+GAME Niagara Purple Eagles@Manhattan Jaspers
+H Manhattan Jaspers: 36 43
+H Niagara Purple Eagles: 38 32
+
+GAME North Texas Mean Green@Wichita State Shockers
+H Wichita State Shockers: 37 41
+H North Texas Mean Green: 27 40
+
+GAME Wright State Raiders@Oakland Golden Grizzlies
+H Oakland Golden Grizzlies: 30 54
+H Wright State Raiders: 49 45
+
+GAME IU Indianapolis Jaguars@Milwaukee Panthers
+H Milwaukee Panthers: 41 54
+H IU Indianapolis Jaguars: 43 40
+
+GAME Northwestern Wildcats@Rutgers Scarlet Knights
+H Rutgers Scarlet Knights: 33 34 10
+H Northwestern Wildcats: 35 32 8
+
+GAME Ohio State Buckeyes@Washington Huskies
+H Washington Huskies: 36 45
+H Ohio State Buckeyes: 38 36

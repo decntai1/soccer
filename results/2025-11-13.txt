@@ -1,0 +1,106 @@
+# NCAAB results 2025-11-13 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:44Z
+
+GAME Purdue Boilermakers@Alabama Crimson Tide
+H Alabama Crimson Tide: 41 39
+H Purdue Boilermakers: 43 44
+
+GAME San José State Spartans@Michigan State Spartans
+H Michigan State Spartans: 46 33
+H San José State Spartans: 23 37
+
+GAME Central Michigan Chippewas@South Alabama Jaguars
+NEUTRAL
+H South Alabama Jaguars: 35 31
+H Central Michigan Chippewas: 30 34
+
+GAME Cornell Big Red@Lafayette Leopards
+H Lafayette Leopards: 40 38
+H Cornell Big Red: 46 51
+
+GAME Pittsburgh Panthers@West Virginia Mountaineers
+H West Virginia Mountaineers: 34 37
+H Pittsburgh Panthers: 25 24
+
+GAME Bryan Lions@UNC Asheville Bulldogs
+H UNC Asheville Bulldogs: 57 35
+H Bryan Lions: 14 40
+
+GAME Alcorn State Braves@Howard Bison
+H Howard Bison: 28 44
+H Alcorn State Braves: 23 41
+
+GAME Fort Valley State Wildcats@Georgia State Panthers
+H Georgia State Panthers: 50 40
+H Fort Valley State Wildcats: 26 30
+
+GAME Mid Atlantic Christian Mustangs@Campbell Fighting Camels
+H Campbell Fighting Camels: 49 59
+H Mid Atlantic Christian Mustangs: 32 23
+
+GAME Washington Adventist Shock@North Carolina A&T Aggies
+H North Carolina A&T Aggies: 51 38
+H Washington Adventist Shock: 43 40
+
+GAME John Jay Bloodhounds@Princeton Tigers
+H Princeton Tigers: 47 53
+H John Jay Bloodhounds: 25 34
+
+GAME Le Moyne Dolphins@Massachusetts Minutemen
+H Massachusetts Minutemen: 48 46
+H Le Moyne Dolphins: 38 42
+
+GAME Berea Mountaineers@Tennessee Tech Golden Eagles
+H Tennessee Tech Golden Eagles: 47 39
+H Berea Mountaineers: 24 40
+
+GAME Monmouth Hawks@Seton Hall Pirates
+H Seton Hall Pirates: 27 43
+H Monmouth Hawks: 34 24
+
+GAME Pittsburgh-Greensburg GREENSBURG@Robert Morris Colonials
+H Robert Morris Colonials: 35 46
+H Pittsburgh-Greensburg GREENSBURG: 29 28
+
+GAME Elizabeth City State Vikings@East Carolina Pirates
+H East Carolina Pirates: 36 35
+H Elizabeth City State Vikings: 35 35
+
+GAME UMass Lowell River Hawks@Columbia Lions
+H Columbia Lions: 31 55
+H UMass Lowell River Hawks: 36 36
+
+GAME Southern Miss Golden Eagles@Grambling Tigers
+H Grambling Tigers: 42 33
+H Southern Miss Golden Eagles: 30 40
+
+GAME Loyola Chicago Ramblers@Wichita State Shockers
+H Wichita State Shockers: 50 45
+H Loyola Chicago Ramblers: 36 38
+
+GAME Florida International Panthers@LSU Tigers
+H LSU Tigers: 43 55
+H Florida International Panthers: 38 43
+
+GAME Green Bay Phoenix@St. Thomas Tommies
+H St. Thomas Tommies: 50 30
+H Green Bay Phoenix: 26 35
+
+GAME UL Monroe Warhawks@Houston Christian Huskies
+H Houston Christian Huskies: 33 39
+H UL Monroe Warhawks: 43 18
+
+GAME Benedictine (IL) Eagles@Northern Illinois Huskies
+H Northern Illinois Huskies: 60 57
+H Benedictine (IL) Eagles: 20 42
+
+GAME Charleston Southern Buccaneers@Alabama A&M Bulldogs
+H Alabama A&M Bulldogs: 42 26
+H Charleston Southern Buccaneers: 34 30
+
+GAME Voorhees Tigers@Western Carolina Catamounts
+H Western Carolina Catamounts: 43 52
+H Voorhees Tigers: 15 29
+
+GAME California Golden Bears@Kansas State Wildcats
+H Kansas State Wildcats: 55 44
+H California Golden Bears: 34 62

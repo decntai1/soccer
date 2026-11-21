@@ -1,0 +1,1196 @@
+gameId,season,seasonType,startDate,homeTeam,awayTeam,homeConference,awayConference,homeScore,awayScore,provider,spread,overUnder,homeMoneyline,awayMoneyline,spreadOpen,overUnderOpen
+211971,2026,regular,2026-03-01T00:00:00.000Z,Hofstra,Stony Brook,CAA,CAA,67,58,Bovada,-11.5,140.0,-950.0,600.0,-13.0,139.5
+211971,2026,regular,2026-03-01T00:00:00.000Z,Hofstra,Stony Brook,CAA,CAA,67,58,Draft Kings,-11.5,140.5,,,-12.5,138.5
+211954,2026,regular,2026-03-01T00:00:00.000Z,Northern Kentucky,Wright State,Horizon,Horizon,91,92,Bovada,-3.0,153.0,-140.0,120.0,-3.0,152.5
+211954,2026,regular,2026-03-01T00:00:00.000Z,Northern Kentucky,Wright State,Horizon,Horizon,91,92,Draft Kings,-3.5,153.5,,,-3.5,152.5
+211981,2026,regular,2026-03-01T00:00:00.000Z,Cal State Fullerton,Hawai'i,Big West,Big West,85,87,Draft Kings,3.5,158.5,,,3.5,156.5
+215151,2026,regular,2026-03-01T01:00:00.000Z,UC Riverside,Cal State Northridge,Big West,Big West,95,84,Bovada,5.0,158.0,165.0,-195.0,4.5,156.5
+215151,2026,regular,2026-03-01T01:00:00.000Z,UC Riverside,Cal State Northridge,Big West,Big West,95,84,Draft Kings,5.5,157.5,,,4.5,156.5
+215112,2026,regular,2026-03-01T01:00:00.000Z,UCF,Baylor,Big 12,Big 12,86,87,Draft Kings,-2.5,159.5,,,-1.5,159.5
+215127,2026,regular,2026-03-01T01:00:00.000Z,Fresno State,Boise State,Mountain West,Mountain West,53,69,Bovada,7.0,149.0,260.0,-320.0,6.5,147.5
+215127,2026,regular,2026-03-01T01:00:00.000Z,Fresno State,Boise State,Mountain West,Mountain West,53,69,Draft Kings,7.5,148.5,,,6.5,147.5
+211948,2026,regular,2026-03-01T01:00:00.000Z,St. Thomas-Minnesota,Omaha,Summit,Summit,68,53,Draft Kings,-11.5,160.5,,,-13.5,159.5
+211947,2026,regular,2026-03-01T01:00:00.000Z,Kansas City,Oral Roberts,Summit,Summit,70,94,Draft Kings,3.5,149.5,,,4.5,145.5
+358998,2026,regular,2026-03-01T01:00:00.000Z,Pepperdine,Washington State,WCC,WCC,88,79,Bovada,8.0,160.0,270.0,-340.0,7.5,157.0
+358998,2026,regular,2026-03-01T01:00:00.000Z,Pepperdine,Washington State,WCC,WCC,88,79,Draft Kings,7.5,160.5,,,7.5,157.5
+359000,2026,regular,2026-03-01T01:00:00.000Z,Saint Louis,Duquesne,A-10,A-10,91,76,Bovada,-13.5,160.0,-1600.0,800.0,-16.0,160.5
+359000,2026,regular,2026-03-01T01:00:00.000Z,Saint Louis,Duquesne,A-10,A-10,91,76,Draft Kings,-14.5,160.5,,,-16.5,161.5
+215133,2026,regular,2026-03-01T01:00:00.000Z,St. John's,Villanova,Big East,Big East,89,57,Bovada,-7.5,148.5,-340.0,270.0,-7.5,146.5
+215133,2026,regular,2026-03-01T01:00:00.000Z,St. John's,Villanova,Big East,Big East,89,57,Draft Kings,-7.5,147.5,,,-5.5,144.5
+358999,2026,regular,2026-03-01T01:00:00.000Z,Santa Clara,Oregon State,WCC,WCC,93,72,Bovada,-16.0,153.5,-2000.0,950.0,-16.5,153.0
+358999,2026,regular,2026-03-01T01:00:00.000Z,Santa Clara,Oregon State,WCC,WCC,93,72,Draft Kings,-16.5,153.5,,,-16.5,153.5
+212000,2026,regular,2026-03-01T01:30:00.000Z,Auburn,Ole Miss,SEC,SEC,79,85,Bovada,-11.0,153.0,-600.0,425.0,-10.0,154.0
+212000,2026,regular,2026-03-01T01:30:00.000Z,Auburn,Ole Miss,SEC,SEC,79,85,Draft Kings,-10.5,153.5,,,-10.5,153.5
+212012,2026,regular,2026-03-01T01:30:00.000Z,Southern Utah,Utah Tech,UAC,UAC,81,67,Bovada,2.0,156.0,-105.0,-115.0,-1.0,155.5
+212012,2026,regular,2026-03-01T01:30:00.000Z,Southern Utah,Utah Tech,UAC,UAC,81,67,Draft Kings,1.5,156.5,,,1.5,153.5
+211999,2026,regular,2026-03-01T01:30:00.000Z,Florida,Arkansas,SEC,SEC,111,77,Bovada,-10.0,168.0,-600.0,425.0,-10.0,169.5
+211999,2026,regular,2026-03-01T01:30:00.000Z,Florida,Arkansas,SEC,SEC,111,77,Draft Kings,-9.5,170.5,-395.0,310.0,-9.5,166.5
+215137,2026,regular,2026-03-01T01:30:00.000Z,North Carolina,Virginia Tech,ACC,ACC,89,82,Bovada,-7.0,150.0,-340.0,270.0,-7.0,148.5
+215137,2026,regular,2026-03-01T01:30:00.000Z,North Carolina,Virginia Tech,ACC,ACC,89,82,Draft Kings,-6.5,149.5,,,-8.5,149.5
+212013,2026,regular,2026-03-01T02:00:00.000Z,California Baptist,Tarleton State,UAC,UAC,82,67,Bovada,-8.0,139.0,-340.0,270.0,-6.5,139.5
+212013,2026,regular,2026-03-01T02:00:00.000Z,California Baptist,Tarleton State,UAC,UAC,82,67,Draft Kings,-6.5,138.5,,,-7.5,137.5
+359001,2026,regular,2026-03-01T02:00:00.000Z,Loyola Marymount,Seattle U,WCC,WCC,66,71,Bovada,,137.0,-115.0,-105.0,,138.5
+359001,2026,regular,2026-03-01T02:00:00.000Z,Loyola Marymount,Seattle U,WCC,WCC,66,71,Draft Kings,-1.5,135.5,,,-1.5,136.5
+215154,2026,regular,2026-03-01T02:30:00.000Z,Cal State Bakersfield,Long Beach State,Big West,Big West,87,88,Draft Kings,3.5,152.5,,,4.5,153.5
+215128,2026,regular,2026-03-01T03:00:00.000Z,Utah State,Grand Canyon,Mountain West,Mountain West,74,69,Bovada,-9.0,148.0,-650.0,450.0,-10.0,149.5
+215128,2026,regular,2026-03-01T03:00:00.000Z,Utah State,Grand Canyon,Mountain West,Mountain West,74,69,Draft Kings,-10.5,148.5,,,-10.5,149.5
+211983,2026,regular,2026-03-01T03:00:00.000Z,UC San Diego,Cal Poly,Big West,Big West,80,64,Bovada,-7.0,164.0,-300.0,250.0,-7.0,162.0
+211983,2026,regular,2026-03-01T03:00:00.000Z,UC San Diego,Cal Poly,Big West,Big West,80,64,Draft Kings,-6.5,162.5,,,-6.5,159.5
+359002,2026,regular,2026-03-01T03:00:00.000Z,UNLV,Nevada,Mountain West,Mountain West,85,83,Bovada,-1.0,150.5,-105.0,-115.0,1.0,150.5
+359002,2026,regular,2026-03-01T03:00:00.000Z,UNLV,Nevada,Mountain West,Mountain West,85,83,Draft Kings,1.5,150.5,,,1.5,152.5
+359003,2026,regular,2026-03-01T03:30:00.000Z,Saint Mary's,Gonzaga,WCC,WCC,70,59,Draft Kings,1.5,142.5,,,1.5,143.5
+211982,2026,regular,2026-03-01T03:30:00.000Z,UC Irvine,UC Santa Barbara,Big West,Big West,64,60,Bovada,-3.5,137.5,-150.0,130.0,-4.0,138.5
+211982,2026,regular,2026-03-01T03:30:00.000Z,UC Irvine,UC Santa Barbara,Big West,Big West,64,60,Draft Kings,-3.5,138.5,,,-2.5,139.5
+215156,2026,regular,2026-03-01T17:00:00.000Z,Maryland,Rutgers,Big Ten,Big Ten,65,69,Bovada,-5.0,144.0,-195.0,165.0,-4.5,141.5
+215156,2026,regular,2026-03-01T17:00:00.000Z,Maryland,Rutgers,Big Ten,Big Ten,65,69,Draft Kings,-4.5,143.5,,,-4.5,141.5
+359006,2026,regular,2026-03-01T17:00:00.000Z,UAB,North Texas,American,American,58,62,Bovada,-4.5,141.5,-210.0,175.0,-4.5,142.0
+359006,2026,regular,2026-03-01T17:00:00.000Z,UAB,North Texas,American,American,58,62,Draft Kings,-4.5,143.5,-218.0,180.0,-4.5,142.5
+359004,2026,regular,2026-03-01T17:00:00.000Z,Davidson,La Salle,A-10,A-10,71,64,Bovada,-11.0,133.0,-750.0,500.0,-11.0,134.5
+359004,2026,regular,2026-03-01T17:00:00.000Z,Davidson,La Salle,A-10,A-10,71,64,Draft Kings,-10.5,133.5,,,-10.5,134.5
+359005,2026,regular,2026-03-01T17:00:00.000Z,South Florida,Tulane,American,American,90,62,Bovada,-15.0,155.0,-1500.0,775.0,-14.5,155.5
+359005,2026,regular,2026-03-01T17:00:00.000Z,South Florida,Tulane,American,American,90,62,Draft Kings,-15.5,155.5,,,-14.5,155.5
+212028,2026,regular,2026-03-01T18:00:00.000Z,Canisius,Quinnipiac,Metro,Metro,63,67,Bovada,8.0,138.5,270.0,-340.0,7.0,138.0
+212028,2026,regular,2026-03-01T18:00:00.000Z,Canisius,Quinnipiac,Metro,Metro,63,67,Draft Kings,7.5,138.5,,,6.5,135.5
+359007,2026,regular,2026-03-01T18:00:00.000Z,Indiana State,UIC,MVC,MVC,79,63,Bovada,3.5,144.0,140.0,-165.0,3.5,143.0
+359007,2026,regular,2026-03-01T18:00:00.000Z,Indiana State,UIC,MVC,MVC,79,63,Draft Kings,3.5,144.5,,,3.5,143.5
+215155,2026,regular,2026-03-01T18:30:00.000Z,Ohio State,Purdue,Big Ten,Big Ten,82,74,Bovada,6.0,149.5,250.0,-300.0,6.0,150.5
+215155,2026,regular,2026-03-01T18:30:00.000Z,Ohio State,Purdue,Big Ten,Big Ten,82,74,Draft Kings,6.5,150.5,,,5.5,150.5
+212026,2026,regular,2026-03-01T19:00:00.000Z,Fairfield,Mount St. Mary's,Metro,Metro,47,69,Bovada,-4.0,146.5,-195.0,165.0,-4.5,145.0
+212026,2026,regular,2026-03-01T19:00:00.000Z,Fairfield,Mount St. Mary's,Metro,Metro,47,69,Draft Kings,-4.5,145.5,,,-4.5,143.5
+212027,2026,regular,2026-03-01T19:00:00.000Z,Niagara,Merrimack,Metro,Metro,66,73,Bovada,7.5,127.0,300.0,-400.0,8.0,127.0
+212027,2026,regular,2026-03-01T19:00:00.000Z,Niagara,Merrimack,Metro,Metro,66,73,Draft Kings,7.5,126.5,,,8.5,126.5
+212025,2026,regular,2026-03-01T19:00:00.000Z,Siena,Rider,Metro,Metro,76,61,Bovada,-14.5,138.0,-1800.0,850.0,-16.0,137.5
+212025,2026,regular,2026-03-01T19:00:00.000Z,Siena,Rider,Metro,Metro,76,61,Draft Kings,-14.5,138.5,,,-16.5,137.5
+212030,2026,regular,2026-03-01T19:00:00.000Z,Manhattan,Iona,Metro,Metro,65,69,Bovada,2.0,151.5,115.0,-135.0,2.0,151.0
+212030,2026,regular,2026-03-01T19:00:00.000Z,Manhattan,Iona,Metro,Metro,65,69,Draft Kings,1.5,151.5,,,1.5,150.5
+359008,2026,regular,2026-03-01T19:00:00.000Z,Bradley,Murray State,MVC,MVC,87,78,Bovada,-4.0,157.5,-180.0,155.0,-4.0,158.5
+359008,2026,regular,2026-03-01T19:00:00.000Z,Bradley,Murray State,MVC,MVC,87,78,Draft Kings,-4.5,157.5,,,-3.5,159.5
+359011,2026,regular,2026-03-01T19:00:00.000Z,East Carolina,Memphis,American,American,84,68,Bovada,4.0,153.0,170.0,-200.0,5.0,150.5
+359011,2026,regular,2026-03-01T19:00:00.000Z,East Carolina,Memphis,American,American,84,68,Draft Kings,4.5,152.5,,,5.5,149.5
+212029,2026,regular,2026-03-01T19:00:00.000Z,Marist,Saint Peter's,Metro,Metro,56,63,Bovada,-4.0,131.5,-175.0,150.0,-3.5,134.0
+212029,2026,regular,2026-03-01T19:00:00.000Z,Marist,Saint Peter's,Metro,Metro,56,63,Draft Kings,-3.5,132.5,,,-3.5,132.5
+359010,2026,regular,2026-03-01T19:00:00.000Z,Temple,Rice,American,American,74,80,Bovada,-6.5,142.5,-330.0,265.0,-7.0,142.5
+359010,2026,regular,2026-03-01T19:00:00.000Z,Temple,Rice,American,American,74,80,Draft Kings,-6.5,143.5,,,-7.5,143.5
+359012,2026,regular,2026-03-01T19:00:00.000Z,Florida Atlantic,Charlotte,American,American,77,76,Bovada,-6.5,147.5,-340.0,270.0,-7.5,148.0
+359012,2026,regular,2026-03-01T19:00:00.000Z,Florida Atlantic,Charlotte,American,American,77,76,Draft Kings,-6.5,147.5,,,-7.5,148.5
+359013,2026,regular,2026-03-01T20:00:00.000Z,Drake,Northern Iowa,MVC,MVC,53,75,Bovada,4.0,137.0,150.0,-175.0,4.0,139.0
+359013,2026,regular,2026-03-01T20:00:00.000Z,Drake,Northern Iowa,MVC,MVC,53,75,Draft Kings,4.5,137.5,,,3.5,138.5
+215157,2026,regular,2026-03-01T20:45:00.000Z,Indiana,Michigan State,Big Ten,Big Ten,64,77,Bovada,3.0,144.5,130.0,-150.0,3.5,145.0
+215157,2026,regular,2026-03-01T20:45:00.000Z,Indiana,Michigan State,Big Ten,Big Ten,64,77,Draft Kings,3.5,144.5,,,3.5,144.5
+372149,2026,regular,2026-03-01T21:00:00.000Z,Evansville,Southern Illinois,MVC,MVC,67,81,Bovada,9.0,138.5,340.0,-460.0,8.5,138.5
+372149,2026,regular,2026-03-01T21:00:00.000Z,Evansville,Southern Illinois,MVC,MVC,67,81,Draft Kings,8.5,139.5,,,8.5,138.5
+215158,2026,regular,2026-03-01T21:00:00.000Z,Marquette,DePaul,Big East,Big East,51,62,Bovada,-4.5,140.0,-175.0,150.0,-4.0,142.5
+215158,2026,regular,2026-03-01T21:00:00.000Z,Marquette,DePaul,Big East,Big East,51,62,Draft Kings,-4.5,139.5,,,-3.5,142.5
+359009,2026,regular,2026-03-01T22:00:00.000Z,Illinois State,Belmont,MVC,MVC,81,74,Bovada,1.0,151.0,-115.0,-105.0,-1.0,151.0
+359009,2026,regular,2026-03-01T22:00:00.000Z,Illinois State,Belmont,MVC,MVC,81,74,Draft Kings,1.5,150.5,,,-1.5,150.5
+211975,2026,regular,2026-03-02T00:00:00.000Z,UNC Wilmington,Charleston,CAA,CAA,76,79,Draft Kings,-5.5,147.5,,,-4.5,143.5
+359014,2026,regular,2026-03-02T01:00:00.000Z,UTSA,Wichita State,American,American,67,84,Bovada,16.0,151.0,,800.0,15.5,150.0
+359014,2026,regular,2026-03-02T01:00:00.000Z,UTSA,Wichita State,American,American,67,84,Draft Kings,15.5,151.5,,,15.5,147.5
+359015,2026,regular,2026-03-02T23:00:00.000Z,Morgan State,Norfolk State,MEAC,MEAC,90,84,Bovada,4.0,157.5,125.0,-145.0,2.5,154.5
+359015,2026,regular,2026-03-02T23:00:00.000Z,Morgan State,Norfolk State,MEAC,MEAC,90,84,Draft Kings,3.5,157.5,,,2.5,155.5
+215160,2026,regular,2026-03-03T00:00:00.000Z,NC State,Duke,ACC,ACC,64,93,Bovada,9.0,151.0,425.0,-600.0,9.5,148.5
+215160,2026,regular,2026-03-03T00:00:00.000Z,NC State,Duke,ACC,ACC,64,93,Draft Kings,9.5,150.5,,,10.5,148.5
+215161,2026,regular,2026-03-03T00:00:00.000Z,Maryland Eastern Shore,North Carolina Central,MEAC,MEAC,73,77,Draft Kings,-2.5,133.5,,,-1.5,133.5
+359016,2026,regular,2026-03-03T00:00:00.000Z,Delaware State,South Carolina State,MEAC,MEAC,59,61,Bovada,-3.5,134.5,-130.0,110.0,-2.0,138.0
+359016,2026,regular,2026-03-03T00:00:00.000Z,Delaware State,South Carolina State,MEAC,MEAC,59,61,Draft Kings,-3.5,134.5,,,-2.5,137.5
+215159,2026,regular,2026-03-03T00:00:00.000Z,Howard,Coppin State,MEAC,MEAC,90,70,Bovada,-19.0,141.0,-4000.0,1200.0,-19.5,136.5
+215159,2026,regular,2026-03-03T00:00:00.000Z,Howard,Coppin State,MEAC,MEAC,90,70,Draft Kings,-19.5,140.5,,,-18.5,137.5
+372150,2026,regular,2026-03-03T00:00:00.000Z,Cleveland State,IU Indianapolis,Horizon,Horizon,101,93,Bovada,2.0,169.0,-130.0,110.0,-1.5,172.5
+372150,2026,regular,2026-03-03T00:00:00.000Z,Cleveland State,IU Indianapolis,Horizon,Horizon,101,93,Draft Kings,1.5,169.5,,,-1.5,173.5
+212031,2026,regular,2026-03-03T00:30:00.000Z,Incarnate Word,Stephen F. Austin,Southland,Southland,68,76,Bovada,7.0,143.0,300.0,-400.0,8.0,145.5
+212031,2026,regular,2026-03-03T00:30:00.000Z,Incarnate Word,Stephen F. Austin,Southland,Southland,68,76,Draft Kings,6.5,142.5,,,8.5,144.5
+212032,2026,regular,2026-03-03T00:30:00.000Z,UT Rio Grande Valley,Northwestern State,Southland,Southland,74,62,Bovada,-9.0,140.0,-600.0,425.0,-10.0,137.5
+212032,2026,regular,2026-03-03T00:30:00.000Z,UT Rio Grande Valley,Northwestern State,Southland,Southland,74,62,Draft Kings,-9.5,139.5,,,-9.5,137.5
+212034,2026,regular,2026-03-03T00:30:00.000Z,Nicholls,McNeese,Southland,Southland,65,75,Bovada,10.0,145.0,500.0,-750.0,11.0,145.0
+212034,2026,regular,2026-03-03T00:30:00.000Z,Nicholls,McNeese,Southland,Southland,65,75,Draft Kings,9.5,145.5,,,11.5,145.5
+212037,2026,regular,2026-03-03T01:00:00.000Z,Northern Colorado,Montana,Big Sky,Big Sky,85,57,Bovada,-5.5,154.5,-300.0,250.0,-6.5,154.0
+212037,2026,regular,2026-03-03T01:00:00.000Z,Northern Colorado,Montana,Big Sky,Big Sky,85,57,Draft Kings,-5.5,154.5,,,-5.5,154.5
+212036,2026,regular,2026-03-03T01:00:00.000Z,Northern Arizona,Montana State,Big Sky,Big Sky,65,76,Bovada,6.0,144.5,180.0,-220.0,5.5,142.5
+212036,2026,regular,2026-03-03T01:00:00.000Z,Northern Arizona,Montana State,Big Sky,Big Sky,65,76,Draft Kings,5.5,143.5,,,5.5,142.5
+212035,2026,regular,2026-03-03T01:00:00.000Z,Texas A&M-Corpus Christi,East Texas A&M,Southland,Southland,84,71,Bovada,-8.5,137.5,-360.0,280.0,-7.5,137.0
+212035,2026,regular,2026-03-03T01:00:00.000Z,Texas A&M-Corpus Christi,East Texas A&M,Southland,Southland,84,71,Draft Kings,-7.5,136.5,,,-7.5,137.5
+212033,2026,regular,2026-03-03T01:00:00.000Z,New Orleans,SE Louisiana,Southland,Southland,78,82,Bovada,-7.0,143.5,-320.0,260.0,-7.0,144.0
+212033,2026,regular,2026-03-03T01:00:00.000Z,New Orleans,SE Louisiana,Southland,Southland,78,82,Draft Kings,-6.5,143.5,,,-7.5,144.5
+215162,2026,regular,2026-03-03T01:30:00.000Z,Houston Christian,Lamar,Southland,Southland,75,53,Bovada,2.5,133.5,-105.0,-115.0,1.0,133.0
+215162,2026,regular,2026-03-03T01:30:00.000Z,Houston Christian,Lamar,Southland,Southland,75,53,Draft Kings,1.5,132.5,,,1.5,131.5
+212038,2026,regular,2026-03-03T02:00:00.000Z,Eastern Washington,Idaho,Big Sky,Big Sky,81,85,Bovada,-3.0,151.0,-165.0,140.0,-3.5,151.0
+212038,2026,regular,2026-03-03T02:00:00.000Z,Eastern Washington,Idaho,Big Sky,Big Sky,81,85,Draft Kings,-3.5,151.5,,,,152.5
+215163,2026,regular,2026-03-03T02:00:00.000Z,Arizona,Iowa State,Big 12,Big 12,73,57,Bovada,-7.0,149.5,-340.0,270.0,-8.0,148.0
+215163,2026,regular,2026-03-03T02:00:00.000Z,Arizona,Iowa State,Big 12,Big 12,73,57,Draft Kings,-7.5,149.5,,,-8.5,147.5
+212039,2026,regular,2026-03-03T03:00:00.000Z,Portland State,Weber State,Big Sky,Big Sky,84,60,Bovada,-5.0,145.0,-200.0,170.0,-5.0,145.0
+212039,2026,regular,2026-03-03T03:00:00.000Z,Portland State,Weber State,Big Sky,Big Sky,84,60,Draft Kings,-4.5,144.5,,,-4.5,145.5
+212040,2026,regular,2026-03-03T03:00:00.000Z,Sacramento State,Idaho State,Big Sky,Big Sky,83,65,Bovada,1.0,160.0,-125.0,105.0,-1.0,160.5
+212040,2026,regular,2026-03-03T03:00:00.000Z,Sacramento State,Idaho State,Big Sky,Big Sky,83,65,Draft Kings,1.5,160.5,,,-1.5,160.5
+212047,2026,regular,2026-03-03T23:00:00.000Z,Maine,UMass Lowell,Am. East,Am. East,56,67,Bovada,1.5,140.0,-105.0,-115.0,1.0,141.5
+212047,2026,regular,2026-03-03T23:00:00.000Z,Maine,UMass Lowell,Am. East,Am. East,56,67,Draft Kings,1.5,139.5,,,1.5,141.5
+212059,2026,regular,2026-03-03T23:00:00.000Z,South Carolina,Tennessee,SEC,SEC,59,78,Bovada,11.0,142.0,300.0,-400.0,8.0,144.0
+212059,2026,regular,2026-03-03T23:00:00.000Z,South Carolina,Tennessee,SEC,SEC,59,78,Draft Kings,10.5,141.5,,,9.5,143.5
+212048,2026,regular,2026-03-03T23:00:00.000Z,NJIT,UMBC,Am. East,Am. East,52,91,Draft Kings,4.5,143.5,,,4.5,140.5
+212049,2026,regular,2026-03-03T23:00:00.000Z,New Hampshire,Bryant,Am. East,Am. East,88,83,Bovada,-1.5,135.5,-145.0,125.0,-2.5,135.5
+212049,2026,regular,2026-03-03T23:00:00.000Z,New Hampshire,Bryant,Am. East,Am. East,88,83,Draft Kings,-1.5,135.5,,,-2.5,135.5
+372151,2026,regular,2026-03-03T23:00:00.000Z,Louisiana,Georgia State,Sun Belt,Sun Belt,84,75,Draft Kings,1.5,134.5,,,1.5,132.5
+212054,2026,regular,2026-03-03T23:30:00.000Z,Stony Brook,Towson,CAA,CAA,57,69,Bovada,1.0,136.5,-105.0,-115.0,1.0,136.5
+212054,2026,regular,2026-03-03T23:30:00.000Z,Stony Brook,Towson,CAA,CAA,57,69,Draft Kings,1.5,136.5,,,1.5,136.5
+212044,2026,regular,2026-03-03T23:30:00.000Z,Buffalo,Eastern Michigan,MAC,MAC,72,67,Bovada,-6.0,144.5,-175.0,150.0,-4.0,145.5
+212044,2026,regular,2026-03-03T23:30:00.000Z,Buffalo,Eastern Michigan,MAC,MAC,72,67,Draft Kings,-5.5,144.5,-185.0,154.0,-3.5,144.5
+212060,2026,regular,2026-03-03T23:30:00.000Z,Georgia,Alabama,SEC,SEC,98,88,Bovada,1.5,179.5,105.0,-125.0,-1.5,179.0
+212060,2026,regular,2026-03-03T23:30:00.000Z,Georgia,Alabama,SEC,SEC,98,88,Draft Kings,1.5,179.5,,,-2.5,177.5
+212053,2026,regular,2026-03-04T00:00:00.000Z,William & Mary,Hampton,CAA,CAA,94,85,Bovada,-11.5,154.5,-800.0,525.0,-11.5,154.0
+212053,2026,regular,2026-03-04T00:00:00.000Z,William & Mary,Hampton,CAA,CAA,94,85,Draft Kings,-11.5,154.5,,,-11.5,154.5
+212046,2026,regular,2026-03-04T00:00:00.000Z,Central Michigan,Akron,MAC,MAC,64,77,Bovada,12.0,158.5,600.0,-950.0,12.0,161.0
+212046,2026,regular,2026-03-04T00:00:00.000Z,Central Michigan,Akron,MAC,MAC,64,77,Draft Kings,11.5,158.5,,,12.5,160.5
+212051,2026,regular,2026-03-04T00:00:00.000Z,Elon,UNC Wilmington,CAA,CAA,57,76,Bovada,5.0,145.5,170.0,-200.0,5.0,146.5
+212051,2026,regular,2026-03-04T00:00:00.000Z,Elon,UNC Wilmington,CAA,CAA,57,76,Draft Kings,4.5,145.5,,,4.5,147.5
+212052,2026,regular,2026-03-04T00:00:00.000Z,Campbell,North Carolina A&T,CAA,CAA,90,72,Bovada,-8.5,155.5,-340.0,270.0,-7.5,156.5
+212052,2026,regular,2026-03-04T00:00:00.000Z,Campbell,North Carolina A&T,CAA,CAA,90,72,Draft Kings,-8.5,154.5,,,-7.5,156.5
+212042,2026,regular,2026-03-04T00:00:00.000Z,Massachusetts,Ohio,MAC,MAC,94,82,Bovada,-1.5,156.0,-150.0,130.0,-2.5,156.5
+212042,2026,regular,2026-03-04T00:00:00.000Z,Massachusetts,Ohio,MAC,MAC,94,82,Draft Kings,-1.5,156.5,,,-2.5,157.5
+212045,2026,regular,2026-03-04T00:00:00.000Z,Western Michigan,Ball State,MAC,MAC,71,74,Bovada,-2.5,138.5,-185.0,160.0,-4.5,137.0
+212045,2026,regular,2026-03-04T00:00:00.000Z,Western Michigan,Ball State,MAC,MAC,71,74,Draft Kings,-1.5,138.5,,,-3.5,137.5
+212056,2026,regular,2026-03-04T00:00:00.000Z,Northeastern,Monmouth,CAA,CAA,83,89,Bovada,4.0,150.0,150.0,-175.0,4.0,149.0
+212056,2026,regular,2026-03-04T00:00:00.000Z,Northeastern,Monmouth,CAA,CAA,83,89,Draft Kings,3.5,148.5,,,4.5,149.5
+212055,2026,regular,2026-03-04T00:00:00.000Z,Hofstra,Drexel,CAA,CAA,62,51,Bovada,-8.5,132.5,-430.0,320.0,-9.0,133.0
+212055,2026,regular,2026-03-04T00:00:00.000Z,Hofstra,Drexel,CAA,CAA,62,51,Draft Kings,-8.5,132.5,,,-8.5,131.5
+212050,2026,regular,2026-03-04T00:00:00.000Z,Vermont,UAlbany,Am. East,Am. East,69,56,Draft Kings,-9.5,136.5,,,-7.5,139.5
+212057,2026,regular,2026-03-04T00:00:00.000Z,Oklahoma,Missouri,SEC,SEC,80,64,Bovada,-1.0,154.0,-140.0,120.0,-3.0,153.0
+212057,2026,regular,2026-03-04T00:00:00.000Z,Oklahoma,Missouri,SEC,SEC,80,64,Draft Kings,-1.5,154.5,,,-2.5,153.5
+212062,2026,regular,2026-03-04T00:00:00.000Z,Texas A&M,Kentucky,SEC,SEC,96,85,Bovada,-1.5,162.5,-130.0,110.0,-1.5,159.0
+212062,2026,regular,2026-03-04T00:00:00.000Z,Texas A&M,Kentucky,SEC,SEC,96,85,Draft Kings,-1.5,161.5,,,-1.5,158.5
+215165,2026,regular,2026-03-04T00:00:00.000Z,Texas Tech,TCU,Big 12,Big 12,65,73,Bovada,-8.5,148.0,-625.0,430.0,-10.5,147.5
+215165,2026,regular,2026-03-04T00:00:00.000Z,Texas Tech,TCU,Big 12,Big 12,65,73,Draft Kings,-8.5,147.5,,,-10.5,147.5
+215175,2026,regular,2026-03-04T00:00:00.000Z,St. John's,Georgetown,Big East,Big East,72,69,Bovada,-15.5,148.0,-1600.0,800.0,-15.5,149.0
+215175,2026,regular,2026-03-04T00:00:00.000Z,St. John's,Georgetown,Big East,Big East,72,69,Draft Kings,-15.5,148.5,,,-15.5,148.5
+215177,2026,regular,2026-03-04T00:00:00.000Z,Virginia,Wake Forest,ACC,ACC,75,70,Bovada,-14.0,149.5,-1500.0,775.0,-14.5,148.5
+215177,2026,regular,2026-03-04T00:00:00.000Z,Virginia,Wake Forest,ACC,ACC,75,70,Draft Kings,-14.5,149.5,,,-14.5,147.5
+215183,2026,regular,2026-03-04T00:00:00.000Z,North Carolina,Clemson,ACC,ACC,67,63,Bovada,-3.0,141.5,-170.0,145.0,-3.5,141.5
+215183,2026,regular,2026-03-04T00:00:00.000Z,North Carolina,Clemson,ACC,ACC,67,63,Draft Kings,-2.5,141.5,,,-2.5,140.5
+212041,2026,regular,2026-03-04T00:00:00.000Z,Miami (OH),Toledo,MAC,MAC,74,72,Bovada,-8.0,162.5,-430.0,320.0,-9.0,162.5
+212041,2026,regular,2026-03-04T00:00:00.000Z,Miami (OH),Toledo,MAC,MAC,74,72,Draft Kings,-7.5,162.5,,,-8.5,162.5
+372154,2026,regular,2026-03-04T00:00:00.000Z,Bucknell,Army,Patriot,Patriot,65,55,Bovada,1.0,144.5,-150.0,130.0,-3.0,144.5
+372154,2026,regular,2026-03-04T00:00:00.000Z,Bucknell,Army,Patriot,Patriot,65,55,Draft Kings,-1.5,144.5,,,-2.5,146.5
+372153,2026,regular,2026-03-04T00:00:00.000Z,Lafayette,Holy Cross,Patriot,Patriot,77,82,Bovada,-4.5,141.5,-240.0,200.0,-5.5,141.5
+372153,2026,regular,2026-03-04T00:00:00.000Z,Lafayette,Holy Cross,Patriot,Patriot,77,82,Draft Kings,-4.5,141.5,,,-3.5,142.5
+215174,2026,regular,2026-03-04T00:00:00.000Z,Xavier,Seton Hall,Big East,Big East,68,77,Bovada,2.0,145.0,100.0,-120.0,1.0,144.5
+215174,2026,regular,2026-03-04T00:00:00.000Z,Xavier,Seton Hall,Big East,Big East,68,77,Draft Kings,1.5,144.5,,,1.5,144.5
+359019,2026,regular,2026-03-04T00:00:00.000Z,VCU,George Mason,A-10,A-10,70,65,Bovada,-10.0,147.0,-750.0,500.0,-11.0,147.5
+359019,2026,regular,2026-03-04T00:00:00.000Z,VCU,George Mason,A-10,A-10,70,65,Draft Kings,-10.5,147.5,,,-11.5,146.5
+215168,2026,regular,2026-03-04T00:00:00.000Z,UCF,Oklahoma State,Big 12,Big 12,104,111,Draft Kings,-8.5,167.5,,,-8.5,169.5
+359020,2026,regular,2026-03-04T00:00:00.000Z,Richmond,Dayton,A-10,A-10,60,65,Bovada,5.0,145.0,180.0,-220.0,4.5,147.0
+359020,2026,regular,2026-03-04T00:00:00.000Z,Richmond,Dayton,A-10,A-10,60,65,Draft Kings,5.5,144.5,,,4.5,145.5
+212063,2026,regular,2026-03-04T01:00:00.000Z,Florida,Mississippi State,SEC,SEC,108,74,Bovada,-21.0,160.5,-20000.0,2200.0,-23.0,160.0
+212063,2026,regular,2026-03-04T01:00:00.000Z,Florida,Mississippi State,SEC,SEC,108,74,Draft Kings,-20.5,160.5,,,-23.5,160.5
+215166,2026,regular,2026-03-04T01:00:00.000Z,Kansas State,West Virginia,Big 12,Big 12,65,63,Bovada,4.0,141.5,105.0,-125.0,1.0,143.0
+215166,2026,regular,2026-03-04T01:00:00.000Z,Kansas State,West Virginia,Big 12,Big 12,65,63,Draft Kings,4.5,141.5,,,1.5,143.5
+372169,2026,regular,2026-03-04T01:00:00.000Z,Green Bay,Purdue Fort Wayne,Horizon,Horizon,64,56,Draft Kings,-3.5,145.5,,,-6.5,146.5
+212043,2026,regular,2026-03-04T01:00:00.000Z,Northern Illinois,Kent State,MAC,MAC,76,102,Bovada,9.5,149.0,400.0,-575.0,9.5,148.5
+212043,2026,regular,2026-03-04T01:00:00.000Z,Northern Illinois,Kent State,MAC,MAC,76,102,Draft Kings,10.5,148.5,,,9.5,148.5
+372152,2026,regular,2026-03-04T01:30:00.000Z,Old Dominion,UL Monroe,Sun Belt,Sun Belt,87,80,Bovada,-10.0,157.0,-750.0,500.0,-10.5,159.0
+372152,2026,regular,2026-03-04T01:30:00.000Z,Old Dominion,UL Monroe,Sun Belt,Sun Belt,87,80,Draft Kings,-10.5,156.5,,,-10.5,160.5
+215170,2026,regular,2026-03-04T01:45:00.000Z,Jackson State,Arkansas-Pine Bluff,SWAC,SWAC,81,78,Bovada,1.0,152.5,-115.0,-105.0,-1.5,153.5
+215170,2026,regular,2026-03-04T01:45:00.000Z,Jackson State,Arkansas-Pine Bluff,SWAC,SWAC,81,78,Draft Kings,1.5,153.5,,,-1.5,153.5
+215169,2026,regular,2026-03-04T02:00:00.000Z,Arizona State,Kansas,Big 12,Big 12,70,60,Bovada,5.5,150.5,180.0,-220.0,5.0,151.0
+215169,2026,regular,2026-03-04T02:00:00.000Z,Arizona State,Kansas,Big 12,Big 12,70,60,Draft Kings,5.5,150.5,,,5.5,150.5
+215185,2026,regular,2026-03-04T02:00:00.000Z,Alabama State,Southern,SWAC,SWAC,64,71,Bovada,1.0,153.0,-120.0,100.0,-1.5,153.5
+215185,2026,regular,2026-03-04T02:00:00.000Z,Alabama State,Southern,SWAC,SWAC,64,71,Draft Kings,-1.5,154.5,,,-1.5,152.5
+215184,2026,regular,2026-03-04T02:00:00.000Z,Air Force,Grand Canyon,Mountain West,Mountain West,60,86,Bovada,19.0,142.5,1200.0,-4000.0,19.0,139.5
+215184,2026,regular,2026-03-04T02:00:00.000Z,Air Force,Grand Canyon,Mountain West,Mountain West,60,86,Draft Kings,19.5,142.5,,,19.5,139.5
+215181,2026,regular,2026-03-04T02:00:00.000Z,Louisville,Syracuse,ACC,ACC,77,62,Bovada,-14.0,160.0,-1000.0,625.0,-12.5,158.5
+215181,2026,regular,2026-03-04T02:00:00.000Z,Louisville,Syracuse,ACC,ACC,77,62,Draft Kings,-12.5,159.5,,,-16.5,158.5
+215176,2026,regular,2026-03-04T02:00:00.000Z,Virginia Tech,Boston College,ACC,ACC,72,63,Bovada,-11.0,142.5,-950.0,600.0,-12.0,142.0
+215176,2026,regular,2026-03-04T02:00:00.000Z,Virginia Tech,Boston College,ACC,ACC,72,63,Draft Kings,-11.5,142.5,,,-12.5,142.5
+215173,2026,regular,2026-03-04T02:00:00.000Z,Boise State,San Diego State,Mountain West,Mountain West,86,77,Bovada,-1.0,144.5,-125.0,105.0,-1.5,144.0
+215173,2026,regular,2026-03-04T02:00:00.000Z,Boise State,San Diego State,Mountain West,Mountain West,86,77,Draft Kings,-1.5,144.5,,,-1.5,144.5
+215167,2026,regular,2026-03-04T02:00:00.000Z,Cincinnati,BYU,Big 12,Big 12,90,68,Bovada,-1.5,152.0,-130.0,110.0,-1.5,152.5
+215167,2026,regular,2026-03-04T02:00:00.000Z,Cincinnati,BYU,Big 12,Big 12,90,68,Draft Kings,-2.5,151.5,,,-1.5,152.5
+212058,2026,regular,2026-03-04T02:00:00.000Z,Ole Miss,Vanderbilt,SEC,SEC,86,89,Bovada,7.0,155.5,250.0,-300.0,7.0,154.0
+212058,2026,regular,2026-03-04T02:00:00.000Z,Ole Miss,Vanderbilt,SEC,SEC,86,89,Draft Kings,7.5,155.5,,,7.5,154.5
+215172,2026,regular,2026-03-04T02:00:00.000Z,Illinois,Oregon,Big Ten,Big Ten,80,54,Bovada,-17.5,147.5,-4000.0,1200.0,-17.5,146.0
+215172,2026,regular,2026-03-04T02:00:00.000Z,Illinois,Oregon,Big Ten,Big Ten,80,54,Draft Kings,-18.5,145.5,,,-19.5,146.5
+359018,2026,regular,2026-03-04T02:00:00.000Z,Fresno State,San José State,Mountain West,Mountain West,82,68,Bovada,-7.5,150.0,-320.0,260.0,-7.0,149.0
+359018,2026,regular,2026-03-04T02:00:00.000Z,Fresno State,San José State,Mountain West,Mountain West,82,68,Draft Kings,-7.5,149.5,,,-7.5,149.5
+215164,2026,regular,2026-03-04T02:00:00.000Z,Utah,Colorado,Big 12,Big 12,78,92,Bovada,1.0,148.5,-105.0,-115.0,-1.0,149.5
+215164,2026,regular,2026-03-04T02:00:00.000Z,Utah,Colorado,Big 12,Big 12,78,92,Draft Kings,1.5,147.5,,,-1.5,154.5
+359021,2026,regular,2026-03-04T02:15:00.000Z,Alcorn State,Mississippi Valley State,SWAC,SWAC,67,64,Bovada,-9.5,139.0,-600.0,425.0,-9.5,137.5
+359021,2026,regular,2026-03-04T02:15:00.000Z,Alcorn State,Mississippi Valley State,SWAC,SWAC,67,64,Draft Kings,-9.5,139.5,,,-9.5,137.5
+215186,2026,regular,2026-03-04T02:20:00.000Z,Alabama A&M,Grambling,SWAC,SWAC,77,63,Bovada,-2.0,140.0,-120.0,100.0,-1.5,139.5
+215186,2026,regular,2026-03-04T02:20:00.000Z,Alabama A&M,Grambling,SWAC,SWAC,77,63,Draft Kings,-1.5,140.5,,,-1.5,138.5
+359017,2026,regular,2026-03-04T03:00:00.000Z,Wyoming,Nevada,Mountain West,Mountain West,83,73,Bovada,1.5,143.5,-105.0,-115.0,1.5,143.5
+359017,2026,regular,2026-03-04T03:00:00.000Z,Wyoming,Nevada,Mountain West,Mountain West,83,73,Draft Kings,-1.5,141.5,,,-1.5,144.5
+212061,2026,regular,2026-03-04T03:00:00.000Z,Auburn,LSU,SEC,SEC,88,74,Bovada,-10.5,155.5,-400.0,300.0,-8.0,155.5
+212061,2026,regular,2026-03-04T03:00:00.000Z,Auburn,LSU,SEC,SEC,88,74,Draft Kings,-9.5,155.5,,,-8.5,157.5
+215171,2026,regular,2026-03-04T04:00:00.000Z,UCLA,Nebraska,Big Ten,Big Ten,72,52,Bovada,1.5,144.5,-110.0,-110.0,-1.0,143.5
+215171,2026,regular,2026-03-04T04:00:00.000Z,UCLA,Nebraska,Big Ten,Big Ten,72,52,Draft Kings,-1.5,144.5,,,1.5,141.5
+359022,2026,regular,2026-03-04T04:00:00.000Z,UNLV,Utah State,Mountain West,Mountain West,92,65,Bovada,7.5,156.0,285.0,-370.0,7.5,155.5
+359022,2026,regular,2026-03-04T04:00:00.000Z,UNLV,Utah State,Mountain West,Mountain West,92,65,Draft Kings,7.5,158.5,,,8.5,158.5
+372155,2026,regular,2026-03-04T17:00:00.000Z,Bellarmine,Jacksonville,ASUN,ASUN,82,79,Bovada,-2.0,146.5,-135.0,115.0,-1.5,145.5
+372155,2026,regular,2026-03-04T17:00:00.000Z,Bellarmine,Jacksonville,ASUN,ASUN,82,79,Draft Kings,-1.5,145.5,,,-1.5,148.5
+372156,2026,regular,2026-03-04T19:30:00.000Z,Florida Gulf Coast,North Alabama,ASUN,ASUN,69,58,Bovada,-7.5,140.0,-350.0,275.0,-7.0,144.0
+372156,2026,regular,2026-03-04T19:30:00.000Z,Florida Gulf Coast,North Alabama,ASUN,ASUN,69,58,Draft Kings,-7.5,139.5,,,-6.5,144.5
+372157,2026,regular,2026-03-04T22:00:00.000Z,Eastern Kentucky,Stetson,ASUN,ASUN,76,92,Bovada,-6.0,154.0,-180.0,155.0,-4.0,156.0
+372157,2026,regular,2026-03-04T22:00:00.000Z,Eastern Kentucky,Stetson,ASUN,ASUN,76,92,Draft Kings,-5.5,155.5,,,-4.5,156.5
+215195,2026,regular,2026-03-04T23:00:00.000Z,Butler,Creighton,Big East,Big East,59,76,Bovada,-2.5,155.5,-140.0,120.0,-2.5,155.5
+215195,2026,regular,2026-03-04T23:00:00.000Z,Butler,Creighton,Big East,Big East,59,76,Draft Kings,-2.5,155.5,,,-3.5,156.5
+372199,2026,regular,2026-03-04T23:00:00.000Z,James Madison,Louisiana,Sun Belt,Sun Belt,87,72,Draft Kings,-6.5,135.5,-285.0,230.0,-6.5,132.5
+215192,2026,regular,2026-03-04T23:30:00.000Z,Indiana,Minnesota,Big Ten,Big Ten,77,47,Bovada,-7.0,138.5,-320.0,260.0,-7.0,138.5
+215192,2026,regular,2026-03-04T23:30:00.000Z,Indiana,Minnesota,Big Ten,Big Ten,77,47,Draft Kings,-6.5,138.5,,,-5.5,137.5
+359023,2026,regular,2026-03-04T23:30:00.000Z,La Salle,Fordham,A-10,A-10,87,84,Bovada,3.5,131.0,120.0,-140.0,2.5,133.5
+359023,2026,regular,2026-03-04T23:30:00.000Z,La Salle,Fordham,A-10,A-10,87,84,Draft Kings,3.5,131.5,,,2.5,132.5
+359025,2026,regular,2026-03-05T00:00:00.000Z,Rhode Island,Duquesne,A-10,A-10,64,52,Bovada,-2.5,143.5,-115.0,-105.0,-1.0,143.5
+359025,2026,regular,2026-03-05T00:00:00.000Z,Rhode Island,Duquesne,A-10,A-10,64,52,Draft Kings,-2.5,143.5,,,-1.5,143.5
+359027,2026,regular,2026-03-05T00:00:00.000Z,Charlotte,UAB,American,American,74,80,Bovada,2.5,147.0,110.0,-130.0,1.0,144.5
+359027,2026,regular,2026-03-05T00:00:00.000Z,Charlotte,UAB,American,American,74,80,Draft Kings,2.5,146.5,105.0,-125.0,1.5,144.5
+215193,2026,regular,2026-03-05T00:00:00.000Z,Providence,Marquette,Big East,Big East,56,78,Bovada,-4.5,162.0,-195.0,165.0,-4.5,162.0
+215193,2026,regular,2026-03-05T00:00:00.000Z,Providence,Marquette,Big East,Big East,56,78,Draft Kings,-3.5,161.5,,,-6.5,165.5
+212064,2026,regular,2026-03-05T00:00:00.000Z,Arkansas,Texas,SEC,SEC,105,85,Bovada,-6.5,165.0,-330.0,265.0,-7.0,165.5
+212064,2026,regular,2026-03-05T00:00:00.000Z,Arkansas,Texas,SEC,SEC,105,85,Draft Kings,-6.5,163.5,,,-7.5,167.5
+359026,2026,regular,2026-03-05T00:00:00.000Z,Davidson,Saint Joseph's,A-10,A-10,67,70,Bovada,-2.5,136.5,-175.0,150.0,-4.0,138.5
+359026,2026,regular,2026-03-05T00:00:00.000Z,Davidson,Saint Joseph's,A-10,A-10,67,70,Draft Kings,-1.5,136.5,,,-4.5,137.5
+215182,2026,regular,2026-03-05T00:00:00.000Z,Georgia Tech,California,ACC,ACC,65,76,Bovada,2.0,155.5,130.0,-150.0,3.0,154.0
+215182,2026,regular,2026-03-05T00:00:00.000Z,Georgia Tech,California,ACC,ACC,65,76,Draft Kings,2.5,154.5,,,4.5,150.5
+215178,2026,regular,2026-03-05T00:00:00.000Z,SMU,Miami,ACC,ACC,69,77,Bovada,-1.5,156.5,-130.0,110.0,-1.5,161.0
+215178,2026,regular,2026-03-05T00:00:00.000Z,SMU,Miami,ACC,ACC,69,77,Draft Kings,-1.5,156.5,,,-2.5,160.5
+359024,2026,regular,2026-03-05T00:00:00.000Z,George Washington,St. Bonaventure,A-10,A-10,91,82,Bovada,-7.5,157.5,-480.0,350.0,-8.0,159.5
+359024,2026,regular,2026-03-05T00:00:00.000Z,George Washington,St. Bonaventure,A-10,A-10,91,82,Draft Kings,-8.5,157.5,,,-7.5,159.5
+372158,2026,regular,2026-03-05T00:00:00.000Z,SIU Edwardsville,Eastern Illinois,OVC,OVC,71,77,Bovada,-4.0,128.0,-230.0,190.0,-5.5,127.0
+372158,2026,regular,2026-03-05T00:00:00.000Z,SIU Edwardsville,Eastern Illinois,OVC,OVC,71,77,Draft Kings,-3.5,128.5,,,-5.5,127.5
+372161,2026,regular,2026-03-05T00:00:00.000Z,Central Connecticut,Wagner,NEC,NEC,60,70,Bovada,-3.5,138.5,-195.0,165.0,-4.5,140.0
+372161,2026,regular,2026-03-05T00:00:00.000Z,Central Connecticut,Wagner,NEC,NEC,60,70,Draft Kings,-3.5,139.5,-205.0,170.0,-4.5,140.5
+372162,2026,regular,2026-03-05T00:00:00.000Z,Long Island University,Chicago State,NEC,NEC,79,75,Bovada,-11.0,138.0,-900.0,575.0,-12.0,138.0
+372162,2026,regular,2026-03-05T00:00:00.000Z,Long Island University,Chicago State,NEC,NEC,79,75,Draft Kings,-10.5,138.5,,,-11.5,137.5
+372159,2026,regular,2026-03-05T00:00:00.000Z,Le Moyne,Stonehill,NEC,NEC,71,81,Bovada,-5.0,139.5,-270.0,220.0,-6.5,135.5
+372159,2026,regular,2026-03-05T00:00:00.000Z,Le Moyne,Stonehill,NEC,NEC,71,81,Draft Kings,-4.5,140.5,-258.0,210.0,-6.5,134.5
+372160,2026,regular,2026-03-05T00:00:00.000Z,Mercyhurst,Fairleigh Dickinson,NEC,NEC,70,61,Bovada,-4.0,132.0,-195.0,165.0,-4.5,133.5
+372160,2026,regular,2026-03-05T00:00:00.000Z,Mercyhurst,Fairleigh Dickinson,NEC,NEC,70,61,Draft Kings,-3.5,131.5,-192.0,160.0,-4.5,134.5
+372163,2026,regular,2026-03-05T00:00:00.000Z,Oakland,Northern Kentucky,Horizon,Horizon,84,85,Bovada,-2.0,162.5,-145.0,125.0,-2.5,159.0
+372163,2026,regular,2026-03-05T00:00:00.000Z,Oakland,Northern Kentucky,Horizon,Horizon,84,85,Draft Kings,-1.5,162.5,,,-1.5,158.5
+372165,2026,regular,2026-03-05T00:00:00.000Z,Robert Morris,Youngstown State,Horizon,Horizon,68,53,Bovada,-3.5,143.5,-200.0,170.0,-5.0,143.0
+372165,2026,regular,2026-03-05T00:00:00.000Z,Robert Morris,Youngstown State,Horizon,Horizon,68,53,Draft Kings,-3.5,143.5,,,-4.5,142.5
+372164,2026,regular,2026-03-05T00:00:00.000Z,Detroit Mercy,Milwaukee,Horizon,Horizon,84,63,Bovada,-1.5,152.0,-150.0,130.0,-3.0,153.0
+372164,2026,regular,2026-03-05T00:00:00.000Z,Detroit Mercy,Milwaukee,Horizon,Horizon,84,63,Draft Kings,-1.5,151.5,-148.0,124.0,-2.5,153.5
+372200,2026,regular,2026-03-05T00:00:00.000Z,Wright State,Cleveland State,Horizon,Horizon,90,61,Bovada,-14.5,162.5,,,-13.5,162.0
+372200,2026,regular,2026-03-05T00:00:00.000Z,Wright State,Cleveland State,Horizon,Horizon,90,61,Draft Kings,-14.5,162.5,-1050.0,675.0,-13.5,161.5
+215190,2026,regular,2026-03-05T00:30:00.000Z,Penn State,Ohio State,Big Ten,Big Ten,62,94,Bovada,7.0,152.0,280.0,-360.0,7.0,154.0
+215190,2026,regular,2026-03-05T00:30:00.000Z,Penn State,Ohio State,Big Ten,Big Ten,62,94,Draft Kings,6.5,152.5,,,8.5,156.5
+372167,2026,regular,2026-03-05T00:30:00.000Z,West Georgia,North Florida,ASUN,ASUN,93,85,Bovada,-3.5,159.5,-180.0,155.0,-3.5,158.5
+372167,2026,regular,2026-03-05T00:30:00.000Z,West Georgia,North Florida,ASUN,ASUN,93,85,Draft Kings,-3.5,160.5,,,-3.5,158.5
+372166,2026,regular,2026-03-05T00:30:00.000Z,South Carolina Upstate,Gardner-Webb,Big South,Big South,64,65,Bovada,-11.0,144.0,-700.0,475.0,-11.5,147.0
+372166,2026,regular,2026-03-05T00:30:00.000Z,South Carolina Upstate,Gardner-Webb,Big South,Big South,64,65,Draft Kings,-10.5,143.5,,,-10.5,148.5
+359028,2026,regular,2026-03-05T01:00:00.000Z,Saint Louis,Loyola Chicago,A-10,A-10,79,65,Bovada,-21.5,154.5,,,-24.5,155.0
+359028,2026,regular,2026-03-05T01:00:00.000Z,Saint Louis,Loyola Chicago,A-10,A-10,79,65,Draft Kings,-21.5,154.5,,,-27.5,155.5
+215188,2026,regular,2026-03-05T01:00:00.000Z,Wisconsin,Maryland,Big Ten,Big Ten,78,45,Bovada,-14.5,153.5,-1400.0,750.0,-14.0,153.5
+215188,2026,regular,2026-03-05T01:00:00.000Z,Wisconsin,Maryland,Big Ten,Big Ten,78,45,Draft Kings,-14.5,154.5,,,-14.5,155.5
+215194,2026,regular,2026-03-05T01:00:00.000Z,DePaul,Villanova,Big East,Big East,57,76,Bovada,2.0,136.0,140.0,-165.0,3.0,135.5
+215194,2026,regular,2026-03-05T01:00:00.000Z,DePaul,Villanova,Big East,Big East,57,76,Draft Kings,1.5,135.5,,,3.5,133.5
+359029,2026,regular,2026-03-05T01:00:00.000Z,North Texas,Rice,American,American,62,58,Bovada,-6.5,137.5,-400.0,300.0,-8.0,140.5
+359029,2026,regular,2026-03-05T01:00:00.000Z,North Texas,Rice,American,American,62,58,Draft Kings,-6.5,137.5,,,-7.5,140.5
+372168,2026,regular,2026-03-05T01:00:00.000Z,Oral Roberts,Kansas City,Summit,Summit,84,62,Draft Kings,-8.5,149.5,-310.0,250.0,-8.5,147.5
+215191,2026,regular,2026-03-05T01:30:00.000Z,Northwestern,Purdue,Big Ten,Big Ten,66,70,Bovada,10.5,145.5,450.0,-650.0,9.5,147.5
+215191,2026,regular,2026-03-05T01:30:00.000Z,Northwestern,Purdue,Big Ten,Big Ten,66,70,Draft Kings,12.5,145.5,,,8.5,145.5
+372201,2026,regular,2026-03-05T01:30:00.000Z,Georgia Southern,Old Dominion,Sun Belt,Sun Belt,88,84,Bovada,-2.5,158.0,-115.0,-105.0,-1.0,160.0
+372201,2026,regular,2026-03-05T01:30:00.000Z,Georgia Southern,Old Dominion,Sun Belt,Sun Belt,88,84,Draft Kings,-2.5,157.5,-135.0,114.0,-2.5,158.5
+215180,2026,regular,2026-03-05T02:00:00.000Z,Notre Dame,Stanford,ACC,ACC,78,86,Bovada,1.5,147.5,-125.0,105.0,-1.5,145.5
+215180,2026,regular,2026-03-05T02:00:00.000Z,Notre Dame,Stanford,ACC,ACC,78,86,Draft Kings,1.5,148.5,,,-1.5,144.5
+215179,2026,regular,2026-03-05T02:00:00.000Z,Pittsburgh,Florida State,ACC,ACC,74,75,Bovada,1.5,144.5,105.0,-125.0,1.5,146.0
+215179,2026,regular,2026-03-05T02:00:00.000Z,Pittsburgh,Florida State,ACC,ACC,74,75,Draft Kings,1.5,144.5,,,1.5,147.5
+215187,2026,regular,2026-03-05T02:00:00.000Z,Houston,Baylor,Big 12,Big 12,77,64,Bovada,-13.0,143.5,-1900.0,900.0,-15.0,144.0
+215187,2026,regular,2026-03-05T02:00:00.000Z,Houston,Baylor,Big 12,Big 12,77,64,Draft Kings,-13.5,143.5,,,-15.5,144.5
+372170,2026,regular,2026-03-05T02:30:00.000Z,Lindenwood,Little Rock,OVC,OVC,72,62,Bovada,-5.0,148.0,-145.0,125.0,-4.0,148.5
+372170,2026,regular,2026-03-05T02:30:00.000Z,Lindenwood,Little Rock,OVC,OVC,72,62,Draft Kings,-4.5,148.5,,,-3.5,149.5
+359030,2026,regular,2026-03-05T03:00:00.000Z,New Mexico,Colorado State,Mountain West,Mountain West,74,82,Bovada,-8.0,150.5,-480.0,350.0,-8.0,149.5
+359030,2026,regular,2026-03-05T03:00:00.000Z,New Mexico,Colorado State,Mountain West,Mountain West,74,82,Draft Kings,-8.5,150.5,,,-9.5,148.5
+215189,2026,regular,2026-03-05T03:30:00.000Z,Washington,USC,Big Ten,Big Ten,91,72,Bovada,-5.0,150.5,-300.0,250.0,-6.0,151.0
+215189,2026,regular,2026-03-05T03:30:00.000Z,Washington,USC,Big Ten,Big Ten,91,72,Draft Kings,-5.5,150.5,,,-5.5,149.5
+372189,2026,regular,2026-03-05T21:30:00.000Z,Southern Illinois,Drake,MVC,MVC,63,67,Bovada,-4.5,138.0,-200.0,170.0,-5.0,137.5
+372189,2026,regular,2026-03-05T21:30:00.000Z,Southern Illinois,Drake,MVC,MVC,63,67,Draft Kings,-4.5,140.5,-238.0,195.0,-4.5,136.5
+359035,2026,regular,2026-03-05T22:00:00.000Z,North Carolina Central,South Carolina State,MEAC,MEAC,64,80,Bovada,-7.5,141.0,-380.0,290.0,-7.5,145.5
+359035,2026,regular,2026-03-05T22:00:00.000Z,North Carolina Central,South Carolina State,MEAC,MEAC,64,80,Draft Kings,-7.5,140.5,-298.0,240.0,-8.5,143.5
+372183,2026,regular,2026-03-05T23:00:00.000Z,Iona,Sacred Heart,Metro,Metro,80,91,Bovada,-3.5,149.5,-150.0,130.0,-2.5,148.0
+372183,2026,regular,2026-03-05T23:00:00.000Z,Iona,Sacred Heart,Metro,Metro,80,91,Draft Kings,-3.5,149.5,-148.0,124.0,-2.5,147.5
+372212,2026,regular,2026-03-05T23:00:00.000Z,Southern Miss,James Madison,Sun Belt,Sun Belt,86,80,Bovada,2.0,143.5,115.0,-135.0,2.0,144.0
+372212,2026,regular,2026-03-05T23:00:00.000Z,Southern Miss,James Madison,Sun Belt,Sun Belt,86,80,Draft Kings,2.5,143.5,110.0,-130.0,2.5,142.5
+212076,2026,regular,2026-03-06T00:00:00.000Z,Liberty,Louisiana Tech,CUSA,CUSA,71,76,Bovada,-9.0,138.5,-460.0,340.0,-8.5,138.0
+212076,2026,regular,2026-03-06T00:00:00.000Z,Liberty,Louisiana Tech,CUSA,CUSA,71,76,Draft Kings,-8.5,137.5,-485.0,370.0,-8.5,138.5
+212077,2026,regular,2026-03-06T00:00:00.000Z,Delaware,Sam Houston,CUSA,CUSA,83,80,Bovada,7.0,148.5,235.0,-285.0,6.0,148.0
+212077,2026,regular,2026-03-06T00:00:00.000Z,Delaware,Sam Houston,CUSA,CUSA,83,80,Draft Kings,7.5,147.5,,,6.5,147.5
+359033,2026,regular,2026-03-06T00:00:00.000Z,Temple,Tulane,American,American,89,60,Bovada,-4.5,144.5,-195.0,165.0,-4.5,145.0
+359033,2026,regular,2026-03-06T00:00:00.000Z,Temple,Tulane,American,American,89,60,Draft Kings,-4.5,144.5,-205.0,170.0,-4.5,144.5
+359034,2026,regular,2026-03-06T00:00:00.000Z,East Carolina,Tulsa,American,American,66,93,Bovada,8.5,156.0,340.0,-460.0,9.5,155.5
+359034,2026,regular,2026-03-06T00:00:00.000Z,East Carolina,Tulsa,American,American,66,93,Draft Kings,8.5,156.5,,,9.5,155.5
+212072,2026,regular,2026-03-06T00:00:00.000Z,Florida International,Middle Tennessee,CUSA,CUSA,67,73,Bovada,1.0,154.0,-135.0,115.0,-2.0,152.5
+212072,2026,regular,2026-03-06T00:00:00.000Z,Florida International,Middle Tennessee,CUSA,CUSA,67,73,Draft Kings,-1.5,153.5,-148.0,124.0,-2.5,152.5
+372172,2026,regular,2026-03-06T00:00:00.000Z,Boston University,American University,Patriot,Patriot,75,73,Bovada,-1.5,142.5,-135.0,115.0,-3.5,141.5
+372172,2026,regular,2026-03-06T00:00:00.000Z,Boston University,American University,Patriot,Patriot,75,73,Draft Kings,-1.5,141.5,,,-3.5,138.5
+372171,2026,regular,2026-03-06T00:00:00.000Z,Colgate,Loyola Maryland,Patriot,Patriot,90,77,Bovada,-5.5,155.0,-310.0,255.0,-6.5,151.5
+372171,2026,regular,2026-03-06T00:00:00.000Z,Colgate,Loyola Maryland,Patriot,Patriot,90,77,Draft Kings,-6.5,155.5,,,-6.5,151.5
+372203,2026,regular,2026-03-06T00:00:00.000Z,Navy,Bucknell,Patriot,Patriot,74,69,Bovada,-15.5,133.5,,,-17.5,133.5
+372203,2026,regular,2026-03-06T00:00:00.000Z,Navy,Bucknell,Patriot,Patriot,74,69,Draft Kings,-15.5,133.5,,,-16.5,133.5
+372202,2026,regular,2026-03-06T00:00:00.000Z,Lehigh,Holy Cross,Patriot,Patriot,69,66,Bovada,-5.5,141.5,,,-6.5,141.5
+372202,2026,regular,2026-03-06T00:00:00.000Z,Lehigh,Holy Cross,Patriot,Patriot,69,66,Draft Kings,-5.5,142.5,,,-6.5,141.5
+372190,2026,regular,2026-03-06T00:00:00.000Z,Valparaiso,Indiana State,MVC,MVC,63,62,Bovada,-2.5,140.5,-150.0,130.0,-2.5,138.0
+372190,2026,regular,2026-03-06T00:00:00.000Z,Valparaiso,Indiana State,MVC,MVC,63,62,Draft Kings,-1.5,140.5,-155.0,130.0,-2.5,136.5
+372213,2026,regular,2026-03-06T00:00:00.000Z,North Dakota State,Oral Roberts,Summit,Summit,76,65,Bovada,-12.5,148.0,-525.0,375.0,-9.5,145.0
+372213,2026,regular,2026-03-06T00:00:00.000Z,North Dakota State,Oral Roberts,Summit,Summit,76,65,Draft Kings,-12.5,147.5,,,-9.5,145.5
+372214,2026,regular,2026-03-06T00:00:00.000Z,UT Martin,Eastern Illinois,OVC,OVC,66,63,Bovada,-8.0,126.0,-300.0,250.0,-6.5,123.5
+372214,2026,regular,2026-03-06T00:00:00.000Z,UT Martin,Eastern Illinois,OVC,OVC,66,63,Draft Kings,-8.5,126.5,-270.0,220.0,-6.5,122.5
+215197,2026,regular,2026-03-06T00:30:00.000Z,Florida A&M,Bethune-Cookman,SWAC,SWAC,81,77,Bovada,2.5,145.5,,,2.5,146.5
+215197,2026,regular,2026-03-06T00:30:00.000Z,Florida A&M,Bethune-Cookman,SWAC,SWAC,81,77,Draft Kings,2.5,145.5,,,1.5,147.5
+212073,2026,regular,2026-03-06T01:00:00.000Z,Missouri State,Western Kentucky,CUSA,CUSA,87,74,Bovada,1.5,152.0,105.0,-125.0,1.5,150.5
+212073,2026,regular,2026-03-06T01:00:00.000Z,Missouri State,Western Kentucky,CUSA,CUSA,87,74,Draft Kings,1.5,153.5,,,1.5,152.5
+215200,2026,regular,2026-03-06T01:00:00.000Z,Iowa,Michigan,Big Ten,Big Ten,68,71,Bovada,9.0,147.0,320.0,-430.0,8.5,145.5
+215200,2026,regular,2026-03-06T01:00:00.000Z,Iowa,Michigan,Big Ten,Big Ten,68,71,Draft Kings,8.5,146.5,380.0,-500.0,9.5,145.5
+215199,2026,regular,2026-03-06T01:00:00.000Z,Michigan State,Rutgers,Big Ten,Big Ten,91,87,Bovada,-19.5,142.0,-4500.0,1250.0,-19.0,141.5
+215199,2026,regular,2026-03-06T01:00:00.000Z,Michigan State,Rutgers,Big Ten,Big Ten,91,87,Draft Kings,-20.5,141.5,-10000.0,3000.0,-19.5,143.5
+215198,2026,regular,2026-03-06T01:00:00.000Z,Texas Southern,Prairie View A&M,SWAC,SWAC,59,70,Bovada,-2.0,153.5,-160.0,135.0,-3.5,155.5
+215198,2026,regular,2026-03-06T01:00:00.000Z,Texas Southern,Prairie View A&M,SWAC,SWAC,59,70,Draft Kings,-1.5,154.5,,,-3.5,154.5
+215203,2026,regular,2026-03-06T01:00:00.000Z,Maryland Eastern Shore,Delaware State,MEAC,MEAC,56,57,Draft Kings,-5.5,124.5,,,-6.5,127.5
+359031,2026,regular,2026-03-06T01:00:00.000Z,Norfolk State,Howard,MEAC,MEAC,76,84,Bovada,6.5,149.0,195.0,-235.0,5.5,145.5
+359031,2026,regular,2026-03-06T01:00:00.000Z,Norfolk State,Howard,MEAC,MEAC,76,84,Draft Kings,5.5,149.5,,,5.5,148.5
+212070,2026,regular,2026-03-06T01:00:00.000Z,Tarleton State,UT Arlington,UAC,UAC,60,65,Bovada,-1.5,136.0,-135.0,115.0,-2.0,136.0
+212070,2026,regular,2026-03-06T01:00:00.000Z,Tarleton State,UT Arlington,UAC,UAC,60,65,Draft Kings,-1.5,136.5,-130.0,110.0,-1.5,136.5
+215202,2026,regular,2026-03-06T01:00:00.000Z,Alabama State,Grambling,SWAC,SWAC,63,65,Bovada,-2.5,145.5,-150.0,130.0,-3.5,143.5
+215202,2026,regular,2026-03-06T01:00:00.000Z,Alabama State,Grambling,SWAC,SWAC,63,65,Draft Kings,-2.5,144.5,,,-3.5,143.5
+215204,2026,regular,2026-03-06T01:30:00.000Z,Morgan State,Coppin State,MEAC,MEAC,70,66,Bovada,-6.0,150.5,-285.0,235.0,-6.5,152.5
+215204,2026,regular,2026-03-06T01:30:00.000Z,Morgan State,Coppin State,MEAC,MEAC,70,66,Draft Kings,-5.5,149.5,,,-5.5,150.5
+212069,2026,regular,2026-03-06T01:30:00.000Z,Southern Utah,Utah Valley,UAC,UAC,88,92,Bovada,10.0,150.5,375.0,-525.0,9.5,150.0
+212069,2026,regular,2026-03-06T01:30:00.000Z,Southern Utah,Utah Valley,UAC,UAC,88,92,Draft Kings,9.5,150.5,,,9.5,150.5
+359032,2026,regular,2026-03-06T01:30:00.000Z,Jackson State,Mississippi Valley State,SWAC,SWAC,85,77,Bovada,-11.5,145.0,,,-10.5,144.5
+359032,2026,regular,2026-03-06T01:30:00.000Z,Jackson State,Mississippi Valley State,SWAC,SWAC,85,77,Draft Kings,-11.5,145.5,-485.0,370.0,-10.5,144.5
+372184,2026,regular,2026-03-06T01:30:00.000Z,Fairfield,Manhattan,Metro,Metro,71,60,Bovada,-4.5,148.0,-210.0,175.0,-5.0,150.5
+372184,2026,regular,2026-03-06T01:30:00.000Z,Fairfield,Manhattan,Metro,Metro,71,60,Draft Kings,-4.5,148.5,,,-4.5,151.5
+372215,2026,regular,2026-03-06T01:30:00.000Z,Arkansas State,Georgia Southern,Sun Belt,Sun Belt,77,80,Bovada,-7.5,166.0,-300.0,250.0,-6.5,168.0
+372215,2026,regular,2026-03-06T01:30:00.000Z,Arkansas State,Georgia Southern,Sun Belt,Sun Belt,77,80,Draft Kings,-7.5,166.5,,,-7.5,168.5
+215196,2026,regular,2026-03-06T02:00:00.000Z,Alcorn State,Arkansas-Pine Bluff,SWAC,SWAC,48,83,Bovada,1.5,144.5,105.0,-125.0,1.5,149.5
+215196,2026,regular,2026-03-06T02:00:00.000Z,Alcorn State,Arkansas-Pine Bluff,SWAC,SWAC,48,83,Draft Kings,1.5,146.5,,,1.5,145.5
+212074,2026,regular,2026-03-06T02:00:00.000Z,UTEP,Kennesaw State,CUSA,CUSA,78,71,Bovada,4.0,149.0,125.0,-145.0,2.5,149.5
+212074,2026,regular,2026-03-06T02:00:00.000Z,UTEP,Kennesaw State,CUSA,CUSA,78,71,Draft Kings,3.5,148.5,,,3.5,149.5
+212075,2026,regular,2026-03-06T02:00:00.000Z,New Mexico State,Jacksonville State,CUSA,CUSA,77,75,Bovada,-6.0,144.5,-210.0,175.0,-5.0,142.5
+212075,2026,regular,2026-03-06T02:00:00.000Z,New Mexico State,Jacksonville State,CUSA,CUSA,77,75,Draft Kings,-6.5,144.5,,,-5.5,142.5
+372185,2026,regular,2026-03-06T02:00:00.000Z,Portland,Pepperdine,WCC,WCC,77,68,Bovada,-3.5,154.5,-135.0,115.0,-2.0,151.5
+372185,2026,regular,2026-03-06T02:00:00.000Z,Portland,Pepperdine,WCC,WCC,77,68,Draft Kings,-3.5,154.5,,,-3.5,152.5
+359036,2026,regular,2026-03-06T02:05:00.000Z,Memphis,South Florida,American,American,89,96,Bovada,7.5,163.0,250.0,-300.0,6.5,160.0
+359036,2026,regular,2026-03-06T02:05:00.000Z,Memphis,South Florida,American,American,89,96,Draft Kings,7.5,161.5,230.0,-285.0,6.5,159.5
+215205,2026,regular,2026-03-06T02:20:00.000Z,Alabama A&M,Southern,SWAC,SWAC,85,88,Bovada,1.0,144.5,,,1.5,149.5
+215205,2026,regular,2026-03-06T02:20:00.000Z,Alabama A&M,Southern,SWAC,SWAC,85,88,Draft Kings,1.5,145.5,,,1.5,148.5
+215201,2026,regular,2026-03-06T02:30:00.000Z,Cal State Bakersfield,Cal State Northridge,Big West,Big West,84,86,Draft Kings,8.5,165.5,,,8.5,165.5
+372173,2026,regular,2026-03-06T02:30:00.000Z,St. Thomas-Minnesota,South Dakota State,Summit,Summit,80,67,Draft Kings,-5.5,148.5,-325.0,260.0,-6.5,150.5
+372191,2026,regular,2026-03-06T02:30:00.000Z,Northern Iowa,Evansville,MVC,MVC,68,59,Bovada,-14.5,128.0,-1500.0,775.0,-15.0,125.0
+372191,2026,regular,2026-03-06T02:30:00.000Z,Northern Iowa,Evansville,MVC,MVC,68,59,Draft Kings,-14.5,126.5,,,-13.5,125.5
+372216,2026,regular,2026-03-06T02:30:00.000Z,Southeast Missouri State,Lindenwood,OVC,OVC,68,66,Draft Kings,-2.5,147.5,,,-2.5,149.5
+212068,2026,regular,2026-03-06T03:00:00.000Z,Cal State Fullerton,UC San Diego,Big West,Big West,75,71,Draft Kings,3.5,156.5,,,3.5,157.5
+212071,2026,regular,2026-03-06T03:00:00.000Z,California Baptist,Abilene Christian,UAC,UAC,87,48,Bovada,-9.5,137.0,-460.0,340.0,-9.5,137.0
+212071,2026,regular,2026-03-06T03:00:00.000Z,California Baptist,Abilene Christian,UAC,UAC,87,48,Draft Kings,-9.5,137.5,,,-9.5,136.5
+212067,2026,regular,2026-03-06T03:00:00.000Z,UC Irvine,Cal Poly,Big West,Big West,107,85,Bovada,-9.5,161.5,-525.0,375.0,-9.5,157.0
+212067,2026,regular,2026-03-06T03:00:00.000Z,UC Irvine,Cal Poly,Big West,Big West,107,85,Draft Kings,-9.5,158.5,,,-8.5,155.5
+212066,2026,regular,2026-03-06T03:00:00.000Z,Long Beach State,UC Davis,Big West,Big West,70,76,Bovada,1.5,,105.0,-125.0,2.0,
+212066,2026,regular,2026-03-06T03:00:00.000Z,Long Beach State,UC Davis,Big West,Big West,70,76,Draft Kings,2.5,150.5,,,1.5,150.5
+372186,2026,regular,2026-03-06T04:30:00.000Z,Loyola Marymount,San Diego,WCC,WCC,62,66,Bovada,-5.5,144.5,-220.0,180.0,-5.5,146.0
+372186,2026,regular,2026-03-06T04:30:00.000Z,Loyola Marymount,San Diego,WCC,WCC,62,66,Draft Kings,-5.5,145.5,-270.0,220.0,-5.5,147.5
+212065,2026,regular,2026-03-06T04:59:00.000Z,Hawai'i,UC Riverside,Big West,Big West,93,74,Bovada,-12.5,151.0,-750.0,500.0,-11.5,149.0
+212065,2026,regular,2026-03-06T04:59:00.000Z,Hawai'i,UC Riverside,Big West,Big West,93,74,Draft Kings,-11.5,146.5,,,-11.5,147.5
+372217,2026,regular,2026-03-06T17:00:00.000Z,High Point,Gardner-Webb,Big South,Big South,81,59,Bovada,-27.5,156.0,,,-25.5,158.5
+372217,2026,regular,2026-03-06T17:00:00.000Z,High Point,Gardner-Webb,Big South,Big South,81,59,Draft Kings,-27.5,155.5,-10000.0,3000.0,-25.5,161.5
+372218,2026,regular,2026-03-06T17:00:00.000Z,Central Arkansas,Bellarmine,ASUN,ASUN,86,73,Bovada,-7.0,155.0,-300.0,250.0,-5.5,156.5
+372218,2026,regular,2026-03-06T17:00:00.000Z,Central Arkansas,Bellarmine,ASUN,ASUN,86,73,Draft Kings,-6.5,154.5,-278.0,225.0,-5.5,160.5
+372226,2026,regular,2026-03-06T18:00:00.000Z,Belmont,Drake,MVC,MVC,79,100,Bovada,-12.5,153.5,-750.0,500.0,-11.0,153.5
+372226,2026,regular,2026-03-06T18:00:00.000Z,Belmont,Drake,MVC,MVC,79,100,Draft Kings,-12.5,153.5,,,-11.5,153.5
+372204,2026,regular,2026-03-06T19:00:00.000Z,North Carolina A&T,Northeastern,CAA,CAA,72,88,Bovada,2.0,152.5,-115.0,-105.0,-1.0,154.0
+372204,2026,regular,2026-03-06T19:00:00.000Z,North Carolina A&T,Northeastern,CAA,CAA,72,88,Draft Kings,2.5,151.5,-115.0,-105.0,-1.5,155.5
+372174,2026,regular,2026-03-06T19:30:00.000Z,Winthrop,Charleston Southern,Big South,Big South,86,81,Bovada,-6.5,163.5,-195.0,165.0,-4.5,162.0
+372174,2026,regular,2026-03-06T19:30:00.000Z,Winthrop,Charleston Southern,Big South,Big South,86,81,Draft Kings,-6.5,164.5,-238.0,195.0,-4.5,162.5
+372219,2026,regular,2026-03-06T19:30:00.000Z,Lipscomb,Florida Gulf Coast,ASUN,ASUN,53,77,Bovada,-4.5,150.5,-195.0,165.0,-4.5,150.0
+372219,2026,regular,2026-03-06T19:30:00.000Z,Lipscomb,Florida Gulf Coast,ASUN,ASUN,53,77,Draft Kings,-3.5,150.5,-185.0,154.0,-3.5,150.5
+372192,2026,regular,2026-03-06T20:30:00.000Z,Murray State,UIC,MVC,MVC,79,92,Bovada,1.0,150.0,-115.0,-105.0,-1.0,150.0
+372192,2026,regular,2026-03-06T20:30:00.000Z,Murray State,UIC,MVC,MVC,79,92,Draft Kings,1.5,150.5,-118.0,-102.0,-1.5,148.5
+372175,2026,regular,2026-03-06T22:00:00.000Z,Chattanooga,The Citadel,SoCon,SoCon,85,88,Bovada,-7.5,146.5,-330.0,265.0,-7.0,146.0
+372175,2026,regular,2026-03-06T22:00:00.000Z,Chattanooga,The Citadel,SoCon,SoCon,85,88,Draft Kings,-7.5,148.5,-345.0,275.0,-7.5,145.5
+372220,2026,regular,2026-03-06T22:00:00.000Z,Austin Peay,Stetson,ASUN,ASUN,69,60,Bovada,-12.0,152.5,-800.0,525.0,-11.5,150.5
+372220,2026,regular,2026-03-06T22:00:00.000Z,Austin Peay,Stetson,ASUN,ASUN,69,60,Draft Kings,-11.5,153.5,-500.0,380.0,-9.5,150.5
+212079,2026,regular,2026-03-06T23:00:00.000Z,Akron,Northern Illinois,MAC,MAC,94,55,Bovada,-23.0,156.5,,,-23.0,155.0
+212079,2026,regular,2026-03-06T23:00:00.000Z,Akron,Northern Illinois,MAC,MAC,94,55,Draft Kings,-23.5,155.5,,,-21.5,154.5
+372227,2026,regular,2026-03-06T23:00:00.000Z,Texas State,Southern Miss,Sun Belt,Sun Belt,77,81,Bovada,-1.5,140.5,-125.0,105.0,-1.5,140.0
+372227,2026,regular,2026-03-06T23:00:00.000Z,Texas State,Southern Miss,Sun Belt,Sun Belt,77,81,Draft Kings,-1.5,140.5,-118.0,-102.0,-1.5,140.5
+372176,2026,regular,2026-03-06T23:00:00.000Z,UNC Asheville,Longwood,Big South,Big South,85,82,Bovada,1.5,139.5,100.0,-120.0,1.0,141.0
+372176,2026,regular,2026-03-06T23:00:00.000Z,UNC Asheville,Longwood,Big South,Big South,85,82,Draft Kings,1.5,140.5,-102.0,-118.0,1.5,140.5
+372228,2026,regular,2026-03-06T23:00:00.000Z,Merrimack,Sacred Heart,Metro,Metro,70,48,Bovada,-7.0,143.0,-320.0,260.0,-7.0,143.5
+372228,2026,regular,2026-03-06T23:00:00.000Z,Merrimack,Sacred Heart,Metro,Metro,70,48,Draft Kings,-6.5,143.5,,,-7.5,143.5
+212083,2026,regular,2026-03-06T23:30:00.000Z,Eastern Michigan,Bowling Green,MAC,MAC,69,77,Bovada,5.5,143.0,140.0,-165.0,3.5,141.5
+212083,2026,regular,2026-03-06T23:30:00.000Z,Eastern Michigan,Bowling Green,MAC,MAC,69,77,Draft Kings,5.5,142.5,,,3.5,141.5
+212082,2026,regular,2026-03-07T00:00:00.000Z,Toledo,Buffalo,MAC,MAC,98,78,Bovada,-6.0,156.0,-370.0,285.0,-8.0,154.5
+212082,2026,regular,2026-03-07T00:00:00.000Z,Toledo,Buffalo,MAC,MAC,98,78,Draft Kings,-5.5,155.5,,,-7.5,154.5
+212107,2026,regular,2026-03-07T00:00:00.000Z,Harvard,Columbia,Ivy,Ivy,81,71,Bovada,-5.0,135.0,-195.0,165.0,-4.5,133.0
+212107,2026,regular,2026-03-07T00:00:00.000Z,Harvard,Columbia,Ivy,Ivy,81,71,Draft Kings,-4.5,136.5,-185.0,154.0,-3.5,132.5
+212078,2026,regular,2026-03-07T00:00:00.000Z,Kent State,Western Michigan,MAC,MAC,86,78,Bovada,-12.5,157.5,-700.0,475.0,-11.0,158.5
+212078,2026,regular,2026-03-07T00:00:00.000Z,Kent State,Western Michigan,MAC,MAC,86,78,Draft Kings,-12.5,157.5,,,-10.5,158.5
+212084,2026,regular,2026-03-07T00:00:00.000Z,Brown,Pennsylvania,Ivy,Ivy,61,82,Bovada,1.0,147.0,130.0,-150.0,3.0,141.5
+212084,2026,regular,2026-03-07T00:00:00.000Z,Brown,Pennsylvania,Ivy,Ivy,61,82,Draft Kings,-1.5,146.5,,,2.5,141.5
+359037,2026,regular,2026-03-07T00:00:00.000Z,Dayton,VCU,A-10,A-10,62,68,Bovada,-1.0,146.5,-130.0,110.0,-2.0,149.0
+359037,2026,regular,2026-03-07T00:00:00.000Z,Dayton,VCU,A-10,A-10,62,68,Draft Kings,-1.5,146.5,,,-1.5,149.5
+212081,2026,regular,2026-03-07T00:00:00.000Z,Ball State,Central Michigan,MAC,MAC,85,69,Bovada,-2.0,135.5,-135.0,115.0,-2.0,136.0
+212081,2026,regular,2026-03-07T00:00:00.000Z,Ball State,Central Michigan,MAC,MAC,85,69,Draft Kings,-1.5,134.5,,,-1.5,136.5
+372177,2026,regular,2026-03-07T00:00:00.000Z,South Dakota,Omaha,Summit,Summit,62,76,Bovada,2.0,149.5,120.0,-140.0,2.5,151.0
+372177,2026,regular,2026-03-07T00:00:00.000Z,South Dakota,Omaha,Summit,Summit,62,76,Draft Kings,1.5,150.5,130.0,-155.0,2.5,151.5
+372229,2026,regular,2026-03-07T00:00:00.000Z,Bradley,Valparaiso,MVC,MVC,90,84,Bovada,-5.0,138.5,-175.0,150.0,-4.0,135.5
+372229,2026,regular,2026-03-07T00:00:00.000Z,Bradley,Valparaiso,MVC,MVC,90,84,Draft Kings,-5.5,138.5,-162.0,136.0,-3.5,134.5
+372178,2026,regular,2026-03-07T00:30:00.000Z,UNC Greensboro,VMI,SoCon,SoCon,84,70,Bovada,-7.0,155.5,-340.0,270.0,-7.5,156.0
+372178,2026,regular,2026-03-07T00:30:00.000Z,UNC Greensboro,VMI,SoCon,SoCon,84,70,Draft Kings,-6.5,154.5,-345.0,275.0,-7.5,155.5
+372221,2026,regular,2026-03-07T00:30:00.000Z,Queens University,West Georgia,ASUN,ASUN,71,63,Draft Kings,-8.5,164.5,-265.0,215.0,-5.5,164.5
+215206,2026,regular,2026-03-07T01:00:00.000Z,West Virginia,UCF,Big 12,Big 12,77,62,Draft Kings,-3.5,139.5,,,-3.5,141.5
+372230,2026,regular,2026-03-07T01:00:00.000Z,Tennessee State,UT Martin,OVC,OVC,68,55,Bovada,-2.0,137.5,-145.0,125.0,-2.5,140.0
+372230,2026,regular,2026-03-07T01:00:00.000Z,Tennessee State,UT Martin,OVC,OVC,68,55,Draft Kings,-1.5,136.5,-135.0,114.0,-2.5,138.5
+372232,2026,regular,2026-03-07T01:30:00.000Z,Saint Peter's,Fairfield,Metro,Metro,55,74,Bovada,-2.5,138.0,-135.0,115.0,-2.0,138.5
+372232,2026,regular,2026-03-07T01:30:00.000Z,Saint Peter's,Fairfield,Metro,Metro,55,74,Draft Kings,-2.5,134.5,-130.0,110.0,-1.5,137.5
+372231,2026,regular,2026-03-07T01:50:00.000Z,South Alabama,Georgia Southern,Sun Belt,Sun Belt,85,94,Bovada,-4.5,148.5,-195.0,165.0,-4.5,149.5
+372231,2026,regular,2026-03-07T01:50:00.000Z,South Alabama,Georgia Southern,Sun Belt,Sun Belt,85,94,Draft Kings,-4.5,146.5,,,-4.5,148.5
+215207,2026,regular,2026-03-07T02:00:00.000Z,Seton Hall,St. John's,Big East,Big East,65,72,Bovada,5.0,137.5,175.0,-210.0,4.5,137.0
+215207,2026,regular,2026-03-07T02:00:00.000Z,Seton Hall,St. John's,Big East,Big East,65,72,Draft Kings,5.5,136.5,,,4.5,137.5
+372233,2026,regular,2026-03-07T02:00:00.000Z,Washington State,Portland,WCC,WCC,68,74,Bovada,-5.5,150.0,-195.0,165.0,-4.5,152.5
+372233,2026,regular,2026-03-07T02:00:00.000Z,Washington State,Portland,WCC,WCC,68,74,Draft Kings,-5.5,149.5,,,-5.5,152.5
+212080,2026,regular,2026-03-07T02:10:00.000Z,Ohio,Miami (OH),MAC,MAC,108,110,Bovada,3.5,159.5,180.0,-220.0,5.5,160.0
+212080,2026,regular,2026-03-07T02:10:00.000Z,Ohio,Miami (OH),MAC,MAC,108,110,Draft Kings,4.5,159.5,230.0,-285.0,5.5,158.5
+372180,2026,regular,2026-03-07T02:30:00.000Z,North Dakota,Denver,Summit,Summit,83,67,Bovada,3.0,160.5,140.0,-165.0,3.5,161.0
+372180,2026,regular,2026-03-07T02:30:00.000Z,North Dakota,Denver,Summit,Summit,83,67,Draft Kings,3.5,160.5,160.0,-192.0,4.5,161.5
+372179,2026,regular,2026-03-07T02:30:00.000Z,Radford,Presbyterian,Big South,Big South,85,91,Bovada,-2.5,146.0,-130.0,110.0,-2.0,145.0
+372179,2026,regular,2026-03-07T02:30:00.000Z,Radford,Presbyterian,Big South,Big South,85,91,Draft Kings,-1.5,146.5,-155.0,130.0,-2.5,145.5
+215222,2026,regular,2026-03-07T03:00:00.000Z,San Diego State,UNLV,Mountain West,Mountain West,89,86,Bovada,-9.0,153.0,-600.0,425.0,-9.5,153.5
+215222,2026,regular,2026-03-07T03:00:00.000Z,San Diego State,UNLV,Mountain West,Mountain West,89,86,Draft Kings,-9.5,153.5,,,-10.5,154.5
+372234,2026,regular,2026-03-07T03:25:00.000Z,Illinois State,Northern Iowa,MVC,MVC,52,74,Bovada,2.0,130.0,105.0,-125.0,1.5,125.5
+372234,2026,regular,2026-03-07T03:25:00.000Z,Illinois State,Northern Iowa,MVC,MVC,52,74,Draft Kings,1.5,127.5,,,1.5,124.5
+372235,2026,regular,2026-03-07T03:30:00.000Z,Morehead State,Southeast Missouri State,OVC,OVC,66,61,Draft Kings,2.5,139.5,,,1.5,143.5
+372236,2026,regular,2026-03-07T04:30:00.000Z,Seattle U,San Diego,WCC,WCC,58,56,Bovada,-8.0,139.0,-340.0,270.0,-7.5,140.5
+372236,2026,regular,2026-03-07T04:30:00.000Z,Seattle U,San Diego,WCC,WCC,58,56,Draft Kings,-9.5,139.5,,,-8.5,140.5
+212104,2026,regular,2026-03-07T17:00:00.000Z,Delaware,Louisiana Tech,CUSA,CUSA,38,81,Bovada,1.5,132.0,115.0,-135.0,2.0,133.0
+212104,2026,regular,2026-03-07T17:00:00.000Z,Delaware,Louisiana Tech,CUSA,CUSA,38,81,Draft Kings,2.5,131.5,,,2.5,133.5
+212092,2026,regular,2026-03-07T17:00:00.000Z,Missouri,Arkansas,SEC,SEC,84,88,Bovada,-2.5,161.5,-135.0,115.0,-1.0,160.0
+212092,2026,regular,2026-03-07T17:00:00.000Z,Missouri,Arkansas,SEC,SEC,84,88,Draft Kings,-2.5,162.5,,,3.5,162.5
+215228,2026,regular,2026-03-07T17:00:00.000Z,Virginia,Virginia Tech,ACC,ACC,76,72,Bovada,-11.5,146.0,-900.0,575.0,-12.0,146.0
+215228,2026,regular,2026-03-07T17:00:00.000Z,Virginia,Virginia Tech,ACC,ACC,76,72,Draft Kings,-11.5,146.5,-395.0,310.0,-9.5,
+215209,2026,regular,2026-03-07T17:00:00.000Z,Oklahoma State,Houston,Big 12,Big 12,75,82,Bovada,13.5,150.5,625.0,-1000.0,12.0,148.0
+215209,2026,regular,2026-03-07T17:00:00.000Z,Oklahoma State,Houston,Big 12,Big 12,75,82,Draft Kings,13.5,150.5,550.0,-800.0,13.5,150.5
+215225,2026,regular,2026-03-07T17:00:00.000Z,Villanova,Xavier,Big East,Big East,91,78,Bovada,-13.0,154.0,-950.0,600.0,-12.0,154.0
+215225,2026,regular,2026-03-07T17:00:00.000Z,Villanova,Xavier,Big East,Big East,91,78,Draft Kings,-13.5,153.5,,,-11.5,153.5
+359038,2026,regular,2026-03-07T17:00:00.000Z,St. Bonaventure,Davidson,A-10,A-10,63,68,Bovada,-5.0,141.5,-145.0,125.0,-3.5,141.5
+359038,2026,regular,2026-03-07T17:00:00.000Z,St. Bonaventure,Davidson,A-10,A-10,63,68,Draft Kings,-4.5,141.5,,,-3.5,142.5
+215224,2026,regular,2026-03-07T17:00:00.000Z,DePaul,Butler,Big East,Big East,71,81,Bovada,-3.5,143.0,-150.0,130.0,-3.5,142.0
+215224,2026,regular,2026-03-07T17:00:00.000Z,DePaul,Butler,Big East,Big East,71,81,Draft Kings,-3.5,142.5,,,-4.5,141.5
+215229,2026,regular,2026-03-07T17:00:00.000Z,Boston College,Notre Dame,ACC,ACC,77,69,Bovada,2.5,142.0,100.0,-120.0,1.5,140.5
+215229,2026,regular,2026-03-07T17:00:00.000Z,Boston College,Notre Dame,ACC,ACC,77,69,Draft Kings,1.5,142.5,,,1.5,140.5
+215235,2026,regular,2026-03-07T17:00:00.000Z,Clemson,Georgia Tech,ACC,ACC,79,76,Bovada,-17.5,145.0,-2000.0,950.0,-17.5,144.0
+215235,2026,regular,2026-03-07T17:00:00.000Z,Clemson,Georgia Tech,ACC,ACC,79,76,Draft Kings,-16.5,145.5,,,-17.5,144.5
+372222,2026,regular,2026-03-07T17:00:00.000Z,Mercyhurst,Stonehill,NEC,NEC,56,51,Bovada,-4.5,135.0,-225.0,185.0,-5.0,134.0
+372222,2026,regular,2026-03-07T17:00:00.000Z,Mercyhurst,Stonehill,NEC,NEC,56,51,Draft Kings,-4.5,135.5,-205.0,170.0,-4.5,129.5
+372205,2026,regular,2026-03-07T17:00:00.000Z,Stony Brook,Campbell,CAA,CAA,89,96,Bovada,2.5,147.5,125.0,-145.0,3.5,147.5
+372205,2026,regular,2026-03-07T17:00:00.000Z,Stony Brook,Campbell,CAA,CAA,89,96,Draft Kings,2.5,148.5,,,3.5,147.5
+372239,2026,regular,2026-03-07T17:00:00.000Z,East Tennessee State,The Citadel,SoCon,SoCon,83,76,Bovada,-14.5,138.5,-1600.0,800.0,-15.0,139.5
+372239,2026,regular,2026-03-07T17:00:00.000Z,East Tennessee State,The Citadel,SoCon,SoCon,83,76,Draft Kings,-14.5,138.5,-950.0,625.0,-15.5,140.5
+372240,2026,regular,2026-03-07T17:00:00.000Z,High Point,UNC Asheville,Big South,Big South,75,71,Bovada,-13.5,147.5,-1000.0,625.0,-13.0,149.0
+372240,2026,regular,2026-03-07T17:00:00.000Z,High Point,UNC Asheville,Big South,Big South,75,71,Draft Kings,-14.5,147.5,-650.0,470.0,-11.5,148.5
+215226,2026,regular,2026-03-07T17:30:00.000Z,Marquette,UConn,Big East,Big East,68,62,Bovada,9.5,143.0,340.0,-460.0,9.0,143.0
+215226,2026,regular,2026-03-07T17:30:00.000Z,Marquette,UConn,Big East,Big East,68,62,Draft Kings,9.5,143.5,,,9.5,143.5
+212094,2026,regular,2026-03-07T18:00:00.000Z,Ole Miss,South Carolina,SEC,SEC,61,64,Bovada,-7.0,147.0,-320.0,260.0,-6.5,147.0
+212094,2026,regular,2026-03-07T18:00:00.000Z,Ole Miss,South Carolina,SEC,SEC,61,64,Draft Kings,-7.5,146.5,,,-6.5,147.5
+359039,2026,regular,2026-03-07T18:00:00.000Z,Saint Joseph's,La Salle,A-10,A-10,88,76,Bovada,-10.5,143.0,-525.0,375.0,-9.5,141.5
+359039,2026,regular,2026-03-07T18:00:00.000Z,Saint Joseph's,La Salle,A-10,A-10,88,76,Draft Kings,-10.5,141.5,,,-9.5,140.5
+372206,2026,regular,2026-03-07T18:00:00.000Z,UMass Lowell,UAlbany,Am. East,Am. East,81,76,Draft Kings,-2.5,146.5,,,-2.5,150.5
+372207,2026,regular,2026-03-07T18:00:00.000Z,UMBC,New Hampshire,Am. East,Am. East,84,69,Draft Kings,-12.5,142.5,,,-12.5,137.5
+212105,2026,regular,2026-03-07T19:00:00.000Z,Liberty,Sam Houston,CUSA,CUSA,79,72,Bovada,-4.5,152.5,-195.0,165.0,-5.0,157.0
+212105,2026,regular,2026-03-07T19:00:00.000Z,Liberty,Sam Houston,CUSA,CUSA,79,72,Draft Kings,-4.5,152.5,,,-4.5,156.5
+212101,2026,regular,2026-03-07T19:00:00.000Z,Florida International,Western Kentucky,CUSA,CUSA,92,67,Bovada,1.0,159.5,-105.0,-115.0,1.0,160.0
+212101,2026,regular,2026-03-07T19:00:00.000Z,Florida International,Western Kentucky,CUSA,CUSA,92,67,Draft Kings,1.5,160.5,,,1.5,160.5
+359042,2026,regular,2026-03-07T19:00:00.000Z,Fordham,Rhode Island,A-10,A-10,61,49,Bovada,-1.5,135.5,-115.0,-105.0,-1.0,134.0
+359042,2026,regular,2026-03-07T19:00:00.000Z,Fordham,Rhode Island,A-10,A-10,61,49,Draft Kings,-1.5,136.5,,,-1.5,133.5
+359043,2026,regular,2026-03-07T19:00:00.000Z,Duquesne,Richmond,A-10,A-10,79,77,Bovada,-4.5,147.5,-210.0,175.0,-5.0,149.5
+359043,2026,regular,2026-03-07T19:00:00.000Z,Duquesne,Richmond,A-10,A-10,79,77,Draft Kings,-4.5,147.5,,,-5.5,149.5
+215208,2026,regular,2026-03-07T19:00:00.000Z,TCU,Cincinnati,Big 12,Big 12,73,63,Bovada,-2.5,139.5,-130.0,110.0,-2.5,139.5
+215208,2026,regular,2026-03-07T19:00:00.000Z,TCU,Cincinnati,Big 12,Big 12,73,63,Draft Kings,-2.5,140.5,,,-2.5,140.5
+215233,2026,regular,2026-03-07T19:00:00.000Z,Florida State,SMU,ACC,ACC,91,78,Bovada,-1.0,158.5,-125.0,105.0,-1.5,161.0
+215233,2026,regular,2026-03-07T19:00:00.000Z,Florida State,SMU,ACC,ACC,91,78,Draft Kings,-1.5,158.5,,,-1.5,161.5
+212106,2026,regular,2026-03-07T19:00:00.000Z,Yale,Princeton,Ivy,Ivy,78,53,Bovada,-14.0,136.5,-1300.0,725.0,-14.0,138.0
+212106,2026,regular,2026-03-07T19:00:00.000Z,Yale,Princeton,Ivy,Ivy,78,53,Draft Kings,-13.5,136.5,,,-14.5,138.5
+215211,2026,regular,2026-03-07T19:00:00.000Z,Iowa State,Arizona State,Big 12,Big 12,86,65,Bovada,-17.0,148.5,-1800.0,850.0,-16.0,149.0
+215211,2026,regular,2026-03-07T19:00:00.000Z,Iowa State,Arizona State,Big 12,Big 12,86,65,Draft Kings,-16.5,148.5,,,-13.5,146.5
+215210,2026,regular,2026-03-07T19:00:00.000Z,Kansas,Kansas State,Big 12,Big 12,104,85,Bovada,-17.5,157.0,-2000.0,950.0,-17.0,155.0
+215210,2026,regular,2026-03-07T19:00:00.000Z,Kansas,Kansas State,Big 12,Big 12,104,85,Draft Kings,-16.5,157.5,,,-16.5,150.5
+215232,2026,regular,2026-03-07T19:00:00.000Z,Miami,Louisville,ACC,ACC,89,92,Bovada,1.0,155.0,-130.0,110.0,-1.0,157.0
+215232,2026,regular,2026-03-07T19:00:00.000Z,Miami,Louisville,ACC,ACC,89,92,Draft Kings,-1.5,155.5,,-120.0,1.5,156.5
+212091,2026,regular,2026-03-07T19:00:00.000Z,Tennessee,Vanderbilt,SEC,SEC,82,86,Bovada,-2.5,146.0,-175.0,150.0,-4.5,148.0
+212091,2026,regular,2026-03-07T19:00:00.000Z,Tennessee,Vanderbilt,SEC,SEC,82,86,Draft Kings,-2.5,146.5,,,-4.5,147.5
+359041,2026,regular,2026-03-07T19:00:00.000Z,Loyola Chicago,George Washington,A-10,A-10,68,62,Bovada,10.0,149.0,475.0,-700.0,9.0,152.0
+359041,2026,regular,2026-03-07T19:00:00.000Z,Loyola Chicago,George Washington,A-10,A-10,68,62,Draft Kings,9.5,148.5,,,9.5,152.5
+359040,2026,regular,2026-03-07T19:00:00.000Z,Dartmouth,Cornell,Ivy,Ivy,90,111,Bovada,4.5,166.5,175.0,-210.0,5.0,166.0
+359040,2026,regular,2026-03-07T19:00:00.000Z,Dartmouth,Cornell,Ivy,Ivy,90,111,Draft Kings,4.5,166.5,,,4.5,165.5
+372208,2026,regular,2026-03-07T19:00:00.000Z,Vermont,Bryant,Am. East,Am. East,77,57,Bovada,-12.0,131.0,-1100.0,650.0,-13.0,133.5
+372208,2026,regular,2026-03-07T19:00:00.000Z,Vermont,Bryant,Am. East,Am. East,77,57,Draft Kings,-12.5,130.5,,,-13.5,134.5
+372223,2026,regular,2026-03-07T19:00:00.000Z,Long Island University,Wagner,NEC,NEC,64,56,Bovada,-6.5,138.5,-440.0,330.0,-9.0,140.0
+372223,2026,regular,2026-03-07T19:00:00.000Z,Long Island University,Wagner,NEC,NEC,64,56,Draft Kings,-6.5,139.5,,,-8.5,140.5
+215231,2026,regular,2026-03-07T19:15:00.000Z,NC State,Stanford,ACC,ACC,84,85,Bovada,-9.5,152.5,-400.0,300.0,-8.0,153.0
+215231,2026,regular,2026-03-07T19:15:00.000Z,NC State,Stanford,ACC,ACC,84,85,Draft Kings,-9.5,152.5,,,-8.5,154.5
+372241,2026,regular,2026-03-07T19:30:00.000Z,Drexel,Northeastern,CAA,CAA,84,77,Bovada,-4.5,139.5,-200.0,170.0,-4.5,140.5
+372241,2026,regular,2026-03-07T19:30:00.000Z,Drexel,Northeastern,CAA,CAA,84,77,Draft Kings,-4.5,139.5,-192.0,160.0,-4.5,140.5
+372242,2026,regular,2026-03-07T19:30:00.000Z,Wofford,UNC Greensboro,SoCon,SoCon,72,75,Bovada,-5.0,156.5,-185.0,160.0,-4.5,156.5
+372242,2026,regular,2026-03-07T19:30:00.000Z,Wofford,UNC Greensboro,SoCon,SoCon,72,75,Draft Kings,-4.5,156.5,-170.0,142.0,-3.5,156.5
+372243,2026,regular,2026-03-07T19:30:00.000Z,Winthrop,Presbyterian,Big South,Big South,73,71,Bovada,-7.0,144.5,-290.0,240.0,-7.5,146.5
+372243,2026,regular,2026-03-07T19:30:00.000Z,Winthrop,Presbyterian,Big South,Big South,73,71,Draft Kings,-7.5,145.5,-298.0,240.0,-6.5,146.5
+212100,2026,regular,2026-03-07T20:00:00.000Z,Missouri State,Middle Tennessee,CUSA,CUSA,63,75,Bovada,-2.5,146.5,-125.0,105.0,-1.5,145.0
+212100,2026,regular,2026-03-07T20:00:00.000Z,Missouri State,Middle Tennessee,CUSA,CUSA,63,75,Draft Kings,-2.5,145.5,,,-1.5,144.5
+212103,2026,regular,2026-03-07T20:00:00.000Z,UTEP,Jacksonville State,CUSA,CUSA,61,64,Bovada,1.0,139.5,110.0,-130.0,-1.0,139.5
+212103,2026,regular,2026-03-07T20:00:00.000Z,UTEP,Jacksonville State,CUSA,CUSA,61,64,Draft Kings,1.5,139.5,,,-1.5,139.5
+212093,2026,regular,2026-03-07T20:30:00.000Z,Mississippi State,Georgia,SEC,SEC,96,102,Bovada,5.0,165.0,180.0,-220.0,5.5,164.0
+212093,2026,regular,2026-03-07T20:30:00.000Z,Mississippi State,Georgia,SEC,SEC,96,102,Draft Kings,5.5,166.5,,,5.5,165.5
+372244,2026,regular,2026-03-07T20:30:00.000Z,UIC,Drake,MVC,MVC,72,51,Bovada,-4.0,143.5,-220.0,180.0,-5.5,141.5
+372244,2026,regular,2026-03-07T20:30:00.000Z,UIC,Drake,MVC,MVC,72,51,Draft Kings,-4.5,144.5,-245.0,200.0,-5.5,141.5
+215220,2026,regular,2026-03-07T21:00:00.000Z,Colorado State,Boise State,Mountain West,Mountain West,67,78,Bovada,1.0,144.0,-115.0,-105.0,-1.5,143.0
+215220,2026,regular,2026-03-07T21:00:00.000Z,Colorado State,Boise State,Mountain West,Mountain West,67,78,Draft Kings,1.5,143.5,,,-1.5,142.5
+212096,2026,regular,2026-03-07T21:00:00.000Z,Kentucky,Florida,SEC,SEC,77,84,Bovada,5.5,162.0,215.0,-260.0,6.5,159.0
+212096,2026,regular,2026-03-07T21:00:00.000Z,Kentucky,Florida,SEC,SEC,77,84,Draft Kings,5.5,162.5,,,7.5,156.5
+212102,2026,regular,2026-03-07T21:00:00.000Z,New Mexico State,Kennesaw State,CUSA,CUSA,79,76,Bovada,-2.5,157.5,-150.0,130.0,-3.0,155.0
+212102,2026,regular,2026-03-07T21:00:00.000Z,New Mexico State,Kennesaw State,CUSA,CUSA,79,76,Draft Kings,-1.5,157.5,,,-3.5,155.5
+215227,2026,regular,2026-03-07T21:00:00.000Z,Wake Forest,California,ACC,ACC,80,73,Bovada,-6.0,154.0,-220.0,180.0,-5.5,150.0
+215227,2026,regular,2026-03-07T21:00:00.000Z,Wake Forest,California,ACC,ACC,80,73,Draft Kings,-5.5,154.5,,,-5.5,151.5
+359046,2026,regular,2026-03-07T21:00:00.000Z,Wichita State,Florida Atlantic,American,American,88,70,Bovada,-8.5,149.0,-370.0,285.0,-7.5,146.5
+359046,2026,regular,2026-03-07T21:00:00.000Z,Wichita State,Florida Atlantic,American,American,88,70,Draft Kings,-8.5,150.5,-325.0,260.0,-7.5,146.5
+359045,2026,regular,2026-03-07T21:00:00.000Z,George Mason,Saint Louis,A-10,A-10,86,57,Bovada,7.0,146.5,260.0,-320.0,7.0,149.0
+359045,2026,regular,2026-03-07T21:00:00.000Z,George Mason,Saint Louis,A-10,A-10,86,57,Draft Kings,7.5,146.5,,,7.5,145.5
+359044,2026,regular,2026-03-07T21:00:00.000Z,Utah State,New Mexico,Mountain West,Mountain West,94,90,Bovada,-7.0,156.0,-340.0,270.0,-7.5,157.0
+359044,2026,regular,2026-03-07T21:00:00.000Z,Utah State,New Mexico,Mountain West,Mountain West,94,90,Draft Kings,-7.5,155.5,,,-7.5,155.5
+215216,2026,regular,2026-03-07T21:00:00.000Z,Purdue,Wisconsin,Big Ten,Big Ten,93,97,Bovada,-9.0,154.5,-400.0,300.0,-8.5,156.5
+215216,2026,regular,2026-03-07T21:00:00.000Z,Purdue,Wisconsin,Big Ten,Big Ten,93,97,Draft Kings,-9.5,154.5,,,-6.5,157.5
+372209,2026,regular,2026-03-07T21:00:00.000Z,NJIT,Maine,Am. East,Am. East,60,58,Bovada,-3.5,134.0,-185.0,160.0,-4.0,132.0
+372209,2026,regular,2026-03-07T21:00:00.000Z,NJIT,Maine,Am. East,Am. East,60,58,Draft Kings,-3.5,134.5,,,-3.5,131.5
+215230,2026,regular,2026-03-07T21:30:00.000Z,Syracuse,Pittsburgh,ACC,ACC,69,71,Bovada,-6.0,141.5,-300.0,250.0,-6.5,142.0
+215230,2026,regular,2026-03-07T21:30:00.000Z,Syracuse,Pittsburgh,ACC,ACC,69,71,Draft Kings,-5.5,141.5,,,-6.5,141.5
+359047,2026,regular,2026-03-07T22:00:00.000Z,San José State,Wyoming,Mountain West,Mountain West,78,88,Bovada,5.5,148.0,250.0,-300.0,6.5,149.5
+359047,2026,regular,2026-03-07T22:00:00.000Z,San José State,Wyoming,Mountain West,Mountain West,78,88,Draft Kings,5.5,148.5,,,6.5,149.5
+215214,2026,regular,2026-03-07T22:00:00.000Z,Baylor,Utah,Big 12,Big 12,101,75,Bovada,-12.0,148.5,-1000.0,625.0,-12.5,150.5
+215214,2026,regular,2026-03-07T22:00:00.000Z,Baylor,Utah,Big 12,Big 12,101,75,Draft Kings,-12.5,148.5,-700.0,500.0,-13.5,151.5
+372245,2026,regular,2026-03-07T22:00:00.000Z,Central Arkansas,Florida Gulf Coast,ASUN,ASUN,73,63,Bovada,-4.5,145.0,-230.0,190.0,-5.0,146.0
+372245,2026,regular,2026-03-07T22:00:00.000Z,Central Arkansas,Florida Gulf Coast,ASUN,ASUN,73,63,Draft Kings,-4.5,144.5,-225.0,185.0,-5.5,145.5
+215218,2026,regular,2026-03-07T22:30:00.000Z,Ohio State,Indiana,Big Ten,Big Ten,91,78,Bovada,-3.5,148.0,-195.0,165.0,-4.5,149.0
+215218,2026,regular,2026-03-07T22:30:00.000Z,Ohio State,Indiana,Big Ten,Big Ten,91,78,Draft Kings,-3.5,148.5,,,-4.5,147.5
+212095,2026,regular,2026-03-07T23:00:00.000Z,LSU,Texas A&M,SEC,SEC,91,94,Bovada,2.5,161.0,140.0,-165.0,3.5,159.0
+212095,2026,regular,2026-03-07T23:00:00.000Z,LSU,Texas A&M,SEC,SEC,91,94,Draft Kings,2.5,161.5,,,3.5,160.5
+372181,2026,regular,2026-03-07T23:00:00.000Z,Samford,Furman,SoCon,SoCon,81,86,Bovada,-1.0,146.0,-125.0,105.0,-1.5,146.5
+372181,2026,regular,2026-03-07T23:00:00.000Z,Samford,Furman,SoCon,SoCon,81,86,Draft Kings,-1.5,145.5,-120.0,,-1.5,146.5
+372210,2026,regular,2026-03-07T23:00:00.000Z,Towson,Hampton,CAA,CAA,74,68,Bovada,-7.0,131.5,-285.0,235.0,-6.5,131.0
+372210,2026,regular,2026-03-07T23:00:00.000Z,Towson,Hampton,CAA,CAA,74,68,Draft Kings,-7.5,132.5,,,-6.5,131.5
+372187,2026,regular,2026-03-07T23:00:00.000Z,Quinnipiac,Marist,Metro,Metro,75,77,Bovada,-1.5,135.0,-130.0,110.0,-2.0,130.5
+372187,2026,regular,2026-03-07T23:00:00.000Z,Quinnipiac,Marist,Metro,Metro,75,77,Draft Kings,-1.5,135.5,,,-1.5,130.5
+372246,2026,regular,2026-03-07T23:00:00.000Z,Bradley,Northern Iowa,MVC,MVC,69,73,Bovada,4.0,127.0,175.0,-210.0,5.0,128.5
+372246,2026,regular,2026-03-07T23:00:00.000Z,Bradley,Northern Iowa,MVC,MVC,69,73,Draft Kings,4.5,127.5,170.0,-205.0,4.5,127.5
+215234,2026,regular,2026-03-07T23:30:00.000Z,Duke,North Carolina,ACC,ACC,76,61,Bovada,-18.5,147.5,-2200.0,1000.0,-17.5,147.0
+215234,2026,regular,2026-03-07T23:30:00.000Z,Duke,North Carolina,ACC,ACC,76,61,Draft Kings,-18.5,147.5,,,-16.5,144.5
+372247,2026,regular,2026-03-07T23:30:00.000Z,App State,Southern Miss,Sun Belt,Sun Belt,73,86,Bovada,-4.5,137.0,-165.0,140.0,-3.5,135.5
+372247,2026,regular,2026-03-07T23:30:00.000Z,App State,Southern Miss,Sun Belt,Sun Belt,73,86,Draft Kings,-4.5,137.5,-162.0,136.0,-3.5,135.5
+212085,2026,regular,2026-03-08T00:00:00.000Z,Cal Poly,Cal State Bakersfield,Big West,Big West,108,76,Draft Kings,-9.5,174.5,,,-9.5,172.5
+212099,2026,regular,2026-03-08T00:00:00.000Z,Abilene Christian,UT Arlington,UAC,UAC,57,64,Bovada,-1.0,132.5,-115.0,-105.0,-1.0,134.5
+212099,2026,regular,2026-03-08T00:00:00.000Z,Abilene Christian,UT Arlington,UAC,UAC,57,64,Draft Kings,-1.5,132.5,,,-1.5,133.5
+372193,2026,regular,2026-03-08T00:30:00.000Z,Idaho State,Northern Arizona,Big Sky,Big Sky,73,65,Bovada,-4.5,142.0,-210.0,175.0,-5.0,141.5
+372193,2026,regular,2026-03-08T00:30:00.000Z,Idaho State,Northern Arizona,Big Sky,Big Sky,73,65,Draft Kings,-4.5,142.5,,,-4.5,143.5
+372248,2026,regular,2026-03-08T00:45:00.000Z,Austin Peay,Queens University,ASUN,ASUN,83,90,Draft Kings,-2.5,161.5,-118.0,-102.0,-1.5,162.5
+212087,2026,regular,2026-03-08T01:00:00.000Z,UC Irvine,UC Davis,Big West,Big West,79,69,Bovada,-9.5,145.5,-460.0,340.0,-9.0,146.0
+212087,2026,regular,2026-03-08T01:00:00.000Z,UC Irvine,UC Davis,Big West,Big West,79,69,Draft Kings,-9.5,145.5,,,-9.5,143.5
+215237,2026,regular,2026-03-08T01:00:00.000Z,Cal State Northridge,Cal State Fullerton,Big West,Big West,77,90,Draft Kings,-5.5,173.5,,,-5.5,169.5
+215221,2026,regular,2026-03-08T01:00:00.000Z,Grand Canyon,Fresno State,Mountain West,Mountain West,85,60,Bovada,-12.5,147.5,-1100.0,650.0,-13.0,146.5
+215221,2026,regular,2026-03-08T01:00:00.000Z,Grand Canyon,Fresno State,Mountain West,Mountain West,85,60,Draft Kings,-13.5,146.5,,,-13.5,144.5
+215223,2026,regular,2026-03-08T01:00:00.000Z,Georgetown,Providence,Big East,Big East,80,79,Bovada,-1.5,157.5,-110.0,-110.0,-1.0,156.5
+215223,2026,regular,2026-03-08T01:00:00.000Z,Georgetown,Providence,Big East,Big East,80,79,Draft Kings,-1.5,157.5,,,-1.5,158.5
+372249,2026,regular,2026-03-08T01:00:00.000Z,North Dakota State,Omaha,Summit,Summit,74,50,Bovada,-8.0,142.5,-300.0,250.0,-6.5,140.5
+372249,2026,regular,2026-03-08T01:00:00.000Z,North Dakota State,Omaha,Summit,Summit,74,50,Draft Kings,-8.5,142.5,-290.0,235.0,-6.5,140.5
+212089,2026,regular,2026-03-08T01:30:00.000Z,Alabama,Auburn,SEC,SEC,96,84,Bovada,-6.5,175.5,-420.0,315.0,-8.5,176.0
+212089,2026,regular,2026-03-08T01:30:00.000Z,Alabama,Auburn,SEC,SEC,96,84,Draft Kings,-6.5,178.5,,,-8.5,176.5
+212090,2026,regular,2026-03-08T01:30:00.000Z,Texas,Oklahoma,SEC,SEC,85,88,Bovada,-6.5,154.0,-340.0,270.0,-8.0,155.5
+212090,2026,regular,2026-03-08T01:30:00.000Z,Texas,Oklahoma,SEC,SEC,85,88,Draft Kings,-6.5,154.5,,,-7.5,157.5
+212097,2026,regular,2026-03-08T01:30:00.000Z,Southern Utah,California Baptist,UAC,UAC,75,82,Bovada,6.5,149.0,235.0,-285.0,6.0,146.0
+212097,2026,regular,2026-03-08T01:30:00.000Z,Southern Utah,California Baptist,UAC,UAC,75,82,Draft Kings,6.5,149.5,,,6.5,145.5
+372182,2026,regular,2026-03-08T01:30:00.000Z,Mercer,Western Carolina,SoCon,SoCon,73,77,Bovada,-2.0,154.5,-130.0,110.0,-2.0,156.0
+372182,2026,regular,2026-03-08T01:30:00.000Z,Mercer,Western Carolina,SoCon,SoCon,73,77,Draft Kings,-2.5,154.5,,,-2.5,156.5
+372211,2026,regular,2026-03-08T01:30:00.000Z,William & Mary,Elon,CAA,CAA,72,62,Bovada,-5.5,163.5,-195.0,165.0,-4.5,164.5
+372211,2026,regular,2026-03-08T01:30:00.000Z,William & Mary,Elon,CAA,CAA,72,62,Draft Kings,-4.5,163.5,-205.0,170.0,-5.5,164.5
+372188,2026,regular,2026-03-08T01:48:00.000Z,Siena,Mount St. Mary's,Metro,Metro,63,58,Bovada,-3.0,135.0,-165.0,140.0,-3.5,131.5
+372188,2026,regular,2026-03-08T01:48:00.000Z,Siena,Mount St. Mary's,Metro,Metro,63,58,Draft Kings,-2.5,133.5,,,-3.5,131.5
+212088,2026,regular,2026-03-08T02:00:00.000Z,UC Santa Barbara,UC San Diego,Big West,Big West,63,64,Bovada,-2.0,141.5,-125.0,105.0,-1.5,140.0
+212088,2026,regular,2026-03-08T02:00:00.000Z,UC Santa Barbara,UC San Diego,Big West,Big West,63,64,Draft Kings,-1.5,139.5,,,-2.5,140.5
+215219,2026,regular,2026-03-08T02:00:00.000Z,Minnesota,Northwestern,Big Ten,Big Ten,67,66,Bovada,-4.5,132.5,-150.0,130.0,-3.0,133.0
+215219,2026,regular,2026-03-08T02:00:00.000Z,Minnesota,Northwestern,Big Ten,Big Ten,67,66,Draft Kings,-3.5,131.5,,,-3.5,133.5
+215215,2026,regular,2026-03-08T02:00:00.000Z,USC,UCLA,Big Ten,Big Ten,68,89,Bovada,5.0,150.5,235.0,-285.0,5.5,149.5
+215215,2026,regular,2026-03-08T02:00:00.000Z,USC,UCLA,Big Ten,Big Ten,68,89,Draft Kings,6.5,151.5,,,5.5,151.5
+212098,2026,regular,2026-03-08T02:00:00.000Z,Utah Tech,Utah Valley,UAC,UAC,101,104,Bovada,9.0,147.5,265.0,-330.0,6.5,148.0
+212098,2026,regular,2026-03-08T02:00:00.000Z,Utah Tech,Utah Valley,UAC,UAC,101,104,Draft Kings,8.5,147.5,,,6.5,147.5
+372252,2026,regular,2026-03-08T02:00:00.000Z,Tennessee State,Morehead State,OVC,OVC,93,67,Bovada,-5.5,144.0,-170.0,145.0,-3.5,149.5
+372252,2026,regular,2026-03-08T02:00:00.000Z,Tennessee State,Morehead State,OVC,OVC,93,67,Draft Kings,-5.5,143.5,-185.0,154.0,-3.5,149.5
+372250,2026,regular,2026-03-08T02:00:00.000Z,San Francisco,Portland,WCC,WCC,82,65,Bovada,-7.0,144.5,-220.0,180.0,-5.5,144.5
+372250,2026,regular,2026-03-08T02:00:00.000Z,San Francisco,Portland,WCC,WCC,82,65,Draft Kings,-7.5,144.5,-205.0,170.0,-5.5,144.5
+372251,2026,regular,2026-03-08T02:24:00.000Z,Coastal Carolina,Georgia Southern,Sun Belt,Sun Belt,72,96,Bovada,-1.0,149.0,-120.0,100.0,-1.5,151.5
+372251,2026,regular,2026-03-08T02:24:00.000Z,Coastal Carolina,Georgia Southern,Sun Belt,Sun Belt,72,96,Draft Kings,-2.5,148.5,-135.0,114.0,-2.5,151.5
+215236,2026,regular,2026-03-08T03:00:00.000Z,Nevada,Air Force,Mountain West,Mountain West,74,59,Bovada,-25.5,144.5,,,-24.5,143.0
+215236,2026,regular,2026-03-08T03:00:00.000Z,Nevada,Air Force,Mountain West,Mountain West,74,59,Draft Kings,-25.5,145.5,,,-24.5,142.5
+372194,2026,regular,2026-03-08T03:00:00.000Z,Idaho,Sacramento State,Big Sky,Big Sky,68,45,Bovada,-7.0,158.5,-300.0,250.0,-6.0,158.5
+372194,2026,regular,2026-03-08T03:00:00.000Z,Idaho,Sacramento State,Big Sky,Big Sky,68,45,Draft Kings,-5.5,158.5,-258.0,210.0,-6.5,158.5
+215213,2026,regular,2026-03-08T03:30:00.000Z,BYU,Texas Tech,Big 12,Big 12,82,76,Bovada,-2.5,159.0,-135.0,115.0,-2.0,159.5
+215213,2026,regular,2026-03-08T03:30:00.000Z,BYU,Texas Tech,Big 12,Big 12,82,76,Draft Kings,-2.5,158.5,-102.0,-118.0,1.5,160.5
+372253,2026,regular,2026-03-08T03:30:00.000Z,St. Thomas-Minnesota,North Dakota,Summit,Summit,66,67,Draft Kings,-11.5,153.5,-750.0,525.0,-13.5,153.5
+215212,2026,regular,2026-03-08T04:00:00.000Z,Colorado,Arizona,Big 12,Big 12,79,89,Bovada,13.0,156.5,750.0,-1400.0,14.0,156.0
+215212,2026,regular,2026-03-08T04:00:00.000Z,Colorado,Arizona,Big 12,Big 12,79,89,Draft Kings,13.5,156.5,,,17.5,155.5
+215217,2026,regular,2026-03-08T04:00:00.000Z,Oregon,Washington,Big Ten,Big Ten,85,79,Bovada,1.0,146.0,-115.0,-105.0,-1.0,141.5
+215217,2026,regular,2026-03-08T04:00:00.000Z,Oregon,Washington,Big Ten,Big Ten,85,79,Draft Kings,-1.5,144.5,-118.0,-102.0,-1.5,140.5
+372254,2026,regular,2026-03-08T04:40:00.000Z,Pacific,Seattle U,WCC,WCC,61,58,Bovada,-1.0,129.5,-125.0,105.0,-1.5,129.5
+372254,2026,regular,2026-03-08T04:40:00.000Z,Pacific,Seattle U,WCC,WCC,61,58,Draft Kings,-1.5,129.5,-115.0,-105.0,-1.5,129.5
+212086,2026,regular,2026-03-08T04:59:00.000Z,Hawai'i,Long Beach State,Big West,Big West,75,84,Bovada,-14.0,150.0,-1300.0,725.0,-13.5,149.0
+212086,2026,regular,2026-03-08T04:59:00.000Z,Hawai'i,Long Beach State,Big West,Big West,75,84,Draft Kings,-14.5,149.5,,,-13.5,148.5
+215238,2026,regular,2026-03-08T16:00:00.000Z,Rutgers,Penn State,Big Ten,Big Ten,74,62,Bovada,-4.5,150.5,-220.0,180.0,-5.0,150.5
+215238,2026,regular,2026-03-08T16:00:00.000Z,Rutgers,Penn State,Big Ten,Big Ten,74,62,Draft Kings,-4.5,149.5,,,-7.5,155.5
+372265,2026,regular,2026-03-08T16:00:00.000Z,High Point,Winthrop,Big South,Big South,91,76,Bovada,-7.0,157.0,-285.0,235.0,-7.0,160.0
+372265,2026,regular,2026-03-08T16:00:00.000Z,High Point,Winthrop,Big South,Big South,91,76,Draft Kings,-6.5,157.5,-265.0,215.0,-6.5,160.5
+372263,2026,regular,2026-03-08T16:00:00.000Z,UNC Wilmington,Campbell,CAA,CAA,70,85,Bovada,-7.5,149.0,-320.0,260.0,-7.5,148.0
+372263,2026,regular,2026-03-08T16:00:00.000Z,UNC Wilmington,Campbell,CAA,CAA,70,85,Draft Kings,-6.5,149.5,-305.0,245.0,-7.5,148.5
+372264,2026,regular,2026-03-08T16:00:00.000Z,UIC,Northern Iowa,MVC,MVC,69,84,Bovada,2.5,124.5,135.0,-160.0,3.0,123.5
+372264,2026,regular,2026-03-08T16:00:00.000Z,UIC,Northern Iowa,MVC,MVC,69,84,Draft Kings,2.5,126.5,136.0,-162.0,2.5,123.5
+372237,2026,regular,2026-03-08T16:00:00.000Z,Lehigh,Colgate,Patriot,Patriot,76,69,Bovada,2.0,145.5,110.0,-130.0,2.0,147.5
+372237,2026,regular,2026-03-08T16:00:00.000Z,Lehigh,Colgate,Patriot,Patriot,76,69,Draft Kings,2.5,146.5,,,-1.5,146.5
+359049,2026,regular,2026-03-08T18:00:00.000Z,South Florida,Charlotte,American,American,83,60,Bovada,-17.0,155.5,-1800.0,850.0,-16.5,152.5
+359049,2026,regular,2026-03-08T18:00:00.000Z,South Florida,Charlotte,American,American,83,60,Draft Kings,-17.5,156.5,,,-16.5,152.5
+359048,2026,regular,2026-03-08T18:00:00.000Z,Tulane,Memphis,American,American,95,96,Bovada,2.5,153.5,-105.0,-115.0,1.0,150.5
+359048,2026,regular,2026-03-08T18:00:00.000Z,Tulane,Memphis,American,American,95,96,Draft Kings,2.5,153.5,,,1.5,150.5
+372238,2026,regular,2026-03-08T18:00:00.000Z,Navy,Boston University,Patriot,Patriot,72,73,Bovada,-6.5,137.0,-300.0,250.0,-7.5,138.5
+372238,2026,regular,2026-03-08T18:00:00.000Z,Navy,Boston University,Patriot,Patriot,72,73,Draft Kings,-6.5,136.5,,,-7.5,137.5
+372266,2026,regular,2026-03-08T18:00:00.000Z,Central Arkansas,Queens University,ASUN,ASUN,93,98,Draft Kings,-2.5,156.5,-155.0,130.0,-2.5,156.5
+215241,2026,regular,2026-03-08T19:00:00.000Z,Maryland,Illinois,Big Ten,Big Ten,72,78,Bovada,14.0,145.0,800.0,-1600.0,14.5,146.0
+215241,2026,regular,2026-03-08T19:00:00.000Z,Maryland,Illinois,Big Ten,Big Ten,72,78,Draft Kings,14.5,145.5,,,16.5,149.5
+359051,2026,regular,2026-03-08T19:00:00.000Z,Rice,UTSA,American,American,80,71,Bovada,-11.5,149.5,-850.0,550.0,-11.5,150.5
+359051,2026,regular,2026-03-08T19:00:00.000Z,Rice,UTSA,American,American,80,71,Draft Kings,-11.5,150.5,,,-12.5,150.5
+359052,2026,regular,2026-03-08T19:00:00.000Z,UAB,East Carolina,American,American,90,83,Bovada,-10.0,151.5,-650.0,450.0,-10.5,147.5
+359052,2026,regular,2026-03-08T19:00:00.000Z,UAB,East Carolina,American,American,90,83,Draft Kings,-10.5,151.5,,,-10.5,146.5
+359050,2026,regular,2026-03-08T19:00:00.000Z,Tulsa,Temple,American,American,78,76,Bovada,-11.5,150.5,-750.0,500.0,-11.5,153.5
+359050,2026,regular,2026-03-08T19:00:00.000Z,Tulsa,Temple,American,American,78,76,Draft Kings,-11.5,150.5,,,-11.5,153.5
+372267,2026,regular,2026-03-08T19:00:00.000Z,Monmouth,Drexel,CAA,CAA,65,57,Bovada,-4.5,137.5,-150.0,130.0,-3.5,139.0
+372267,2026,regular,2026-03-08T19:00:00.000Z,Monmouth,Drexel,CAA,CAA,65,57,Draft Kings,-4.5,137.5,-148.0,124.0,-2.5,138.5
+372224,2026,regular,2026-03-08T19:30:00.000Z,Green Bay,Northern Kentucky,Horizon,Horizon,76,96,Bovada,4.0,147.5,125.0,-145.0,2.5,146.0
+372224,2026,regular,2026-03-08T19:30:00.000Z,Green Bay,Northern Kentucky,Horizon,Horizon,76,96,Draft Kings,3.5,146.5,136.0,-162.0,2.5,145.5
+372268,2026,regular,2026-03-08T20:00:00.000Z,East Tennessee State,Western Carolina,SoCon,SoCon,69,67,Bovada,-3.0,146.0,-150.0,130.0,-3.0,150.0
+372268,2026,regular,2026-03-08T20:00:00.000Z,East Tennessee State,Western Carolina,SoCon,SoCon,69,67,Draft Kings,-3.5,146.5,-155.0,130.0,-2.5,149.5
+215240,2026,regular,2026-03-08T20:30:00.000Z,Michigan,Michigan State,Big Ten,Big Ten,90,80,Bovada,-10.5,152.5,-600.0,425.0,-10.5,149.5
+215240,2026,regular,2026-03-08T20:30:00.000Z,Michigan,Michigan State,Big Ten,Big Ten,90,80,Draft Kings,-10.5,152.5,,,-11.5,150.5
+215239,2026,regular,2026-03-08T21:00:00.000Z,Nebraska,Iowa,Big Ten,Big Ten,84,75,Bovada,-6.0,136.5,-300.0,250.0,-5.5,134.0
+215239,2026,regular,2026-03-08T21:00:00.000Z,Nebraska,Iowa,Big Ten,Big Ten,84,75,Draft Kings,-5.5,136.5,,,-6.5,150.5
+372195,2026,regular,2026-03-08T22:00:00.000Z,New Orleans,Houston Christian,Southland,Southland,73,60,Bovada,-4.0,143.0,-200.0,170.0,-5.0,142.5
+372195,2026,regular,2026-03-08T22:00:00.000Z,New Orleans,Houston Christian,Southland,Southland,73,60,Draft Kings,-3.5,142.5,,,-4.5,141.5
+372269,2026,regular,2026-03-08T22:00:00.000Z,Charleston,Towson,CAA,CAA,56,81,Draft Kings,-3.5,138.5,-142.0,120.0,-2.5,133.5
+372271,2026,regular,2026-03-08T22:00:00.000Z,Merrimack,Marist,Metro,Metro,58,57,Bovada,-3.0,128.5,-165.0,140.0,-3.5,125.5
+372271,2026,regular,2026-03-08T22:00:00.000Z,Merrimack,Marist,Metro,Metro,58,57,Draft Kings,-3.5,128.5,-170.0,142.0,-3.5,124.5
+372270,2026,regular,2026-03-08T22:00:00.000Z,Troy,Southern Miss,Sun Belt,Sun Belt,78,70,Bovada,-6.0,142.5,-185.0,160.0,-4.5,144.0
+372270,2026,regular,2026-03-08T22:00:00.000Z,Troy,Southern Miss,Sun Belt,Sun Belt,78,70,Draft Kings,-5.5,142.5,-170.0,142.0,-4.5,143.5
+372272,2026,regular,2026-03-08T22:30:00.000Z,Furman,UNC Greensboro,SoCon,SoCon,81,75,Bovada,-6.0,148.0,-290.0,240.0,-6.5,149.0
+372272,2026,regular,2026-03-08T22:30:00.000Z,Furman,UNC Greensboro,SoCon,SoCon,81,75,Draft Kings,-5.5,147.5,-278.0,225.0,-6.5,148.5
+372273,2026,regular,2026-03-08T23:30:00.000Z,Portland State,Idaho State,Big Sky,Big Sky,85,78,Bovada,-5.0,141.0,-290.0,240.0,-6.5,139.0
+372273,2026,regular,2026-03-08T23:30:00.000Z,Portland State,Idaho State,Big Sky,Big Sky,85,78,Draft Kings,-5.5,141.5,-270.0,220.0,-6.5,139.5
+372196,2026,regular,2026-03-09T00:30:00.000Z,Nicholls,Northwestern State,Southland,Southland,61,47,Bovada,-1.5,138.5,-145.0,125.0,-2.5,141.5
+372196,2026,regular,2026-03-09T00:30:00.000Z,Nicholls,Northwestern State,Southland,Southland,61,47,Draft Kings,-1.5,138.5,,,-2.5,140.5
+372277,2026,regular,2026-03-09T00:30:00.000Z,Siena,Fairfield,Metro,Metro,76,61,Bovada,-2.0,138.0,-145.0,125.0,-3.0,140.5
+372277,2026,regular,2026-03-09T00:30:00.000Z,Siena,Fairfield,Metro,Metro,76,61,Draft Kings,-1.5,137.5,-148.0,124.0,-2.5,140.5
+372274,2026,regular,2026-03-09T00:30:00.000Z,Hofstra,William & Mary,CAA,CAA,92,61,Bovada,-2.0,153.0,-195.0,165.0,-4.5,154.5
+372274,2026,regular,2026-03-09T00:30:00.000Z,Hofstra,William & Mary,CAA,CAA,92,61,Draft Kings,-2.5,152.5,-205.0,170.0,-4.5,154.5
+372275,2026,regular,2026-03-09T00:30:00.000Z,Oregon State,San Francisco,WCC,WCC,78,77,Bovada,4.0,145.0,140.0,-165.0,3.5,142.5
+372275,2026,regular,2026-03-09T00:30:00.000Z,Oregon State,San Francisco,WCC,WCC,78,77,Draft Kings,3.5,145.5,142.0,-170.0,3.5,142.5
+372276,2026,regular,2026-03-09T01:00:00.000Z,Marshall,Georgia Southern,Sun Belt,Sun Belt,78,82,Bovada,-3.5,166.5,-165.0,140.0,-3.5,170.5
+372276,2026,regular,2026-03-09T01:00:00.000Z,Marshall,Georgia Southern,Sun Belt,Sun Belt,78,82,Draft Kings,-3.5,166.5,-175.0,145.0,-3.5,170.5
+372278,2026,regular,2026-03-09T01:00:00.000Z,North Dakota State,North Dakota,Summit,Summit,70,62,Bovada,-11.5,147.5,-550.0,390.0,-9.5,147.5
+372278,2026,regular,2026-03-09T01:00:00.000Z,North Dakota State,North Dakota,Summit,Summit,70,62,Draft Kings,-11.5,147.5,,,-9.5,148.5
+372279,2026,regular,2026-03-09T02:20:00.000Z,Montana State,Idaho,Big Sky,Big Sky,74,78,Bovada,1.5,143.5,-140.0,120.0,-2.5,142.5
+372279,2026,regular,2026-03-09T02:20:00.000Z,Montana State,Idaho,Big Sky,Big Sky,74,78,Draft Kings,1.5,143.5,-142.0,120.0,-2.5,142.5
+372280,2026,regular,2026-03-09T03:20:00.000Z,Santa Clara,Pacific,WCC,WCC,76,68,Bovada,-9.5,148.5,-650.0,450.0,-10.5,150.5
+372280,2026,regular,2026-03-09T03:20:00.000Z,Santa Clara,Pacific,WCC,WCC,76,68,Draft Kings,-9.5,149.5,-355.0,280.0,-10.5,150.5
+372255,2026,regular,2026-03-09T18:00:00.000Z,Alabama State,Alcorn State,SWAC,SWAC,65,77,Bovada,-7.0,142.0,-290.0,240.0,-6.5,142.5
+372255,2026,regular,2026-03-09T18:00:00.000Z,Alabama State,Alcorn State,SWAC,SWAC,65,77,Draft Kings,-7.5,142.5,,,-6.5,143.5
+372321,2026,regular,2026-03-09T22:00:00.000Z,Monmouth,Campbell,CAA,CAA,74,64,Bovada,-1.0,152.0,,,-2.0,152.0
+372321,2026,regular,2026-03-09T22:00:00.000Z,Monmouth,Campbell,CAA,CAA,74,64,Draft Kings,-1.5,151.5,-135.0,114.0,-1.5,151.5
+372322,2026,regular,2026-03-09T22:00:00.000Z,Texas A&M-Corpus Christi,New Orleans,Southland,Southland,74,61,Bovada,-1.5,146.5,-135.0,115.0,-1.5,142.5
+372322,2026,regular,2026-03-09T22:00:00.000Z,Texas A&M-Corpus Christi,New Orleans,Southland,Southland,74,61,Draft Kings,-2.5,147.5,-125.0,105.0,-2.5,142.5
+372323,2026,regular,2026-03-09T23:00:00.000Z,Troy,Georgia Southern,Sun Belt,Sun Belt,77,61,Bovada,-5.0,152.5,,,-5.5,151.5
+372323,2026,regular,2026-03-09T23:00:00.000Z,Troy,Georgia Southern,Sun Belt,Sun Belt,77,61,Draft Kings,-4.5,152.5,-258.0,210.0,-6.5,152.5
+372324,2026,regular,2026-03-09T23:00:00.000Z,East Tennessee State,Furman,SoCon,SoCon,61,76,Bovada,-1.0,137.5,,,-2.0,138.5
+372324,2026,regular,2026-03-09T23:00:00.000Z,East Tennessee State,Furman,SoCon,SoCon,61,76,Draft Kings,-1.5,139.5,-130.0,110.0,-1.5,139.5
+372325,2026,regular,2026-03-09T23:00:00.000Z,Wright State,Northern Kentucky,Horizon,Horizon,103,90,Bovada,-1.5,158.0,,,1.0,157.0
+372325,2026,regular,2026-03-09T23:00:00.000Z,Wright State,Northern Kentucky,Horizon,Horizon,103,90,Draft Kings,-1.5,157.5,102.0,-130.0,1.5,158.5
+372197,2026,regular,2026-03-09T23:30:00.000Z,Montana,Northern Colorado,Big Sky,Big Sky,95,89,Bovada,4.0,152.0,170.0,-200.0,4.5,152.5
+372197,2026,regular,2026-03-09T23:30:00.000Z,Montana,Northern Colorado,Big Sky,Big Sky,95,89,Draft Kings,4.5,152.5,,,3.5,151.5
+372256,2026,regular,2026-03-10T00:30:00.000Z,Grambling,Mississippi Valley State,SWAC,SWAC,77,52,Bovada,-13.5,137.0,-1000.0,625.0,-12.5,136.0
+372256,2026,regular,2026-03-10T00:30:00.000Z,Grambling,Mississippi Valley State,SWAC,SWAC,77,52,Draft Kings,-13.5,135.5,,,-12.5,134.5
+372326,2026,regular,2026-03-10T00:30:00.000Z,Hofstra,Towson,CAA,CAA,68,65,Bovada,-3.5,131.5,,,-4.0,130.5
+372326,2026,regular,2026-03-10T00:30:00.000Z,Hofstra,Towson,CAA,CAA,68,65,Draft Kings,-4.5,132.5,-192.0,160.0,-3.5,130.5
+372327,2026,regular,2026-03-10T00:50:00.000Z,UT Rio Grande Valley,Nicholls,Southland,Southland,86,68,Bovada,-5.5,143.0,-410.0,305.0,-8.5,146.0
+372327,2026,regular,2026-03-10T00:50:00.000Z,UT Rio Grande Valley,Nicholls,Southland,Southland,86,68,Draft Kings,-5.5,143.5,-340.0,270.0,-9.5,146.5
+372328,2026,regular,2026-03-10T01:00:00.000Z,Gonzaga,Oregon State,WCC,WCC,65,56,Bovada,-20.5,145.5,,,-19.5,146.0
+372328,2026,regular,2026-03-10T01:00:00.000Z,Gonzaga,Oregon State,WCC,WCC,65,56,Draft Kings,-20.5,144.5,-2100.0,1100.0,-19.5,145.5
+372225,2026,regular,2026-03-10T01:50:00.000Z,Robert Morris,Detroit Mercy,Horizon,Horizon,64,70,Bovada,-4.5,146.5,-200.0,170.0,-5.0,147.5
+372225,2026,regular,2026-03-10T01:50:00.000Z,Robert Morris,Detroit Mercy,Horizon,Horizon,64,70,Draft Kings,-4.5,146.5,,,-4.5,147.5
+372198,2026,regular,2026-03-10T02:00:00.000Z,Eastern Washington,Weber State,Big Sky,Big Sky,84,79,Bovada,-4.0,154.5,-165.0,140.0,-3.5,155.5
+372198,2026,regular,2026-03-10T02:00:00.000Z,Eastern Washington,Weber State,Big Sky,Big Sky,84,79,Draft Kings,-3.5,154.5,,,-2.5,157.5
+372329,2026,regular,2026-03-10T03:45:00.000Z,Saint Mary's,Santa Clara,WCC,WCC,71,76,Draft Kings,-4.5,150.5,-205.0,170.0,-4.5,147.5
+372281,2026,regular,2026-03-10T16:30:00.000Z,Arizona State,Baylor,Big 12,Big 12,83,79,Bovada,5.5,152.5,145.0,-170.0,3.5,155.5
+372281,2026,regular,2026-03-10T16:30:00.000Z,Arizona State,Baylor,Big 12,Big 12,83,79,Draft Kings,4.5,152.5,,,2.5,158.5
+372282,2026,regular,2026-03-10T18:00:00.000Z,Stanford,Pittsburgh,ACC,ACC,63,64,Bovada,-5.0,136.5,-220.0,180.0,-5.0,139.0
+372282,2026,regular,2026-03-10T18:00:00.000Z,Stanford,Pittsburgh,ACC,ACC,63,64,Draft Kings,-4.5,136.5,,,-4.5,139.5
+372338,2026,regular,2026-03-10T18:00:00.000Z,Prairie View A&M,Alcorn State,SWAC,SWAC,65,56,Bovada,-6.0,143.5,-285.0,235.0,-6.5,146.5
+372338,2026,regular,2026-03-10T18:00:00.000Z,Prairie View A&M,Alcorn State,SWAC,SWAC,65,56,Draft Kings,-6.5,142.5,-270.0,220.0,-6.5,145.5
+372283,2026,regular,2026-03-10T19:00:00.000Z,Cincinnati,Utah,Big 12,Big 12,73,66,Bovada,-12.5,137.5,-700.0,475.0,-11.0,138.5
+372283,2026,regular,2026-03-10T19:00:00.000Z,Cincinnati,Utah,Big 12,Big 12,73,66,Draft Kings,-12.5,138.5,,,-10.5,141.5
+372284,2026,regular,2026-03-10T20:30:00.000Z,SMU,Syracuse,ACC,ACC,86,69,Bovada,-4.0,154.0,-220.0,180.0,-4.5,156.0
+372284,2026,regular,2026-03-10T20:30:00.000Z,SMU,Syracuse,ACC,ACC,86,69,Draft Kings,-3.5,154.5,,,-5.5,159.5
+372330,2026,regular,2026-03-10T21:00:00.000Z,Oregon,Maryland,Big Ten,Big Ten,60,70,Bovada,-4.0,139.0,-165.0,140.0,-4.0,139.0
+372330,2026,regular,2026-03-10T21:00:00.000Z,Oregon,Maryland,Big Ten,Big Ten,60,70,Draft Kings,-3.5,139.5,,,-2.5,140.5
+372285,2026,regular,2026-03-10T22:00:00.000Z,UMBC,UMass Lowell,Am. East,Am. East,91,69,Draft Kings,-7.5,147.5,,,-8.5,146.5
+372286,2026,regular,2026-03-10T22:30:00.000Z,Florida International,Missouri State,CUSA,CUSA,72,75,Bovada,1.0,152.0,-115.0,-105.0,1.0,152.5
+372286,2026,regular,2026-03-10T22:30:00.000Z,Florida International,Missouri State,CUSA,CUSA,72,75,Draft Kings,1.5,152.5,,,-1.5,151.5
+372339,2026,regular,2026-03-10T23:00:00.000Z,Hofstra,Monmouth,CAA,CAA,75,69,Bovada,-4.0,134.5,-195.0,165.0,-4.5,135.5
+372339,2026,regular,2026-03-10T23:00:00.000Z,Hofstra,Monmouth,CAA,CAA,75,69,Draft Kings,-4.5,134.5,-218.0,180.0,-4.5,135.5
+372287,2026,regular,2026-03-10T23:00:00.000Z,Long Island University,Mercyhurst,NEC,NEC,79,70,Bovada,-4.0,134.0,-290.0,240.0,-6.5,137.5
+372287,2026,regular,2026-03-10T23:00:00.000Z,Long Island University,Mercyhurst,NEC,NEC,79,70,Draft Kings,-4.5,134.5,,,-6.5,138.5
+372290,2026,regular,2026-03-10T23:00:00.000Z,Virginia Tech,Wake Forest,ACC,ACC,89,95,Bovada,1.0,150.5,-145.0,125.0,-2.5,151.5
+372290,2026,regular,2026-03-10T23:00:00.000Z,Virginia Tech,Wake Forest,ACC,ACC,89,95,Draft Kings,1.5,151.5,,,-3.5,152.5
+372340,2026,regular,2026-03-10T23:00:00.000Z,Stephen F. Austin,Texas A&M-Corpus Christi,Southland,Southland,60,58,Bovada,-6.5,135.0,-380.0,250.0,-7.0,135.5
+372340,2026,regular,2026-03-10T23:00:00.000Z,Stephen F. Austin,Texas A&M-Corpus Christi,Southland,Southland,60,58,Draft Kings,-5.5,135.5,-290.0,235.0,-7.5,135.5
+372289,2026,regular,2026-03-10T23:00:00.000Z,Vermont,NJIT,Am. East,Am. East,63,54,Bovada,-11.0,135.0,-950.0,600.0,-12.0,137.0
+372289,2026,regular,2026-03-10T23:00:00.000Z,Vermont,NJIT,Am. East,Am. East,63,54,Draft Kings,-10.5,134.5,,,-10.5,137.5
+372288,2026,regular,2026-03-10T23:00:00.000Z,BYU,Kansas State,Big 12,Big 12,105,91,Bovada,-11.0,168.5,-550.0,390.0,-10.5,166.0
+372288,2026,regular,2026-03-10T23:00:00.000Z,BYU,Kansas State,Big 12,Big 12,105,91,Draft Kings,-11.5,168.5,,,-10.5,169.5
+372341,2026,regular,2026-03-10T23:00:00.000Z,Wright State,Detroit Mercy,Horizon,Horizon,66,63,Bovada,-5.5,153.0,-160.0,135.0,-3.5,153.5
+372341,2026,regular,2026-03-10T23:00:00.000Z,Wright State,Detroit Mercy,Horizon,Horizon,66,63,Draft Kings,-4.5,153.5,-180.0,150.0,-3.5,152.5
+372331,2026,regular,2026-03-10T23:30:00.000Z,Northwestern,Penn State,Big Ten,Big Ten,76,66,Bovada,-5.0,144.5,-270.0,220.0,-6.5,147.0
+372331,2026,regular,2026-03-10T23:30:00.000Z,Northwestern,Penn State,Big Ten,Big Ten,76,66,Draft Kings,-4.5,143.5,,,-7.5,149.5
+372342,2026,regular,2026-03-11T00:30:00.000Z,Jackson State,Grambling,SWAC,SWAC,68,65,Bovada,7.0,140.5,260.0,-320.0,6.5,142.5
+372342,2026,regular,2026-03-11T00:30:00.000Z,Jackson State,Grambling,SWAC,SWAC,68,65,Draft Kings,6.5,139.5,225.0,-278.0,6.5,142.5
+372332,2026,regular,2026-03-11T01:00:00.000Z,Merrimack,Siena,Metro,Metro,54,64,Bovada,-1.5,128.5,-160.0,135.0,-3.5,127.0
+372332,2026,regular,2026-03-11T01:00:00.000Z,Merrimack,Siena,Metro,Metro,54,64,Draft Kings,-1.5,128.5,-155.0,130.0,-2.5,131.5
+372344,2026,regular,2026-03-11T01:00:00.000Z,Portland State,Montana,Big Sky,Big Sky,72,75,Bovada,-3.5,145.0,-145.0,125.0,-2.5,143.5
+372344,2026,regular,2026-03-11T01:00:00.000Z,Portland State,Montana,Big Sky,Big Sky,72,75,Draft Kings,-3.5,145.5,-135.0,114.0,-2.5,143.5
+372343,2026,regular,2026-03-11T01:07:00.000Z,Gonzaga,Santa Clara,WCC,WCC,79,68,Bovada,-8.5,156.5,-310.0,255.0,-6.5,162.0
+372343,2026,regular,2026-03-11T01:07:00.000Z,Gonzaga,Santa Clara,WCC,WCC,79,68,Draft Kings,-8.5,157.5,-258.0,210.0,-6.5,162.5
+372291,2026,regular,2026-03-11T01:17:00.000Z,Jacksonville State,New Mexico State,CUSA,CUSA,63,68,Bovada,1.5,141.5,100.0,-120.0,1.0,140.0
+372291,2026,regular,2026-03-11T01:17:00.000Z,Jacksonville State,New Mexico State,CUSA,CUSA,63,68,Draft Kings,1.5,141.5,,,-1.5,141.5
+372345,2026,regular,2026-03-11T01:30:00.000Z,McNeese,UT Rio Grande Valley,Southland,Southland,84,80,Bovada,-8.0,140.5,-390.0,295.0,-8.5,141.5
+372345,2026,regular,2026-03-11T01:30:00.000Z,McNeese,UT Rio Grande Valley,Southland,Southland,84,80,Draft Kings,-7.5,140.5,-310.0,250.0,-7.5,141.5
+372292,2026,regular,2026-03-11T01:43:00.000Z,Colorado,Oklahoma State,Big 12,Big 12,83,92,Bovada,-1.0,165.0,-130.0,110.0,-2.0,162.5
+372292,2026,regular,2026-03-11T01:43:00.000Z,Colorado,Oklahoma State,Big 12,Big 12,83,92,Draft Kings,-1.5,164.5,,,-1.5,168.5
+372346,2026,regular,2026-03-11T03:50:00.000Z,Eastern Washington,Idaho,Big Sky,Big Sky,68,81,Bovada,2.0,148.5,-120.0,100.0,-1.5,153.5
+372346,2026,regular,2026-03-11T03:50:00.000Z,Eastern Washington,Idaho,Big Sky,Big Sky,68,81,Draft Kings,1.5,148.5,-118.0,-102.0,-1.5,152.5
+372293,2026,regular,2026-03-11T15:30:00.000Z,La Salle,St. Bonaventure,A-10,A-10,80,99,Bovada,6.0,146.0,185.0,-225.0,6.0,145.5
+372293,2026,regular,2026-03-11T15:30:00.000Z,La Salle,St. Bonaventure,A-10,A-10,80,99,Draft Kings,7.5,146.5,,,5.5,145.5
+372347,2026,regular,2026-03-11T16:00:00.000Z,Iowa,Maryland,Big Ten,Big Ten,75,64,Bovada,-12.0,134.0,,,-12.5,134.5
+372347,2026,regular,2026-03-11T16:00:00.000Z,Iowa,Maryland,Big Ten,Big Ten,75,64,Draft Kings,-11.5,134.5,-750.0,525.0,-11.5,135.5
+372348,2026,regular,2026-03-11T16:00:00.000Z,NC State,Pittsburgh,ACC,ACC,98,88,Bovada,-8.5,144.5,,,-9.5,145.5
+372348,2026,regular,2026-03-11T16:00:00.000Z,NC State,Pittsburgh,ACC,ACC,98,88,Draft Kings,-8.5,144.5,-425.0,330.0,-8.5,144.5
+372294,2026,regular,2026-03-11T16:30:00.000Z,Kentucky,LSU,SEC,SEC,87,82,Bovada,-8.5,151.5,-400.0,300.0,-7.5,151.5
+372294,2026,regular,2026-03-11T16:30:00.000Z,Kentucky,LSU,SEC,SEC,87,82,Draft Kings,-8.5,151.5,,,-6.5,153.5
+372349,2026,regular,2026-03-11T16:30:00.000Z,Iowa State,Arizona State,Big 12,Big 12,91,42,Bovada,-13.0,149.0,,,-12.0,147.5
+372349,2026,regular,2026-03-11T16:30:00.000Z,Iowa State,Arizona State,Big 12,Big 12,91,42,Draft Kings,-13.5,148.5,-850.0,575.0,-10.5,147.5
+372295,2026,regular,2026-03-11T18:00:00.000Z,Richmond,Loyola Chicago,A-10,A-10,67,75,Bovada,-4.0,142.0,-220.0,180.0,-5.5,143.5
+372295,2026,regular,2026-03-11T18:00:00.000Z,Richmond,Loyola Chicago,A-10,A-10,67,75,Draft Kings,-4.5,141.5,,,-5.5,143.5
+372350,2026,regular,2026-03-11T18:00:00.000Z,Bethune-Cookman,Prairie View A&M,SWAC,SWAC,67,71,Bovada,-5.5,148.0,,,-5.5,149.5
+372350,2026,regular,2026-03-11T18:00:00.000Z,Bethune-Cookman,Prairie View A&M,SWAC,SWAC,67,71,Draft Kings,-5.5,147.5,-230.0,190.0,-5.5,150.5
+372333,2026,regular,2026-03-11T18:30:00.000Z,Washington,USC,Big Ten,Big Ten,83,79,Bovada,-3.5,154.0,-225.0,185.0,-5.5,153.0
+372333,2026,regular,2026-03-11T18:30:00.000Z,Washington,USC,Big Ten,Big Ten,83,79,Draft Kings,-3.5,155.5,,,-4.5,151.5
+372351,2026,regular,2026-03-11T18:45:00.000Z,Louisville,SMU,ACC,ACC,62,58,Bovada,-6.5,164.5,,,-6.0,163.5
+372351,2026,regular,2026-03-11T18:45:00.000Z,Louisville,SMU,ACC,ACC,62,58,Draft Kings,-7.5,164.5,-305.0,245.0,-6.5,163.5
+372297,2026,regular,2026-03-11T19:00:00.000Z,UNLV,Wyoming,Mountain West,Mountain West,73,70,Bovada,-3.0,152.5,-175.0,150.0,-4.0,154.5
+372297,2026,regular,2026-03-11T19:00:00.000Z,UNLV,Wyoming,Mountain West,Mountain West,73,70,Draft Kings,-2.5,153.5,,,-2.5,159.5
+372296,2026,regular,2026-03-11T19:15:00.000Z,Auburn,Mississippi State,SEC,SEC,79,61,Bovada,-7.5,159.5,-340.0,270.0,-7.5,158.0
+372296,2026,regular,2026-03-11T19:15:00.000Z,Auburn,Mississippi State,SEC,SEC,79,61,Draft Kings,-8.5,159.5,,,-7.5,160.5
+372352,2026,regular,2026-03-11T19:15:00.000Z,UCF,Cincinnati,Big 12,Big 12,66,65,Draft Kings,3.5,149.5,120.0,-142.0,2.5,147.5
+372298,2026,regular,2026-03-11T20:00:00.000Z,Butler,Providence,Big East,Big East,81,91,Bovada,1.5,163.0,100.0,-120.0,1.0,162.0
+372298,2026,regular,2026-03-11T20:00:00.000Z,Butler,Providence,Big East,Big East,81,91,Draft Kings,1.5,163.5,,,1.5,166.5
+372353,2026,regular,2026-03-11T21:00:00.000Z,Stephen F. Austin,McNeese,Southland,Southland,59,76,Bovada,3.0,132.0,135.0,-160.0,1.5,137.5
+372353,2026,regular,2026-03-11T21:00:00.000Z,Stephen F. Austin,McNeese,Southland,Southland,59,76,Draft Kings,3.5,134.5,110.0,-130.0,1.5,136.5
+372299,2026,regular,2026-03-11T21:30:00.000Z,Nevada,Air Force,Mountain West,Mountain West,80,45,Bovada,-19.0,141.0,-6000.0,1325.0,-20.0,140.5
+372299,2026,regular,2026-03-11T21:30:00.000Z,Nevada,Air Force,Mountain West,Mountain West,80,45,Draft Kings,-19.5,140.5,,,-20.5,141.5
+372257,2026,regular,2026-03-11T22:00:00.000Z,Morgan State,Delaware State,MEAC,MEAC,70,75,Bovada,-2.5,143.5,-150.0,130.0,-3.0,143.5
+372257,2026,regular,2026-03-11T22:00:00.000Z,Morgan State,Delaware State,MEAC,MEAC,70,75,Draft Kings,-2.5,142.5,,136.0,-2.5,143.5
+372300,2026,regular,2026-03-11T22:30:00.000Z,Marquette,Xavier,Big East,Big East,87,89,Bovada,-4.5,157.5,-185.0,160.0,-4.0,152.5
+372300,2026,regular,2026-03-11T22:30:00.000Z,Marquette,Xavier,Big East,Big East,87,89,Draft Kings,-4.5,157.5,,,-4.5,154.5
+372354,2026,regular,2026-03-11T22:30:00.000Z,Liberty,Missouri State,CUSA,CUSA,69,77,Bovada,-5.0,142.0,,,-6.0,143.0
+372354,2026,regular,2026-03-11T22:30:00.000Z,Liberty,Missouri State,CUSA,CUSA,69,77,Draft Kings,-4.5,142.5,-258.0,210.0,-6.5,143.5
+372355,2026,regular,2026-03-11T22:30:00.000Z,Indiana,Northwestern,Big Ten,Big Ten,61,74,Bovada,-6.5,142.5,,,-4.5,143.5
+372355,2026,regular,2026-03-11T22:30:00.000Z,Indiana,Northwestern,Big Ten,Big Ten,61,74,Draft Kings,-6.5,142.5,-198.0,164.0,-4.5,141.5
+372301,2026,regular,2026-03-11T23:00:00.000Z,Texas,Ole Miss,SEC,SEC,66,76,Bovada,-6.0,147.5,-260.0,215.0,-6.5,144.5
+372301,2026,regular,2026-03-11T23:00:00.000Z,Texas,Ole Miss,SEC,SEC,66,76,Draft Kings,-5.5,147.5,,,-5.5,150.5
+372334,2026,regular,2026-03-11T23:00:00.000Z,Lehigh,Boston University,Patriot,Patriot,74,60,Bovada,2.5,139.0,110.0,-130.0,2.0,140.5
+372334,2026,regular,2026-03-11T23:00:00.000Z,Lehigh,Boston University,Patriot,Patriot,74,60,Draft Kings,2.5,138.5,105.0,-125.0,1.5,140.5
+372302,2026,regular,2026-03-11T23:00:00.000Z,Florida State,California,ACC,ACC,95,89,Bovada,-2.5,154.5,-195.0,165.0,-4.0,152.5
+372302,2026,regular,2026-03-11T23:00:00.000Z,Florida State,California,ACC,ACC,95,89,Draft Kings,-2.5,154.5,,,-2.5,153.5
+372335,2026,regular,2026-03-11T23:00:00.000Z,Memphis,Tulane,American,American,69,81,Bovada,-5.0,151.0,-175.0,150.0,-5.0,150.5
+372335,2026,regular,2026-03-11T23:00:00.000Z,Memphis,Tulane,American,American,69,81,Draft Kings,-4.5,151.5,,,-4.5,150.5
+372356,2026,regular,2026-03-11T23:00:00.000Z,West Virginia,BYU,Big 12,Big 12,48,68,Bovada,3.5,141.0,,,4.5,143.5
+372356,2026,regular,2026-03-11T23:00:00.000Z,West Virginia,BYU,Big 12,Big 12,48,68,Draft Kings,3.5,141.5,180.0,-218.0,4.5,142.5
+372303,2026,regular,2026-03-12T00:30:00.000Z,Abilene Christian,Tarleton State,UAC,UAC,84,78,Bovada,-1.0,135.0,115.0,-135.0,2.0,137.0
+372303,2026,regular,2026-03-12T00:30:00.000Z,Abilene Christian,Tarleton State,UAC,UAC,84,78,Draft Kings,-1.5,135.5,,,1.5,137.5
+372357,2026,regular,2026-03-12T00:30:00.000Z,Florida A&M,Jackson State,SWAC,SWAC,70,60,Bovada,-6.0,142.0,-175.0,150.0,-4.0,146.5
+372357,2026,regular,2026-03-12T00:30:00.000Z,Florida A&M,Jackson State,SWAC,SWAC,70,60,Draft Kings,-6.5,141.5,-198.0,164.0,-3.5,147.5
+372304,2026,regular,2026-03-12T01:00:00.000Z,Colorado State,Fresno State,Mountain West,Mountain West,67,63,Bovada,-7.5,146.0,-300.0,250.0,-7.5,145.0
+372304,2026,regular,2026-03-12T01:00:00.000Z,Colorado State,Fresno State,Mountain West,Mountain West,67,63,Draft Kings,-6.5,144.5,,,-6.5,146.5
+372305,2026,regular,2026-03-12T01:00:00.000Z,UC San Diego,Cal Poly,Big West,Big West,72,69,Bovada,-4.5,162.5,-225.0,185.0,-6.0,159.0
+372305,2026,regular,2026-03-12T01:00:00.000Z,UC San Diego,Cal Poly,Big West,Big West,72,69,Draft Kings,-4.5,162.5,,,-5.5,158.5
+372336,2026,regular,2026-03-12T01:00:00.000Z,Minnesota,Rutgers,Big Ten,Big Ten,67,72,Bovada,-6.5,135.5,-200.0,170.0,-5.5,137.0
+372336,2026,regular,2026-03-12T01:00:00.000Z,Minnesota,Rutgers,Big Ten,Big Ten,67,72,Draft Kings,-6.5,135.5,,,-4.5,136.5
+372358,2026,regular,2026-03-12T01:00:00.000Z,Sam Houston,New Mexico State,CUSA,CUSA,69,61,Bovada,-4.5,155.5,-195.0,165.0,-4.5,156.0
+372358,2026,regular,2026-03-12T01:00:00.000Z,Sam Houston,New Mexico State,CUSA,CUSA,69,61,Draft Kings,-3.5,153.5,-198.0,164.0,-4.5,156.5
+372306,2026,regular,2026-03-12T01:15:00.000Z,DePaul,Georgetown,Big East,Big East,56,63,Bovada,1.0,137.0,-120.0,100.0,-2.0,133.5
+372306,2026,regular,2026-03-12T01:15:00.000Z,DePaul,Georgetown,Big East,Big East,56,63,Draft Kings,-1.5,136.5,,,-1.5,137.5
+372360,2026,regular,2026-03-12T01:38:00.000Z,Clemson,Wake Forest,ACC,ACC,71,62,Bovada,-6.0,142.0,,,-6.0,141.0
+372360,2026,regular,2026-03-12T01:38:00.000Z,Clemson,Wake Forest,ACC,ACC,71,62,Draft Kings,-5.5,142.5,-230.0,190.0,-5.5,141.5
+372337,2026,regular,2026-03-12T01:40:00.000Z,Florida Atlantic,Temple,American,American,63,59,Bovada,1.0,144.0,-135.0,115.0,-1.5,144.0
+372337,2026,regular,2026-03-12T01:40:00.000Z,Florida Atlantic,Temple,American,American,63,59,Draft Kings,1.5,144.5,,,-1.5,148.5
+372307,2026,regular,2026-03-12T01:40:00.000Z,Oklahoma,South Carolina,SEC,SEC,86,74,Bovada,-7.5,149.5,-340.0,270.0,-8.0,149.5
+372307,2026,regular,2026-03-12T01:40:00.000Z,Oklahoma,South Carolina,SEC,SEC,86,74,Draft Kings,-8.5,149.5,,,-6.5,148.5
+372359,2026,regular,2026-03-12T01:43:00.000Z,TCU,Oklahoma State,Big 12,Big 12,95,88,Bovada,-7.0,157.5,,,-5.5,157.5
+372359,2026,regular,2026-03-12T01:43:00.000Z,TCU,Oklahoma State,Big 12,Big 12,95,88,Draft Kings,-6.5,157.5,-198.0,164.0,-4.5,157.5
+372309,2026,regular,2026-03-12T03:30:00.000Z,UC Davis,UC Santa Barbara,Big West,Big West,79,73,Bovada,4.5,139.0,185.0,-225.0,4.5,139.0
+372309,2026,regular,2026-03-12T03:30:00.000Z,UC Davis,UC Santa Barbara,Big West,Big West,79,73,Draft Kings,4.5,140.5,,,5.5,142.5
+372308,2026,regular,2026-03-12T03:30:00.000Z,Boise State,San José State,Mountain West,Mountain West,74,84,Bovada,-15.0,146.5,-1500.0,775.0,-14.5,144.5
+372308,2026,regular,2026-03-12T03:30:00.000Z,Boise State,San José State,Mountain West,Mountain West,74,84,Draft Kings,-14.5,146.5,,,-15.5,150.5
+372361,2026,regular,2026-03-12T03:40:00.000Z,Montana,Idaho,Big Sky,Big Sky,66,77,Bovada,3.5,146.5,115.0,-135.0,2.0,146.5
+372361,2026,regular,2026-03-12T03:40:00.000Z,Montana,Idaho,Big Sky,Big Sky,66,77,Draft Kings,3.5,146.5,120.0,-142.0,1.5,145.5
+372258,2026,regular,2026-03-12T15:00:00.000Z,Miami (OH),Massachusetts,MAC,MAC,83,87,Bovada,-8.0,161.0,-340.0,270.0,-8.0,164.5
+372258,2026,regular,2026-03-12T15:00:00.000Z,Miami (OH),Massachusetts,MAC,MAC,83,87,Draft Kings,-7.5,160.5,,,-7.5,166.5
+372310,2026,regular,2026-03-12T15:30:00.000Z,Fordham,George Washington,A-10,A-10,62,66,Bovada,6.5,140.5,215.0,-260.0,5.5,140.5
+372310,2026,regular,2026-03-12T15:30:00.000Z,Fordham,George Washington,A-10,A-10,62,66,Draft Kings,6.5,141.5,,,5.5,141.5
+372364,2026,regular,2026-03-12T16:00:00.000Z,St. John's,Providence,Big East,Big East,85,72,Bovada,-12.0,159.5,-900.0,575.0,-11.5,158.5
+372364,2026,regular,2026-03-12T16:00:00.000Z,St. John's,Providence,Big East,Big East,85,72,Draft Kings,-11.5,158.5,,,-11.5,158.5
+372365,2026,regular,2026-03-12T16:00:00.000Z,Ohio State,Iowa,Big Ten,Big Ten,72,69,Bovada,1.5,140.5,-115.0,-105.0,-2.0,139.0
+372365,2026,regular,2026-03-12T16:00:00.000Z,Ohio State,Iowa,Big Ten,Big Ten,72,69,Draft Kings,1.5,140.5,-125.0,105.0,-1.5,139.5
+372363,2026,regular,2026-03-12T16:00:00.000Z,Virginia,NC State,ACC,ACC,81,74,Bovada,-6.5,152.0,-260.0,215.0,-6.5,148.5
+372363,2026,regular,2026-03-12T16:00:00.000Z,Virginia,NC State,ACC,ACC,81,74,Draft Kings,-6.5,153.5,-238.0,195.0,-6.5,148.5
+372367,2026,regular,2026-03-12T16:30:00.000Z,Missouri,Kentucky,SEC,SEC,72,78,Bovada,3.0,149.5,145.0,-170.0,3.0,149.5
+372367,2026,regular,2026-03-12T16:30:00.000Z,Missouri,Kentucky,SEC,SEC,72,78,Draft Kings,2.5,148.5,124.0,-148.0,3.5,148.5
+372366,2026,regular,2026-03-12T16:30:00.000Z,Texas Tech,Iowa State,Big 12,Big 12,53,75,Bovada,5.5,,190.0,-230.0,6.0,
+372366,2026,regular,2026-03-12T16:30:00.000Z,Texas Tech,Iowa State,Big 12,Big 12,53,75,Draft Kings,7.5,143.5,205.0,-250.0,5.5,143.5
+372311,2026,regular,2026-03-12T17:30:00.000Z,Toledo,Bowling Green,MAC,MAC,77,76,Bovada,-1.5,151.5,-105.0,-115.0,-1.0,152.5
+372311,2026,regular,2026-03-12T17:30:00.000Z,Toledo,Bowling Green,MAC,MAC,77,76,Draft Kings,-1.5,151.5,-130.0,110.0,-1.5,153.5
+372368,2026,regular,2026-03-12T18:00:00.000Z,George Mason,St. Bonaventure,A-10,A-10,57,63,Bovada,-2.5,143.0,-175.0,150.0,-4.0,141.0
+372368,2026,regular,2026-03-12T18:00:00.000Z,George Mason,St. Bonaventure,A-10,A-10,57,63,Draft Kings,-2.5,143.5,-148.0,124.0,-2.5,141.5
+372259,2026,regular,2026-03-12T18:00:00.000Z,Texas Southern,Alabama A&M,SWAC,SWAC,74,85,Bovada,1.0,143.0,100.0,-120.0,1.0,144.0
+372259,2026,regular,2026-03-12T18:00:00.000Z,Texas Southern,Alabama A&M,SWAC,SWAC,74,85,Draft Kings,1.5,142.5,,,1.5,143.5
+372312,2026,regular,2026-03-12T18:30:00.000Z,Seton Hall,Creighton,Big East,Big East,72,61,Bovada,-3.0,136.0,-165.0,140.0,-3.0,133.5
+372312,2026,regular,2026-03-12T18:30:00.000Z,Seton Hall,Creighton,Big East,Big East,72,61,Draft Kings,-2.5,136.5,,,-2.5,135.5
+372369,2026,regular,2026-03-12T18:30:00.000Z,Wisconsin,Washington,Big Ten,Big Ten,85,82,Bovada,-6.5,157.0,-340.0,270.0,-7.5,156.5
+372369,2026,regular,2026-03-12T18:30:00.000Z,Wisconsin,Washington,Big Ten,Big Ten,85,82,Draft Kings,-6.5,156.5,-310.0,250.0,-7.5,156.5
+372370,2026,regular,2026-03-12T18:30:00.000Z,Miami,Louisville,ACC,ACC,78,73,Bovada,1.0,153.5,120.0,-140.0,1.5,152.0
+372370,2026,regular,2026-03-12T18:30:00.000Z,Miami,Louisville,ACC,ACC,78,73,Draft Kings,1.5,153.5,105.0,-125.0,1.5,154.5
+372373,2026,regular,2026-03-12T19:00:00.000Z,Utah State,UNLV,Mountain West,Mountain West,80,60,Bovada,-8.5,156.5,-300.0,250.0,-6.5,156.5
+372373,2026,regular,2026-03-12T19:00:00.000Z,Utah State,UNLV,Mountain West,Mountain West,80,60,Draft Kings,-8.5,156.5,-278.0,225.0,-6.5,156.5
+372371,2026,regular,2026-03-12T19:00:00.000Z,Arizona,UCF,Big 12,Big 12,81,59,Draft Kings,-15.5,159.5,-1800.0,1000.0,-16.5,159.5
+372372,2026,regular,2026-03-12T19:25:00.000Z,Tennessee,Auburn,SEC,SEC,72,62,Bovada,-6.0,145.0,-270.0,210.0,-5.5,148.5
+372372,2026,regular,2026-03-12T19:25:00.000Z,Tennessee,Auburn,SEC,SEC,72,62,Draft Kings,-5.5,144.5,-238.0,195.0,-5.5,148.5
+372313,2026,regular,2026-03-12T20:00:00.000Z,Akron,Buffalo,MAC,MAC,73,70,Bovada,-12.0,158.0,-1500.0,775.0,-13.5,160.0
+372313,2026,regular,2026-03-12T20:00:00.000Z,Akron,Buffalo,MAC,MAC,73,70,Draft Kings,-12.5,158.5,,,-13.5,162.5
+372314,2026,regular,2026-03-12T21:00:00.000Z,Duquesne,Rhode Island,A-10,A-10,67,61,Bovada,-1.5,139.0,-140.0,120.0,-2.0,138.0
+372314,2026,regular,2026-03-12T21:00:00.000Z,Duquesne,Rhode Island,A-10,A-10,67,61,Draft Kings,-1.5,138.5,,,-1.5,139.5
+372374,2026,regular,2026-03-12T21:30:00.000Z,Grand Canyon,Nevada,Mountain West,Mountain West,80,84,Bovada,-3.5,138.0,-135.0,115.0,-2.0,139.5
+372374,2026,regular,2026-03-12T21:30:00.000Z,Grand Canyon,Nevada,Mountain West,Mountain West,80,84,Draft Kings,-3.5,137.5,-142.0,120.0,-2.5,139.5
+372260,2026,regular,2026-03-12T22:00:00.000Z,Norfolk State,South Carolina State,MEAC,MEAC,82,88,Bovada,-8.5,145.0,-340.0,270.0,-7.5,145.0
+372260,2026,regular,2026-03-12T22:00:00.000Z,Norfolk State,South Carolina State,MEAC,MEAC,82,88,Draft Kings,-7.5,144.5,,,-7.5,145.5
+372375,2026,regular,2026-03-12T22:30:00.000Z,Purdue,Northwestern,Big Ten,Big Ten,81,68,Bovada,-14.0,139.5,-800.0,525.0,-11.0,143.5
+372375,2026,regular,2026-03-12T22:30:00.000Z,Purdue,Northwestern,Big Ten,Big Ten,81,68,Draft Kings,-13.5,139.5,-750.0,525.0,-11.5,143.5
+372316,2026,regular,2026-03-12T22:30:00.000Z,Louisiana Tech,Middle Tennessee,CUSA,CUSA,80,69,Bovada,2.0,134.0,105.0,-125.0,1.5,132.0
+372316,2026,regular,2026-03-12T22:30:00.000Z,Louisiana Tech,Middle Tennessee,CUSA,CUSA,80,69,Draft Kings,1.5,134.5,110.0,-130.0,1.5,130.5
+372315,2026,regular,2026-03-12T22:30:00.000Z,Kent State,Ohio,MAC,MAC,86,75,Bovada,-3.5,161.0,-160.0,135.0,-3.5,159.5
+372315,2026,regular,2026-03-12T22:30:00.000Z,Kent State,Ohio,MAC,MAC,86,75,Draft Kings,-3.5,161.5,-185.0,154.0,-4.5,160.5
+372376,2026,regular,2026-03-12T23:00:00.000Z,Duke,Florida State,ACC,ACC,80,79,Bovada,-16.5,150.5,-2500.0,1050.0,-17.5,152.0
+372376,2026,regular,2026-03-12T23:00:00.000Z,Duke,Florida State,ACC,ACC,80,79,Draft Kings,-17.5,150.5,,,-17.5,150.5
+372378,2026,regular,2026-03-12T23:00:00.000Z,UConn,Xavier,Big East,Big East,93,68,Bovada,-17.0,151.0,-1800.0,850.0,-15.0,151.5
+372378,2026,regular,2026-03-12T23:00:00.000Z,UConn,Xavier,Big East,Big East,93,68,Draft Kings,-17.5,150.5,-1350.0,800.0,-15.5,151.5
+372380,2026,regular,2026-03-12T23:00:00.000Z,Charlotte,Tulane,American,American,74,60,Bovada,-1.0,144.5,-110.0,-110.0,-1.0,145.5
+372380,2026,regular,2026-03-12T23:00:00.000Z,Charlotte,Tulane,American,American,74,60,Draft Kings,-1.5,144.5,,,-1.5,143.5
+372377,2026,regular,2026-03-12T23:00:00.000Z,Houston,BYU,Big 12,Big 12,73,66,Bovada,-9.5,147.5,-480.0,350.0,-9.0,146.0
+372377,2026,regular,2026-03-12T23:00:00.000Z,Houston,BYU,Big 12,Big 12,73,66,Draft Kings,-9.5,146.5,,,-10.5,145.5
+372379,2026,regular,2026-03-12T23:00:00.000Z,Georgia,Ole Miss,SEC,SEC,72,76,Bovada,-6.0,156.5,-245.0,205.0,-5.5,156.5
+372379,2026,regular,2026-03-12T23:00:00.000Z,Georgia,Ole Miss,SEC,SEC,72,76,Draft Kings,-5.5,156.5,,,-6.5,156.5
+372381,2026,regular,2026-03-12T23:30:00.000Z,Davidson,Loyola Chicago,A-10,A-10,64,59,Bovada,-5.5,132.5,-330.0,265.0,-6.5,132.5
+372381,2026,regular,2026-03-12T23:30:00.000Z,Davidson,Loyola Chicago,A-10,A-10,64,59,Draft Kings,-5.5,132.5,-310.0,250.0,-7.5,132.5
+372262,2026,regular,2026-03-13T00:30:00.000Z,Southern,Arkansas-Pine Bluff,SWAC,SWAC,84,81,Bovada,-5.0,151.0,-210.0,175.0,-5.0,154.0
+372262,2026,regular,2026-03-13T00:30:00.000Z,Southern,Arkansas-Pine Bluff,SWAC,SWAC,84,81,Draft Kings,-5.5,150.5,,,-4.5,153.5
+372384,2026,regular,2026-03-13T01:00:00.000Z,UCLA,Rutgers,Big Ten,Big Ten,72,59,Bovada,-10.0,142.0,-800.0,525.0,-11.0,141.5
+372384,2026,regular,2026-03-13T01:00:00.000Z,UCLA,Rutgers,Big Ten,Big Ten,72,59,Draft Kings,-10.5,141.5,,,-11.5,141.5
+372317,2026,regular,2026-03-13T01:00:00.000Z,UT Arlington,Southern Utah,UAC,UAC,69,63,Bovada,-5.0,141.5,-235.0,195.0,-5.5,141.0
+372317,2026,regular,2026-03-13T01:00:00.000Z,UT Arlington,Southern Utah,UAC,UAC,69,63,Draft Kings,-5.5,140.5,-198.0,164.0,-5.5,140.5
+372383,2026,regular,2026-03-13T01:00:00.000Z,Cal State Northridge,UC San Diego,Big West,Big West,80,70,Bovada,1.5,154.0,130.0,-150.0,3.0,151.0
+372383,2026,regular,2026-03-13T01:00:00.000Z,Cal State Northridge,UC San Diego,Big West,Big West,80,70,Draft Kings,1.5,154.5,,,2.5,152.5
+372382,2026,regular,2026-03-13T01:00:00.000Z,San Diego State,Colorado State,Mountain West,Mountain West,71,62,Bovada,-6.5,142.0,-245.0,205.0,-5.5,142.5
+372382,2026,regular,2026-03-13T01:00:00.000Z,San Diego State,Colorado State,Mountain West,Mountain West,71,62,Draft Kings,-6.5,142.5,,,-5.5,141.5
+372318,2026,regular,2026-03-13T01:00:00.000Z,Western Kentucky,Kennesaw State,CUSA,CUSA,87,96,Bovada,-1.0,159.5,-125.0,105.0,-1.5,157.5
+372318,2026,regular,2026-03-13T01:00:00.000Z,Western Kentucky,Kennesaw State,CUSA,CUSA,87,96,Draft Kings,-1.5,159.5,,,-1.5,159.5
+372261,2026,regular,2026-03-13T01:10:00.000Z,North Carolina Central,Maryland Eastern Shore,MEAC,MEAC,83,76,Draft Kings,1.5,131.5,,,-1.5,133.5
+372386,2026,regular,2026-03-13T01:30:00.000Z,North Carolina,Clemson,ACC,ACC,79,80,Bovada,2.0,140.0,-125.0,105.0,-1.5,141.0
+372386,2026,regular,2026-03-13T01:30:00.000Z,North Carolina,Clemson,ACC,ACC,79,80,Draft Kings,1.5,140.5,,,1.5,140.5
+372389,2026,regular,2026-03-13T01:30:00.000Z,North Texas,Florida Atlantic,American,American,74,70,Bovada,-1.5,136.0,105.0,-125.0,1.5,137.5
+372389,2026,regular,2026-03-13T01:30:00.000Z,North Texas,Florida Atlantic,American,American,74,70,Draft Kings,-1.5,137.5,,,1.5,136.5
+372388,2026,regular,2026-03-13T01:30:00.000Z,Villanova,Georgetown,Big East,Big East,64,78,Bovada,-6.5,141.0,-360.0,280.0,-7.5,142.0
+372388,2026,regular,2026-03-13T01:30:00.000Z,Villanova,Georgetown,Big East,Big East,64,78,Draft Kings,-6.5,141.5,-345.0,275.0,-7.5,140.5
+372385,2026,regular,2026-03-13T01:49:00.000Z,Kansas,TCU,Big 12,Big 12,78,73,Bovada,-4.5,146.0,-245.0,205.0,-5.5,142.0
+372385,2026,regular,2026-03-13T01:49:00.000Z,Kansas,TCU,Big 12,Big 12,78,73,Draft Kings,-4.5,146.5,-258.0,210.0,-5.5,142.5
+372387,2026,regular,2026-03-13T01:50:00.000Z,Texas A&M,Oklahoma,SEC,SEC,63,83,Bovada,-2.0,161.5,-145.0,125.0,-2.5,161.0
+372387,2026,regular,2026-03-13T01:50:00.000Z,Texas A&M,Oklahoma,SEC,SEC,63,83,Draft Kings,-1.5,162.5,,,-2.5,161.5
+372390,2026,regular,2026-03-13T03:30:00.000Z,Utah Tech,Abilene Christian,UAC,UAC,80,74,Bovada,-1.5,142.5,-150.0,130.0,-2.5,140.0
+372390,2026,regular,2026-03-13T03:30:00.000Z,Utah Tech,Abilene Christian,UAC,UAC,80,74,Draft Kings,-1.5,142.5,,,-2.5,141.5
+372392,2026,regular,2026-03-13T03:30:00.000Z,Cal State Fullerton,UC Davis,Big West,Big West,82,70,Draft Kings,-1.5,155.5,,,1.5,156.5
+372391,2026,regular,2026-03-13T03:57:00.000Z,New Mexico,San José State,Mountain West,Mountain West,93,77,Bovada,-15.5,154.5,-1300.0,725.0,-13.5,154.5
+372391,2026,regular,2026-03-13T03:57:00.000Z,New Mexico,San José State,Mountain West,Mountain West,93,77,Draft Kings,-15.5,155.5,-1650.0,950.0,-15.5,152.5
+372393,2026,regular,2026-03-13T15:30:00.000Z,Saint Louis,George Washington,A-10,A-10,88,81,Bovada,-7.0,158.5,-320.0,260.0,-7.0,161.0
+372393,2026,regular,2026-03-13T15:30:00.000Z,Saint Louis,George Washington,A-10,A-10,88,81,Draft Kings,-7.5,158.5,-285.0,230.0,-6.5,161.5
+372394,2026,regular,2026-03-13T16:00:00.000Z,Michigan,Ohio State,Big Ten,Big Ten,71,67,Bovada,-12.5,155.5,-1200.0,700.0,-12.0,155.0
+372394,2026,regular,2026-03-13T16:00:00.000Z,Michigan,Ohio State,Big Ten,Big Ten,71,67,Draft Kings,-12.5,155.5,-1000.0,650.0,-12.5,154.5
+372395,2026,regular,2026-03-13T16:30:00.000Z,Louisiana Tech,Missouri State,CUSA,CUSA,69,66,Bovada,1.0,134.5,-125.0,105.0,-1.5,134.5
+372395,2026,regular,2026-03-13T16:30:00.000Z,Louisiana Tech,Missouri State,CUSA,CUSA,69,66,Draft Kings,1.5,134.5,-115.0,-105.0,-1.5,134.5
+372397,2026,regular,2026-03-13T17:00:00.000Z,UAB,Charlotte,American,American,78,83,Bovada,-5.5,147.0,-210.0,175.0,-5.0,145.5
+372397,2026,regular,2026-03-13T17:00:00.000Z,UAB,Charlotte,American,American,78,83,Draft Kings,-5.5,148.5,-198.0,164.0,-5.5,145.5
+372396,2026,regular,2026-03-13T17:00:00.000Z,Florida,Kentucky,SEC,SEC,71,63,Bovada,-10.5,160.0,-675.0,460.0,-10.0,160.5
+372396,2026,regular,2026-03-13T17:00:00.000Z,Florida,Kentucky,SEC,SEC,71,63,Draft Kings,-10.5,161.5,-625.0,455.0,-10.5,160.5
+372398,2026,regular,2026-03-13T18:00:00.000Z,Alabama A&M,Prairie View A&M,SWAC,SWAC,55,74,Bovada,-2.0,141.5,100.0,-120.0,1.0,144.0
+372398,2026,regular,2026-03-13T18:00:00.000Z,Alabama A&M,Prairie View A&M,SWAC,SWAC,55,74,Draft Kings,-1.5,140.5,-105.0,-115.0,1.5,143.5
+372399,2026,regular,2026-03-13T18:20:00.000Z,Dayton,St. Bonaventure,A-10,A-10,68,63,Bovada,-5.0,142.0,-320.0,260.0,-7.0,141.5
+372399,2026,regular,2026-03-13T18:20:00.000Z,Dayton,St. Bonaventure,A-10,A-10,68,63,Draft Kings,-5.5,141.5,-298.0,240.0,-6.5,141.5
+372400,2026,regular,2026-03-13T18:30:00.000Z,Illinois,Wisconsin,Big Ten,Big Ten,88,91,Bovada,-7.5,157.5,-370.0,285.0,-8.0,157.0
+372400,2026,regular,2026-03-13T18:30:00.000Z,Illinois,Wisconsin,Big Ten,Big Ten,88,91,Draft Kings,-7.5,157.5,-325.0,260.0,-7.5,156.5
+372401,2026,regular,2026-03-13T19:15:00.000Z,Sam Houston,Kennesaw State,CUSA,CUSA,73,79,Bovada,-2.0,159.5,-165.0,140.0,-3.5,162.0
+372401,2026,regular,2026-03-13T19:15:00.000Z,Sam Houston,Kennesaw State,CUSA,CUSA,73,79,Draft Kings,-2.5,159.5,-180.0,150.0,-3.5,161.5
+372403,2026,regular,2026-03-13T19:30:00.000Z,Tulsa,North Texas,American,American,90,84,Bovada,-8.5,142.0,-320.0,260.0,-7.0,143.0
+372403,2026,regular,2026-03-13T19:30:00.000Z,Tulsa,North Texas,American,American,90,84,Draft Kings,-8.5,141.5,-310.0,250.0,-8.5,142.5
+372402,2026,regular,2026-03-13T20:00:00.000Z,Vanderbilt,Tennessee,SEC,SEC,75,68,Bovada,2.0,147.5,-125.0,105.0,-1.0,147.0
+372402,2026,regular,2026-03-13T20:00:00.000Z,Vanderbilt,Tennessee,SEC,SEC,75,68,Draft Kings,1.5,147.5,-120.0,,-1.5,146.5
+372404,2026,regular,2026-03-13T21:00:00.000Z,Toledo,Massachusetts,MAC,MAC,77,67,Bovada,-2.5,158.0,-170.0,145.0,-3.0,158.5
+372404,2026,regular,2026-03-13T21:00:00.000Z,Toledo,Massachusetts,MAC,MAC,77,67,Draft Kings,-2.5,158.5,-162.0,136.0,-2.5,158.5
+372405,2026,regular,2026-03-13T21:15:00.000Z,VCU,Duquesne,A-10,A-10,71,66,Bovada,-7.0,152.5,-460.0,340.0,-8.5,150.5
+372405,2026,regular,2026-03-13T21:15:00.000Z,VCU,Duquesne,A-10,A-10,71,66,Draft Kings,-6.5,153.5,-375.0,295.0,-8.5,149.5
+372406,2026,regular,2026-03-13T21:30:00.000Z,St. John's,Seton Hall,Big East,Big East,78,68,Bovada,-8.5,135.0,-340.0,270.0,-8.0,133.0
+372406,2026,regular,2026-03-13T21:30:00.000Z,St. John's,Seton Hall,Big East,Big East,78,68,Draft Kings,-8.5,134.5,-325.0,260.0,-7.5,133.5
+372407,2026,regular,2026-03-13T22:00:00.000Z,Howard,South Carolina State,MEAC,MEAC,78,61,Bovada,-15.5,146.5,-1600.0,800.0,-15.0,145.0
+372407,2026,regular,2026-03-13T22:00:00.000Z,Howard,South Carolina State,MEAC,MEAC,78,61,Draft Kings,-15.5,146.5,-1800.0,1000.0,-15.5,144.5
+372408,2026,regular,2026-03-13T22:30:00.000Z,Nebraska,Purdue,Big Ten,Big Ten,58,74,Bovada,4.5,145.5,145.0,-170.0,3.5,143.5
+372408,2026,regular,2026-03-13T22:30:00.000Z,Nebraska,Purdue,Big Ten,Big Ten,58,74,Draft Kings,4.5,145.5,150.0,-180.0,3.5,143.5
+372410,2026,regular,2026-03-13T23:00:00.000Z,Virginia,Miami,ACC,ACC,84,62,Bovada,-3.5,145.0,-195.0,165.0,-4.0,144.0
+372410,2026,regular,2026-03-13T23:00:00.000Z,Virginia,Miami,ACC,ACC,84,62,Draft Kings,-3.5,145.5,-185.0,154.0,-3.5,143.5
+372411,2026,regular,2026-03-13T23:00:00.000Z,Alabama,Ole Miss,SEC,SEC,79,80,Bovada,-12.5,164.5,-650.0,450.0,-10.5,164.0
+372411,2026,regular,2026-03-13T23:00:00.000Z,Alabama,Ole Miss,SEC,SEC,79,80,Draft Kings,-12.5,165.5,-535.0,400.0,-10.5,163.5
+372409,2026,regular,2026-03-13T23:00:00.000Z,Arizona,Iowa State,Big 12,Big 12,82,80,Bovada,-3.0,144.5,-200.0,170.0,-3.5,144.5
+372409,2026,regular,2026-03-13T23:00:00.000Z,Arizona,Iowa State,Big 12,Big 12,82,80,Draft Kings,-3.5,144.5,-185.0,154.0,-4.5,143.5
+372413,2026,regular,2026-03-13T23:30:00.000Z,Saint Joseph's,Davidson,A-10,A-10,70,58,Bovada,-2.5,133.0,-135.0,115.0,-2.0,132.0
+372413,2026,regular,2026-03-13T23:30:00.000Z,Saint Joseph's,Davidson,A-10,A-10,70,58,Draft Kings,-2.5,133.5,-135.0,114.0,-2.5,131.5
+372412,2026,regular,2026-03-13T23:30:00.000Z,Akron,Kent State,MAC,MAC,75,68,Bovada,-7.0,162.5,-320.0,260.0,-7.0,163.5
+372412,2026,regular,2026-03-13T23:30:00.000Z,Akron,Kent State,MAC,MAC,75,68,Draft Kings,-6.5,162.5,-290.0,235.0,-6.5,163.5
+372414,2026,regular,2026-03-14T00:00:00.000Z,UConn,Georgetown,Big East,Big East,67,51,Bovada,-14.0,138.5,-1300.0,725.0,-13.5,140.0
+372414,2026,regular,2026-03-14T00:00:00.000Z,UConn,Georgetown,Big East,Big East,67,51,Draft Kings,-14.5,138.5,-1200.0,750.0,-13.5,139.5
+372416,2026,regular,2026-03-14T00:30:00.000Z,Florida A&M,Southern,SWAC,SWAC,70,73,Bovada,2.0,141.5,130.0,-150.0,3.0,145.0
+372416,2026,regular,2026-03-14T00:30:00.000Z,Florida A&M,Southern,SWAC,SWAC,70,73,Draft Kings,1.5,141.5,124.0,-148.0,2.5,144.5
+372418,2026,regular,2026-03-14T01:00:00.000Z,Utah Valley,UT Arlington,UAC,UAC,67,65,Bovada,-8.0,136.0,-430.0,320.0,-8.5,134.0
+372418,2026,regular,2026-03-14T01:00:00.000Z,Utah Valley,UT Arlington,UAC,UAC,67,65,Draft Kings,-8.5,136.5,-395.0,310.0,-8.5,134.5
+372417,2026,regular,2026-03-14T01:00:00.000Z,Michigan State,UCLA,Big Ten,Big Ten,84,88,Bovada,-5.0,141.0,-285.0,235.0,-6.0,142.5
+372417,2026,regular,2026-03-14T01:00:00.000Z,Michigan State,UCLA,Big Ten,Big Ten,84,88,Draft Kings,-5.5,142.5,-250.0,205.0,-5.5,142.5
+372419,2026,regular,2026-03-14T01:00:00.000Z,UC Irvine,Cal State Northridge,Big West,Big West,93,78,Bovada,-4.0,152.5,-180.0,155.0,-4.0,149.0
+372419,2026,regular,2026-03-14T01:00:00.000Z,UC Irvine,Cal State Northridge,Big West,Big West,93,78,Draft Kings,-3.5,152.5,-192.0,160.0,-4.5,149.5
+372415,2026,regular,2026-03-14T01:20:00.000Z,North Carolina Central,Delaware State,MEAC,MEAC,59,53,Bovada,-3.5,131.5,-175.0,150.0,-4.0,133.5
+372415,2026,regular,2026-03-14T01:20:00.000Z,North Carolina Central,Delaware State,MEAC,MEAC,59,53,Draft Kings,-3.5,131.5,-198.0,164.0,-4.5,133.5
+372423,2026,regular,2026-03-14T01:30:00.000Z,Utah State,Nevada,Mountain West,Mountain West,79,66,Bovada,,,-300.0,260.0,,
+372423,2026,regular,2026-03-14T01:30:00.000Z,Utah State,Nevada,Mountain West,Mountain West,79,66,Draft Kings,-6.5,145.5,-285.0,230.0,-6.5,144.5
+372420,2026,regular,2026-03-14T01:35:00.000Z,Duke,Clemson,ACC,ACC,73,61,Bovada,-10.5,135.0,-800.0,525.0,-11.0,134.5
+372420,2026,regular,2026-03-14T01:35:00.000Z,Duke,Clemson,ACC,ACC,73,61,Draft Kings,-10.5,135.5,-700.0,500.0,-11.5,134.5
+372421,2026,regular,2026-03-14T01:50:00.000Z,Houston,Kansas,Big 12,Big 12,69,47,Bovada,-5.5,139.5,-220.0,180.0,-5.5,136.0
+372421,2026,regular,2026-03-14T01:50:00.000Z,Houston,Kansas,Big 12,Big 12,69,47,Draft Kings,-4.5,139.5,-245.0,200.0,-6.5,136.5
+372422,2026,regular,2026-03-14T02:10:00.000Z,Arkansas,Oklahoma,SEC,SEC,82,79,Bovada,-6.0,166.5,-320.0,260.0,-6.5,168.5
+372422,2026,regular,2026-03-14T02:10:00.000Z,Arkansas,Oklahoma,SEC,SEC,82,79,Draft Kings,-6.5,166.5,-278.0,225.0,-6.5,168.5
+372425,2026,regular,2026-03-14T03:30:00.000Z,Hawai'i,Cal State Fullerton,Big West,Big West,78,63,Draft Kings,-4.5,156.5,-170.0,142.0,-3.5,158.5
+372424,2026,regular,2026-03-14T03:30:00.000Z,California Baptist,Utah Tech,UAC,UAC,86,72,Bovada,-8.0,144.5,-240.0,200.0,-5.5,138.5
+372424,2026,regular,2026-03-14T03:30:00.000Z,California Baptist,Utah Tech,UAC,UAC,86,72,Draft Kings,-8.5,143.5,-230.0,190.0,-6.5,137.5
+372426,2026,regular,2026-03-14T03:59:00.000Z,San Diego State,New Mexico,Mountain West,Mountain West,64,62,Bovada,-2.0,151.0,-120.0,100.0,-1.5,150.5
+372426,2026,regular,2026-03-14T03:59:00.000Z,San Diego State,New Mexico,Mountain West,Mountain West,64,62,Draft Kings,-2.5,150.5,-130.0,110.0,-2.5,150.5
+372362,2026,regular,2026-03-14T15:00:00.000Z,UMBC,Vermont,Am. East,Am. East,74,59,Draft Kings,-3.5,134.5,-142.0,120.0,-2.5,137.5
+372319,2026,regular,2026-03-14T15:00:00.000Z,Yale,Cornell,Ivy,Ivy,88,76,Bovada,-4.5,163.5,-165.0,140.0,-3.5,164.5
+372319,2026,regular,2026-03-14T15:00:00.000Z,Yale,Cornell,Ivy,Ivy,88,76,Draft Kings,-4.5,163.5,-198.0,164.0,-3.5,165.5
+372427,2026,regular,2026-03-14T17:00:00.000Z,Michigan,Wisconsin,Big Ten,Big Ten,68,65,Bovada,-12.5,161.0,-950.0,600.0,-12.0,161.5
+372427,2026,regular,2026-03-14T17:00:00.000Z,Michigan,Wisconsin,Big Ten,Big Ten,68,65,Draft Kings,-12.5,161.5,-700.0,500.0,-11.5,160.5
+372428,2026,regular,2026-03-14T17:00:00.000Z,Florida,Vanderbilt,SEC,SEC,74,91,Bovada,-7.0,160.5,-410.0,305.0,-8.0,160.0
+372428,2026,regular,2026-03-14T17:00:00.000Z,Florida,Vanderbilt,SEC,SEC,74,91,Draft Kings,-6.5,160.5,-360.0,285.0,-8.5,160.5
+372429,2026,regular,2026-03-14T17:00:00.000Z,Howard,North Carolina Central,MEAC,MEAC,70,63,Bovada,-11.5,143.0,-850.0,550.0,-11.5,144.5
+372429,2026,regular,2026-03-14T17:00:00.000Z,Howard,North Carolina Central,MEAC,MEAC,70,63,Draft Kings,-11.5,142.5,-900.0,600.0,-11.5,144.5
+372430,2026,regular,2026-03-14T17:00:00.000Z,Saint Louis,Dayton,A-10,A-10,69,70,Bovada,-5.0,145.5,-270.0,220.0,-5.5,148.5
+372430,2026,regular,2026-03-14T17:00:00.000Z,Saint Louis,Dayton,A-10,A-10,69,70,Draft Kings,-4.5,145.5,-245.0,200.0,-5.5,145.5
+372320,2026,regular,2026-03-14T18:00:00.000Z,Harvard,Pennsylvania,Ivy,Ivy,60,62,Bovada,-3.5,138.5,-150.0,130.0,-2.5,136.0
+372320,2026,regular,2026-03-14T18:00:00.000Z,Harvard,Pennsylvania,Ivy,Ivy,60,62,Draft Kings,-3.5,139.5,-155.0,130.0,-2.5,135.5
+372431,2026,regular,2026-03-14T19:00:00.000Z,South Florida,Charlotte,American,American,86,64,Bovada,-15.0,153.5,-1400.0,750.0,-15.0,152.5
+372431,2026,regular,2026-03-14T19:00:00.000Z,South Florida,Charlotte,American,American,86,64,Draft Kings,-15.5,153.5,-1450.0,850.0,-14.5,153.5
+372433,2026,regular,2026-03-14T19:30:00.000Z,UCLA,Purdue,Big Ten,Big Ten,66,73,Bovada,7.5,144.5,260.0,-320.0,7.5,146.0
+372433,2026,regular,2026-03-14T19:30:00.000Z,UCLA,Purdue,Big Ten,Big Ten,66,73,Draft Kings,7.5,143.5,235.0,-290.0,6.5,147.5
+372432,2026,regular,2026-03-14T19:30:00.000Z,Arkansas,Ole Miss,SEC,SEC,93,90,Bovada,-8.0,158.0,-460.0,340.0,-8.5,158.5
+372432,2026,regular,2026-03-14T19:30:00.000Z,Arkansas,Ole Miss,SEC,SEC,93,90,Draft Kings,-8.5,159.5,-380.0,300.0,-8.5,157.5
+372434,2026,regular,2026-03-14T20:00:00.000Z,VCU,Saint Joseph's,A-10,A-10,77,64,Bovada,-7.0,145.5,-285.0,235.0,-6.5,146.0
+372434,2026,regular,2026-03-14T20:00:00.000Z,VCU,Saint Joseph's,A-10,A-10,77,64,Draft Kings,-6.5,146.5,-245.0,200.0,-6.5,145.5
+372435,2026,regular,2026-03-14T21:40:00.000Z,Wichita State,Tulsa,American,American,81,68,Bovada,1.5,152.0,100.0,-120.0,-1.0,148.5
+372435,2026,regular,2026-03-14T21:40:00.000Z,Wichita State,Tulsa,American,American,81,68,Draft Kings,1.5,152.5,-115.0,-105.0,-1.5,149.5
+372437,2026,regular,2026-03-14T22:00:00.000Z,Utah State,San Diego State,Mountain West,Mountain West,73,62,Bovada,-2.5,146.0,-120.0,100.0,-2.5,146.0
+372437,2026,regular,2026-03-14T22:00:00.000Z,Utah State,San Diego State,Mountain West,Mountain West,73,62,Draft Kings,-2.5,145.5,-120.0,,-1.5,147.5
+372436,2026,regular,2026-03-14T22:10:00.000Z,Arizona,Houston,Big 12,Big 12,79,74,Bovada,-2.0,138.5,-150.0,130.0,-2.0,137.5
+372436,2026,regular,2026-03-14T22:10:00.000Z,Arizona,Houston,Big 12,Big 12,79,74,Draft Kings,-1.5,138.5,-148.0,124.0,-2.5,137.5
+372438,2026,regular,2026-03-14T22:30:00.000Z,St. John's,UConn,Big East,Big East,72,52,Bovada,2.0,139.0,130.0,-150.0,2.5,140.0
+372438,2026,regular,2026-03-14T22:30:00.000Z,St. John's,UConn,Big East,Big East,72,52,Draft Kings,2.5,138.5,124.0,-148.0,2.5,140.5
+372439,2026,regular,2026-03-14T23:30:00.000Z,Southern,Prairie View A&M,SWAC,SWAC,66,72,Bovada,-3.5,146.0,-150.0,130.0,-3.0,150.5
+372439,2026,regular,2026-03-14T23:30:00.000Z,Southern,Prairie View A&M,SWAC,SWAC,66,72,Draft Kings,-3.5,145.5,-148.0,124.0,-3.5,151.5
+372440,2026,regular,2026-03-15T00:00:00.000Z,Akron,Toledo,MAC,MAC,79,76,Bovada,-8.0,157.5,-350.0,275.0,-7.5,158.5
+372440,2026,regular,2026-03-15T00:00:00.000Z,Akron,Toledo,MAC,MAC,79,76,Draft Kings,-8.5,157.5,-305.0,245.0,-7.5,159.5
+372442,2026,regular,2026-03-15T00:30:00.000Z,Louisiana Tech,Kennesaw State,CUSA,CUSA,60,71,Bovada,1.0,142.0,105.0,-125.0,2.0,140.0
+372442,2026,regular,2026-03-15T00:30:00.000Z,Louisiana Tech,Kennesaw State,CUSA,CUSA,60,71,Draft Kings,1.5,142.5,105.0,-125.0,1.5,140.5
+372441,2026,regular,2026-03-15T00:40:00.000Z,Duke,Virginia,ACC,ACC,74,70,Bovada,-6.5,140.0,-400.0,300.0,-8.0,137.5
+372441,2026,regular,2026-03-15T00:40:00.000Z,Duke,Virginia,ACC,ACC,74,70,Draft Kings,-6.5,140.5,-395.0,310.0,-8.5,137.5
+372443,2026,regular,2026-03-15T02:05:00.000Z,UC Irvine,Hawai'i,Big West,Big West,64,71,Bovada,-1.5,141.5,-125.0,115.0,-2.0,138.0
+372443,2026,regular,2026-03-15T02:05:00.000Z,UC Irvine,Hawai'i,Big West,Big West,64,71,Draft Kings,-1.5,142.5,-130.0,110.0,-1.5,137.5
+372444,2026,regular,2026-03-15T03:59:00.000Z,Utah Valley,California Baptist,UAC,UAC,61,63,Bovada,-2.5,138.5,-150.0,130.0,-3.0,138.5
+372444,2026,regular,2026-03-15T03:59:00.000Z,Utah Valley,California Baptist,UAC,UAC,61,63,Draft Kings,-3.5,139.5,-148.0,124.0,-2.5,136.5
+372445,2026,regular,2026-03-15T16:00:00.000Z,Yale,Pennsylvania,Ivy,Ivy,84,88,Bovada,-9.5,142.5,-575.0,400.0,-9.5,141.0
+372445,2026,regular,2026-03-15T16:00:00.000Z,Yale,Pennsylvania,Ivy,Ivy,84,88,Draft Kings,-9.5,144.5,-520.0,390.0,-9.5,142.5
+372447,2026,regular,2026-03-15T17:00:00.000Z,VCU,Dayton,A-10,A-10,70,62,Bovada,-3.0,139.0,-150.0,130.0,-3.0,139.0
+372447,2026,regular,2026-03-15T17:00:00.000Z,VCU,Dayton,A-10,A-10,70,62,Draft Kings,-3.5,139.5,-162.0,136.0,-3.5,140.5
+372446,2026,regular,2026-03-15T17:00:00.000Z,Arkansas,Vanderbilt,SEC,SEC,86,75,Bovada,2.0,165.5,125.0,-145.0,2.5,165.5
+372446,2026,regular,2026-03-15T17:00:00.000Z,Arkansas,Vanderbilt,SEC,SEC,86,75,Draft Kings,1.5,165.5,124.0,-148.0,2.5,166.5
+372448,2026,regular,2026-03-15T19:15:00.000Z,South Florida,Wichita State,American,American,70,55,Bovada,-6.0,150.0,-260.0,215.0,-5.0,149.0
+372448,2026,regular,2026-03-15T19:15:00.000Z,South Florida,Wichita State,American,American,70,55,Draft Kings,-6.5,151.5,-245.0,200.0,-5.5,150.5
+372449,2026,regular,2026-03-15T19:30:00.000Z,Michigan,Purdue,Big Ten,Big Ten,72,80,Bovada,-5.0,149.0,-280.0,230.0,-6.5,149.5
+372449,2026,regular,2026-03-15T19:30:00.000Z,Michigan,Purdue,Big Ten,Big Ten,72,80,Draft Kings,-4.5,149.5,-278.0,225.0,-6.5,150.5
+372546,2026,postseason,2026-03-17T22:00:00.000Z,George Mason,Liberty,A-10,CUSA,71,77,Draft Kings,-2.5,141.5,-238.0,195.0,-5.5,143.5
+372511,2026,postseason,2026-03-17T22:40:00.000Z,Howard,UMBC,MEAC,Am. East,86,83,Draft Kings,-1.5,143.5,100.0,-120.0,,
+372547,2026,postseason,2026-03-17T23:00:00.000Z,Yale,UNC Wilmington,Ivy,CAA,67,68,Draft Kings,-4.5,148.5,,,-5.5,145.5
+372548,2026,postseason,2026-03-17T23:00:00.000Z,Wichita State,Wyoming,American,Mountain West,74,70,Draft Kings,-5.5,148.5,,,-6.5,147.5
+372549,2026,postseason,2026-03-18T00:00:00.000Z,Oklahoma State,Davidson,Big 12,A-10,84,80,Draft Kings,-6.5,154.5,,,-8.5,154.5
+372550,2026,postseason,2026-03-18T01:00:00.000Z,Tulsa,Stephen F. Austin,American,Southland,89,84,Draft Kings,-6.5,149.5,,,-7.5,153.5
+372510,2026,postseason,2026-03-18T01:29:00.000Z,NC State,Texas,ACC,SEC,66,68,Bovada,1.0,157.0,,,1.0,158.0
+372510,2026,postseason,2026-03-18T01:29:00.000Z,NC State,Texas,ACC,SEC,66,68,Draft Kings,-1.5,157.5,-105.0,-115.0,1.5,162.5
+372551,2026,postseason,2026-03-18T02:00:00.000Z,Seattle U,St. Thomas-Minnesota,WCC,Summit,67,52,Draft Kings,-2.5,145.5,,,-2.5,145.5
+372552,2026,postseason,2026-03-18T02:05:00.000Z,Auburn,South Alabama,SEC,Sun Belt,78,67,Draft Kings,-18.5,153.5,,,-17.5,152.5
+372553,2026,postseason,2026-03-18T03:00:00.000Z,UC Irvine,UNLV,Big West,Mountain West,72,75,Draft Kings,-1.5,152.5,,,-2.5,151.5
+372513,2026,postseason,2026-03-18T22:40:00.000Z,Lehigh,Prairie View A&M,Patriot,SWAC,55,67,Bovada,3.0,140.5,,,3.0,143.0
+372513,2026,postseason,2026-03-18T22:40:00.000Z,Lehigh,Prairie View A&M,Patriot,SWAC,55,67,Draft Kings,-2.5,140.5,100.0,-120.0,,
+372554,2026,postseason,2026-03-18T23:00:00.000Z,Wake Forest,Navy,ACC,Patriot,82,72,Draft Kings,-9.5,148.5,,,-11.5,147.5
+372555,2026,postseason,2026-03-19T00:00:00.000Z,Illinois State,Kent State,MVC,MAC,79,58,Draft Kings,-4.5,154.5,,,-6.5,152.5
+372556,2026,postseason,2026-03-19T00:00:00.000Z,Utah Valley,George Washington,UAC,A-10,78,79,Draft Kings,-1.5,153.5,,,-1.5,156.5
+372558,2026,postseason,2026-03-19T01:00:00.000Z,New Mexico,Sam Houston,Mountain West,CUSA,107,83,Draft Kings,-11.5,162.5,,,-11.5,163.5
+372557,2026,postseason,2026-03-19T01:00:00.000Z,Bradley,Dayton,MVC,A-10,66,80,Draft Kings,2.5,141.5,,,1.5,140.5
+372512,2026,postseason,2026-03-19T01:15:00.000Z,SMU,Miami (OH),ACC,MAC,79,89,Bovada,-6.5,162.0,,,7.0,162.5
+372512,2026,postseason,2026-03-19T01:15:00.000Z,SMU,Miami (OH),ACC,MAC,79,89,Draft Kings,-7.5,161.5,310.0,-395.0,7.5,165.5
+372559,2026,postseason,2026-03-19T02:00:00.000Z,Nevada,Murray State,Mountain West,MVC,89,75,Draft Kings,-8.5,159.5,,,-8.5,161.5
+372560,2026,postseason,2026-03-19T03:05:00.000Z,Colorado State,Saint Joseph's,Mountain West,A-10,64,69,Draft Kings,-5.5,144.5,,,-5.5,143.5
+372561,2026,postseason,2026-03-19T03:05:00.000Z,California,UIC,ACC,MVC,91,73,Draft Kings,-6.5,151.5,,,-4.5,148.5
+372529,2026,postseason,2026-03-19T16:15:00.000Z,Ohio State,TCU,Big Ten,Big 12,64,66,Bovada,-2.0,145.0,,,-2.0,146.5
+372529,2026,postseason,2026-03-19T16:15:00.000Z,Ohio State,TCU,Big Ten,Big 12,64,66,Draft Kings,-2.5,145.5,-162.0,136.0,-3.5,147.5
+372520,2026,postseason,2026-03-19T16:40:00.000Z,Nebraska,Troy,Big Ten,Sun Belt,76,47,Bovada,-13.0,139.0,,,-13.5,139.0
+372520,2026,postseason,2026-03-19T16:40:00.000Z,Nebraska,Troy,Big Ten,Sun Belt,76,47,Draft Kings,-13.5,139.5,-1200.0,750.0,-13.5,135.5
+372526,2026,postseason,2026-03-19T17:30:00.000Z,Louisville,South Florida,ACC,American,83,79,Bovada,-4.0,161.0,,,-4.0,164.0
+372526,2026,postseason,2026-03-19T17:30:00.000Z,Louisville,South Florida,ACC,American,83,79,Draft Kings,-3.5,160.5,-265.0,215.0,-6.5,163.5
+372523,2026,postseason,2026-03-19T17:50:00.000Z,Wisconsin,High Point,Big Ten,Big South,82,83,Bovada,-10.5,161.5,,,-10.5,163.5
+372523,2026,postseason,2026-03-19T17:50:00.000Z,Wisconsin,High Point,Big Ten,Big South,82,83,Draft Kings,-10.5,162.5,-800.0,550.0,-11.5,165.5
+372515,2026,postseason,2026-03-19T19:00:00.000Z,Duke,Siena,ACC,Metro,71,65,Bovada,-27.5,136.5,,,-28.0,136.0
+372515,2026,postseason,2026-03-19T19:00:00.000Z,Duke,Siena,ACC,Metro,71,65,Draft Kings,-28.5,135.5,-20000.0,3500.0,,
+372522,2026,postseason,2026-03-19T19:15:00.000Z,Vanderbilt,McNeese,SEC,Southland,78,68,Bovada,-12.0,148.5,,,-12.0,150.0
+372522,2026,postseason,2026-03-19T19:15:00.000Z,Vanderbilt,McNeese,SEC,Southland,78,68,Draft Kings,-12.5,148.5,-625.0,455.0,-11.5,149.5
+372521,2026,postseason,2026-03-19T20:27:00.000Z,Arkansas,Hawai'i,SEC,Big West,97,78,Bovada,-15.0,158.5,,,-15.0,159.5
+372521,2026,postseason,2026-03-19T20:27:00.000Z,Arkansas,Hawai'i,SEC,Big West,97,78,Draft Kings,-14.5,158.5,-1450.0,850.0,-15.5,161.5
+372519,2026,postseason,2026-03-19T20:27:00.000Z,Michigan State,North Dakota State,Big Ten,Summit,92,67,Bovada,-16.5,144.5,,,-16.5,144.0
+372519,2026,postseason,2026-03-19T20:27:00.000Z,Michigan State,North Dakota State,Big Ten,Summit,92,67,Draft Kings,-16.5,144.5,-1450.0,850.0,-16.5,143.5
+372524,2026,postseason,2026-03-19T22:50:00.000Z,North Carolina,VCU,ACC,A-10,78,82,Bovada,-2.0,151.0,,,-2.0,151.5
+372524,2026,postseason,2026-03-19T22:50:00.000Z,North Carolina,VCU,ACC,A-10,78,82,Draft Kings,-2.5,150.5,-142.0,120.0,-2.5,154.5
+372514,2026,postseason,2026-03-19T23:30:00.000Z,Michigan,Howard,Big Ten,MEAC,101,80,Bovada,-31.0,,,,-31.0,
+372514,2026,postseason,2026-03-19T23:30:00.000Z,Michigan,Howard,Big Ten,MEAC,101,80,Draft Kings,-30.5,151.5,-100000.0,5000.0,-31.5,151.5
+372527,2026,postseason,2026-03-19T23:35:00.000Z,Saint Mary's,Texas A&M,WCC,SEC,50,63,Draft Kings,-2.5,149.5,-142.0,120.0,-2.5,148.5
+372525,2026,postseason,2026-03-19T23:35:00.000Z,BYU,Texas,Big 12,SEC,71,79,Bovada,-2.5,157.5,,,-3.0,157.5
+372525,2026,postseason,2026-03-19T23:35:00.000Z,BYU,Texas,Big 12,SEC,71,79,Draft Kings,-2.5,156.5,-162.0,136.0,-2.5,144.5
+372517,2026,postseason,2026-03-20T01:55:00.000Z,Illinois,Pennsylvania,Big Ten,Ivy,105,70,Bovada,-25.5,150.5,,,-25.5,152.0
+372517,2026,postseason,2026-03-20T01:55:00.000Z,Illinois,Pennsylvania,Big Ten,Ivy,105,70,Draft Kings,-25.5,150.5,-10000.0,3000.0,-22.5,149.5
+372528,2026,postseason,2026-03-20T02:10:00.000Z,Georgia,Saint Louis,SEC,A-10,77,102,Bovada,,168.0,,,,168.0
+372528,2026,postseason,2026-03-20T02:10:00.000Z,Georgia,Saint Louis,SEC,A-10,77,102,Draft Kings,-1.5,167.5,-142.0,120.0,-2.5,170.5
+372516,2026,postseason,2026-03-20T02:15:00.000Z,Houston,Idaho,Big 12,Big Sky,78,47,Bovada,-24.0,138.0,,,-24.0,138.5
+372516,2026,postseason,2026-03-20T02:15:00.000Z,Houston,Idaho,Big 12,Big Sky,78,47,Draft Kings,-24.5,138.5,-10000.0,3000.0,-21.5,134.5
+372518,2026,postseason,2026-03-20T02:24:00.000Z,Gonzaga,Kennesaw State,WCC,CUSA,73,64,Bovada,-20.5,152.0,,,-20.5,154.0
+372518,2026,postseason,2026-03-20T02:24:00.000Z,Gonzaga,Kennesaw State,WCC,CUSA,73,64,Draft Kings,-20.5,152.5,-5000.0,1800.0,-19.5,158.5
+372541,2026,postseason,2026-03-20T16:15:00.000Z,Kentucky,Santa Clara,SEC,WCC,89,84,Bovada,-3.5,157.0,,,-3.5,158.5
+372541,2026,postseason,2026-03-20T16:15:00.000Z,Kentucky,Santa Clara,SEC,WCC,89,84,Draft Kings,-3.5,157.5,-148.0,124.0,-2.5,161.5
+372538,2026,postseason,2026-03-20T16:40:00.000Z,Texas Tech,Akron,Big 12,MAC,91,71,Bovada,-7.0,154.5,,,-7.0,156.5
+372538,2026,postseason,2026-03-20T16:40:00.000Z,Texas Tech,Akron,Big 12,MAC,91,71,Draft Kings,-6.5,154.5,-360.0,285.0,-8.5,155.5
+372530,2026,postseason,2026-03-20T17:35:00.000Z,Arizona,Long Island University,Big 12,NEC,92,58,Bovada,-30.5,148.0,,,-30.5,149.5
+372530,2026,postseason,2026-03-20T17:35:00.000Z,Arizona,Long Island University,Big 12,NEC,92,58,Draft Kings,-30.5,147.5,-100000.0,5000.0,-29.5,151.5
+372535,2026,postseason,2026-03-20T17:50:00.000Z,Virginia,Wright State,ACC,Horizon,82,73,Bovada,-18.0,146.5,,,-17.5,146.5
+372535,2026,postseason,2026-03-20T17:50:00.000Z,Virginia,Wright State,ACC,Horizon,82,73,Draft Kings,-18.5,146.5,-3200.0,1400.0,,
+372532,2026,postseason,2026-03-20T19:07:00.000Z,Iowa State,Tennessee State,Big 12,OVC,108,74,Bovada,-25.0,148.0,,,-25.0,149.0
+372532,2026,postseason,2026-03-20T19:07:00.000Z,Iowa State,Tennessee State,Big 12,OVC,108,74,Draft Kings,-25.5,147.5,-6500.0,2000.0,,
+372536,2026,postseason,2026-03-20T19:15:00.000Z,Alabama,Hofstra,SEC,CAA,90,70,Bovada,-12.0,159.0,,,-12.0,158.0
+372536,2026,postseason,2026-03-20T19:15:00.000Z,Alabama,Hofstra,SEC,CAA,90,70,Draft Kings,-11.5,158.5,-750.0,525.0,-12.5,161.5
+372544,2026,postseason,2026-03-20T20:10:00.000Z,Villanova,Utah State,Big East,Mountain West,76,86,Bovada,2.0,,,,1.5,
+372544,2026,postseason,2026-03-20T20:10:00.000Z,Villanova,Utah State,Big East,Mountain West,76,86,Draft Kings,1.5,146.5,114.0,-135.0,2.5,147.5
+372540,2026,postseason,2026-03-20T20:25:00.000Z,Tennessee,Miami (OH),SEC,MAC,78,56,Bovada,-12.0,148.5,,,-11.5,148.5
+372540,2026,postseason,2026-03-20T20:25:00.000Z,Tennessee,Miami (OH),SEC,MAC,78,56,Draft Kings,-12.5,148.5,-485.0,370.0,-10.5,148.5
+372545,2026,postseason,2026-03-20T22:50:00.000Z,Clemson,Iowa,ACC,Big Ten,61,67,Bovada,1.5,131.0,,,1.5,130.0
+372545,2026,postseason,2026-03-20T22:50:00.000Z,Clemson,Iowa,ACC,Big Ten,61,67,Draft Kings,1.5,131.5,120.0,-142.0,,
+372539,2026,postseason,2026-03-20T23:25:00.000Z,St. John's,Northern Iowa,Big East,MVC,79,53,Bovada,-10.5,132.5,,,-10.0,132.5
+372539,2026,postseason,2026-03-20T23:25:00.000Z,St. John's,Northern Iowa,Big East,MVC,79,53,Draft Kings,-10.5,133.5,-425.0,330.0,-9.5,131.5
+372543,2026,postseason,2026-03-20T23:31:00.000Z,UCLA,UCF,Big Ten,Big 12,75,71,Draft Kings,-5.5,151.5,-245.0,200.0,,
+372533,2026,postseason,2026-03-20T23:35:00.000Z,Purdue,Queens University,Big Ten,ASUN,104,71,Draft Kings,-25.5,159.5,-8000.0,2200.0,-22.5,164.5
+372531,2026,postseason,2026-03-21T01:25:00.000Z,Florida,Prairie View A&M,SEC,SWAC,114,55,Bovada,-35.0,152.5,-100000.0,5000.0,-35.0,154.5
+372531,2026,postseason,2026-03-21T01:25:00.000Z,Florida,Prairie View A&M,SEC,SWAC,114,55,Draft Kings,-35.5,155.5,-100000.0,5000.0,-33.5,156.5
+372542,2026,postseason,2026-03-21T02:07:00.000Z,Miami,Missouri,ACC,SEC,80,66,Bovada,-1.5,144.5,,,-1.5,145.5
+372542,2026,postseason,2026-03-21T02:07:00.000Z,Miami,Missouri,ACC,SEC,80,66,Draft Kings,-1.5,145.5,-135.0,114.0,-1.5,150.5
+372537,2026,postseason,2026-03-21T02:07:00.000Z,Kansas,California Baptist,Big 12,UAC,68,60,Bovada,,141.5,,,,140.5
+372537,2026,postseason,2026-03-21T02:07:00.000Z,Kansas,California Baptist,Big 12,UAC,68,60,Draft Kings,-14.5,141.5,-1000.0,650.0,-13.5,135.5
+372534,2026,postseason,2026-03-21T02:31:00.000Z,UConn,Furman,Big East,SoCon,82,71,Bovada,-21.0,135.0,,,-20.5,136.0
+372534,2026,postseason,2026-03-21T02:31:00.000Z,UConn,Furman,Big East,SoCon,82,71,Draft Kings,-21.5,135.5,-8000.0,2200.0,,
+372562,2026,postseason,2026-03-21T16:10:00.000Z,Michigan,Saint Louis,Big Ten,A-10,95,72,Bovada,-11.5,161.0,,,-12.5,162.0
+372562,2026,postseason,2026-03-21T16:10:00.000Z,Michigan,Saint Louis,Big Ten,A-10,95,72,Draft Kings,-12.5,161.5,-900.0,600.0,,
+372563,2026,postseason,2026-03-21T18:45:00.000Z,Michigan State,Louisville,Big Ten,ACC,77,69,Bovada,-5.5,152.0,,,-5.0,151.5
+372563,2026,postseason,2026-03-21T18:45:00.000Z,Michigan State,Louisville,Big Ten,ACC,77,69,Draft Kings,-5.5,151.5,-185.0,154.0,-4.5,151.5
+372564,2026,postseason,2026-03-21T21:25:00.000Z,Duke,TCU,ACC,Big 12,81,58,Bovada,-12.0,140.5,,,-11.5,140.0
+372564,2026,postseason,2026-03-21T21:25:00.000Z,Duke,TCU,ACC,Big 12,81,58,Draft Kings,-12.5,140.5,-700.0,500.0,-11.5,139.5
+372565,2026,postseason,2026-03-21T22:10:00.000Z,Houston,Texas A&M,Big 12,SEC,88,57,Bovada,-9.5,142.5,,,-11.0,142.5
+372565,2026,postseason,2026-03-21T22:10:00.000Z,Houston,Texas A&M,Big 12,SEC,88,57,Draft Kings,-10.5,142.5,-500.0,380.0,-9.5,141.5
+372570,2026,postseason,2026-03-21T23:00:00.000Z,UNC Wilmington,Dayton,CAA,A-10,61,80,Draft Kings,3.5,138.5,120.0,-142.0,2.5,139.5
+372566,2026,postseason,2026-03-21T23:10:00.000Z,Gonzaga,Texas,WCC,SEC,68,74,Bovada,-6.5,148.0,,,-6.0,147.0
+372566,2026,postseason,2026-03-21T23:10:00.000Z,Gonzaga,Texas,WCC,SEC,68,74,Draft Kings,-6.5,146.5,-230.0,190.0,-5.5,147.5
+372567,2026,postseason,2026-03-22T00:15:00.000Z,Illinois,VCU,Big Ten,A-10,76,55,Bovada,-12.0,150.5,,,-10.5,152.5
+372567,2026,postseason,2026-03-22T00:15:00.000Z,Illinois,VCU,Big Ten,A-10,76,55,Draft Kings,-11.5,150.5,-600.0,440.0,-11.5,151.5
+372571,2026,postseason,2026-03-22T01:00:00.000Z,Nevada,Liberty,Mountain West,CUSA,73,63,Draft Kings,-7.5,147.5,-340.0,270.0,,
+372568,2026,postseason,2026-03-22T01:02:00.000Z,Nebraska,Vanderbilt,Big Ten,SEC,74,72,Bovada,2.0,147.0,,,1.5,147.0
+372568,2026,postseason,2026-03-22T01:02:00.000Z,Nebraska,Vanderbilt,Big Ten,SEC,74,72,Draft Kings,2.5,146.5,120.0,-142.0,2.5,146.5
+372569,2026,postseason,2026-03-22T01:45:00.000Z,Arkansas,High Point,SEC,Big South,94,88,Bovada,-12.0,171.5,,,-12.0,168.5
+372569,2026,postseason,2026-03-22T01:45:00.000Z,Arkansas,High Point,SEC,Big South,94,88,Draft Kings,-12.5,170.5,-700.0,500.0,-11.5,168.5
+372578,2026,postseason,2026-03-22T16:10:00.000Z,Purdue,Miami,Big Ten,ACC,79,69,Bovada,-8.0,146.5,,,-8.0,146.0
+372578,2026,postseason,2026-03-22T16:10:00.000Z,Purdue,Miami,Big Ten,ACC,79,69,Draft Kings,-7.5,146.5,-340.0,270.0,-7.5,147.5
+372579,2026,postseason,2026-03-22T18:45:00.000Z,Iowa State,Kentucky,Big 12,SEC,82,63,Bovada,-5.0,147.0,,,-5.5,147.0
+372579,2026,postseason,2026-03-22T18:45:00.000Z,Iowa State,Kentucky,Big 12,SEC,82,63,Draft Kings,-5.5,146.5,-218.0,180.0,-4.5,146.5
+372572,2026,postseason,2026-03-22T20:30:00.000Z,Wake Forest,Illinois State,ACC,MVC,75,78,Draft Kings,-8.5,152.5,-325.0,260.0,-7.5,149.5
+372580,2026,postseason,2026-03-22T21:15:00.000Z,Kansas,St. John's,Big 12,Big East,65,67,Bovada,3.5,145.0,,,4.0,144.0
+372580,2026,postseason,2026-03-22T21:15:00.000Z,Kansas,St. John's,Big 12,Big East,65,67,Draft Kings,3.5,145.5,140.0,-166.0,3.5,144.5
+372581,2026,postseason,2026-03-22T22:10:00.000Z,Virginia,Tennessee,ACC,SEC,72,79,Bovada,1.0,136.5,,,1.5,137.0
+372581,2026,postseason,2026-03-22T22:10:00.000Z,Virginia,Tennessee,ACC,SEC,72,79,Draft Kings,1.5,137.5,-108.0,-112.0,1.5,137.5
+372573,2026,postseason,2026-03-22T22:30:00.000Z,Auburn,Seattle U,SEC,WCC,91,85,Draft Kings,-14.5,145.5,-1100.0,700.0,-13.5,146.5
+372574,2026,postseason,2026-03-22T23:00:00.000Z,Tulsa,UNLV,American,Mountain West,77,66,Draft Kings,-5.5,161.5,-185.0,154.0,-4.5,161.5
+372582,2026,postseason,2026-03-22T23:10:00.000Z,Florida,Iowa,SEC,Big Ten,72,73,Bovada,-10.0,145.5,,,-10.0,144.5
+372582,2026,postseason,2026-03-22T23:10:00.000Z,Florida,Iowa,SEC,Big Ten,72,73,Draft Kings,-10.5,145.5,-625.0,455.0,-10.5,145.5
+372575,2026,postseason,2026-03-23T00:00:00.000Z,New Mexico,George Washington,Mountain West,A-10,86,61,Draft Kings,-6.5,161.5,-325.0,260.0,-8.5,161.5
+372583,2026,postseason,2026-03-23T00:11:00.000Z,Arizona,Utah State,Big 12,Mountain West,78,66,Bovada,-12.0,154.0,,,-12.0,155.0
+372583,2026,postseason,2026-03-23T00:11:00.000Z,Arizona,Utah State,Big 12,Mountain West,78,66,Draft Kings,-11.5,153.5,-800.0,550.0,-11.5,155.5
+372576,2026,postseason,2026-03-23T00:30:00.000Z,Oklahoma State,Wichita State,Big 12,American,70,96,Draft Kings,-3.5,163.5,-166.0,140.0,-3.5,164.5
+372577,2026,postseason,2026-03-23T01:00:00.000Z,California,Saint Joseph's,ACC,A-10,75,76,Draft Kings,-5.5,151.5,-245.0,200.0,,
+372584,2026,postseason,2026-03-23T01:10:00.000Z,UConn,UCLA,Big East,Big Ten,73,57,Bovada,-5.5,135.5,,,-5.0,138.0
+372584,2026,postseason,2026-03-23T01:10:00.000Z,UConn,UCLA,Big East,Big Ten,73,57,Draft Kings,-4.5,136.5,-185.0,154.0,-4.5,137.5
+372585,2026,postseason,2026-03-23T02:08:00.000Z,Alabama,Texas Tech,SEC,Big 12,90,65,Bovada,-1.0,164.5,,,1.5,164.5
+372585,2026,postseason,2026-03-23T02:08:00.000Z,Alabama,Texas Tech,SEC,Big 12,90,65,Draft Kings,1.5,164.5,,-120.0,1.5,165.5
+372590,2026,postseason,2026-03-24T23:00:00.000Z,Tulsa,Wichita State,American,American,83,79,Draft Kings,-4.5,154.5,-192.0,160.0,-4.5,152.5
+372591,2026,postseason,2026-03-25T01:00:00.000Z,New Mexico,Saint Joseph's,Mountain West,A-10,84,69,Draft Kings,-10.5,155.5,-625.0,455.0,-10.5,152.5
+372592,2026,postseason,2026-03-25T23:00:00.000Z,Dayton,Illinois State,A-10,MVC,55,61,Draft Kings,-7.5,141.5,-325.0,260.0,-7.5,139.5
+372593,2026,postseason,2026-03-26T01:00:00.000Z,Auburn,Nevada,SEC,Mountain West,75,69,Draft Kings,-8.5,153.5,-410.0,320.0,-9.5,154.5
+372587,2026,postseason,2026-03-26T23:10:00.000Z,Purdue,Texas,Big Ten,SEC,79,77,Bovada,-7.5,147.5,,,-7.5,147.5
+372587,2026,postseason,2026-03-26T23:10:00.000Z,Purdue,Texas,Big Ten,SEC,79,77,Draft Kings,-8.5,145.5,-345.0,275.0,-7.5,149.5
+372594,2026,postseason,2026-03-26T23:30:00.000Z,Nebraska,Iowa,Big Ten,Big Ten,71,77,Bovada,-1.5,132.0,,,-1.5,132.0
+372594,2026,postseason,2026-03-26T23:30:00.000Z,Nebraska,Iowa,Big Ten,Big Ten,71,77,Draft Kings,-1.5,131.5,-148.0,124.0,-2.5,133.5
+372586,2026,postseason,2026-03-27T02:05:00.000Z,Houston,Illinois,Big 12,Big Ten,55,65,Bovada,-3.0,,,,-3.0,
+372586,2026,postseason,2026-03-27T02:05:00.000Z,Houston,Illinois,Big 12,Big Ten,55,65,Draft Kings,-2.5,140.5,-155.0,130.0,-2.5,139.5
+372595,2026,postseason,2026-03-27T02:06:00.000Z,Arizona,Arkansas,Big 12,SEC,109,88,Bovada,,166.0,,,,166.0
+372595,2026,postseason,2026-03-27T02:06:00.000Z,Arizona,Arkansas,Big 12,SEC,109,88,Draft Kings,-7.5,165.5,-380.0,300.0,-8.5,167.5
+372589,2026,postseason,2026-03-27T23:10:00.000Z,Duke,St. John's,ACC,Big East,80,75,Draft Kings,-6.5,141.5,-258.0,210.0,-6.5,141.5
+372588,2026,postseason,2026-03-27T23:35:00.000Z,Michigan,Alabama,Big Ten,SEC,90,77,Draft Kings,-9.5,172.5,-600.0,440.0,-10.5,175.5
+372596,2026,postseason,2026-03-28T01:55:00.000Z,UConn,Michigan State,Big East,Big Ten,67,63,Draft Kings,-1.5,136.5,-130.0,110.0,-2.5,136.5
+372597,2026,postseason,2026-03-28T02:35:00.000Z,Iowa State,Tennessee,Big 12,SEC,62,76,Draft Kings,-3.5,139.5,-192.0,160.0,-3.5,138.5
+372604,2026,postseason,2026-03-28T22:09:00.000Z,Illinois,Iowa,Big Ten,Big Ten,71,59,Draft Kings,-6.5,138.5,-290.0,235.0,-7.5,138.5
+372605,2026,postseason,2026-03-29T00:59:00.000Z,Arizona,Purdue,Big 12,Big Ten,79,64,Draft Kings,-5.5,152.5,-270.0,220.0,-6.5,152.5
+372606,2026,postseason,2026-03-29T18:15:00.000Z,Michigan,Tennessee,Big Ten,SEC,95,62,Draft Kings,-8.5,146.5,-340.0,270.0,-7.5,146.5
+372607,2026,postseason,2026-03-29T21:05:00.000Z,Duke,UConn,ACC,Big East,72,73,Draft Kings,-4.5,135.5,-218.0,180.0,-5.5,134.5

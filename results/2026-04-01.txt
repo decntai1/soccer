@@ -1,0 +1,11 @@
+# NCAAB results 2026-04-01 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:47Z
+
+GAME Oklahoma Sooners@Colorado Buffaloes
+NEUTRAL
+H Colorado Buffaloes: 41 33 12
+H Oklahoma Sooners: 37 37 16
+
+GAME Baylor Bears@Minnesota Golden Gophers
+NEUTRAL
+H Minnesota Golden Gophers: 26 22
+H Baylor Bears: 31 36

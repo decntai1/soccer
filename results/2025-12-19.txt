@@ -1,0 +1,116 @@
+# NCAAB results 2025-12-19 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:45Z
+
+GAME Abilene Christian Wildcats@BYU Cougars
+H BYU Cougars: 43 42
+H Abilene Christian Wildcats: 36 31
+
+GAME Dartmouth Big Green@Sacred Heart Pioneers
+H Sacred Heart Pioneers: 35 50
+H Dartmouth Big Green: 26 37
+
+GAME Brewton Parker Wildcats@South Carolina State Bulldogs
+H South Carolina State Bulldogs: 34 34
+H Brewton Parker Wildcats: 27 27
+
+GAME Reinhardt Eagles@Samford Bulldogs
+H Samford Bulldogs: 41 44
+H Reinhardt Eagles: 17 32
+
+GAME Lehman Bridges@Fairleigh Dickinson Knights
+H Fairleigh Dickinson Knights: 40 36
+H Lehman Bridges: 17 25
+
+GAME Grambling Tigers@Hampton Pirates
+NEUTRAL
+H Hampton Pirates: 33 39
+H Grambling Tigers: 38 43
+
+GAME La Sierra Golden Eagles@Cal State Northridge Matadors
+H Cal State Northridge Matadors: 43 45
+H La Sierra Golden Eagles: 16 37
+
+GAME South Dakota State Jackrabbits@Milwaukee Panthers
+H Milwaukee Panthers: 39 49
+H South Dakota State Jackrabbits: 38 49
+
+GAME Coppin State Eagles@Navy Midshipmen
+H Navy Midshipmen: 36 52
+H Coppin State Eagles: 24 31
+
+GAME Notre Dame (MD) Gators@Towson Tigers
+H Towson Tigers: 56 51
+H Notre Dame (MD) Gators: 31 29
+
+GAME Seton Hall Pirates@Providence Friars
+H Providence Friars: 28 39
+H Seton Hall Pirates: 35 37
+
+GAME Mississippi Valley State Delta Devils@Florida State Seminoles
+H Florida State Seminoles: 54 42
+H Mississippi Valley State Delta Devils: 17 32
+
+GAME La Salle Explorers@High Point Panthers
+H High Point Panthers: 35 49
+H La Salle Explorers: 29 43
+
+GAME Eastern Michigan Eagles@Akron Zips
+H Akron Zips: 48 45
+H Eastern Michigan Eagles: 34 38
+
+GAME Mount St. Mary's Mountaineers@Drexel Dragons
+H Drexel Dragons: 38 37
+H Mount St. Mary's Mountaineers: 33 34
+
+GAME Norfolk State Spartans@Jackson State Tigers
+NEUTRAL
+H Jackson State Tigers: 29 43
+H Norfolk State Spartans: 42 40
+
+GAME Tulsa Golden Hurricane@Western Kentucky Hilltoppers
+H Western Kentucky Hilltoppers: 37 44
+H Tulsa Golden Hurricane: 30 52
+
+GAME Florida A&M Rattlers@Tarleton State Texans
+H Tarleton State Texans: 49 29
+H Florida A&M Rattlers: 35 19
+
+GAME Wisconsin Badgers@Villanova Wildcats
+NEUTRAL
+H Villanova Wildcats: 35 21 20
+H Wisconsin Badgers: 22 34 10
+
+GAME Alcorn State Braves@Baylor Bears
+H Baylor Bears: 55 58
+H Alcorn State Braves: 30 26
+
+GAME SE Louisiana Lions@LSU Tigers
+H LSU Tigers: 50 28
+H SE Louisiana Lions: 36 29
+
+GAME Belmont Bruins@UC Irvine Anteaters
+H UC Irvine Anteaters: 36 22
+H Belmont Bruins: 38 46
+
+GAME Florida Atlantic Owls@Saint Mary's Gaels
+H Saint Mary's Gaels: 38 50
+H Florida Atlantic Owls: 30 45
+
+GAME San Diego Toreros@UC San Diego Tritons
+H UC San Diego Tritons: 31 49
+H San Diego Toreros: 40 42
+
+GAME North Alabama Lions@Loyola Marymount Lions
+H Loyola Marymount Lions: 46 45
+H North Alabama Lions: 21 36
+
+GAME Cal Poly Mustangs@UCLA Bruins
+H UCLA Bruins: 43 65
+H Cal Poly Mustangs: 45 42
+
+GAME Morgan State Bears@California Golden Bears
+H California Golden Bears: 50 47
+H Morgan State Bears: 23 27
+
+GAME Washington Huskies@Seattle U Redhawks
+H Seattle U Redhawks: 26 44
+H Washington Huskies: 29 37

@@ -1,0 +1,145 @@
+# NCAAB results 2026-02-24 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:46Z
+
+GAME Duke Blue Devils@Notre Dame Fighting Irish
+H Notre Dame Fighting Irish: 22 34
+H Duke Blue Devils: 54 46
+
+GAME Arizona Wildcats@Baylor Bears
+H Baylor Bears: 41 39
+H Arizona Wildcats: 34 53
+
+GAME Minnesota Golden Gophers@Michigan Wolverines
+H Michigan Wolverines: 32 45
+H Minnesota Golden Gophers: 28 39
+
+GAME Iowa State Cyclones@Utah Utes
+H Utah Utes: 31 28
+H Iowa State Cyclones: 41 34
+
+GAME NC State Wolfpack@Virginia Cavaliers
+H Virginia Cavaliers: 32 58
+H NC State Wolfpack: 19 42
+
+GAME Cincinnati Bearcats@Texas Tech Red Raiders
+H Texas Tech Red Raiders: 42 38
+H Cincinnati Bearcats: 34 34
+
+GAME UCF Knights@BYU Cougars
+H BYU Cougars: 28 56
+H UCF Knights: 52 45
+
+GAME Miami (OH) RedHawks@Eastern Michigan Eagles
+H Eastern Michigan Eagles: 22 42
+H Miami (OH) RedHawks: 43 31
+
+GAME Tennessee Volunteers@Missouri Tigers
+H Missouri Tigers: 26 47
+H Tennessee Volunteers: 29 40
+
+GAME Saint Louis Billikens@Dayton Flyers
+H Dayton Flyers: 44 33
+H Saint Louis Billikens: 28 34
+
+GAME Saint Francis Red Wolves@New Haven Chargers
+H New Haven Chargers: 32 35
+H Saint Francis Red Wolves: 41 32
+
+GAME George Washington Revolutionaries@La Salle Explorers
+H La Salle Explorers: 35 42
+H George Washington Revolutionaries: 45 59
+
+GAME Washington Huskies@Rutgers Scarlet Knights
+H Rutgers Scarlet Knights: 29 43
+H Washington Huskies: 36 43
+
+GAME West Virginia Mountaineers@Oklahoma State Cowboys
+H Oklahoma State Cowboys: 46 31 14
+H West Virginia Mountaineers: 33 44 7
+
+GAME Northwestern Wildcats@Indiana Hoosiers
+H Indiana Hoosiers: 42 26
+H Northwestern Wildcats: 33 39
+
+GAME Marquette Golden Eagles@Georgetown Hoyas
+H Georgetown Hoyas: 35 25
+H Marquette Golden Eagles: 40 36
+
+GAME Western Michigan Broncos@Bowling Green Falcons
+H Bowling Green Falcons: 38 41
+H Western Michigan Broncos: 41 47
+
+GAME Northern Illinois Huskies@Toledo Rockets
+H Toledo Rockets: 36 43
+H Northern Illinois Huskies: 31 38
+
+GAME Massachusetts Minutemen@Ball State Cardinals
+H Ball State Cardinals: 21 40 13
+H Massachusetts Minutemen: 34 27 12
+
+GAME Central Michigan Chippewas@Kent State Golden Flashes
+H Kent State Golden Flashes: 32 51
+H Central Michigan Chippewas: 42 39
+
+GAME Buffalo Bulls@Akron Zips
+H Akron Zips: 39 60
+H Buffalo Bulls: 35 50
+
+GAME Louisiana Ragin' Cajuns@Troy Trojans
+H Troy Trojans: 27 51
+H Louisiana Ragin' Cajuns: 23 36
+
+GAME Old Dominion Monarchs@Marshall Thundering Herd
+H Marshall Thundering Herd: 49 48
+H Old Dominion Monarchs: 42 46
+
+GAME Kentucky Wildcats@South Carolina Gamecocks
+H South Carolina Gamecocks: 21 42
+H Kentucky Wildcats: 28 44
+
+GAME Coastal Carolina Chanticleers@Georgia State Panthers
+H Georgia State Panthers: 28 43
+H Coastal Carolina Chanticleers: 30 46
+
+GAME Southern Indiana Screaming Eagles@Morehead State Eagles
+H Morehead State Eagles: 29 35
+H Southern Indiana Screaming Eagles: 29 34
+
+GAME Bradley Braves@UIC Flames
+H UIC Flames: 39 33 7 14
+H Bradley Braves: 28 44 7 7
+
+GAME Southern Miss Golden Eagles@Arkansas State Red Wolves
+H Arkansas State Red Wolves: 53 36
+H Southern Miss Golden Eagles: 44 40
+
+GAME Fresno State Bulldogs@Colorado State Rams
+H Colorado State Rams: 32 42
+H Fresno State Bulldogs: 39 31
+
+GAME Arizona State Sun Devils@TCU Horned Frogs
+H TCU Horned Frogs: 33 57
+H Arizona State Sun Devils: 30 48
+
+GAME Wyoming Cowboys@Boise State Broncos
+H Boise State Broncos: 32 40
+H Wyoming Cowboys: 30 32
+
+GAME Miami Hurricanes@Florida State Seminoles
+H Florida State Seminoles: 32 41
+H Miami Hurricanes: 38 45
+
+GAME San José State Spartans@Air Force Falcons
+H Air Force Falcons: 37 43
+H San José State Spartans: 42 44
+
+GAME Auburn Tigers@Oklahoma Sooners
+H Oklahoma Sooners: 51 40
+H Auburn Tigers: 42 37
+
+GAME New Mexico Lobos@Nevada Wolf Pack
+H Nevada Wolf Pack: 23 44
+H New Mexico Lobos: 23 37
+
+GAME USC Trojans@UCLA Bruins
+H UCLA Bruins: 38 43
+H USC Trojans: 29 33

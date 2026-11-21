@@ -1,0 +1,117 @@
+# NCAAB results 2026-01-06 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:45Z
+
+GAME Michigan Wolverines@Penn State Nittany Lions
+H Penn State Nittany Lions: 31 41
+H Michigan Wolverines: 40 34
+
+GAME Duke Blue Devils@Louisville Cardinals
+H Louisville Cardinals: 47 26
+H Duke Blue Devils: 38 46
+
+GAME Texas Tech Red Raiders@Houston Cougars
+H Houston Cougars: 31 38
+H Texas Tech Red Raiders: 31 34
+
+GAME Georgia Bulldogs@Florida Gators
+H Florida Gators: 41 51
+H Georgia Bulldogs: 40 37
+
+GAME Iowa Hawkeyes@Minnesota Golden Gophers
+H Minnesota Golden Gophers: 31 39
+H Iowa Hawkeyes: 24 43
+
+GAME Texas Longhorns@Tennessee Volunteers
+H Tennessee Volunteers: 48 37
+H Texas Longhorns: 33 38
+
+GAME TCU Horned Frogs@Kansas Jayhawks
+H Kansas Jayhawks: 41 46 17
+H TCU Horned Frogs: 36 51 13
+
+GAME UCF Knights@Oklahoma State Cowboys
+H Oklahoma State Cowboys: 41 46
+H UCF Knights: 32 44
+
+GAME Massachusetts Minutemen@Ohio Bobcats
+H Ohio Bobcats: 48 38
+H Massachusetts Minutemen: 41 42
+
+GAME Cincinnati Bearcats@West Virginia Mountaineers
+H West Virginia Mountaineers: 31 31
+H Cincinnati Bearcats: 28 32
+
+GAME St. John's Red Storm@Butler Bulldogs
+H Butler Bulldogs: 42 28
+H St. John's Red Storm: 42 42
+
+GAME Syracuse Orange@Georgia Tech Yellow Jackets
+H Georgia Tech Yellow Jackets: 30 42
+H Syracuse Orange: 44 38
+
+GAME Western Michigan Broncos@Miami (OH) RedHawks
+H Miami (OH) RedHawks: 39 48
+H Western Michigan Broncos: 35 41
+
+GAME Eastern Michigan Eagles@Ball State Cardinals
+H Ball State Cardinals: 25 27
+H Eastern Michigan Eagles: 39 35
+
+GAME Central Michigan Chippewas@Akron Zips
+H Akron Zips: 43 39
+H Central Michigan Chippewas: 30 39
+
+GAME Bowling Green Falcons@Kent State Golden Flashes
+H Kent State Golden Flashes: 45 51
+H Bowling Green Falcons: 45 48
+
+GAME South Carolina Gamecocks@LSU Tigers
+H LSU Tigers: 25 43
+H South Carolina Gamecocks: 50 28
+
+GAME George Washington Revolutionaries@Dayton Flyers
+H Dayton Flyers: 30 49
+H George Washington Revolutionaries: 35 37
+
+GAME Georgetown Hoyas@DePaul Blue Demons
+H DePaul Blue Demons: 32 24
+H Georgetown Hoyas: 35 15
+
+GAME Toledo Rockets@Northern Illinois Huskies
+H Northern Illinois Huskies: 25 36
+H Toledo Rockets: 37 38
+
+GAME Lindenwood Lions@SIU Edwardsville Cougars
+H SIU Edwardsville Cougars: 35 31
+H Lindenwood Lions: 34 28
+
+GAME New Mexico Lobos@Colorado State Rams
+H Colorado State Rams: 30 40
+H New Mexico Lobos: 39 41
+
+GAME UCLA Bruins@Wisconsin Badgers
+H Wisconsin Badgers: 45 35
+H UCLA Bruins: 31 41
+
+GAME NC State Wolfpack@Boston College Eagles
+H Boston College Eagles: 32 39
+H NC State Wolfpack: 40 39
+
+GAME Utah State Aggies@Air Force Falcons
+H Air Force Falcons: 31 31
+H Utah State Aggies: 45 54
+
+GAME Texas A&M Aggies@Auburn Tigers
+H Auburn Tigers: 47 41
+H Texas A&M Aggies: 37 53
+
+GAME UNLV Rebels@Wyoming Cowboys
+H Wyoming Cowboys: 48 50
+H UNLV Rebels: 26 40
+
+GAME Fresno State Bulldogs@San José State Spartans
+H San José State Spartans: 24 31
+H Fresno State Bulldogs: 37 33
+
+GAME San Diego State Aztecs@Nevada Wolf Pack
+H Nevada Wolf Pack: 36 32
+H San Diego State Aztecs: 34 39

@@ -1,0 +1,81 @@
+# NCAAB results 2026-03-20 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:47Z
+
+GAME Long Island University Sharks@Arizona Wildcats
+NEUTRAL
+H Arizona Wildcats: 53 39
+H Long Island University Sharks: 29 29
+
+GAME Prairie View A&M Panthers@Florida Gators
+NEUTRAL
+H Florida Gators: 60 54
+H Prairie View A&M Panthers: 21 34
+
+GAME Tennessee State Tigers@Iowa State Cyclones
+NEUTRAL
+H Iowa State Cyclones: 55 53
+H Tennessee State Tigers: 29 45
+
+GAME Queens University Royals@Purdue Boilermakers
+NEUTRAL
+H Purdue Boilermakers: 45 59
+H Queens University Royals: 33 38
+
+GAME Furman Paladins@UConn Huskies
+NEUTRAL
+H UConn Huskies: 40 42
+H Furman Paladins: 36 35
+
+GAME Wright State Raiders@Virginia Cavaliers
+NEUTRAL
+H Virginia Cavaliers: 38 44
+H Wright State Raiders: 43 30
+
+GAME Hofstra Pride@Alabama Crimson Tide
+NEUTRAL
+H Alabama Crimson Tide: 37 53
+H Hofstra Pride: 35 35
+
+GAME California Baptist Lancers@Kansas Jayhawks
+NEUTRAL
+H Kansas Jayhawks: 38 30
+H California Baptist Lancers: 18 42
+
+GAME Akron Zips@Texas Tech Red Raiders
+NEUTRAL
+H Texas Tech Red Raiders: 40 51
+H Akron Zips: 35 36
+
+GAME Northern Iowa Panthers@St. John's Red Storm
+NEUTRAL
+H St. John's Red Storm: 47 32
+H Northern Iowa Panthers: 28 25
+
+GAME Miami (OH) RedHawks@Tennessee Volunteers
+NEUTRAL
+H Tennessee Volunteers: 51 27
+H Miami (OH) RedHawks: 32 24
+
+GAME Santa Clara Broncos@Kentucky Wildcats
+NEUTRAL
+H Kentucky Wildcats: 29 44 16
+H Santa Clara Broncos: 31 42 11
+
+GAME UCF Knights@UCLA Bruins
+NEUTRAL
+H UCLA Bruins: 35 40
+H UCF Knights: 27 44
+
+GAME Missouri Tigers@Miami Hurricanes
+NEUTRAL
+H Miami Hurricanes: 27 53
+H Missouri Tigers: 26 40
+
+GAME Utah State Aggies@Villanova Wildcats
+NEUTRAL
+H Villanova Wildcats: 39 37
+H Utah State Aggies: 37 49
+
+GAME Iowa Hawkeyes@Clemson Tigers
+NEUTRAL
+H Clemson Tigers: 25 36
+H Iowa Hawkeyes: 32 35

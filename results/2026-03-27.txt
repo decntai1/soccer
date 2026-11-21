@@ -1,0 +1,21 @@
+# NCAAB results 2026-03-27 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:47Z
+
+GAME St. John's Red Storm@Duke Blue Devils
+NEUTRAL
+H Duke Blue Devils: 39 41
+H St. John's Red Storm: 40 35
+
+GAME Alabama Crimson Tide@Michigan Wolverines
+NEUTRAL
+H Michigan Wolverines: 47 43
+H Alabama Crimson Tide: 49 28
+
+GAME Michigan State Spartans@UConn Huskies
+NEUTRAL
+H UConn Huskies: 35 32
+H Michigan State Spartans: 27 36
+
+GAME Tennessee Volunteers@Iowa State Cyclones
+NEUTRAL
+H Iowa State Cyclones: 33 29
+H Tennessee Volunteers: 34 42

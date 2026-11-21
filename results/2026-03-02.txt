@@ -1,0 +1,73 @@
+# NCAAB results 2026-03-02 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:46Z
+
+GAME Duke Blue Devils@NC State Wolfpack
+H NC State Wolfpack: 30 34
+H Duke Blue Devils: 47 46
+
+GAME Iowa State Cyclones@Arizona Wildcats
+H Arizona Wildcats: 37 36
+H Iowa State Cyclones: 25 32
+
+GAME Norfolk State Spartans@Morgan State Bears
+H Morgan State Bears: 45 45
+H Norfolk State Spartans: 29 55
+
+GAME IU Indianapolis Jaguars@Cleveland State Vikings
+H Cleveland State Vikings: 45 56
+H IU Indianapolis Jaguars: 36 57
+
+GAME South Carolina State Bulldogs@Delaware State Hornets
+H Delaware State Hornets: 26 33
+H South Carolina State Bulldogs: 30 31
+
+GAME North Carolina Central Eagles@Maryland Eastern Shore Hawks
+H Maryland Eastern Shore Hawks: 30 43
+H North Carolina Central Eagles: 23 54
+
+GAME Coppin State Eagles@Howard Bison
+H Howard Bison: 46 44
+H Coppin State Eagles: 29 41
+
+GAME Stephen F. Austin Lumberjacks@Incarnate Word Cardinals
+H Incarnate Word Cardinals: 26 42
+H Stephen F. Austin Lumberjacks: 28 48
+
+GAME Northwestern State Demons@UT Rio Grande Valley Vaqueros
+H UT Rio Grande Valley Vaqueros: 39 35
+H Northwestern State Demons: 30 32
+
+GAME McNeese Cowboys@Nicholls Colonels
+H Nicholls Colonels: 31 34
+H McNeese Cowboys: 40 35
+
+GAME SE Louisiana Lions@LSU New Orleans Privateers
+H LSU New Orleans Privateers: 32 46
+H SE Louisiana Lions: 40 42
+
+GAME East Texas A&M Lions@Texas A&M-Corpus Christi Islanders
+H Texas A&M-Corpus Christi Islanders: 37 47
+H East Texas A&M Lions: 36 35
+
+GAME Montana State Bobcats@Northern Arizona Lumberjacks
+H Northern Arizona Lumberjacks: 25 40
+H Montana State Bobcats: 36 40
+
+GAME Montana Grizzlies@Northern Colorado Bears
+H Northern Colorado Bears: 27 58
+H Montana Grizzlies: 23 34
+
+GAME Lamar Cardinals@Houston Christian Huskies
+H Houston Christian Huskies: 29 46
+H Lamar Cardinals: 24 29
+
+GAME Idaho Vandals@Eastern Washington Eagles
+H Eastern Washington Eagles: 30 51
+H Idaho Vandals: 34 51
+
+GAME Weber State Wildcats@Portland State Vikings
+H Portland State Vikings: 43 41
+H Weber State Wildcats: 26 34
+
+GAME Idaho State Bengals@Sacramento State Hornets
+H Sacramento State Hornets: 46 37
+H Idaho State Bengals: 29 36

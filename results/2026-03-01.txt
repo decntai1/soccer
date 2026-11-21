@@ -1,0 +1,93 @@
+# NCAAB results 2026-03-01 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:46Z
+
+GAME Purdue Boilermakers@Ohio State Buckeyes
+H Ohio State Buckeyes: 36 46
+H Purdue Boilermakers: 31 43
+
+GAME Michigan State Spartans@Indiana Hoosiers
+H Indiana Hoosiers: 37 27
+H Michigan State Spartans: 45 32
+
+GAME La Salle Explorers@Davidson Wildcats
+H Davidson Wildcats: 33 38
+H La Salle Explorers: 27 37
+
+GAME Tulane Green Wave@South Florida Bulls
+H South Florida Bulls: 49 41
+H Tulane Green Wave: 38 24
+
+GAME North Texas Mean Green@UAB Blazers
+H UAB Blazers: 28 30
+H North Texas Mean Green: 21 41
+
+GAME Rutgers Scarlet Knights@Maryland Terrapins
+H Maryland Terrapins: 20 45
+H Rutgers Scarlet Knights: 39 30
+
+GAME UIC Flames@Indiana State Sycamores
+H Indiana State Sycamores: 35 44
+H UIC Flames: 31 32
+
+GAME Quinnipiac Bobcats@Canisius Golden Griffins
+H Canisius Golden Griffins: 30 33
+H Quinnipiac Bobcats: 29 38
+
+GAME Murray State Racers@Bradley Braves
+H Bradley Braves: 36 51
+H Murray State Racers: 35 43
+
+GAME Rice Owls@Temple Owls
+H Temple Owls: 36 38
+H Rice Owls: 35 45
+
+GAME Memphis Tigers@East Carolina Pirates
+H East Carolina Pirates: 44 40
+H Memphis Tigers: 30 38
+
+GAME Charlotte 49ers@Florida Atlantic Owls
+H Florida Atlantic Owls: 35 34 8
+H Charlotte 49ers: 45 24 7
+
+GAME Rider Broncs@Siena Saints
+H Siena Saints: 33 43
+H Rider Broncs: 35 26
+
+GAME Mount St. Mary's Mountaineers@Fairfield Stags
+H Fairfield Stags: 25 22
+H Mount St. Mary's Mountaineers: 39 30
+
+GAME Merrimack Warriors@Niagara Purple Eagles
+H Niagara Purple Eagles: 28 38
+H Merrimack Warriors: 30 43
+
+GAME Saint Peter's Peacocks@Marist Red Foxes
+H Marist Red Foxes: 31 25
+H Saint Peter's Peacocks: 30 33
+
+GAME Iona Gaels@Manhattan Jaspers
+H Manhattan Jaspers: 26 39
+H Iona Gaels: 35 34
+
+GAME Northern Iowa Panthers@Drake Bulldogs
+H Drake Bulldogs: 24 29
+H Northern Iowa Panthers: 39 36
+
+GAME Southern Illinois Salukis@Evansville Purple Aces
+H Evansville Purple Aces: 27 40
+H Southern Illinois Salukis: 38 43
+
+GAME DePaul Blue Demons@Marquette Golden Eagles
+H Marquette Golden Eagles: 14 37
+H DePaul Blue Demons: 32 30
+
+GAME Belmont Bruins@Illinois State Redbirds
+H Illinois State Redbirds: 38 43
+H Belmont Bruins: 40 34
+
+GAME Charleston Cougars@UNC Wilmington Seahawks
+H UNC Wilmington Seahawks: 35 41
+H Charleston Cougars: 23 56
+
+GAME Wichita State Shockers@UTSA Roadrunners
+H UTSA Roadrunners: 29 38
+H Wichita State Shockers: 41 43

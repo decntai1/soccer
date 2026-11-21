@@ -1,0 +1,229 @@
+# NCAAB results 2026-02-26 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:46Z
+
+GAME Michigan State Spartans@Purdue Boilermakers
+H Purdue Boilermakers: 39 35
+H Michigan State Spartans: 36 40
+
+GAME Charleston Cougars@Hampton Pirates
+H Hampton Pirates: 30 41
+H Charleston Cougars: 42 43
+
+GAME Rhode Island Rams@St. Bonaventure Bonnies
+H St. Bonaventure Bonnies: 39 55
+H Rhode Island Rams: 30 46
+
+GAME New Hampshire Wildcats@Binghamton Bearcats
+H Binghamton Bearcats: 26 39
+H New Hampshire Wildcats: 36 27
+
+GAME Bryant Bulldogs@UMBC Retrievers
+H UMBC Retrievers: 36 34
+H Bryant Bulldogs: 30 28
+
+GAME Bethune-Cookman Wildcats@Grambling Tigers
+H Grambling Tigers: 36 35
+H Bethune-Cookman Wildcats: 33 43
+
+GAME Maine Black Bears@UAlbany Great Danes
+H UAlbany Great Danes: 31 28
+H Maine Black Bears: 37 33
+
+GAME Temple Owls@Florida Atlantic Owls
+H Florida Atlantic Owls: 38 39
+H Temple Owls: 44 29
+
+GAME Winthrop Eagles@Charleston Southern Buccaneers
+H Charleston Southern Buccaneers: 42 44
+H Winthrop Eagles: 36 48
+
+GAME South Carolina Upstate Spartans@Radford Highlanders
+H Radford Highlanders: 29 42
+H South Carolina Upstate Spartans: 30 29
+
+GAME UNC Asheville Bulldogs@Gardner-Webb Runnin' Bulldogs
+H Gardner-Webb Runnin' Bulldogs: 37 34
+H UNC Asheville Bulldogs: 34 43
+
+GAME High Point Panthers@Presbyterian Blue Hose
+H Presbyterian Blue Hose: 35 38
+H High Point Panthers: 45 34
+
+GAME Mercyhurst Lakers@Central Connecticut Blue Devils
+H Central Connecticut Blue Devils: 34 46
+H Mercyhurst Lakers: 30 48
+
+GAME New Haven Chargers@Wagner Seahawks
+H Wagner Seahawks: 20 45
+H New Haven Chargers: 22 40
+
+GAME Saint Francis Red Wolves@Stonehill Skyhawks
+H Stonehill Skyhawks: 54 49
+H Saint Francis Red Wolves: 33 44
+
+GAME Chicago State Cougars@Long Island University Sharks
+H Long Island University Sharks: 32 41
+H Chicago State Cougars: 31 25
+
+GAME Fairleigh Dickinson Knights@Le Moyne Dolphins
+H Le Moyne Dolphins: 36 40
+H Fairleigh Dickinson Knights: 33 26
+
+GAME UMass Lowell River Hawks@Vermont Catamounts
+H Vermont Catamounts: 34 32
+H UMass Lowell River Hawks: 30 34
+
+GAME Campbell Fighting Camels@Drexel Dragons
+H Drexel Dragons: 27 38
+H Campbell Fighting Camels: 27 33
+
+GAME Elon Phoenix@Towson Tigers
+H Towson Tigers: 26 32
+H Elon Phoenix: 22 34
+
+GAME North Carolina A&T Aggies@UNC Wilmington Seahawks
+H UNC Wilmington Seahawks: 44 44
+H North Carolina A&T Aggies: 26 39
+
+GAME Stony Brook Seawolves@Monmouth Hawks
+H Monmouth Hawks: 49 33
+H Stony Brook Seawolves: 35 34
+
+GAME Northeastern Huskies@William & Mary Tribe
+H William & Mary Tribe: 35 49
+H Northeastern Huskies: 32 45
+
+GAME UNC Greensboro Spartans@Chattanooga Mocs
+H Chattanooga Mocs: 37 43
+H UNC Greensboro Spartans: 38 47
+
+GAME Stetson Hatters@Jacksonville Dolphins
+H Jacksonville Dolphins: 42 47
+H Stetson Hatters: 34 51
+
+GAME Florida Gulf Coast Eagles@North Florida Ospreys
+H North Florida Ospreys: 27 49
+H Florida Gulf Coast Eagles: 36 34
+
+GAME Delaware Blue Hens@Jacksonville State Gamecocks
+H Jacksonville State Gamecocks: 25 36 19
+H Delaware Blue Hens: 25 36 9
+
+GAME Liberty Flames@Kennesaw State Owls
+H Kennesaw State Owls: 32 42
+H Liberty Flames: 29 36
+
+GAME Missouri State Bears@Louisiana Tech Bulldogs
+H Louisiana Tech Bulldogs: 37 35
+H Missouri State Bears: 38 32
+
+GAME UTEP Miners@Middle Tennessee Blue Raiders
+H Middle Tennessee Blue Raiders: 34 43
+H UTEP Miners: 26 41
+
+GAME New Mexico State Aggies@Western Kentucky Hilltoppers
+H Western Kentucky Hilltoppers: 48 45
+H New Mexico State Aggies: 26 44
+
+GAME Denver Pioneers@Oral Roberts Golden Eagles
+H Oral Roberts Golden Eagles: 51 51
+H Denver Pioneers: 33 47
+
+GAME South Dakota State Jackrabbits@Kansas City Roos
+H Kansas City Roos: 30 29
+H South Dakota State Jackrabbits: 36 37
+
+GAME VMI Keydets@Samford Bulldogs
+H Samford Bulldogs: 36 44
+H VMI Keydets: 36 25
+
+GAME Tarleton State Texans@Utah Valley Wolverines
+H Utah Valley Wolverines: 35 44
+H Tarleton State Texans: 28 44
+
+GAME Alcorn State Braves@Texas Southern Tigers
+H Texas Southern Tigers: 41 35 16
+H Alcorn State Braves: 41 35 11
+
+GAME Florida A&M Rattlers@Southern Jaguars
+H Southern Jaguars: 33 38
+H Florida A&M Rattlers: 32 50
+
+GAME Western Illinois Leathernecks@SIU Edwardsville Cougars
+H SIU Edwardsville Cougars: 30 37
+H Western Illinois Leathernecks: 23 24
+
+GAME Tennessee State Tigers@Southeast Missouri State Redhawks
+H Southeast Missouri State Redhawks: 38 33
+H Tennessee State Tigers: 33 46
+
+GAME Eastern Illinois Panthers@Lindenwood Lions
+H Lindenwood Lions: 29 38
+H Eastern Illinois Panthers: 36 35
+
+GAME Morehead State Eagles@Little Rock Trojans
+H Little Rock Trojans: 24 46
+H Morehead State Eagles: 37 39
+
+GAME Wichita State Shockers@Memphis Tigers
+H Memphis Tigers: 35 47
+H Wichita State Shockers: 40 48
+
+GAME UC Riverside Highlanders@UC Santa Barbara Gauchos
+H UC Santa Barbara Gauchos: 39 31
+H UC Riverside Highlanders: 27 32
+
+GAME North Dakota State Bison@St. Thomas Tommies
+H St. Thomas Tommies: 50 34
+H North Dakota State Bison: 27 35
+
+GAME Hawai'i Rainbow Warriors@UC Davis Aggies
+H UC Davis Aggies: 31 42
+H Hawai'i Rainbow Warriors: 43 34
+
+GAME Portland State Vikings@Montana State Bobcats
+H Montana State Bobcats: 43 41
+H Portland State Vikings: 34 35
+
+GAME Sacramento State Hornets@Montana Grizzlies
+H Montana Grizzlies: 42 39
+H Sacramento State Hornets: 32 41
+
+GAME Northern Arizona Lumberjacks@Idaho Vandals
+H Idaho Vandals: 37 41
+H Northern Arizona Lumberjacks: 29 29
+
+GAME Northern Colorado Bears@Eastern Washington Eagles
+H Eastern Washington Eagles: 40 42
+H Northern Colorado Bears: 40 32
+
+GAME Tennessee Tech Golden Eagles@UT Martin Skyhawks
+H UT Martin Skyhawks: 23 41
+H Tennessee Tech Golden Eagles: 22 27
+
+GAME Abilene Christian Wildcats@Utah Tech Trailblazers
+H Utah Tech Trailblazers: 47 38
+H Abilene Christian Wildcats: 38 43
+
+GAME Florida International Panthers@Sam Houston Bearkats
+H Sam Houston Bearkats: 50 50
+H Florida International Panthers: 31 36
+
+GAME Jackson State Tigers@Prairie View A&M Panthers
+H Prairie View A&M Panthers: 31 44 10
+H Jackson State Tigers: 33 42 1
+
+GAME Long Beach State Beach@Cal Poly Mustangs
+H Cal Poly Mustangs: 48 54
+H Long Beach State Beach: 40 52
+
+GAME UC Irvine Anteaters@Cal State Northridge Matadors
+H Cal State Northridge Matadors: 24 43
+H UC Irvine Anteaters: 36 32
+
+GAME Cal State Bakersfield Roadrunners@UC San Diego Tritons
+H UC San Diego Tritons: 43 41
+H Cal State Bakersfield Roadrunners: 27 45
+
+GAME UT Arlington Mavericks@California Baptist Lancers
+H California Baptist Lancers: 40 28
+H UT Arlington Mavericks: 27 29

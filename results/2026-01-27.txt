@@ -1,0 +1,141 @@
+# NCAAB results 2026-01-27 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:46Z
+
+GAME Providence Friars@UConn Huskies
+H UConn Huskies: 41 46
+H Providence Friars: 37 44
+
+GAME Nebraska Cornhuskers@Michigan Wolverines
+H Michigan Wolverines: 48 27
+H Nebraska Cornhuskers: 50 22
+
+GAME Michigan State Spartans@Rutgers Scarlet Knights
+H Rutgers Scarlet Knights: 37 36 6
+H Michigan State Spartans: 28 45 15
+
+GAME Purdue Boilermakers@Indiana Hoosiers
+H Indiana Hoosiers: 40 32
+H Purdue Boilermakers: 29 38
+
+GAME Arkansas Razorbacks@Oklahoma Sooners
+H Oklahoma Sooners: 48 31
+H Arkansas Razorbacks: 44 39
+
+GAME Virginia Cavaliers@Notre Dame Fighting Irish
+H Notre Dame Fighting Irish: 44 29 12 12
+H Virginia Cavaliers: 35 38 12 15
+
+GAME Kentucky Wildcats@Vanderbilt Commodores
+H Vanderbilt Commodores: 43 37
+H Kentucky Wildcats: 23 32
+
+GAME George Washington Revolutionaries@Saint Louis Billikens
+H Saint Louis Billikens: 33 46
+H George Washington Revolutionaries: 43 33
+
+GAME Missouri Tigers@Alabama Crimson Tide
+H Alabama Crimson Tide: 42 48
+H Missouri Tigers: 29 35
+
+GAME Massachusetts Minutemen@Miami (OH) RedHawks
+H Miami (OH) RedHawks: 43 43
+H Massachusetts Minutemen: 47 37
+
+GAME Alabama A&M Bulldogs@Prairie View A&M Panthers
+H Prairie View A&M Panthers: 36 24
+H Alabama A&M Bulldogs: 46 34
+
+GAME Alabama State Hornets@Texas Southern Tigers
+H Texas Southern Tigers: 43 53
+H Alabama State Hornets: 29 35
+
+GAME Northwestern State Demons@Stephen F. Austin Lumberjacks
+H Stephen F. Austin Lumberjacks: 37 32
+H Northwestern State Demons: 32 35
+
+GAME LSU New Orleans Privateers@Nicholls Colonels
+H Nicholls Colonels: 29 33
+H LSU New Orleans Privateers: 39 41
+
+GAME Wake Forest Demon Deacons@Pittsburgh Panthers
+H Pittsburgh Panthers: 30 36 14
+H Wake Forest Demon Deacons: 36 30 10
+
+GAME East Texas A&M Lions@Lamar Cardinals
+H Lamar Cardinals: 35 47
+H East Texas A&M Lions: 33 28
+
+GAME Richmond Spiders@VCU Rams
+H VCU Rams: 39 38
+H Richmond Spiders: 29 40
+
+GAME Rhode Island Rams@Dayton Flyers
+H Dayton Flyers: 39 25 12
+H Rhode Island Rams: 31 33 17
+
+GAME Arizona State Sun Devils@UCF Knights
+H UCF Knights: 35 44
+H Arizona State Sun Devils: 39 37
+
+GAME Syracuse Orange@NC State Wolfpack
+H NC State Wolfpack: 41 47
+H Syracuse Orange: 37 31
+
+GAME Toledo Rockets@Akron Zips
+H Akron Zips: 41 50
+H Toledo Rockets: 49 32
+
+GAME Ohio Bobcats@Kent State Golden Flashes
+H Kent State Golden Flashes: 28 44
+H Ohio Bobcats: 24 33
+
+GAME Eastern Michigan Eagles@Central Michigan Chippewas
+H Central Michigan Chippewas: 38 62
+H Eastern Michigan Eagles: 36 29
+
+GAME Buffalo Bulls@Bowling Green Falcons
+H Bowling Green Falcons: 32 46
+H Buffalo Bulls: 39 50
+
+GAME McNeese Cowboys@SE Louisiana Lions
+H SE Louisiana Lions: 27 39
+H McNeese Cowboys: 36 40
+
+GAME Indiana State Sycamores@UIC Flames
+H UIC Flames: 41 35
+H Indiana State Sycamores: 32 42
+
+GAME Georgia Tech Yellow Jackets@Virginia Tech Hokies
+H Virginia Tech Hokies: 36 35
+H Georgia Tech Yellow Jackets: 30 35
+
+GAME Incarnate Word Cardinals@Houston Christian Huskies
+H Houston Christian Huskies: 31 50
+H Incarnate Word Cardinals: 41 34
+
+GAME Western Michigan Broncos@Northern Illinois Huskies
+H Northern Illinois Huskies: 35 50
+H Western Michigan Broncos: 30 35
+
+GAME Kansas State Wildcats@West Virginia Mountaineers
+H West Virginia Mountaineers: 28 31
+H Kansas State Wildcats: 22 32
+
+GAME Saint Joseph's Hawks@Loyola Chicago Ramblers
+H Loyola Chicago Ramblers: 24 40
+H Saint Joseph's Hawks: 51 34
+
+GAME Creighton Bluejays@Marquette Golden Eagles
+H Marquette Golden Eagles: 52 34
+H Creighton Bluejays: 23 39
+
+GAME Boise State Broncos@San José State Spartans
+H San José State Spartans: 33 25
+H Boise State Broncos: 36 53
+
+GAME Grand Canyon Lopes@Nevada Wolf Pack
+H Nevada Wolf Pack: 26 27 13
+H Grand Canyon Lopes: 24 29 7
+
+GAME New Mexico Lobos@UNLV Rebels
+H UNLV Rebels: 22 39
+H New Mexico Lobos: 41 48

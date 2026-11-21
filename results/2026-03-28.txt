@@ -1,0 +1,11 @@
+# NCAAB results 2026-03-28 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:47Z
+
+GAME Purdue Boilermakers@Arizona Wildcats
+NEUTRAL
+H Arizona Wildcats: 31 48
+H Purdue Boilermakers: 38 26
+
+GAME Iowa Hawkeyes@Illinois Fighting Illini
+NEUTRAL
+H Illinois Fighting Illini: 28 43
+H Iowa Hawkeyes: 32 27

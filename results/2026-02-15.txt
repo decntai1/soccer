@@ -1,0 +1,129 @@
+# NCAAB results 2026-02-15 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:46Z
+
+GAME Indiana Hoosiers@Illinois Fighting Illini
+H Illinois Fighting Illini: 38 33
+H Indiana Hoosiers: 31 20
+
+GAME UTSA Roadrunners@Charlotte 49ers
+H Charlotte 49ers: 44 35
+H UTSA Roadrunners: 38 50
+
+GAME Utah Utes@Cincinnati Bearcats
+H Cincinnati Bearcats: 37 32
+H Utah Utes: 34 31
+
+GAME Maryland Terrapins@Rutgers Scarlet Knights
+H Rutgers Scarlet Knights: 27 41
+H Maryland Terrapins: 27 30
+
+GAME Holy Cross Crusaders@Loyola Maryland Greyhounds
+H Loyola Maryland Greyhounds: 30 53
+H Holy Cross Crusaders: 27 46
+
+GAME Denver Pioneers@Omaha Mavericks
+H Omaha Mavericks: 49 34
+H Denver Pioneers: 38 38
+
+GAME Youngstown State Penguins@Detroit Mercy Titans
+H Detroit Mercy Titans: 37 39
+H Youngstown State Penguins: 29 41
+
+GAME Manhattan Jaspers@Canisius Golden Griffins
+H Canisius Golden Griffins: 27 38
+H Manhattan Jaspers: 37 32
+
+GAME Indiana State Sycamores@Valparaiso Beacons
+H Valparaiso Beacons: 49 27
+H Indiana State Sycamores: 43 32
+
+GAME Bradley Braves@Southern Illinois Salukis
+H Southern Illinois Salukis: 28 32
+H Bradley Braves: 28 42
+
+GAME North Texas Mean Green@Temple Owls
+H Temple Owls: 28 34
+H North Texas Mean Green: 22 43
+
+GAME South Florida Bulls@Florida Atlantic Owls
+H Florida Atlantic Owls: 38 34 9
+H South Florida Bulls: 36 36 11
+
+GAME Tulane Green Wave@UAB Blazers
+H UAB Blazers: 26 28
+H Tulane Green Wave: 36 19
+
+GAME Rider Broncs@Sacred Heart Pioneers
+H Sacred Heart Pioneers: 49 37
+H Rider Broncs: 30 45
+
+GAME Fairfield Stags@Saint Peter's Peacocks
+H Saint Peter's Peacocks: 43 40
+H Fairfield Stags: 23 51
+
+GAME Merrimack Warriors@Quinnipiac Bobcats
+H Quinnipiac Bobcats: 21 28
+H Merrimack Warriors: 21 35
+
+GAME Oakland Golden Grizzlies@Robert Morris Colonials
+H Robert Morris Colonials: 42 51
+H Oakland Golden Grizzlies: 38 31
+
+GAME Wright State Raiders@Cleveland State Vikings
+H Cleveland State Vikings: 36 54
+H Wright State Raiders: 51 51
+
+GAME IU Indianapolis Jaguars@Purdue Fort Wayne Mastodons
+H Purdue Fort Wayne Mastodons: 42 41
+H IU Indianapolis Jaguars: 36 42
+
+GAME Iona Gaels@Niagara Purple Eagles
+H Niagara Purple Eagles: 34 36
+H Iona Gaels: 30 38
+
+GAME Siena Saints@Marist Red Foxes
+H Marist Red Foxes: 29 34
+H Siena Saints: 36 31
+
+GAME Drake Bulldogs@Northern Iowa Panthers
+H Northern Iowa Panthers: 38 48
+H Drake Bulldogs: 29 33
+
+GAME Illinois State Redbirds@UIC Flames
+H UIC Flames: 33 50
+H Illinois State Redbirds: 26 30
+
+GAME Green Bay Phoenix@Milwaukee Panthers
+H Milwaukee Panthers: 25 50
+H Green Bay Phoenix: 31 41
+
+GAME Davidson Wildcats@Dayton Flyers
+H Dayton Flyers: 34 36
+H Davidson Wildcats: 26 33
+
+GAME Eastern Kentucky Colonels@North Alabama Lions
+H North Alabama Lions: 32 39 13
+H Eastern Kentucky Colonels: 31 40 7
+
+GAME Charleston Cougars@Campbell Fighting Camels
+H Campbell Fighting Camels: 28 29
+H Charleston Cougars: 36 26
+
+GAME Belmont Bruins@Murray State Racers
+H Murray State Racers: 39 31
+H Belmont Bruins: 24 63
+
+GAME San Francisco Dons@San Diego Toreros
+H San Diego Toreros: 41 38
+H San Francisco Dons: 36 56
+
+GAME Seton Hall Pirates@Butler Bulldogs
+H Butler Bulldogs: 24 32
+H Seton Hall Pirates: 23 40
+
+GAME Towson Tigers@Monmouth Hawks
+H Monmouth Hawks: 33 39
+H Towson Tigers: 31 40
+
+GAME Oregon State Beavers@Seattle U Redhawks
+H Seattle U Redhawks: 36 24
+H Oregon State Beavers: 18 32

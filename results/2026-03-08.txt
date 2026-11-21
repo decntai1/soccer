@@ -1,0 +1,150 @@
+# NCAAB results 2026-03-08 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:47Z
+
+GAME Michigan State Spartans@Michigan Wolverines
+H Michigan Wolverines: 42 48
+H Michigan State Spartans: 41 39
+
+GAME Iowa Hawkeyes@Nebraska Cornhuskers
+H Nebraska Cornhuskers: 30 40 14
+H Iowa Hawkeyes: 26 44 5
+
+GAME Illinois Fighting Illini@Maryland Terrapins
+H Maryland Terrapins: 34 38
+H Illinois Fighting Illini: 37 41
+
+GAME Campbell Fighting Camels@UNC Wilmington Seahawks
+NEUTRAL
+H UNC Wilmington Seahawks: 33 37
+H Campbell Fighting Camels: 31 54
+
+GAME Colgate Raiders@Lehigh Mountain Hawks
+H Lehigh Mountain Hawks: 33 43
+H Colgate Raiders: 30 39
+
+GAME Northern Iowa Panthers@UIC Flames
+NEUTRAL
+H UIC Flames: 41 28
+H Northern Iowa Panthers: 48 36
+
+GAME Winthrop Eagles@High Point Panthers
+NEUTRAL
+H High Point Panthers: 39 52
+H Winthrop Eagles: 33 43
+
+GAME Penn State Nittany Lions@Rutgers Scarlet Knights
+H Rutgers Scarlet Knights: 43 31
+H Penn State Nittany Lions: 21 41
+
+GAME Boston University Terriers@Navy Midshipmen
+H Navy Midshipmen: 35 37
+H Boston University Terriers: 36 37
+
+GAME Queens University Royals@Central Arkansas Bears
+NEUTRAL
+H Central Arkansas Bears: 34 48 11
+H Queens University Royals: 30 52 16
+
+GAME Memphis Tigers@Tulane Green Wave
+H Tulane Green Wave: 40 41 14
+H Memphis Tigers: 31 50 15
+
+GAME Charlotte 49ers@South Florida Bulls
+H South Florida Bulls: 44 39
+H Charlotte 49ers: 29 31
+
+GAME Drexel Dragons@Monmouth Hawks
+NEUTRAL
+H Monmouth Hawks: 32 33
+H Drexel Dragons: 33 24
+
+GAME Temple Owls@Tulsa Golden Hurricane
+H Tulsa Golden Hurricane: 32 46
+H Temple Owls: 34 42
+
+GAME UTSA Roadrunners@Rice Owls
+H Rice Owls: 45 35
+H UTSA Roadrunners: 32 39
+
+GAME East Carolina Pirates@UAB Blazers
+H UAB Blazers: 41 49
+H East Carolina Pirates: 44 39
+
+GAME Northern Kentucky Norse@Green Bay Phoenix
+NEUTRAL
+H Green Bay Phoenix: 30 46
+H Northern Kentucky Norse: 36 60
+
+GAME Western Carolina Catamounts@East Tennessee State Buccaneers
+NEUTRAL
+H East Tennessee State Buccaneers: 24 45
+H Western Carolina Catamounts: 38 29
+
+GAME Towson Tigers@Charleston Cougars
+NEUTRAL
+H Charleston Cougars: 32 24
+H Towson Tigers: 43 38
+
+GAME Southern Miss Golden Eagles@Troy Trojans
+NEUTRAL
+H Troy Trojans: 41 37
+H Southern Miss Golden Eagles: 28 42
+
+GAME Houston Christian Huskies@LSU New Orleans Privateers
+NEUTRAL
+H LSU New Orleans Privateers: 34 39
+H Houston Christian Huskies: 33 27
+
+GAME Marist Red Foxes@Merrimack Warriors
+NEUTRAL
+H Merrimack Warriors: 30 28
+H Marist Red Foxes: 28 29
+
+GAME UNC Greensboro Spartans@Furman Paladins
+NEUTRAL
+H Furman Paladins: 27 54
+H UNC Greensboro Spartans: 38 37
+
+GAME Idaho State Bengals@Portland State Vikings
+NEUTRAL
+H Portland State Vikings: 36 49
+H Idaho State Bengals: 36 42
+
+GAME William & Mary Tribe@Hofstra Pride
+NEUTRAL
+H Hofstra Pride: 50 42
+H William & Mary Tribe: 33 28
+
+GAME San Francisco Dons@Oregon State Beavers
+NEUTRAL
+H Oregon State Beavers: 30 48
+H San Francisco Dons: 32 45
+
+GAME Northwestern State Demons@Nicholls Colonels
+NEUTRAL
+H Nicholls Colonels: 25 36
+H Northwestern State Demons: 24 23
+
+GAME Fairfield Stags@Siena Saints
+NEUTRAL
+H Siena Saints: 40 36
+H Fairfield Stags: 30 31
+
+GAME Georgia Southern Eagles@Marshall Thundering Herd
+NEUTRAL
+H Marshall Thundering Herd: 35 43
+H Georgia Southern Eagles: 42 40
+
+GAME North Dakota Fighting Hawks@North Dakota State Bison
+NEUTRAL
+H North Dakota State Bison: 38 32
+H North Dakota Fighting Hawks: 30 32
+
+GAME Idaho Vandals@Montana State Bobcats
+NEUTRAL
+H Montana State Bobcats: 40 34
+H Idaho Vandals: 36 42
+
+GAME Pacific Tigers@Santa Clara Broncos
+NEUTRAL
+H Santa Clara Broncos: 45 31
+H Pacific Tigers: 38 30

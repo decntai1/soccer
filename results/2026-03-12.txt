@@ -1,0 +1,220 @@
+# NCAAB results 2026-03-12 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:47Z
+
+GAME Florida State Seminoles@Duke Blue Devils
+NEUTRAL
+H Duke Blue Devils: 43 37
+H Florida State Seminoles: 44 35
+
+GAME UCF Knights@Arizona Wildcats
+NEUTRAL
+H Arizona Wildcats: 46 35
+H UCF Knights: 30 29
+
+GAME BYU Cougars@Houston Cougars
+NEUTRAL
+H Houston Cougars: 37 36
+H BYU Cougars: 41 25
+
+GAME Xavier Musketeers@UConn Huskies
+NEUTRAL
+H UConn Huskies: 50 43
+H Xavier Musketeers: 30 38
+
+GAME Iowa State Cyclones@Texas Tech Red Raiders
+NEUTRAL
+H Texas Tech Red Raiders: 33 20
+H Iowa State Cyclones: 36 39
+
+GAME NC State Wolfpack@Virginia Cavaliers
+NEUTRAL
+H Virginia Cavaliers: 33 48
+H NC State Wolfpack: 32 42
+
+GAME Providence Friars@St. John's Red Storm
+H St. John's Red Storm: 48 37
+H Providence Friars: 27 45
+
+GAME TCU Horned Frogs@Kansas Jayhawks
+NEUTRAL
+H Kansas Jayhawks: 31 47
+H TCU Horned Frogs: 34 39
+
+GAME Northwestern Wildcats@Purdue Boilermakers
+NEUTRAL
+H Purdue Boilermakers: 45 36
+H Northwestern Wildcats: 21 47
+
+GAME Clemson Tigers@North Carolina Tar Heels
+NEUTRAL
+H North Carolina Tar Heels: 31 48
+H Clemson Tigers: 39 41
+
+GAME Massachusetts Minutemen@Miami (OH) RedHawks
+NEUTRAL
+H Miami (OH) RedHawks: 39 44
+H Massachusetts Minutemen: 37 50
+
+GAME Washington Huskies@Wisconsin Badgers
+NEUTRAL
+H Wisconsin Badgers: 43 42
+H Washington Huskies: 33 49
+
+GAME Louisville Cardinals@Miami Hurricanes
+NEUTRAL
+H Miami Hurricanes: 37 41
+H Louisville Cardinals: 38 35
+
+GAME Auburn Tigers@Tennessee Volunteers
+NEUTRAL
+H Tennessee Volunteers: 25 47
+H Auburn Tigers: 32 30
+
+GAME George Washington Revolutionaries@Fordham Rams
+NEUTRAL
+H Fordham Rams: 17 45
+H George Washington Revolutionaries: 38 28
+
+GAME Iowa Hawkeyes@Ohio State Buckeyes
+NEUTRAL
+H Ohio State Buckeyes: 34 38
+H Iowa Hawkeyes: 30 39
+
+GAME Kentucky Wildcats@Missouri Tigers
+NEUTRAL
+H Missouri Tigers: 29 43
+H Kentucky Wildcats: 38 40
+
+GAME Bowling Green Falcons@Toledo Rockets
+NEUTRAL
+H Toledo Rockets: 37 40
+H Bowling Green Falcons: 38 38
+
+GAME Alabama A&M Bulldogs@Texas Southern Tigers
+NEUTRAL
+H Texas Southern Tigers: 31 35 8
+H Alabama A&M Bulldogs: 27 39 19
+
+GAME St. Bonaventure Bonnies@George Mason Patriots
+NEUTRAL
+H George Mason Patriots: 34 23
+H St. Bonaventure Bonnies: 24 39
+
+GAME Creighton Bluejays@Seton Hall Pirates
+NEUTRAL
+H Seton Hall Pirates: 33 39
+H Creighton Bluejays: 26 35
+
+GAME UNLV Rebels@Utah State Aggies
+NEUTRAL
+H Utah State Aggies: 37 43
+H UNLV Rebels: 23 37
+
+GAME Buffalo Bulls@Akron Zips
+NEUTRAL
+H Akron Zips: 42 31
+H Buffalo Bulls: 29 41
+
+GAME Rhode Island Rams@Duquesne Dukes
+NEUTRAL
+H Duquesne Dukes: 35 32
+H Rhode Island Rams: 28 33
+
+GAME Nevada Wolf Pack@Grand Canyon Lopes
+NEUTRAL
+H Grand Canyon Lopes: 40 40
+H Nevada Wolf Pack: 34 50
+
+GAME South Carolina State Bulldogs@Norfolk State Spartans
+NEUTRAL
+H Norfolk State Spartans: 30 52
+H South Carolina State Bulldogs: 39 49
+
+GAME Ohio Bobcats@Kent State Golden Flashes
+NEUTRAL
+H Kent State Golden Flashes: 40 46
+H Ohio Bobcats: 38 37
+
+GAME Middle Tennessee Blue Raiders@Louisiana Tech Bulldogs
+NEUTRAL
+H Louisiana Tech Bulldogs: 39 41
+H Middle Tennessee Blue Raiders: 25 44
+
+GAME Ole Miss Rebels@Georgia Bulldogs
+NEUTRAL
+H Georgia Bulldogs: 20 52
+H Ole Miss Rebels: 34 42
+
+GAME Tulane Green Wave@Charlotte 49ers
+NEUTRAL
+H Charlotte 49ers: 18 56
+H Tulane Green Wave: 20 40
+
+GAME Loyola Chicago Ramblers@Davidson Wildcats
+NEUTRAL
+H Davidson Wildcats: 19 37 8
+H Loyola Chicago Ramblers: 24 32 3
+
+GAME Arkansas-Pine Bluff Golden Lions@Southern Jaguars
+NEUTRAL
+H Southern Jaguars: 39 45
+H Arkansas-Pine Bluff Golden Lions: 37 44
+
+GAME Southern Utah Thunderbirds@UT Arlington Mavericks
+NEUTRAL
+H UT Arlington Mavericks: 29 40
+H Southern Utah Thunderbirds: 24 39
+
+GAME Colorado State Rams@San Diego State Aztecs
+NEUTRAL
+H San Diego State Aztecs: 39 32
+H Colorado State Rams: 27 35
+
+GAME Kennesaw State Owls@Western Kentucky Hilltoppers
+NEUTRAL
+H Western Kentucky Hilltoppers: 41 46
+H Kennesaw State Owls: 46 50
+
+GAME UC San Diego Tritons@Cal State Northridge Matadors
+NEUTRAL
+H Cal State Northridge Matadors: 32 48
+H UC San Diego Tritons: 36 34
+
+GAME Rutgers Scarlet Knights@UCLA Bruins
+NEUTRAL
+H UCLA Bruins: 30 42
+H Rutgers Scarlet Knights: 24 35
+
+GAME Maryland Eastern Shore Hawks@North Carolina Central Eagles
+NEUTRAL
+H North Carolina Central Eagles: 34 40 9
+H Maryland Eastern Shore Hawks: 40 34 2
+
+GAME Georgetown Hoyas@Villanova Wildcats
+NEUTRAL
+H Villanova Wildcats: 31 33
+H Georgetown Hoyas: 35 43
+
+GAME Florida Atlantic Owls@North Texas Mean Green
+NEUTRAL
+H North Texas Mean Green: 34 40
+H Florida Atlantic Owls: 30 40
+
+GAME Oklahoma Sooners@Texas A&M Aggies
+NEUTRAL
+H Texas A&M Aggies: 27 36
+H Oklahoma Sooners: 49 34
+
+GAME Abilene Christian Wildcats@Utah Tech Trailblazers
+NEUTRAL
+H Utah Tech Trailblazers: 46 34
+H Abilene Christian Wildcats: 28 46
+
+GAME UC Davis Aggies@Cal State Fullerton Titans
+NEUTRAL
+H Cal State Fullerton Titans: 38 44
+H UC Davis Aggies: 26 44
+
+GAME San José State Spartans@New Mexico Lobos
+NEUTRAL
+H New Mexico Lobos: 43 50
+H San José State Spartans: 36 41

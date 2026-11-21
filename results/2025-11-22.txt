@@ -1,0 +1,196 @@
+# NCAAB results 2025-11-22 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:44Z
+
+GAME Long Island University Sharks@Illinois Fighting Illini
+H Illinois Fighting Illini: 54 44
+H Long Island University Sharks: 19 39
+
+GAME Wagner Seahawks@Georgetown Hoyas
+H Georgetown Hoyas: 44 48
+H Wagner Seahawks: 27 48
+
+GAME NJIT Highlanders@Navy Midshipmen
+H Navy Midshipmen: 51 35
+H NJIT Highlanders: 36 34
+
+GAME Vermont State Lyndon Hornets@New Haven Chargers
+H New Haven Chargers: 58 64
+H Vermont State Lyndon Hornets: 21 30
+
+GAME Fairfield Stags@Le Moyne Dolphins
+H Le Moyne Dolphins: 38 45
+H Fairfield Stags: 56 41
+
+GAME Harvard Crimson@Boston University Terriers
+NEUTRAL
+H Boston University Terriers: 32 43
+H Harvard Crimson: 35 39
+
+GAME UMass Lowell River Hawks@Saint Peter's Peacocks
+H Saint Peter's Peacocks: 36 32
+H UMass Lowell River Hawks: 31 35
+
+GAME Central Michigan Chippewas@Marquette Golden Eagles
+H Marquette Golden Eagles: 41 44
+H Central Michigan Chippewas: 36 35
+
+GAME Cleveland State Vikings@Kent State Golden Flashes
+H Kent State Golden Flashes: 42 49
+H Cleveland State Vikings: 25 46
+
+GAME Howard Payne Yellow Jackets@Texas A&M-Corpus Christi Islanders
+H Texas A&M-Corpus Christi Islanders: 63 59
+H Howard Payne Yellow Jackets: 43 32
+
+GAME North Carolina Central Eagles@Dayton Flyers
+H Dayton Flyers: 44 30
+H North Carolina Central Eagles: 20 35
+
+GAME Nicholls Colonels@Oklahoma State Cowboys
+H Oklahoma State Cowboys: 47 48
+H Nicholls Colonels: 32 49
+
+GAME Green Bay Phoenix@Massachusetts Minutemen
+NEUTRAL
+H Massachusetts Minutemen: 25 50
+H Green Bay Phoenix: 33 46
+
+GAME Maryland Eastern Shore Hawks@Binghamton Bearcats
+NEUTRAL
+H Binghamton Bearcats: 23 29
+H Maryland Eastern Shore Hawks: 36 27
+
+GAME Mercer Bears@Eastern Kentucky Colonels
+H Eastern Kentucky Colonels: 38 45
+H Mercer Bears: 53 42
+
+GAME Schreiner Mountaineers@Sam Houston Bearkats
+H Sam Houston Bearkats: 47 58
+H Schreiner Mountaineers: 23 31
+
+GAME Providence Friars@Penn State Nittany Lions
+NEUTRAL
+H Penn State Nittany Lions: 31 34
+H Providence Friars: 32 45
+
+GAME Mississippi Valley State Delta Devils@Cal State Bakersfield Roadrunners
+H Cal State Bakersfield Roadrunners: 39 47
+H Mississippi Valley State Delta Devils: 22 48
+
+GAME Northeastern Huskies@Duquesne Dukes
+NEUTRAL
+H Duquesne Dukes: 38 48
+H Northeastern Huskies: 41 52
+
+GAME Niagara Purple Eagles@Howard Bison
+NEUTRAL
+H Howard Bison: 29 51
+H Niagara Purple Eagles: 37 33
+
+GAME North Alabama Lions@Chattanooga Mocs
+H Chattanooga Mocs: 33 38
+H North Alabama Lions: 26 31
+
+GAME Southern Indiana Screaming Eagles@UIC Flames
+NEUTRAL
+H UIC Flames: 37 47
+H Southern Indiana Screaming Eagles: 27 46
+
+GAME UT Martin Skyhawks@Prairie View A&M Panthers
+NEUTRAL
+H Prairie View A&M Panthers: 39 29
+H UT Martin Skyhawks: 28 41
+
+GAME UC Santa Barbara Gauchos@Nevada Wolf Pack
+H Nevada Wolf Pack: 32 45
+H UC Santa Barbara Gauchos: 28 36
+
+GAME Western Carolina Catamounts@Lipscomb Bisons
+H Lipscomb Bisons: 34 49
+H Western Carolina Catamounts: 23 39
+
+GAME UT Rio Grande Valley Vaqueros@Missouri State Bears
+H Missouri State Bears: 28 46
+H UT Rio Grande Valley Vaqueros: 30 37
+
+GAME Lancaster Bible Chargers@La Salle Explorers
+H La Salle Explorers: 47 28
+H Lancaster Bible Chargers: 19 27
+
+GAME Iona Gaels@Oregon State Beavers
+NEUTRAL
+H Oregon State Beavers: 34 36 9 5
+H Iona Gaels: 30 40 9 12
+
+GAME San Francisco Dons@Minnesota Golden Gophers
+NEUTRAL
+H Minnesota Golden Gophers: 27 38
+H San Francisco Dons: 34 43
+
+GAME St. Thomas Tommies@Cal State Fullerton Titans
+NEUTRAL
+H Cal State Fullerton Titans: 33 55
+H St. Thomas Tommies: 37 43
+
+GAME Incarnate Word Cardinals@High Point Panthers
+NEUTRAL
+H High Point Panthers: 46 45
+H Incarnate Word Cardinals: 40 40
+
+GAME Morehead State Eagles@UL Monroe Warhawks
+NEUTRAL
+H UL Monroe Warhawks: 44 36
+H Morehead State Eagles: 38 45
+
+GAME Coastal Carolina Chanticleers@North Dakota Fighting Hawks
+NEUTRAL
+H North Dakota Fighting Hawks: 30 28
+H Coastal Carolina Chanticleers: 41 34
+
+GAME VMI Keydets@Stetson Hatters
+H Stetson Hatters: 44 55
+H VMI Keydets: 38 42
+
+GAME Ball State Cardinals@Indiana State Sycamores
+H Indiana State Sycamores: 27 43
+H Ball State Cardinals: 28 24
+
+GAME Milwaukee Panthers@Wichita State Shockers
+H Wichita State Shockers: 28 47
+H Milwaukee Panthers: 30 28
+
+GAME Gardner-Webb Runnin' Bulldogs@Richmond Spiders
+H Richmond Spiders: 62 40
+H Gardner-Webb Runnin' Bulldogs: 30 37
+
+GAME Coppin State Eagles@VCU Rams
+H VCU Rams: 54 47
+H Coppin State Eagles: 28 30
+
+GAME Northern Colorado Bears@Portland Pilots
+H Portland Pilots: 32 37 11
+H Northern Colorado Bears: 35 34 17
+
+GAME North Florida Ospreys@Southern Miss Golden Eagles
+NEUTRAL
+H Southern Miss Golden Eagles: 35 57
+H North Florida Ospreys: 46 37
+
+GAME Nobel Knights@Southern Utah Thunderbirds
+H Southern Utah Thunderbirds: 38 65
+H Nobel Knights: 24 44
+
+GAME UT Arlington Mavericks@Weber State Wildcats
+H Weber State Wildcats: 27 46
+H UT Arlington Mavericks: 33 41
+
+GAME Eastern Oregon Mountaineers@Idaho Vandals
+H Idaho Vandals: 53 44
+H Eastern Oregon Mountaineers: 41 27
+
+GAME UC Merced Bobcats@Saint Mary's Gaels
+H Saint Mary's Gaels: 40 56
+H UC Merced Bobcats: 26 16
+
+GAME Northern Iowa Panthers@UC Irvine Anteaters
+H UC Irvine Anteaters: 25 38 6
+H Northern Iowa Panthers: 35 28 7

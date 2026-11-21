@@ -1,0 +1,142 @@
+# NCAAB results 2025-11-16 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:44Z
+
+GAME Houston Cougars@Auburn Tigers
+NEUTRAL
+H Auburn Tigers: 35 37
+H Houston Cougars: 39 34
+
+GAME Akron Zips@Purdue Boilermakers
+H Purdue Boilermakers: 52 45
+H Akron Zips: 39 40
+
+GAME Miami Hurricanes@Florida Gators
+NEUTRAL
+H Florida Gators: 39 43
+H Miami Hurricanes: 29 39
+
+GAME App State Mountaineers@Dartmouth Big Green
+H Dartmouth Big Green: 37 40
+H App State Mountaineers: 41 44
+
+GAME Wagner Seahawks@UMBC Retrievers
+H UMBC Retrievers: 28 32 11
+H Wagner Seahawks: 32 28 10
+
+GAME Wright State Raiders@Kent State Golden Flashes
+NEUTRAL
+H Kent State Golden Flashes: 32 30 14
+H Wright State Raiders: 32 30 10
+
+GAME Kentucky Christian Knights@Morehead State Eagles
+H Morehead State Eagles: 60 61
+H Kentucky Christian Knights: 26 25
+
+GAME Notre Dame Fighting Irish@Ohio State Buckeyes
+H Ohio State Buckeyes: 31 33
+H Notre Dame Fighting Irish: 34 29
+
+GAME Stetson Hatters@Western Carolina Catamounts
+H Western Carolina Catamounts: 38 38
+H Stetson Hatters: 33 32
+
+GAME Cumberlands Patriots@Northern Kentucky Norse
+H Northern Kentucky Norse: 42 59
+H Cumberlands Patriots: 31 42
+
+GAME Bryant Bulldogs@Valparaiso Beacons
+H Valparaiso Beacons: 22 46
+H Bryant Bulldogs: 30 20
+
+GAME Holy Cross Crusaders@Hampton Pirates
+NEUTRAL
+H Hampton Pirates: 29 32
+H Holy Cross Crusaders: 32 35
+
+GAME South Florida Bulls@Kennesaw State Owls
+H Kennesaw State Owls: 41 48
+H South Florida Bulls: 56 52
+
+GAME Samford Bulldogs@Central Arkansas Bears
+H Central Arkansas Bears: 41 27 9
+H Samford Bulldogs: 30 38 16
+
+GAME Quinnipiac Bobcats@Maine Black Bears
+H Maine Black Bears: 36 28
+H Quinnipiac Bobcats: 28 42
+
+GAME Loyola Maryland Greyhounds@Fairfield Stags
+H Fairfield Stags: 40 45
+H Loyola Maryland Greyhounds: 32 50
+
+GAME UMass Lowell River Hawks@Wake Forest Demon Deacons
+H Wake Forest Demon Deacons: 48 61
+H UMass Lowell River Hawks: 38 37
+
+GAME Charlotte 49ers@Virginia Tech Hokies
+H Virginia Tech Hokies: 44 40
+H Charlotte 49ers: 32 44
+
+GAME Texas A&M-Corpus Christi Islanders@Oklahoma State Cowboys
+H Oklahoma State Cowboys: 37 48
+H Texas A&M-Corpus Christi Islanders: 35 34
+
+GAME Central Connecticut Blue Devils@Massachusetts Minutemen
+H Massachusetts Minutemen: 51 33
+H Central Connecticut Blue Devils: 28 49
+
+GAME Western Michigan Broncos@South Dakota Coyotes
+H South Dakota Coyotes: 40 43
+H Western Michigan Broncos: 38 40
+
+GAME Radford Highlanders@Cleveland State Vikings
+NEUTRAL
+H Cleveland State Vikings: 36 51
+H Radford Highlanders: 49 33
+
+GAME Tennessee State Tigers@Western Kentucky Hilltoppers
+H Western Kentucky Hilltoppers: 51 44
+H Tennessee State Tigers: 43 39
+
+GAME Loras Duhawks@Southern Indiana Screaming Eagles
+H Southern Indiana Screaming Eagles: 44 47
+H Loras Duhawks: 29 45
+
+GAME Presbyterian Blue Hose@Sacramento State Hornets
+H Sacramento State Hornets: 27 37
+H Presbyterian Blue Hose: 36 26
+
+GAME Lindenwood Lions@Alabama A&M Bulldogs
+H Alabama A&M Bulldogs: 34 40
+H Lindenwood Lions: 32 33
+
+GAME Manhattanville Valiants@Fordham Rams
+H Fordham Rams: 37 59
+H Manhattanville Valiants: 24 38
+
+GAME Colorado State Rams@Loyola Chicago Ramblers
+H Loyola Chicago Ramblers: 21 46
+H Colorado State Rams: 33 47
+
+GAME Harvard Crimson@Marist Red Foxes
+H Marist Red Foxes: 24 30
+H Harvard Crimson: 23 33
+
+GAME UNLV Rebels@Memphis Tigers
+H Memphis Tigers: 36 42
+H UNLV Rebels: 49 43
+
+GAME Incarnate Word Cardinals@Indiana Hoosiers
+H Indiana Hoosiers: 35 34
+H Incarnate Word Cardinals: 19 42
+
+GAME Mount St. Mary's Mountaineers@Cincinnati Bearcats
+H Cincinnati Bearcats: 30 42
+H Mount St. Mary's Mountaineers: 36 19
+
+GAME Illinois State Redbirds@Long Beach State Beach
+H Long Beach State Beach: 34 46
+H Illinois State Redbirds: 42 40
+
+GAME Troy Trojans@Cal State Northridge Matadors
+H Cal State Northridge Matadors: 51 43
+H Troy Trojans: 49 36

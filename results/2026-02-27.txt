@@ -1,0 +1,85 @@
+# NCAAB results 2026-02-27 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:46Z
+
+GAME Michigan Wolverines@Illinois Fighting Illini
+H Illinois Fighting Illini: 31 39
+H Michigan Wolverines: 38 46
+
+GAME Miami (OH) RedHawks@Western Michigan Broncos
+H Western Michigan Broncos: 30 37
+H Miami (OH) RedHawks: 26 43
+
+GAME Yale Bulldogs@Cornell Big Red
+H Cornell Big Red: 35 37
+H Yale Bulldogs: 30 39
+
+GAME Quinnipiac Bobcats@Niagara Purple Eagles
+H Niagara Purple Eagles: 31 37 10
+H Quinnipiac Bobcats: 32 36 8
+
+GAME Dayton Flyers@George Washington Revolutionaries
+H George Washington Revolutionaries: 31 35
+H Dayton Flyers: 34 34
+
+GAME Rider Broncs@Iona Gaels
+H Iona Gaels: 40 40
+H Rider Broncs: 30 28
+
+GAME Brown Bears@Columbia Lions
+H Columbia Lions: 31 49
+H Brown Bears: 32 30
+
+GAME Siena Saints@Fairfield Stags
+H Fairfield Stags: 37 35
+H Siena Saints: 23 35
+
+GAME Mount St. Mary's Mountaineers@Sacred Heart Pioneers
+H Sacred Heart Pioneers: 31 46
+H Mount St. Mary's Mountaineers: 32 37
+
+GAME Merrimack Warriors@Canisius Golden Griffins
+H Canisius Golden Griffins: 29 38
+H Merrimack Warriors: 32 30
+
+GAME Manhattan Jaspers@Saint Peter's Peacocks
+H Saint Peter's Peacocks: 40 35
+H Manhattan Jaspers: 25 40
+
+GAME Harvard Crimson@Princeton Tigers
+H Princeton Tigers: 33 23
+H Harvard Crimson: 21 37
+
+GAME Dartmouth Big Green@Pennsylvania Quakers
+H Pennsylvania Quakers: 34 46
+H Dartmouth Big Green: 42 29
+
+GAME UL Monroe Warhawks@Troy Trojans
+H Troy Trojans: 37 43
+H UL Monroe Warhawks: 29 36
+
+GAME Old Dominion Monarchs@Georgia State Panthers
+H Georgia State Panthers: 42 31
+H Old Dominion Monarchs: 36 45
+
+GAME Akron Zips@Kent State Golden Flashes
+H Kent State Golden Flashes: 37 33
+H Akron Zips: 47 45
+
+GAME App State Mountaineers@Texas State Bobcats
+H Texas State Bobcats: 34 26
+H App State Mountaineers: 33 24
+
+GAME Coastal Carolina Chanticleers@James Madison Dukes
+H James Madison Dukes: 33 35
+H Coastal Carolina Chanticleers: 31 38
+
+GAME Southern Miss Golden Eagles@South Alabama Jaguars
+H South Alabama Jaguars: 29 26
+H Southern Miss Golden Eagles: 35 33
+
+GAME Georgia Southern Eagles@Marshall Thundering Herd
+H Marshall Thundering Herd: 40 42
+H Georgia Southern Eagles: 38 61
+
+GAME Louisiana Ragin' Cajuns@Arkansas State Red Wolves
+H Arkansas State Red Wolves: 37 44
+H Louisiana Ragin' Cajuns: 22 36

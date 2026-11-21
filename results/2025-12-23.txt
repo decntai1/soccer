@@ -1,0 +1,49 @@
+# NCAAB results 2025-12-23 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:45Z
+
+GAME Green Bay Phoenix@Campbell Fighting Camels
+H Campbell Fighting Camels: 44 58
+H Green Bay Phoenix: 37 42
+
+GAME Binghamton Bearcats@Army Black Knights
+H Army Black Knights: 30 46 19
+H Binghamton Bearcats: 32 44 9
+
+GAME Bellarmine Knights@Kentucky Wildcats
+H Kentucky Wildcats: 46 53
+H Bellarmine Knights: 38 47
+
+GAME Grambling Tigers@Ohio State Buckeyes
+H Ohio State Buckeyes: 39 50
+H Grambling Tigers: 24 39
+
+GAME Florida Atlantic Owls@UCF Knights
+H UCF Knights: 33 52
+H Florida Atlantic Owls: 38 42
+
+GAME Lindenwood Lions@Missouri State Bears
+H Missouri State Bears: 34 36
+H Lindenwood Lions: 22 43
+
+GAME UC Riverside Highlanders@UCLA Bruins
+H UCLA Bruins: 45 52
+H UC Riverside Highlanders: 34 31
+
+GAME Idaho Vandals@Cal State Bakersfield Roadrunners
+H Cal State Bakersfield Roadrunners: 26 38
+H Idaho Vandals: 23 40
+
+GAME Morgan State Bears@Loyola Marymount Lions
+H Loyola Marymount Lions: 40 43
+H Morgan State Bears: 21 35
+
+GAME Harvard Crimson@St. John's Red Storm
+H St. John's Red Storm: 46 39
+H Harvard Crimson: 33 26
+
+GAME WVU Tech Golden Bears@Marshall Thundering Herd
+H Marshall Thundering Herd: 46 56
+H WVU Tech Golden Bears: 26 26
+
+GAME Villanova Wildcats@Seton Hall Pirates
+H Seton Hall Pirates: 27 29
+H Villanova Wildcats: 31 33

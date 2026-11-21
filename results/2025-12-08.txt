@@ -1,0 +1,29 @@
+# NCAAB results 2025-12-08 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:44Z
+
+GAME Southern Wesleyan Warriors@Kennesaw State Owls
+H Kennesaw State Owls: 65 56
+H Southern Wesleyan Warriors: 22 44
+
+GAME Lafayette Leopards@Pennsylvania Quakers
+H Pennsylvania Quakers: 41 33
+H Lafayette Leopards: 33 39
+
+GAME South Carolina State Bulldogs@Charleston Southern Buccaneers
+H Charleston Southern Buccaneers: 33 51
+H South Carolina State Bulldogs: 20 24
+
+GAME Grambling Tigers@Southern Miss Golden Eagles
+H Southern Miss Golden Eagles: 29 39
+H Grambling Tigers: 31 29
+
+GAME Southern Jaguars@Texas Longhorns
+H Texas Longhorns: 46 49
+H Southern Jaguars: 27 42
+
+GAME Mississippi Valley State Delta Devils@Kansas State Wildcats
+H Kansas State Wildcats: 55 53
+H Mississippi Valley State Delta Devils: 21 28
+
+GAME Incarnate Word Cardinals@LSU New Orleans Privateers
+H LSU New Orleans Privateers: 38 46
+H Incarnate Word Cardinals: 26 57

@@ -1,0 +1,155 @@
+# NCAAB results 2025-12-10 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:44Z
+
+GAME Minnesota Golden Gophers@Purdue Boilermakers
+H Purdue Boilermakers: 35 50
+H Minnesota Golden Gophers: 32 25
+
+GAME Jackson State Tigers@Houston Cougars
+H Houston Cougars: 40 40
+H Jackson State Tigers: 16 22
+
+GAME Wisconsin Badgers@Nebraska Cornhuskers
+H Nebraska Cornhuskers: 47 43
+H Wisconsin Badgers: 31 29
+
+GAME Norfolk State Spartans@Baylor Bears
+H Baylor Bears: 47 50
+H Norfolk State Spartans: 31 36
+
+GAME UAlbany Great Danes@Yale Bulldogs
+NEUTRAL
+H Yale Bulldogs: 47 46
+H UAlbany Great Danes: 37 45
+
+GAME Merrimack Warriors@Princeton Tigers
+H Princeton Tigers: 29 27
+H Merrimack Warriors: 32 27
+
+GAME Miami (OH) RedHawks@UNC Asheville Bulldogs
+H UNC Asheville Bulldogs: 35 49 3
+H Miami (OH) RedHawks: 41 43 6
+
+GAME Fisher Eagles@UMass Lowell River Hawks
+H UMass Lowell River Hawks: 62 60
+H Fisher Eagles: 25 48
+
+GAME SUNY Old Westbury Panthers@Hofstra Pride
+H Hofstra Pride: 47 45
+H SUNY Old Westbury Panthers: 10 13
+
+GAME New Haven Chargers@NJIT Highlanders
+H NJIT Highlanders: 36 34
+H New Haven Chargers: 33 31
+
+GAME Charleston Cougars@South Florida Bulls
+H South Florida Bulls: 46 35
+H Charleston Cougars: 43 32
+
+GAME Saint Leo Monarchs@Florida Atlantic Owls
+H Florida Atlantic Owls: 48 64
+H Saint Leo Monarchs: 37 18
+
+GAME Western Kentucky Hilltoppers@Marshall Thundering Herd
+H Marshall Thundering Herd: 29 48
+H Western Kentucky Hilltoppers: 28 33
+
+GAME New Mexico Lobos@VCU Rams
+H VCU Rams: 46 32
+H New Mexico Lobos: 41 40
+
+GAME Maine Black Bears@Boston University Terriers
+H Boston University Terriers: 24 35
+H Maine Black Bears: 33 36
+
+GAME Bryant Bulldogs@Iona Gaels
+H Iona Gaels: 35 34
+H Bryant Bulldogs: 32 31
+
+GAME Idaho Vandals@Notre Dame Fighting Irish
+H Notre Dame Fighting Irish: 33 47
+H Idaho Vandals: 33 32
+
+GAME Liberty Flames@NC State Wolfpack
+H NC State Wolfpack: 45 40
+H Liberty Flames: 19 26
+
+GAME Massachusetts Minutemen@Boston College Eagles
+NEUTRAL
+H Boston College Eagles: 33 41
+H Massachusetts Minutemen: 35 41
+
+GAME Colgate Raiders@St. Bonaventure Bonnies
+H St. Bonaventure Bonnies: 34 51
+H Colgate Raiders: 47 30
+
+GAME Delaware Blue Hens@George Washington Revolutionaries
+H George Washington Revolutionaries: 29 29
+H Delaware Blue Hens: 31 39
+
+GAME Fairleigh Dickinson Knights@Fordham Rams
+H Fordham Rams: 37 38
+H Fairleigh Dickinson Knights: 22 32
+
+GAME Tougaloo Bulldogs@Tulane Green Wave
+H Tulane Green Wave: 39 45
+H Tougaloo Bulldogs: 33 39
+
+GAME College of Biblical Studies Ambassadors@Nicholls Colonels
+H Nicholls Colonels: 50 67
+H College of Biblical Studies Ambassadors: 23 26
+
+GAME Crown Polars@North Dakota Fighting Hawks
+H North Dakota Fighting Hawks: 44 45
+H Crown Polars: 21 22
+
+GAME UT Martin Skyhawks@Southern Illinois Salukis
+H Southern Illinois Salukis: 34 49
+H UT Martin Skyhawks: 27 27
+
+GAME Eastern Kentucky Colonels@Eastern Illinois Panthers
+H Eastern Illinois Panthers: 32 27
+H Eastern Kentucky Colonels: 31 37
+
+GAME Arkansas-Pine Bluff Golden Lions@Tulsa Golden Hurricane
+H Tulsa Golden Hurricane: 51 66
+H Arkansas-Pine Bluff Golden Lions: 36 48
+
+GAME Weber State Wildcats@Kansas City Roos
+H Kansas City Roos: 31 29
+H Weber State Wildcats: 32 32
+
+GAME Idaho State Bengals@Utah Valley Wolverines
+H Utah Valley Wolverines: 36 37
+H Idaho State Bengals: 32 37
+
+GAME Eastern Michigan Eagles@Purdue Fort Wayne Mastodons
+H Purdue Fort Wayne Mastodons: 47 33
+H Eastern Michigan Eagles: 29 36
+
+GAME Southern Jaguars@Texas State Bobcats
+H Texas State Bobcats: 38 48
+H Southern Jaguars: 38 45
+
+GAME Duquesne Dukes@Boise State Broncos
+H Boise State Broncos: 45 41
+H Duquesne Dukes: 30 34
+
+GAME Lamar Cardinals@San Diego State Aztecs
+H San Diego State Aztecs: 51 38
+H Lamar Cardinals: 41 30
+
+GAME Fresno State Bulldogs@Cal State Northridge Matadors
+H Cal State Northridge Matadors: 47 42
+H Fresno State Bulldogs: 37 50
+
+GAME Bethesda Flames@Cal State Fullerton Titans
+H Cal State Fullerton Titans: 65 51
+H Bethesda Flames: 29 37
+
+GAME Salish Kootenai Bison@Montana Grizzlies
+H Montana Grizzlies: 50 52
+H Salish Kootenai Bison: 17 29
+
+GAME Hawaiʻi Hilo Vulcans@Hawai'i Rainbow Warriors
+H Hawai'i Rainbow Warriors: 48 50
+H Hawaiʻi Hilo Vulcans: 24 22

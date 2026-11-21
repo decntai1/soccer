@@ -1,0 +1,9 @@
+# NCAAB results 2026-03-24 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:47Z
+
+GAME Wichita State Shockers@Tulsa Golden Hurricane
+H Tulsa Golden Hurricane: 52 31
+H Wichita State Shockers: 36 43
+
+GAME Saint Joseph's Hawks@New Mexico Lobos
+H New Mexico Lobos: 37 47
+H Saint Joseph's Hawks: 39 30

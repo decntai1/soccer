@@ -1,0 +1,124 @@
+# NCAAB slate 2026-11-21 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:54Z
+
+GAME Siena Saints@Bucknell Bison
+
+GAME South Carolina Upstate Spartans@UNC Greensboro Spartans
+
+GAME Detroit Mercy Titans@Michigan State Spartans
+
+GAME Columbia Lions@Boston University Terriers
+
+GAME Queens University Royals@LSU Tigers
+
+GAME New Hampshire Wildcats@New Haven Chargers
+
+GAME Kent State Golden Flashes@Cleveland State Vikings
+
+GAME Denver Pioneers@Eastern Michigan Eagles
+
+GAME Western Illinois Leathernecks@Mercyhurst Lakers
+NEUTRAL
+
+GAME Virginia Lynchburg Dragons@James Madison Dukes
+
+GAME Calumet St. Joseph Crimson Wave@Purdue Fort Wayne Mastodons
+
+GAME Stony Brook Seawolves@Saint Peter's Peacocks
+
+GAME Cornell Big Red@Morgan State Bears
+
+GAME Little Rock Trojans@North Florida Ospreys
+
+GAME Navy Midshipmen@Rider Broncs
+
+GAME Penn State Behrend Lions@Colgate Raiders
+
+GAME New Mexico Lobos@Wichita State Shockers
+
+GAME Fordham Rams@Portland Pilots
+NEUTRAL
+
+GAME Northern Illinois Huskies@Bowling Green Falcons
+
+GAME Western Carolina Catamounts@Wake Forest Demon Deacons
+
+GAME Lafayette Leopards@Syracuse Orange
+
+GAME Drake Bulldogs@Missouri State Bears
+
+GAME St. Thomas Tommies@Milwaukee Panthers
+
+GAME Middle Tennessee Blue Raiders@Indiana State Sycamores
+NEUTRAL
+
+GAME UT Rio Grande Valley Vaqueros@Austin Peay Governors
+
+GAME Army Black Knights@Binghamton Bearcats
+
+GAME Clinton Golden Bears@Furman Paladins
+
+GAME Justice Lions@Northern Colorado Bears
+
+GAME UAlbany Great Danes@Canisius Golden Griffins
+
+GAME Longwood Lancers@East Tennessee State Buccaneers
+
+GAME Pennsylvania Quakers@La Salle Explorers
+
+GAME South Florida Bulls@George Mason Patriots
+
+GAME Central Arkansas Bears@Jacksonville Dolphins
+
+GAME UC Irvine Anteaters@San Diego Toreros
+NEUTRAL
+
+GAME Winthrop Eagles@Wofford Terriers
+
+GAME Southern Miss Golden Eagles@Nicholls Colonels
+NEUTRAL
+
+GAME Northeastern Huskies@Stonehill Skyhawks
+
+GAME Air Force Falcons@UTSA Roadrunners
+
+GAME Southern Illinois Salukis@East Carolina Pirates
+NEUTRAL
+
+GAME UNC Wilmington Seahawks@Norfolk State Spartans
+
+GAME Maine Black Bears@Massachusetts Minutemen
+
+GAME Coppin State Eagles@Georgetown Hoyas
+
+GAME Michigan Wolverines@Villanova Wildcats
+
+GAME Radford Highlanders@Chattanooga Mocs
+
+GAME Morehead State Eagles@Elon Phoenix
+
+GAME Northern Arizona Lumberjacks@Cal Poly Mustangs
+
+GAME California Baptist Lancers@Loyola Marymount Lions
+NEUTRAL
+
+GAME Gardner-Webb Runnin' Bulldogs@VMI Keydets
+
+GAME Charleston Southern Buccaneers@Mercer Bears
+
+GAME Brown Bears@Vermont Catamounts
+
+GAME Presbyterian Blue Hose@Tennessee Tech Golden Eagles
+
+GAME Troy Trojans@Valparaiso Beacons
+NEUTRAL
+
+GAME Texas A&M-Corpus Christi Islanders@Oral Roberts Golden Eagles
+
+GAME Southwestern Adventist Knights@Abilene Christian Wildcats
+
+GAME LSU New Orleans Privateers@Texas Southern Tigers
+
+GAME Bradley Braves@Pacific Tigers
+
+GAME Washington State Cougars@Duke Blue Devils
+NEUTRAL

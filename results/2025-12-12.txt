@@ -1,0 +1,53 @@
+# NCAAB results 2025-12-12 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:44Z
+
+GAME Texas Longhorns@UConn Huskies
+H UConn Huskies: 43 28
+H Texas Longhorns: 34 29
+
+GAME Army Black Knights@UMBC Retrievers
+H UMBC Retrievers: 30 30
+H Army Black Knights: 36 27
+
+GAME William Peace Pacers@UNC Greensboro Spartans
+H UNC Greensboro Spartans: 39 51
+H William Peace Pacers: 37 25
+
+GAME Brevard Tornados@Gardner-Webb Runnin' Bulldogs
+H Gardner-Webb Runnin' Bulldogs: 32 45
+H Brevard Tornados: 24 39
+
+GAME South Carolina State Bulldogs@Queens University Royals
+H Queens University Royals: 49 53
+H South Carolina State Bulldogs: 26 52
+
+GAME Missouri State Bears@Xavier Musketeers
+H Xavier Musketeers: 31 44
+H Missouri State Bears: 28 29
+
+GAME Maryland Eastern Shore Hawks@North Carolina A&T Aggies
+H North Carolina A&T Aggies: 33 49
+H Maryland Eastern Shore Hawks: 37 42
+
+GAME Vermont State Johnson Badgers@Stonehill Skyhawks
+H Stonehill Skyhawks: 48 53
+H Vermont State Johnson Badgers: 22 38
+
+GAME Dakota Wesleyan Tigers@South Dakota State Jackrabbits
+H South Dakota State Jackrabbits: 42 52
+H Dakota Wesleyan Tigers: 30 32
+
+GAME East Tennessee State Buccaneers@Austin Peay Governors
+H Austin Peay Governors: 43 33
+H East Tennessee State Buccaneers: 34 41
+
+GAME Dallas Christian Crusaders@Texas A&M-Corpus Christi Islanders
+H Texas A&M-Corpus Christi Islanders: 55 53
+H Dallas Christian Crusaders: 25 30
+
+GAME East Texas A&M Lions@McNeese Cowboys
+H McNeese Cowboys: 59 43
+H East Texas A&M Lions: 29 37
+
+GAME California Baptist Lancers@Eastern Washington Eagles
+H Eastern Washington Eagles: 41 42
+H California Baptist Lancers: 47 41

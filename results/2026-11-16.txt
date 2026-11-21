@@ -1,0 +1,133 @@
+# NCAAB results 2026-11-16 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:52Z
+
+GAME Long Beach State Beach@UCLA Bruins
+H UCLA Bruins: 53 52
+H Long Beach State Beach: 20 46
+
+GAME Miami (OH) Hamilton Harriers@Morehead State Eagles
+H Morehead State Eagles: 48 56
+H Miami (OH) Hamilton Harriers: 30 39
+
+GAME Fisk Bulldogs@North Alabama Lions
+H North Alabama Lions: 40 47
+H Fisk Bulldogs: 30 19
+
+GAME Ferrum Panthers@George Washington Revolutionaries
+H George Washington Revolutionaries: 42 52
+H Ferrum Panthers: 26 31
+
+GAME Florida A&M Rattlers@UTEP Miners
+H UTEP Miners: 41 38
+H Florida A&M Rattlers: 29 17
+
+GAME Iona Gaels@UMBC Retrievers
+H UMBC Retrievers: 30 45
+H Iona Gaels: 27 40
+
+GAME Alcorn State Braves@Maryland Terrapins
+H Maryland Terrapins: 60 57
+H Alcorn State Braves: 30 27
+
+GAME Prairie View A&M Panthers@Ohio State Buckeyes
+H Ohio State Buckeyes: 34 52
+H Prairie View A&M Panthers: 29 30
+
+GAME Eastern Kentucky Colonels@Kent State Golden Flashes
+H Kent State Golden Flashes: 25 24
+H Eastern Kentucky Colonels: 31 34
+
+GAME Virginia Lynchburg Dragons@North Carolina Central Eagles
+H North Carolina Central Eagles: 60 57
+H Virginia Lynchburg Dragons: 37 34
+
+GAME Western Kentucky Hilltoppers@Tulsa Golden Hurricane
+H Tulsa Golden Hurricane: 26 41
+H Western Kentucky Hilltoppers: 40 24
+
+GAME Florida Memorial Lions@Stetson Hatters
+H Stetson Hatters: 40 51
+H Florida Memorial Lions: 27 29
+
+GAME Grambling Tigers@Kentucky Wildcats
+H Kentucky Wildcats: 36 52
+H Grambling Tigers: 30 29
+
+GAME DeSales Bulldogs@Pennsylvania Quakers
+H Pennsylvania Quakers: 37 38
+H DeSales Bulldogs: 22 31
+
+GAME St. Thomas Tommies@Long Island University Sharks
+H Long Island University Sharks: 36 34
+H St. Thomas Tommies: 30 49
+
+GAME The Citadel Bulldogs@Clemson Tigers
+H Clemson Tigers: 38 49
+H The Citadel Bulldogs: 28 23
+
+GAME Richmond Spiders@Virginia Tech Hokies
+H Virginia Tech Hokies: 41 44
+H Richmond Spiders: 23 45
+
+GAME Jacksonville Dolphins@Georgia Bulldogs
+H Georgia Bulldogs: 50 57
+H Jacksonville Dolphins: 31 31
+
+GAME Tarleton State Texans@Drake Bulldogs
+H Drake Bulldogs: 33 46
+H Tarleton State Texans: 35 48
+
+GAME Midway Eagles@Southeast Missouri State Redhawks
+H Southeast Missouri State Redhawks: 61 54
+H Midway Eagles: 18 27
+
+GAME Mayville State Comets@South Dakota State Jackrabbits
+H South Dakota State Jackrabbits: 48 59
+H Mayville State Comets: 32 35
+
+GAME Calumet St. Joseph Crimson Wave@Valparaiso Beacons
+H Valparaiso Beacons: 52 54
+H Calumet St. Joseph Crimson Wave: 20 15
+
+GAME Columbia Lions@Northwestern Wildcats
+H Northwestern Wildcats: 19 34
+H Columbia Lions: 28 47
+
+GAME Abilene Christian Wildcats@Missouri State Bears
+H Missouri State Bears: 31 42
+H Abilene Christian Wildcats: 24 40
+
+GAME Central Arkansas Bears@Oklahoma State Cowboys
+H Oklahoma State Cowboys: 49 50
+H Central Arkansas Bears: 35 31
+
+GAME Western Illinois Leathernecks@Minnesota Golden Gophers
+H Minnesota Golden Gophers: 54 45
+H Western Illinois Leathernecks: 27 36
+
+GAME Montana Grizzlies@Kansas State Wildcats
+H Kansas State Wildcats: 40 46
+H Montana Grizzlies: 22 23
+
+GAME SE Louisiana Lions@Texas A&M Aggies
+H Texas A&M Aggies: 43 58
+H SE Louisiana Lions: 40 29
+
+GAME Dallas Christian Crusaders@UL Monroe Warhawks
+H UL Monroe Warhawks: 63 55
+H Dallas Christian Crusaders: 36 45
+
+GAME East Texas A&M Lions@Oregon State Beavers
+H Oregon State Beavers: 55 54
+H East Texas A&M Lions: 40 31
+
+GAME Colorado Colorado Springs Mountain Lions@Denver Pioneers
+H Denver Pioneers: 50 51
+H Colorado Colorado Springs Mountain Lions: 34 29
+
+GAME Texas Southern Tigers@UC San Diego Tritons
+H UC San Diego Tritons: 52 45
+H Texas Southern Tigers: 49 43
+
+GAME Portland State Vikings@Saint Mary's Gaels
+H Saint Mary's Gaels: 44 50
+H Portland State Vikings: 38 40

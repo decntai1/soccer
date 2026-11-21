@@ -1,0 +1,100 @@
+# NCAAB results 2025-11-27 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:44Z
+
+GAME Duke Blue Devils@Arkansas Razorbacks
+NEUTRAL
+H Arkansas Razorbacks: 35 36
+H Duke Blue Devils: 41 39
+
+GAME BYU Cougars@Miami Hurricanes
+NEUTRAL
+H Miami Hurricanes: 33 29
+H BYU Cougars: 29 43
+
+GAME TCU Horned Frogs@Florida Gators
+NEUTRAL
+H Florida Gators: 44 36
+H TCU Horned Frogs: 39 45
+
+GAME Michigan State Spartans@North Carolina Tar Heels
+NEUTRAL
+H North Carolina Tar Heels: 28 30
+H Michigan State Spartans: 33 41
+
+GAME VCU Rams@Vanderbilt Commodores
+NEUTRAL
+H Vanderbilt Commodores: 43 46
+H VCU Rams: 41 33
+
+GAME Richmond Spiders@Furman Paladins
+NEUTRAL
+H Furman Paladins: 43 30
+H Richmond Spiders: 38 34
+
+GAME St. Bonaventure Bonnies@East Carolina Pirates
+NEUTRAL
+H East Carolina Pirates: 29 29
+H St. Bonaventure Bonnies: 28 39
+
+GAME Charlotte 49ers@Illinois State Redbirds
+NEUTRAL
+H Illinois State Redbirds: 43 36
+H Charlotte 49ers: 34 35
+
+GAME Oregon Ducks@Creighton Bluejays
+NEUTRAL
+H Creighton Bluejays: 44 32
+H Oregon Ducks: 29 37
+
+GAME San Francisco Dons@Colorado Buffaloes
+NEUTRAL
+H Colorado Buffaloes: 35 44
+H San Francisco Dons: 37 32
+
+GAME Saint Mary's Gaels@Virginia Tech Hokies
+NEUTRAL
+H Virginia Tech Hokies: 20 46
+H Saint Mary's Gaels: 31 46
+
+GAME UNLV Rebels@Rutgers Scarlet Knights
+NEUTRAL
+H Rutgers Scarlet Knights: 33 47
+H UNLV Rebels: 39 26
+
+GAME Nevada Wolf Pack@Washington Huskies
+NEUTRAL
+H Washington Huskies: 34 49
+H Nevada Wolf Pack: 28 38
+
+GAME South Florida Bulls@Western Kentucky Hilltoppers
+NEUTRAL
+H Western Kentucky Hilltoppers: 50 34 7
+H South Florida Bulls: 40 44 13
+
+GAME Providence Friars@Wisconsin Badgers
+NEUTRAL
+H Wisconsin Badgers: 51 53
+H Providence Friars: 32 51
+
+GAME Santa Clara Broncos@Saint Louis Billikens
+NEUTRAL
+H Saint Louis Billikens: 31 40
+H Santa Clara Broncos: 35 35
+
+GAME Georgetown Hoyas@Dayton Flyers
+NEUTRAL
+H Dayton Flyers: 40 29 15
+H Georgetown Hoyas: 31 38 10
+
+GAME Wichita State Shockers@Colorado State Rams
+NEUTRAL
+H Colorado State Rams: 47 29
+H Wichita State Shockers: 30 40
+
+GAME Stanford Cardinal@Minnesota Golden Gophers
+NEUTRAL
+H Minnesota Golden Gophers: 34 34
+H Stanford Cardinal: 31 41
+
+GAME Oklahoma State Cowboys@Northwestern Wildcats
+H Northwestern Wildcats: 40 41
+H Oklahoma State Cowboys: 39 47

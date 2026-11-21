@@ -1,0 +1,21 @@
+# NCAAB results 2026-03-26 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:47Z
+
+GAME Arkansas Razorbacks@Arizona Wildcats
+NEUTRAL
+H Arizona Wildcats: 54 55
+H Arkansas Razorbacks: 43 45
+
+GAME Texas Longhorns@Purdue Boilermakers
+NEUTRAL
+H Purdue Boilermakers: 39 40
+H Texas Longhorns: 35 42
+
+GAME Illinois Fighting Illini@Houston Cougars
+NEUTRAL
+H Houston Cougars: 22 33
+H Illinois Fighting Illini: 24 41
+
+GAME Iowa Hawkeyes@Nebraska Cornhuskers
+NEUTRAL
+H Nebraska Cornhuskers: 46 25
+H Iowa Hawkeyes: 43 34

@@ -1,0 +1,204 @@
+# NCAAB results 2026-11-09 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:52Z
+
+GAME Wagner Seahawks@UConn Huskies
+H UConn Huskies: 44 39
+H Wagner Seahawks: 18 23
+
+GAME Grambling Tigers@Texas Longhorns
+H Texas Longhorns: 55 38
+H Grambling Tigers: 27 35
+
+GAME Radford Highlanders@Tennessee Volunteers
+H Tennessee Volunteers: 33 37
+H Radford Highlanders: 24 23
+
+GAME North Florida Ospreys@Miami Hurricanes
+H Miami Hurricanes: 44 45
+H North Florida Ospreys: 25 26
+
+GAME Oakland Golden Grizzlies@Alabama Crimson Tide
+H Alabama Crimson Tide: 56 53
+H Oakland Golden Grizzlies: 29 39
+
+GAME Cheyney (PA) Wolves@Coppin State Eagles
+H Coppin State Eagles: 47 43
+H Cheyney (PA) Wolves: 23 30
+
+GAME McDaniel Green Terror@UMBC Retrievers
+H UMBC Retrievers: 51 40
+H McDaniel Green Terror: 25 36
+
+GAME Hiram Terriers@Canisius Golden Griffins
+H Canisius Golden Griffins: 57 60
+H Hiram Terriers: 19 41
+
+GAME Marshall Thundering Herd@Ohio State Buckeyes
+H Ohio State Buckeyes: 45 39
+H Marshall Thundering Herd: 27 47
+
+GAME Howard Bison@Pennsylvania Quakers
+H Pennsylvania Quakers: 25 53
+H Howard Bison: 31 34
+
+GAME Penn State Schuylkill Nittany Lions@Buffalo Bulls
+H Buffalo Bulls: 58 49
+H Penn State Schuylkill Nittany Lions: 31 34
+
+GAME Syracuse Orange@Indiana Hoosiers
+NEUTRAL
+H Indiana Hoosiers: 34 49
+H Syracuse Orange: 38 42
+
+GAME Simpson (IA) Storm@Western Illinois Leathernecks
+H Western Illinois Leathernecks: 40 50
+H Simpson (IA) Storm: 22 26
+
+GAME Muskingum Fighting Muskies@Akron Zips
+H Akron Zips: 62 50
+H Muskingum Fighting Muskies: 27 37
+
+GAME UNC Greensboro Spartans@UIC Flames
+H UIC Flames: 33 49
+H UNC Greensboro Spartans: 32 40
+
+GAME Eastern Illinois Panthers@Notre Dame Fighting Irish
+H Notre Dame Fighting Irish: 46 48
+H Eastern Illinois Panthers: 33 37
+
+GAME Georgia Gwinnett Grizzlies@Alabama State Hornets
+H Alabama State Hornets: 34 43
+H Georgia Gwinnett Grizzlies: 32 47
+
+GAME Baptist (Fl) Eagles@West Florida Argonauts
+H West Florida Argonauts: 61 49
+H Baptist (Fl) Eagles: 29 30
+
+GAME South Carolina Upstate Spartans@Coastal Carolina Chanticleers
+H Coastal Carolina Chanticleers: 29 36
+H South Carolina Upstate Spartans: 25 31
+
+GAME Washington Maryland Shoremen@Loyola Maryland Greyhounds
+H Loyola Maryland Greyhounds: 48 58
+H Washington Maryland Shoremen: 25 39
+
+GAME Covenant Fighting Scots@Chattanooga Mocs
+H Chattanooga Mocs: 52 45
+H Covenant Fighting Scots: 22 45
+
+GAME Kansas City Roos@Jacksonville Dolphins
+H Jacksonville Dolphins: 36 43
+H Kansas City Roos: 20 41
+
+GAME Stonehill Skyhawks@Columbia Lions
+H Columbia Lions: 34 41
+H Stonehill Skyhawks: 36 19
+
+GAME Long Island University Sharks@Towson Tigers
+H Towson Tigers: 38 28
+H Long Island University Sharks: 28 18
+
+GAME Elmira Soaring Eagles@Le Moyne Dolphins
+H Le Moyne Dolphins: 53 56
+H Elmira Soaring Eagles: 20 19
+
+GAME South Carolina State Bulldogs@Chicago State Cougars
+H Chicago State Cougars: 33 34
+H South Carolina State Bulldogs: 53 29
+
+GAME North Dakota Fighting Hawks@Clemson Tigers
+H Clemson Tigers: 38 54
+H North Dakota Fighting Hawks: 40 37
+
+GAME Minnesota Golden Gophers@Cincinnati Bearcats
+H Cincinnati Bearcats: 30 31
+H Minnesota Golden Gophers: 30 33
+
+GAME Cleveland State Vikings@Bowling Green Falcons
+H Bowling Green Falcons: 44 51
+H Cleveland State Vikings: 37 42
+
+GAME Brescia Bearcats@Ball State Cardinals
+H Ball State Cardinals: 45 44
+H Brescia Bearcats: 26 38
+
+GAME Florida Gulf Coast Eagles@Georgia Bulldogs
+H Georgia Bulldogs: 44 36
+H Florida Gulf Coast Eagles: 41 31
+
+GAME College of Biblical Studies Ambassadors@McNeese Cowboys
+H McNeese Cowboys: 63 72
+H College of Biblical Studies Ambassadors: 44 43
+
+GAME Florida A&M Rattlers@UAB Blazers
+H UAB Blazers: 47 45
+H Florida A&M Rattlers: 27 37
+
+GAME Jackson State Tigers@Mississippi State Bulldogs
+H Mississippi State Bulldogs: 51 47
+H Jackson State Tigers: 29 28
+
+GAME Southern New Orleans Knights@Louisiana Ragin' Cajuns
+H Louisiana Ragin' Cajuns: 26 30
+H Southern New Orleans Knights: 15 24
+
+GAME SIU Edwardsville Cougars@Missouri Tigers
+H Missouri Tigers: 48 48
+H SIU Edwardsville Cougars: 24 34
+
+GAME Louisiana Tech Bulldogs@LSU Tigers
+H LSU Tigers: 47 43
+H Louisiana Tech Bulldogs: 20 30
+
+GAME Fisk Bulldogs@Tennessee State Tigers
+H Tennessee State Tigers: 54 69
+H Fisk Bulldogs: 36 37
+
+GAME Boston University Terriers@Northwestern Wildcats
+H Northwestern Wildcats: 39 33
+H Boston University Terriers: 24 31
+
+GAME UL Monroe Warhawks@Texas A&M Aggies
+H Texas A&M Aggies: 54 54
+H UL Monroe Warhawks: 27 40
+
+GAME North Alabama Lions@Oklahoma Sooners
+H Oklahoma Sooners: 37 44
+H North Alabama Lions: 36 36
+
+GAME Illinois State Redbirds@Purdue Boilermakers
+H Purdue Boilermakers: 36 40
+H Illinois State Redbirds: 28 31
+
+GAME Seton Hall Pirates@Charlotte 49ers
+NEUTRAL
+H Charlotte 49ers: 34 28
+H Seton Hall Pirates: 36 32
+
+GAME App State Mountaineers@Auburn Tigers
+H Auburn Tigers: 38 37
+H App State Mountaineers: 36 17
+
+GAME Alabama A&M Bulldogs@DePaul Blue Demons
+H DePaul Blue Demons: 37 47
+H Alabama A&M Bulldogs: 27 20
+
+GAME UT Arlington Mavericks@Bethesda Flames
+NEUTRAL
+H Bethesda Flames: 32 33
+H UT Arlington Mavericks: 57 59
+
+GAME Eastern Washington Eagles@Oregon State Beavers
+H Oregon State Beavers: 49 45
+H Eastern Washington Eagles: 37 47
+
+GAME Mississippi Valley State Delta Devils@Washington Huskies
+H Washington Huskies: 43 34
+H Mississippi Valley State Delta Devils: 33 31
+
+GAME Rice Owls@Stanford Cardinal
+H Stanford Cardinal: 45 46
+H Rice Owls: 29 44
+
+GAME Portland Pilots@Hawai'i Rainbow Warriors
+H Hawai'i Rainbow Warriors: 36 30
+H Portland Pilots: 40 33

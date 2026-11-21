@@ -1,0 +1,17 @@
+# NCAAB results 2026-01-25 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:46Z
+
+GAME Florida Atlantic Owls@South Florida Bulls
+H South Florida Bulls: 33 56
+H Florida Atlantic Owls: 36 39
+
+GAME Oregon Ducks@Washington Huskies
+H Washington Huskies: 34 38
+H Oregon Ducks: 19 38
+
+GAME Chicago State Cougars@Mercyhurst Lakers
+H Mercyhurst Lakers: 26 35
+H Chicago State Cougars: 28 31
+
+GAME USC Trojans@Wisconsin Badgers
+H Wisconsin Badgers: 41 30
+H USC Trojans: 39 34

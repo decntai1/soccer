@@ -1,0 +1,66 @@
+# NCAAB results 2026-02-13 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:46Z
+
+GAME Michigan State Spartans@Wisconsin Badgers
+H Wisconsin Badgers: 51 41
+H Michigan State Spartans: 34 37
+
+GAME Saint Louis Billikens@Loyola Chicago Ramblers
+H Loyola Chicago Ramblers: 29 30
+H Saint Louis Billikens: 39 47
+
+GAME Ohio Bobcats@Miami (OH) RedHawks
+H Miami (OH) RedHawks: 43 47
+H Ohio Bobcats: 35 39
+
+GAME Manhattan Jaspers@Niagara Purple Eagles
+H Niagara Purple Eagles: 27 42
+H Manhattan Jaspers: 35 41
+
+GAME George Mason Patriots@George Washington Revolutionaries
+H George Washington Revolutionaries: 32 40
+H George Mason Patriots: 30 23
+
+GAME Cornell Big Red@Princeton Tigers
+H Princeton Tigers: 27 38
+H Cornell Big Red: 44 45
+
+GAME Saint Peter's Peacocks@Sacred Heart Pioneers
+H Sacred Heart Pioneers: 40 38
+H Saint Peter's Peacocks: 33 38
+
+GAME Yale Bulldogs@Dartmouth Big Green
+H Dartmouth Big Green: 30 40
+H Yale Bulldogs: 38 45
+
+GAME Quinnipiac Bobcats@Siena Saints
+H Siena Saints: 27 35
+H Quinnipiac Bobcats: 34 40
+
+GAME Mount St. Mary's Mountaineers@Rider Broncs
+H Rider Broncs: 21 34
+H Mount St. Mary's Mountaineers: 28 37
+
+GAME Iona Gaels@Canisius Golden Griffins
+H Canisius Golden Griffins: 24 39
+H Iona Gaels: 34 35
+
+GAME Brown Bears@Harvard Crimson
+H Harvard Crimson: 31 25
+H Brown Bears: 22 31
+
+GAME Columbia Lions@Pennsylvania Quakers
+H Pennsylvania Quakers: 34 42
+H Columbia Lions: 37 30
+
+GAME Massachusetts Minutemen@Akron Zips
+H Akron Zips: 44 55
+H Massachusetts Minutemen: 43 49
+
+GAME UNLV Rebels@Boise State Broncos
+H Boise State Broncos: 40 37 6
+H UNLV Rebels: 29 48 9
+
+GAME Hampton Pirates@North Carolina A&T Aggies
+NEUTRAL
+H North Carolina A&T Aggies: 26 45
+H Hampton Pirates: 30 40

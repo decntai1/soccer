@@ -1,0 +1,189 @@
+# NCAAB results 2025-11-23 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:44Z
+
+GAME Bryant Bulldogs@UConn Huskies
+H UConn Huskies: 37 35
+H Bryant Bulldogs: 21 28
+
+GAME Howard Bison@Duke Blue Devils
+H Duke Blue Devils: 52 41
+H Howard Bison: 18 38
+
+GAME Clemson Tigers@Georgia Bulldogs
+NEUTRAL
+H Georgia Bulldogs: 40 40 14
+H Clemson Tigers: 41 39 17
+
+GAME Alabama State Hornets@SIU Edwardsville Cougars
+NEUTRAL
+H SIU Edwardsville Cougars: 28 55
+H Alabama State Hornets: 37 31
+
+GAME Arkansas-Pine Bluff Golden Lions@Miami (OH) RedHawks
+H Miami (OH) RedHawks: 56 55
+H Arkansas-Pine Bluff Golden Lions: 36 48
+
+GAME Binghamton Bearcats@Canisius Golden Griffins
+H Canisius Golden Griffins: 24 51
+H Binghamton Bearcats: 26 40
+
+GAME Delaware State Hornets@Miami Hurricanes
+H Miami Hurricanes: 50 47
+H Delaware State Hornets: 19 22
+
+GAME South Carolina State Bulldogs@South Dakota Coyotes
+H South Dakota Coyotes: 44 38
+H South Carolina State Bulldogs: 35 46
+
+GAME Old Dominion Monarchs@Drexel Dragons
+H Drexel Dragons: 35 40
+H Old Dominion Monarchs: 34 37
+
+GAME Alcorn State Braves@Oklahoma Sooners
+H Oklahoma Sooners: 35 37
+H Alcorn State Braves: 33 20
+
+GAME West Georgia Wolves@Georgia Tech Yellow Jackets
+H Georgia Tech Yellow Jackets: 33 49
+H West Georgia Wolves: 34 32
+
+GAME Eastern Washington Eagles@Central Arkansas Bears
+H Central Arkansas Bears: 45 47
+H Eastern Washington Eagles: 27 38
+
+GAME Cal State Fullerton Titans@Northern Colorado Bears
+NEUTRAL
+H Northern Colorado Bears: 39 58
+H Cal State Fullerton Titans: 33 60
+
+GAME Shaw Bears@Charlotte 49ers
+H Charlotte 49ers: 39 44
+H Shaw Bears: 40 39
+
+GAME Brown Bears@Maine Black Bears
+H Maine Black Bears: 23 30
+H Brown Bears: 33 25
+
+GAME Longwood Lancers@Columbia Lions
+H Columbia Lions: 53 42
+H Longwood Lancers: 42 28
+
+GAME Butler Bulldogs@Virginia Cavaliers
+NEUTRAL
+H Virginia Cavaliers: 42 31
+H Butler Bulldogs: 44 36
+
+GAME Prairie View A&M Panthers@North Florida Ospreys
+NEUTRAL
+H North Florida Ospreys: 44 38
+H Prairie View A&M Panthers: 32 53
+
+GAME Southern Illinois Salukis@Delaware Blue Hens
+NEUTRAL
+H Delaware Blue Hens: 24 35
+H Southern Illinois Salukis: 33 46
+
+GAME Robert Morris Colonials@Monmouth Hawks
+H Monmouth Hawks: 36 24 11
+H Robert Morris Colonials: 35 25 10
+
+GAME Mount St. Mary's Mountaineers@Western Michigan Broncos
+H Western Michigan Broncos: 38 45
+H Mount St. Mary's Mountaineers: 34 26
+
+GAME West Virginia Mountaineers@Xavier Musketeers
+NEUTRAL
+H Xavier Musketeers: 36 42
+H West Virginia Mountaineers: 28 40
+
+GAME Lamar Cardinals@Montana Grizzlies
+H Montana Grizzlies: 21 42
+H Lamar Cardinals: 23 45
+
+GAME UL Monroe Warhawks@East Tennessee State Buccaneers
+H East Tennessee State Buccaneers: 54 43
+H UL Monroe Warhawks: 33 22
+
+GAME St. Thomas Tommies@Portland Pilots
+H Portland Pilots: 34 32
+H St. Thomas Tommies: 36 40
+
+GAME Norfolk State Spartans@Wyoming Cowboys
+H Wyoming Cowboys: 39 36
+H Norfolk State Spartans: 23 44
+
+GAME South Carolina Gamecocks@Northwestern Wildcats
+NEUTRAL
+H Northwestern Wildcats: 36 43
+H South Carolina Gamecocks: 34 43
+
+GAME Queens University Royals@Furman Paladins
+H Furman Paladins: 45 45
+H Queens University Royals: 32 47
+
+GAME IU Indianapolis Jaguars@Air Force Falcons
+H Air Force Falcons: 48 50
+H IU Indianapolis Jaguars: 49 36
+
+GAME Quinnipiac Bobcats@Pittsburgh Panthers
+H Pittsburgh Panthers: 37 38
+H Quinnipiac Bobcats: 47 36
+
+GAME Coastal Carolina Chanticleers@Illinois State Redbirds
+H Illinois State Redbirds: 55 39
+H Coastal Carolina Chanticleers: 20 22
+
+GAME McNeese Cowboys@George Washington Revolutionaries
+NEUTRAL
+H George Washington Revolutionaries: 39 47
+H McNeese Cowboys: 47 45
+
+GAME UT Martin Skyhawks@Southern Miss Golden Eagles
+NEUTRAL
+H Southern Miss Golden Eagles: 41 29
+H UT Martin Skyhawks: 22 38
+
+GAME Yale Bulldogs@Charleston Cougars
+NEUTRAL
+H Charleston Cougars: 33 30
+H Yale Bulldogs: 41 33
+
+GAME Youngstown State Penguins@UNC Greensboro Spartans
+NEUTRAL
+H UNC Greensboro Spartans: 25 43
+H Youngstown State Penguins: 43 19
+
+GAME Detroit Mercy Titans@DePaul Blue Demons
+H DePaul Blue Demons: 37 58
+H Detroit Mercy Titans: 29 46
+
+GAME Tulane Green Wave@Boston College Eagles
+NEUTRAL
+H Boston College Eagles: 40 43 7
+H Tulane Green Wave: 39 44 10
+
+GAME North Dakota Fighting Hawks@Western Illinois Leathernecks
+H Western Illinois Leathernecks: 35 34
+H North Dakota Fighting Hawks: 29 49
+
+GAME Mercyhurst Lakers@Marshall Thundering Herd
+H Marshall Thundering Herd: 27 42
+H Mercyhurst Lakers: 23 37
+
+GAME Murray State Racers@Middle Tennessee Blue Raiders
+NEUTRAL
+H Middle Tennessee Blue Raiders: 43 47
+H Murray State Racers: 40 47
+
+GAME Akron Zips@Evansville Purple Aces
+NEUTRAL
+H Evansville Purple Aces: 36 23
+H Akron Zips: 44 53
+
+GAME Winthrop Eagles@Jackson State Tigers
+H Jackson State Tigers: 32 30
+H Winthrop Eagles: 32 48
+
+GAME Utah State Aggies@Davidson Wildcats
+NEUTRAL
+H Davidson Wildcats: 30 30
+H Utah State Aggies: 48 46

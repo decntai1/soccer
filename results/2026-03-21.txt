@@ -1,0 +1,49 @@
+# NCAAB results 2026-03-21 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:47Z
+
+GAME Saint Louis Billikens@Michigan Wolverines
+NEUTRAL
+H Michigan Wolverines: 48 47
+H Saint Louis Billikens: 39 33
+
+GAME TCU Horned Frogs@Duke Blue Devils
+NEUTRAL
+H Duke Blue Devils: 38 43
+H TCU Horned Frogs: 34 24
+
+GAME Texas A&M Aggies@Houston Cougars
+NEUTRAL
+H Houston Cougars: 46 42
+H Texas A&M Aggies: 28 29
+
+GAME Louisville Cardinals@Michigan State Spartans
+NEUTRAL
+H Michigan State Spartans: 36 41
+H Louisville Cardinals: 31 38
+
+GAME Texas Longhorns@Gonzaga Bulldogs
+NEUTRAL
+H Gonzaga Bulldogs: 33 35
+H Texas Longhorns: 35 39
+
+GAME VCU Rams@Illinois Fighting Illini
+NEUTRAL
+H Illinois Fighting Illini: 35 41
+H VCU Rams: 28 27
+
+GAME Vanderbilt Commodores@Nebraska Cornhuskers
+NEUTRAL
+H Nebraska Cornhuskers: 39 35
+H Vanderbilt Commodores: 32 40
+
+GAME High Point Panthers@Arkansas Razorbacks
+NEUTRAL
+H Arkansas Razorbacks: 43 51
+H High Point Panthers: 42 46
+
+GAME Dayton Flyers@UNC Wilmington Seahawks
+H UNC Wilmington Seahawks: 33 28
+H Dayton Flyers: 37 43
+
+GAME Liberty Flames@Nevada Wolf Pack
+H Nevada Wolf Pack: 35 38
+H Liberty Flames: 31 32

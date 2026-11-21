@@ -1,0 +1,133 @@
+# NCAAB results 2026-01-02 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:45Z
+
+GAME USC Trojans@Michigan Wolverines
+H Michigan Wolverines: 49 47
+H USC Trojans: 31 35
+
+GAME West Virginia Mountaineers@Iowa State Cyclones
+H Iowa State Cyclones: 41 39
+H West Virginia Mountaineers: 28 31
+
+GAME Seattle U Redhawks@Gonzaga Bulldogs
+H Gonzaga Bulldogs: 29 36 15
+H Seattle U Redhawks: 37 28 7
+
+GAME Michigan State Spartans@Nebraska Cornhuskers
+H Nebraska Cornhuskers: 33 25
+H Michigan State Spartans: 33 23
+
+GAME Louisville Cardinals@Stanford Cardinal
+H Stanford Cardinal: 35 45
+H Louisville Cardinals: 34 42
+
+GAME New Mexico State Aggies@Florida International Panthers
+H Florida International Panthers: 44 45
+H New Mexico State Aggies: 39 35
+
+GAME Alfred State Pioneers@Cornell Big Red
+H Cornell Big Red: 69 64
+H Alfred State Pioneers: 23 42
+
+GAME Mount St. Mary's Mountaineers@Merrimack Warriors
+H Merrimack Warriors: 29 46
+H Mount St. Mary's Mountaineers: 27 38
+
+GAME Sacred Heart Pioneers@Niagara Purple Eagles
+H Niagara Purple Eagles: 32 32
+H Sacred Heart Pioneers: 24 37
+
+GAME Fairfield Stags@Canisius Golden Griffins
+H Canisius Golden Griffins: 39 46
+H Fairfield Stags: 37 44
+
+GAME Sam Houston Bearkats@Western Kentucky Hilltoppers
+H Western Kentucky Hilltoppers: 42 60
+H Sam Houston Bearkats: 49 42
+
+GAME Robert Morris Colonials@Detroit Mercy Titans
+H Detroit Mercy Titans: 32 45
+H Robert Morris Colonials: 27 58
+
+GAME Siena Saints@Iona Gaels
+H Iona Gaels: 41 34
+H Siena Saints: 36 36
+
+GAME Marist Red Foxes@Saint Peter's Peacocks
+H Saint Peter's Peacocks: 35 34
+H Marist Red Foxes: 38 21
+
+GAME Quinnipiac Bobcats@Manhattan Jaspers
+H Manhattan Jaspers: 31 49
+H Quinnipiac Bobcats: 45 34
+
+GAME Wagner Seahawks@Chicago State Cougars
+H Chicago State Cougars: 35 37
+H Wagner Seahawks: 41 38
+
+GAME New Haven Chargers@Stonehill Skyhawks
+H Stonehill Skyhawks: 31 24
+H New Haven Chargers: 36 34
+
+GAME Central Connecticut Blue Devils@Long Island University Sharks
+H Long Island University Sharks: 37 47
+H Central Connecticut Blue Devils: 34 44
+
+GAME Le Moyne Dolphins@Saint Francis Red Wolves
+H Saint Francis Red Wolves: 27 31
+H Le Moyne Dolphins: 39 45
+
+GAME Lamar Cardinals@McNeese Cowboys
+H McNeese Cowboys: 39 43
+H Lamar Cardinals: 34 36
+
+GAME Kennesaw State Owls@Liberty Flames
+H Liberty Flames: 46 35
+H Kennesaw State Owls: 33 40
+
+GAME Jacksonville State Gamecocks@Delaware Blue Hens
+H Delaware Blue Hens: 31 33
+H Jacksonville State Gamecocks: 36 31
+
+GAME Oregon Ducks@Maryland Terrapins
+H Maryland Terrapins: 27 27
+H Oregon Ducks: 34 30
+
+GAME Fairleigh Dickinson Knights@Mercyhurst Lakers
+H Mercyhurst Lakers: 32 35
+H Fairleigh Dickinson Knights: 28 46
+
+GAME Louisiana Tech Bulldogs@Middle Tennessee Blue Raiders
+H Middle Tennessee Blue Raiders: 39 49
+H Louisiana Tech Bulldogs: 22 29
+
+GAME Ohio State Buckeyes@Rutgers Scarlet Knights
+H Rutgers Scarlet Knights: 41 32
+H Ohio State Buckeyes: 37 43
+
+GAME UTEP Miners@Missouri State Bears
+H Missouri State Bears: 49 30
+H UTEP Miners: 23 32
+
+GAME Loyola Marymount Lions@Washington State Cougars
+H Washington State Cougars: 34 44
+H Loyola Marymount Lions: 32 44
+
+GAME San Diego Toreros@San Francisco Dons
+H San Francisco Dons: 29 45
+H San Diego Toreros: 28 36
+
+GAME Portland Pilots@Saint Mary's Gaels
+H Saint Mary's Gaels: 42 36
+H Portland Pilots: 27 30
+
+GAME Pepperdine Waves@Santa Clara Broncos
+H Santa Clara Broncos: 42 40
+H Pepperdine Waves: 35 28
+
+GAME Oregon State Beavers@Pacific Tigers
+H Pacific Tigers: 49 35
+H Oregon State Beavers: 34 19
+
+GAME Notre Dame Fighting Irish@California Golden Bears
+H California Golden Bears: 27 45
+H Notre Dame Fighting Irish: 31 40

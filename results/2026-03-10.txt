@@ -1,0 +1,118 @@
+# NCAAB results 2026-03-10 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:47Z
+
+GAME Santa Clara Broncos@Gonzaga Bulldogs
+NEUTRAL
+H Gonzaga Bulldogs: 29 50
+H Santa Clara Broncos: 33 35
+
+GAME Baylor Bears@Arizona State Sun Devils
+NEUTRAL
+H Arizona State Sun Devils: 44 39
+H Baylor Bears: 35 44
+
+GAME Alcorn State Braves@Prairie View A&M Panthers
+NEUTRAL
+H Prairie View A&M Panthers: 22 43
+H Alcorn State Braves: 26 30
+
+GAME Pittsburgh Panthers@Stanford Cardinal
+NEUTRAL
+H Stanford Cardinal: 23 40
+H Pittsburgh Panthers: 31 33
+
+GAME Utah Utes@Cincinnati Bearcats
+NEUTRAL
+H Cincinnati Bearcats: 29 44
+H Utah Utes: 20 46
+
+GAME Syracuse Orange@SMU Mustangs
+NEUTRAL
+H SMU Mustangs: 39 47
+H Syracuse Orange: 38 31
+
+GAME Maryland Terrapins@Oregon Ducks
+NEUTRAL
+H Oregon Ducks: 12 48
+H Maryland Terrapins: 33 37
+
+GAME UMass Lowell River Hawks@UMBC Retrievers
+H UMBC Retrievers: 43 48
+H UMass Lowell River Hawks: 29 40
+
+GAME Missouri State Bears@Florida International Panthers
+NEUTRAL
+H Florida International Panthers: 36 36
+H Missouri State Bears: 31 44
+
+GAME Monmouth Hawks@Hofstra Pride
+NEUTRAL
+H Hofstra Pride: 35 40
+H Monmouth Hawks: 32 37
+
+GAME Texas A&M-Corpus Christi Islanders@Stephen F. Austin Lumberjacks
+NEUTRAL
+H Stephen F. Austin Lumberjacks: 32 28
+H Texas A&M-Corpus Christi Islanders: 39 19
+
+GAME Mercyhurst Lakers@Long Island University Sharks
+H Long Island University Sharks: 42 37
+H Mercyhurst Lakers: 40 30
+
+GAME Detroit Mercy Titans@Wright State Raiders
+NEUTRAL
+H Wright State Raiders: 26 40
+H Detroit Mercy Titans: 29 34
+
+GAME Kansas State Wildcats@BYU Cougars
+NEUTRAL
+H BYU Cougars: 50 55
+H Kansas State Wildcats: 49 42
+
+GAME NJIT Highlanders@Vermont Catamounts
+H Vermont Catamounts: 26 37
+H NJIT Highlanders: 18 36
+
+GAME Wake Forest Demon Deacons@Virginia Tech Hokies
+NEUTRAL
+H Virginia Tech Hokies: 34 41 14
+H Wake Forest Demon Deacons: 38 37 20
+
+GAME Penn State Nittany Lions@Northwestern Wildcats
+NEUTRAL
+H Northwestern Wildcats: 34 42
+H Penn State Nittany Lions: 32 34
+
+GAME Grambling Tigers@Jackson State Tigers
+NEUTRAL
+H Jackson State Tigers: 28 40
+H Grambling Tigers: 27 38
+
+GAME Siena Saints@Merrimack Warriors
+NEUTRAL
+H Merrimack Warriors: 30 24
+H Siena Saints: 33 31
+
+GAME Montana Grizzlies@Portland State Vikings
+NEUTRAL
+H Portland State Vikings: 24 48
+H Montana Grizzlies: 39 36
+
+GAME New Mexico State Aggies@Jacksonville State Gamecocks
+NEUTRAL
+H Jacksonville State Gamecocks: 28 35
+H New Mexico State Aggies: 39 29
+
+GAME UT Rio Grande Valley Vaqueros@McNeese Cowboys
+NEUTRAL
+H McNeese Cowboys: 31 27 9 5 12
+H UT Rio Grande Valley Vaqueros: 23 35 9 5 8
+
+GAME Oklahoma State Cowboys@Colorado Buffaloes
+NEUTRAL
+H Colorado Buffaloes: 40 43
+H Oklahoma State Cowboys: 41 51
+
+GAME Idaho Vandals@Eastern Washington Eagles
+NEUTRAL
+H Eastern Washington Eagles: 28 40
+H Idaho Vandals: 36 45

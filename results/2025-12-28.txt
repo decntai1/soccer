@@ -1,0 +1,165 @@
+# NCAAB results 2025-12-28 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:45Z
+
+GAME Gonzaga Bulldogs@Pepperdine Waves
+H Pepperdine Waves: 26 30
+H Gonzaga Bulldogs: 44 52
+
+GAME Winthrop Eagles@Texas Tech Red Raiders
+H Texas Tech Red Raiders: 59 28
+H Winthrop Eagles: 21 36
+
+GAME Arcadia ARCADIA@Saint Joseph's Hawks
+H Saint Joseph's Hawks: 44 43
+H Arcadia ARCADIA: 29 36
+
+GAME Worcester State Lancers@Bryant Bulldogs
+H Bryant Bulldogs: 54 41
+H Worcester State Lancers: 19 40
+
+GAME Baptist (Fl) Eagles@Mercer Bears
+H Mercer Bears: 62 60
+H Baptist (Fl) Eagles: 18 31
+
+GAME Alice Lloyd Eagles@Morehead State Eagles
+H Morehead State Eagles: 61 54
+H Alice Lloyd Eagles: 30 35
+
+GAME North Central (MN) Rams@St. Thomas Tommies
+H St. Thomas Tommies: 55 50
+H North Central (MN) Rams: 36 23
+
+GAME Dakota State Trojans@North Dakota Fighting Hawks
+H North Dakota Fighting Hawks: 49 39
+H Dakota State Trojans: 33 23
+
+GAME Union Commonwealth (KY) Bulldogs@Wofford Terriers
+H Wofford Terriers: 43 45
+H Union Commonwealth (KY) Bulldogs: 22 32
+
+GAME Pfeiffer Falcons@High Point Panthers
+H High Point Panthers: 59 64
+H Pfeiffer Falcons: 25 39
+
+GAME Fort Lauderdale Eagles@Florida Gulf Coast Eagles
+H Florida Gulf Coast Eagles: 34 50
+H Fort Lauderdale Eagles: 21 22
+
+GAME UL Monroe Warhawks@Kansas State Wildcats
+H Kansas State Wildcats: 46 48
+H UL Monroe Warhawks: 36 49
+
+GAME Columbia Lions@North Florida Ospreys
+H North Florida Ospreys: 43 39
+H Columbia Lions: 42 48
+
+GAME Le Moyne Dolphins@Boston College Eagles
+H Boston College Eagles: 30 42
+H Le Moyne Dolphins: 29 35
+
+GAME Harvard Crimson@Colgate Raiders
+H Colgate Raiders: 33 36
+H Harvard Crimson: 36 42
+
+GAME Mount Marty Lancers@South Dakota Coyotes
+H South Dakota Coyotes: 43 42
+H Mount Marty Lancers: 33 28
+
+GAME Liberty Flames@Florida International Panthers
+H Florida International Panthers: 33 49 12
+H Liberty Flames: 41 41 15
+
+GAME Florida A&M Rattlers@Georgia Tech Yellow Jackets
+H Georgia Tech Yellow Jackets: 43 46
+H Florida A&M Rattlers: 21 44
+
+GAME Shenandoah Hornets@Radford Highlanders
+H Radford Highlanders: 42 45
+H Shenandoah Hornets: 17 27
+
+GAME Norfolk State Spartans@Louisiana Ragin' Cajuns
+H Louisiana Ragin' Cajuns: 33 30
+H Norfolk State Spartans: 25 29
+
+GAME Averett Cougars@Longwood Lancers
+H Longwood Lancers: 46 46
+H Averett Cougars: 17 32
+
+GAME Northern Colorado Bears@Colorado Buffaloes
+H Colorado Buffaloes: 35 46
+H Northern Colorado Bears: 37 49
+
+GAME Cal State Fullerton Titans@SMU Mustangs
+H SMU Mustangs: 51 59
+H Cal State Fullerton Titans: 19 44
+
+GAME Principia PRINCIPIA@Saint Louis Billikens
+H Saint Louis Billikens: 66 48
+H Principia PRINCIPIA: 13 20
+
+GAME College of Biblical Studies Ambassadors@Sam Houston Bearkats
+H Sam Houston Bearkats: 59 58
+H College of Biblical Studies Ambassadors: 21 36
+
+GAME Southwest Mustangs@New Mexico State Aggies
+H New Mexico State Aggies: 52 52
+H Southwest Mustangs: 17 16
+
+GAME Truett McConnell Bears@Presbyterian Blue Hose
+H Presbyterian Blue Hose: 51 40
+H Truett McConnell Bears: 25 39
+
+GAME Charleston Southern Buccaneers@Richmond Spiders
+H Richmond Spiders: 35 37
+H Charleston Southern Buccaneers: 39 38
+
+GAME Columbia (SC) Fighting Koalas@Georgia State Panthers
+H Georgia State Panthers: 56 54
+H Columbia (SC) Fighting Koalas: 38 34
+
+GAME Washington State Cougars@Portland Pilots
+H Portland Pilots: 23 39
+H Washington State Cougars: 32 35
+
+GAME Pacific Union PACIFIC UNION@UC Davis Aggies
+H UC Davis Aggies: 40 68
+H Pacific Union PACIFIC UNION: 19 33
+
+GAME Pennsylvania Quakers@George Mason Patriots
+H George Mason Patriots: 42 41
+H Pennsylvania Quakers: 40 39
+
+GAME Fisk Bulldogs@Austin Peay Governors
+H Austin Peay Governors: 55 55
+H Fisk Bulldogs: 39 20
+
+GAME McPherson McPHERSON@Kansas City Roos
+H Kansas City Roos: 49 42
+H McPherson McPHERSON: 50 28
+
+GAME Santa Clara Broncos@Oregon State Beavers
+H Oregon State Beavers: 20 44
+H Santa Clara Broncos: 53 49
+
+GAME Pacific Tigers@San Diego Toreros
+H San Diego Toreros: 34 32
+H Pacific Tigers: 23 31
+
+GAME Old Dominion Monarchs@Maryland Terrapins
+H Maryland Terrapins: 45 28
+H Old Dominion Monarchs: 18 40
+
+GAME Saint Mary's Gaels@Loyola Marymount Lions
+H Loyola Marymount Lions: 33 40
+H Saint Mary's Gaels: 33 45
+
+GAME Stanton Elks@UC San Diego Tritons
+H UC San Diego Tritons: 35 50
+H Stanton Elks: 31 31
+
+GAME San Francisco Dons@Seattle U Redhawks
+H Seattle U Redhawks: 30 29
+H San Francisco Dons: 32 35
+
+GAME Omaha Mavericks@Oregon Ducks
+H Oregon Ducks: 39 41
+H Omaha Mavericks: 29 28

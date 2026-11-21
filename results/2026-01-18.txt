@@ -1,0 +1,53 @@
+# NCAAB results 2026-01-18 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:45Z
+
+GAME Arizona State Sun Devils@Houston Cougars
+H Houston Cougars: 56 47
+H Arizona State Sun Devils: 29 44
+
+GAME Florida Atlantic Owls@Temple Owls
+H Temple Owls: 34 39
+H Florida Atlantic Owls: 30 49
+
+GAME Penn State Nittany Lions@Maryland Terrapins
+H Maryland Terrapins: 56 40
+H Penn State Nittany Lions: 26 47
+
+GAME American University Eagles@Army Black Knights
+H Army Black Knights: 26 41
+H American University Eagles: 33 45
+
+GAME Wichita State Shockers@South Florida Bulls
+H South Florida Bulls: 36 41 8
+H Wichita State Shockers: 37 40 9
+
+GAME Charlotte 49ers@East Carolina Pirates
+H East Carolina Pirates: 33 37
+H Charlotte 49ers: 45 28
+
+GAME Oakland Golden Grizzlies@Green Bay Phoenix
+H Green Bay Phoenix: 31 32
+H Oakland Golden Grizzlies: 37 51
+
+GAME Milwaukee Panthers@Purdue Fort Wayne Mastodons
+H Purdue Fort Wayne Mastodons: 48 52
+H Milwaukee Panthers: 40 42
+
+GAME Blackburn Beavers@Eastern Illinois Panthers
+H Eastern Illinois Panthers: 53 52
+H Blackburn Beavers: 26 23
+
+GAME Tulsa Golden Hurricane@UAB Blazers
+H UAB Blazers: 37 40
+H Tulsa Golden Hurricane: 46 53
+
+GAME North Texas Mean Green@Tulane Green Wave
+H Tulane Green Wave: 30 33
+H North Texas Mean Green: 35 36
+
+GAME UTSA Roadrunners@Memphis Tigers
+H Memphis Tigers: 43 52
+H UTSA Roadrunners: 33 36
+
+GAME Washington State Cougars@San Francisco Dons
+H San Francisco Dons: 48 37
+H Washington State Cougars: 44 36

@@ -1,0 +1,85 @@
+# NCAAB results 2026-02-22 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:46Z
+
+GAME Ohio State Buckeyes@Michigan State Spartans
+H Michigan State Spartans: 23 43
+H Ohio State Buckeyes: 26 34
+
+GAME Iowa Hawkeyes@Wisconsin Badgers
+H Wisconsin Badgers: 40 44
+H Iowa Hawkeyes: 41 30
+
+GAME American University Eagles@Lafayette Leopards
+H Lafayette Leopards: 31 30
+H American University Eagles: 34 41
+
+GAME UAB Blazers@Memphis Tigers
+H Memphis Tigers: 30 37
+H UAB Blazers: 46 32
+
+GAME Holy Cross Crusaders@Bucknell Bison
+H Bucknell Bison: 30 33
+H Holy Cross Crusaders: 31 41
+
+GAME Boston University Terriers@Lehigh Mountain Hawks
+H Lehigh Mountain Hawks: 29 41
+H Boston University Terriers: 28 39
+
+GAME Niagara Purple Eagles@Rider Broncs
+H Rider Broncs: 27 40
+H Niagara Purple Eagles: 28 34
+
+GAME Iona Gaels@Merrimack Warriors
+H Merrimack Warriors: 36 32 9 11
+H Iona Gaels: 33 35 9 9
+
+GAME Green Bay Phoenix@Detroit Mercy Titans
+H Detroit Mercy Titans: 31 43
+H Green Bay Phoenix: 28 42
+
+GAME Sacred Heart Pioneers@Marist Red Foxes
+H Marist Red Foxes: 33 32
+H Sacred Heart Pioneers: 36 27
+
+GAME Rice Owls@Tulane Green Wave
+H Tulane Green Wave: 36 45
+H Rice Owls: 33 42
+
+GAME Fairfield Stags@Quinnipiac Bobcats
+H Quinnipiac Bobcats: 36 43
+H Fairfield Stags: 39 46
+
+GAME Northern Kentucky Norse@Youngstown State Penguins
+H Youngstown State Penguins: 35 29
+H Northern Kentucky Norse: 15 43
+
+GAME Robert Morris Colonials@Wright State Raiders
+H Wright State Raiders: 29 39
+H Robert Morris Colonials: 39 42
+
+GAME Purdue Fort Wayne Mastodons@Cleveland State Vikings
+H Cleveland State Vikings: 40 46
+H Purdue Fort Wayne Mastodons: 43 49
+
+GAME Saint Peter's Peacocks@Siena Saints
+H Siena Saints: 37 35
+H Saint Peter's Peacocks: 23 40
+
+GAME Canisius Golden Griffins@Mount St. Mary's Mountaineers
+H Mount St. Mary's Mountaineers: 20 48
+H Canisius Golden Griffins: 24 23
+
+GAME Towson Tigers@Drexel Dragons
+H Drexel Dragons: 33 35
+H Towson Tigers: 27 35
+
+GAME Milwaukee Panthers@Oakland Golden Grizzlies
+H Oakland Golden Grizzlies: 41 40
+H Milwaukee Panthers: 34 36
+
+GAME UTSA Roadrunners@Tulsa Golden Hurricane
+H Tulsa Golden Hurricane: 53 47
+H UTSA Roadrunners: 37 37
+
+GAME Florida Atlantic Owls@North Texas Mean Green
+H North Texas Mean Green: 32 41
+H Florida Atlantic Owls: 34 38

@@ -1,0 +1,174 @@
+# NCAAB results 2026-03-06 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:47Z
+
+GAME St. John's Red Storm@Seton Hall Pirates
+H Seton Hall Pirates: 27 38
+H St. John's Red Storm: 30 42
+
+GAME Miami (OH) RedHawks@Ohio Bobcats
+H Ohio Bobcats: 48 52 8
+H Miami (OH) RedHawks: 54 46 10
+
+GAME Gardner-Webb Runnin' Bulldogs@High Point Panthers
+NEUTRAL
+H High Point Panthers: 43 38
+H Gardner-Webb Runnin' Bulldogs: 27 32
+
+GAME Bellarmine Knights@Central Arkansas Bears
+NEUTRAL
+H Central Arkansas Bears: 48 38
+H Bellarmine Knights: 34 39
+
+GAME Drake Bulldogs@Belmont Bruins
+NEUTRAL
+H Belmont Bruins: 41 38
+H Drake Bulldogs: 48 52
+
+GAME Northeastern Huskies@North Carolina A&T Aggies
+NEUTRAL
+H North Carolina A&T Aggies: 24 48
+H Northeastern Huskies: 40 48
+
+GAME Charleston Southern Buccaneers@Winthrop Eagles
+NEUTRAL
+H Winthrop Eagles: 37 49
+H Charleston Southern Buccaneers: 40 41
+
+GAME Florida Gulf Coast Eagles@Lipscomb Bisons
+NEUTRAL
+H Lipscomb Bisons: 27 26
+H Florida Gulf Coast Eagles: 36 41
+
+GAME UIC Flames@Murray State Racers
+NEUTRAL
+H Murray State Racers: 32 47
+H UIC Flames: 50 42
+
+GAME The Citadel Bulldogs@Chattanooga Mocs
+NEUTRAL
+H Chattanooga Mocs: 49 36
+H The Citadel Bulldogs: 49 39
+
+GAME Stetson Hatters@Austin Peay Governors
+NEUTRAL
+H Austin Peay Governors: 32 37
+H Stetson Hatters: 37 23
+
+GAME Southern Miss Golden Eagles@Texas State Bobcats
+NEUTRAL
+H Texas State Bobcats: 33 44
+H Southern Miss Golden Eagles: 37 44
+
+GAME Sacred Heart Pioneers@Merrimack Warriors
+NEUTRAL
+H Merrimack Warriors: 39 31
+H Sacred Heart Pioneers: 25 23
+
+GAME Longwood Lancers@UNC Asheville Bulldogs
+NEUTRAL
+H UNC Asheville Bulldogs: 40 33 12
+H Longwood Lancers: 36 37 9
+
+GAME Northern Illinois Huskies@Akron Zips
+H Akron Zips: 47 47
+H Northern Illinois Huskies: 27 28
+
+GAME Bowling Green Falcons@Eastern Michigan Eagles
+H Eastern Michigan Eagles: 31 38
+H Bowling Green Falcons: 28 49
+
+GAME Omaha Mavericks@South Dakota Coyotes
+NEUTRAL
+H South Dakota Coyotes: 31 31
+H Omaha Mavericks: 34 42
+
+GAME Valparaiso Beacons@Bradley Braves
+NEUTRAL
+H Bradley Braves: 31 33 9 17
+H Valparaiso Beacons: 31 33 9 11
+
+GAME VCU Rams@Dayton Flyers
+H Dayton Flyers: 36 26
+H VCU Rams: 37 31
+
+GAME Pennsylvania Quakers@Brown Bears
+H Brown Bears: 34 27
+H Pennsylvania Quakers: 44 38
+
+GAME Western Michigan Broncos@Kent State Golden Flashes
+H Kent State Golden Flashes: 46 40
+H Western Michigan Broncos: 37 41
+
+GAME Central Michigan Chippewas@Ball State Cardinals
+H Ball State Cardinals: 42 43
+H Central Michigan Chippewas: 26 43
+
+GAME Buffalo Bulls@Toledo Rockets
+H Toledo Rockets: 37 62
+H Buffalo Bulls: 33 45
+
+GAME Columbia Lions@Harvard Crimson
+H Harvard Crimson: 38 43
+H Columbia Lions: 33 38
+
+GAME VMI Keydets@UNC Greensboro Spartans
+NEUTRAL
+H UNC Greensboro Spartans: 39 45
+H VMI Keydets: 27 43
+
+GAME West Georgia Wolves@Queens University Royals
+NEUTRAL
+H Queens University Royals: 33 38
+H West Georgia Wolves: 25 38
+
+GAME UT Martin Skyhawks@Tennessee State Tigers
+NEUTRAL
+H Tennessee State Tigers: 36 32
+H UT Martin Skyhawks: 28 27
+
+GAME UCF Knights@West Virginia Mountaineers
+H West Virginia Mountaineers: 32 45
+H UCF Knights: 23 39
+
+GAME Fairfield Stags@Saint Peter's Peacocks
+NEUTRAL
+H Saint Peter's Peacocks: 30 25
+H Fairfield Stags: 30 44
+
+GAME Georgia Southern Eagles@South Alabama Jaguars
+NEUTRAL
+H South Alabama Jaguars: 43 42
+H Georgia Southern Eagles: 40 54
+
+GAME Portland Pilots@Washington State Cougars
+NEUTRAL
+H Washington State Cougars: 29 39
+H Portland Pilots: 25 49
+
+GAME Denver Pioneers@North Dakota Fighting Hawks
+NEUTRAL
+H North Dakota Fighting Hawks: 42 41
+H Denver Pioneers: 29 38
+
+GAME Presbyterian Blue Hose@Radford Highlanders
+NEUTRAL
+H Radford Highlanders: 36 41 8
+H Presbyterian Blue Hose: 28 49 14
+
+GAME UNLV Rebels@San Diego State Aztecs
+H San Diego State Aztecs: 42 47
+H UNLV Rebels: 39 47
+
+GAME Northern Iowa Panthers@Illinois State Redbirds
+NEUTRAL
+H Illinois State Redbirds: 27 25
+H Northern Iowa Panthers: 35 39
+
+GAME Southeast Missouri State Redhawks@Morehead State Eagles
+NEUTRAL
+H Morehead State Eagles: 29 37
+H Southeast Missouri State Redhawks: 36 25
+
+GAME San Diego Toreros@Seattle U Redhawks
+NEUTRAL
+H Seattle U Redhawks: 30 28
+H San Diego Toreros: 35 21

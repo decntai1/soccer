@@ -1,0 +1,145 @@
+# NCAAB results 2026-01-20 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:45Z
+
+GAME Indiana Hoosiers@Michigan Wolverines
+H Michigan Wolverines: 40 46
+H Indiana Hoosiers: 29 43
+
+GAME Purdue Boilermakers@UCLA Bruins
+H UCLA Bruins: 32 37
+H Purdue Boilermakers: 32 35
+
+GAME UCF Knights@Iowa State Cyclones
+H Iowa State Cyclones: 44 43
+H UCF Knights: 26 31
+
+GAME Michigan State Spartans@Oregon Ducks
+H Oregon Ducks: 26 26
+H Michigan State Spartans: 28 40
+
+GAME Texas Tech Red Raiders@Baylor Bears
+H Baylor Bears: 36 37
+H Texas Tech Red Raiders: 55 37
+
+GAME Vanderbilt Commodores@Arkansas Razorbacks
+H Arkansas Razorbacks: 46 47
+H Vanderbilt Commodores: 35 33
+
+GAME LSU Tigers@Florida Gators
+H Florida Gators: 38 41
+H LSU Tigers: 26 35
+
+GAME NC State Wolfpack@Clemson Tigers
+H Clemson Tigers: 33 36 7
+H NC State Wolfpack: 38 31 11
+
+GAME Kansas Jayhawks@Colorado Buffaloes
+H Colorado Buffaloes: 38 31
+H Kansas Jayhawks: 40 35
+
+GAME Georgia Bulldogs@Missouri Tigers
+H Missouri Tigers: 26 46
+H Georgia Bulldogs: 29 45
+
+GAME Saint Louis Billikens@Duquesne Dukes
+H Duquesne Dukes: 38 39
+H Saint Louis Billikens: 40 41
+
+GAME Miami (OH) RedHawks@Kent State Golden Flashes
+H Kent State Golden Flashes: 34 58 9
+H Miami (OH) RedHawks: 48 44 15
+
+GAME Toledo Rockets@Massachusetts Minutemen
+H Massachusetts Minutemen: 35 49
+H Toledo Rockets: 34 48
+
+GAME Virginia Lynchburg Dragons@Morgan State Bears
+H Morgan State Bears: 65 63
+H Virginia Lynchburg Dragons: 25 28
+
+GAME Minnesota Golden Gophers@Ohio State Buckeyes
+H Ohio State Buckeyes: 31 36 15
+H Minnesota Golden Gophers: 28 39 7
+
+GAME Akron Zips@Buffalo Bulls
+H Buffalo Bulls: 27 36
+H Akron Zips: 43 39
+
+GAME Mid Atlantic Christian Mustangs@South Carolina State Bulldogs
+H South Carolina State Bulldogs: 27 29
+H Mid Atlantic Christian Mustangs: 34 16
+
+GAME Loyola Chicago Ramblers@St. Bonaventure Bonnies
+H St. Bonaventure Bonnies: 30 54
+H Loyola Chicago Ramblers: 42 28
+
+GAME Seton Hall Pirates@St. John's Red Storm
+H St. John's Red Storm: 32 33
+H Seton Hall Pirates: 38 22
+
+GAME Florida State Seminoles@Miami Hurricanes
+H Miami Hurricanes: 37 26
+H Florida State Seminoles: 38 27
+
+GAME Northern Illinois Huskies@Ohio Bobcats
+H Ohio Bobcats: 32 48
+H Northern Illinois Huskies: 30 47
+
+GAME Bowling Green Falcons@Western Michigan Broncos
+H Western Michigan Broncos: 23 31
+H Bowling Green Falcons: 32 40
+
+GAME Ball State Cardinals@Central Michigan Chippewas
+H Central Michigan Chippewas: 20 47
+H Ball State Cardinals: 33 35
+
+GAME Oklahoma Sooners@South Carolina Gamecocks
+H South Carolina Gamecocks: 39 46
+H Oklahoma Sooners: 36 40
+
+GAME DePaul Blue Demons@Butler Bulldogs
+H Butler Bulldogs: 33 54
+H DePaul Blue Demons: 37 43
+
+GAME Evansville Purple Aces@UIC Flames
+H UIC Flames: 34 42
+H Evansville Purple Aces: 20 29
+
+GAME Oklahoma State Cowboys@TCU Horned Frogs
+H TCU Horned Frogs: 37 31
+H Oklahoma State Cowboys: 41 24
+
+GAME Rutgers Scarlet Knights@Iowa Hawkeyes
+H Iowa Hawkeyes: 31 37
+H Rutgers Scarlet Knights: 24 38
+
+GAME Boise State Broncos@Wyoming Cowboys
+H Wyoming Cowboys: 18 47
+H Boise State Broncos: 38 43
+
+GAME UT Martin Skyhawks@Southeast Missouri State Redhawks
+H Southeast Missouri State Redhawks: 40 26
+H UT Martin Skyhawks: 20 30
+
+GAME Utah Utes@Kansas State Wildcats
+H Kansas State Wildcats: 46 35
+H Utah Utes: 43 35
+
+GAME SMU Mustangs@Wake Forest Demon Deacons
+H Wake Forest Demon Deacons: 36 43
+H SMU Mustangs: 45 46
+
+GAME Air Force Falcons@Colorado State Rams
+H Colorado State Rams: 38 43
+H Air Force Falcons: 21 31
+
+GAME Auburn Tigers@Ole Miss Rebels
+H Ole Miss Rebels: 27 39
+H Auburn Tigers: 28 50
+
+GAME San José State Spartans@Nevada Wolf Pack
+H Nevada Wolf Pack: 39 48
+H San José State Spartans: 26 28
+
+GAME UNLV Rebels@Utah State Aggies
+H Utah State Aggies: 38 38
+H UNLV Rebels: 38 48

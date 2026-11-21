@@ -1,0 +1,21 @@
+# NCAAB results 2026-04-04 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:47Z
+
+GAME Oklahoma Sooners@Baylor Bears
+NEUTRAL
+H Baylor Bears: 35 34
+H Oklahoma Sooners: 45 37
+
+GAME West Virginia Mountaineers@Creighton Bluejays
+NEUTRAL
+H Creighton Bluejays: 37 33
+H West Virginia Mountaineers: 43 44
+
+GAME Michigan Wolverines@Arizona Wildcats
+NEUTRAL
+H Arizona Wildcats: 32 41
+H Michigan Wolverines: 48 43
+
+GAME Illinois Fighting Illini@UConn Huskies
+NEUTRAL
+H UConn Huskies: 37 34
+H Illinois Fighting Illini: 29 33

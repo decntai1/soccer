@@ -1,0 +1,61 @@
+# NCAAB results 2026-01-09 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:45Z
+
+GAME Bryant & Stratton (OH) Bobcats@Youngstown State Penguins
+H Youngstown State Penguins: 51 48
+H Bryant & Stratton (OH) Bobcats: 25 36
+
+GAME Miami (OH) RedHawks@Toledo Rockets
+H Toledo Rockets: 36 37
+H Miami (OH) RedHawks: 56 31
+
+GAME Rider Broncs@Fairfield Stags
+H Fairfield Stags: 34 34
+H Rider Broncs: 22 40
+
+GAME Cleveland State Vikings@Oakland Golden Grizzlies
+H Oakland Golden Grizzlies: 45 52
+H Cleveland State Vikings: 27 47
+
+GAME Wright State Raiders@Detroit Mercy Titans
+H Detroit Mercy Titans: 33 49
+H Wright State Raiders: 44 40
+
+GAME IU Indianapolis Jaguars@Green Bay Phoenix
+H Green Bay Phoenix: 38 37
+H IU Indianapolis Jaguars: 24 35
+
+GAME Merrimack Warriors@Siena Saints
+H Siena Saints: 22 37
+H Merrimack Warriors: 38 25
+
+GAME Saint Peter's Peacocks@Mount St. Mary's Mountaineers
+H Mount St. Mary's Mountaineers: 31 39
+H Saint Peter's Peacocks: 33 32
+
+GAME Niagara Purple Eagles@Iona Gaels
+H Iona Gaels: 41 30
+H Niagara Purple Eagles: 22 31
+
+GAME Marist Red Foxes@Sacred Heart Pioneers
+H Sacred Heart Pioneers: 44 28
+H Marist Red Foxes: 38 38
+
+GAME Canisius Golden Griffins@Manhattan Jaspers
+H Manhattan Jaspers: 32 32
+H Canisius Golden Griffins: 28 42
+
+GAME Northern Kentucky Norse@Milwaukee Panthers
+H Milwaukee Panthers: 37 30
+H Northern Kentucky Norse: 55 30
+
+GAME Akron Zips@Bowling Green Falcons
+H Bowling Green Falcons: 27 40
+H Akron Zips: 43 34
+
+GAME USC Trojans@Minnesota Golden Gophers
+H Minnesota Golden Gophers: 30 33 6
+H USC Trojans: 35 28 7
+
+GAME UNLV Rebels@Colorado State Rams
+H Colorado State Rams: 32 38
+H UNLV Rebels: 29 33

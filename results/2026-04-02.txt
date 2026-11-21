@@ -1,0 +1,21 @@
+# NCAAB results 2026-04-02 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:47Z
+
+GAME Stanford Cardinal@West Virginia Mountaineers
+NEUTRAL
+H West Virginia Mountaineers: 35 33 14
+H Stanford Cardinal: 29 39 9
+
+GAME Rutgers Scarlet Knights@Creighton Bluejays
+NEUTRAL
+H Creighton Bluejays: 31 51
+H Rutgers Scarlet Knights: 28 41
+
+GAME Tulsa Golden Hurricane@New Mexico Lobos
+NEUTRAL
+H New Mexico Lobos: 29 40
+H Tulsa Golden Hurricane: 36 38
+
+GAME Illinois State Redbirds@Auburn Tigers
+NEUTRAL
+H Auburn Tigers: 51 37
+H Illinois State Redbirds: 38 28

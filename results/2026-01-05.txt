@@ -1,0 +1,77 @@
+# NCAAB results 2026-01-05 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:45Z
+
+GAME Nebraska Cornhuskers@Ohio State Buckeyes
+H Ohio State Buckeyes: 31 38
+H Nebraska Cornhuskers: 38 34
+
+GAME USC Trojans@Michigan State Spartans
+H Michigan State Spartans: 33 47
+H USC Trojans: 17 34
+
+GAME Columbia Lions@Cornell Big Red
+H Cornell Big Red: 56 43
+H Columbia Lions: 56 48
+
+GAME Alabama State Hornets@Arkansas-Pine Bluff Golden Lions
+H Arkansas-Pine Bluff Golden Lions: 42 48
+H Alabama State Hornets: 32 47
+
+GAME Prairie View A&M Panthers@Southern Jaguars
+H Southern Jaguars: 38 47
+H Prairie View A&M Panthers: 45 44
+
+GAME Oregon Ducks@Rutgers Scarlet Knights
+H Rutgers Scarlet Knights: 37 39 12
+H Oregon Ducks: 45 31 9
+
+GAME Yale Bulldogs@Brown Bears
+H Brown Bears: 30 23
+H Yale Bulldogs: 29 41
+
+GAME Milwaukee Panthers@Green Bay Phoenix
+H Green Bay Phoenix: 46 33
+H Milwaukee Panthers: 32 44
+
+GAME Dartmouth Big Green@Harvard Crimson
+H Harvard Crimson: 39 29
+H Dartmouth Big Green: 40 36
+
+GAME Pennsylvania Quakers@Princeton Tigers
+H Princeton Tigers: 24 54
+H Pennsylvania Quakers: 32 44
+
+GAME William & Mary Tribe@Charleston Cougars
+H Charleston Cougars: 46 42
+H William & Mary Tribe: 32 47
+
+GAME Lamar Cardinals@SE Louisiana Lions
+H SE Louisiana Lions: 36 24
+H Lamar Cardinals: 24 28
+
+GAME Texas Southern Tigers@Grambling Tigers
+H Grambling Tigers: 40 44
+H Texas Southern Tigers: 34 33
+
+GAME Incarnate Word Cardinals@UT Rio Grande Valley Vaqueros
+H UT Rio Grande Valley Vaqueros: 44 36
+H Incarnate Word Cardinals: 29 38
+
+GAME Northwestern State Demons@Nicholls Colonels
+H Nicholls Colonels: 40 34
+H Northwestern State Demons: 31 41
+
+GAME Stephen F. Austin Lumberjacks@McNeese Cowboys
+H McNeese Cowboys: 34 32
+H Stephen F. Austin Lumberjacks: 38 26
+
+GAME Alabama A&M Bulldogs@Mississippi Valley State Delta Devils
+H Mississippi Valley State Delta Devils: 19 32
+H Alabama A&M Bulldogs: 35 36
+
+GAME Texas A&M-Corpus Christi Islanders@Houston Christian Huskies
+H Houston Christian Huskies: 27 38
+H Texas A&M-Corpus Christi Islanders: 41 40
+
+GAME East Texas A&M Lions@LSU New Orleans Privateers
+H LSU New Orleans Privateers: 38 45
+H East Texas A&M Lions: 32 41

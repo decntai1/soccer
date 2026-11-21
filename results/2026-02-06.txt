@@ -1,0 +1,37 @@
+# NCAAB results 2026-02-06 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:46Z
+
+GAME UConn Huskies@St. John's Red Storm
+H St. John's Red Storm: 39 42
+H UConn Huskies: 39 33
+
+GAME Loyola Chicago Ramblers@Davidson Wildcats
+H Davidson Wildcats: 47 37
+H Loyola Chicago Ramblers: 29 35
+
+GAME Dayton Flyers@VCU Rams
+H VCU Rams: 50 49
+H Dayton Flyers: 27 46
+
+GAME Brown Bears@Yale Bulldogs
+H Yale Bulldogs: 31 50
+H Brown Bears: 36 33
+
+GAME Evansville Purple Aces@Valparaiso Beacons
+H Valparaiso Beacons: 28 30 12
+H Evansville Purple Aces: 26 32 5
+
+GAME Murray State Racers@Southern Illinois Salukis
+H Southern Illinois Salukis: 34 47
+H Murray State Racers: 43 48
+
+GAME Drake Bulldogs@Illinois State Redbirds
+H Illinois State Redbirds: 47 39
+H Drake Bulldogs: 32 44
+
+GAME Bradley Braves@Northern Iowa Panthers
+H Northern Iowa Panthers: 30 31
+H Bradley Braves: 23 26
+
+GAME Belmont Bruins@UIC Flames
+H UIC Flames: 26 36
+H Belmont Bruins: 38 30

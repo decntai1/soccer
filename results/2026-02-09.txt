@@ -1,0 +1,113 @@
+# NCAAB results 2026-02-09 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:46Z
+
+GAME Arizona Wildcats@Kansas Jayhawks
+H Kansas Jayhawks: 42 40
+H Arizona Wildcats: 45 33
+
+GAME Xavier Musketeers@St. John's Red Storm
+H St. John's Red Storm: 42 36 9
+H Xavier Musketeers: 42 36 4
+
+GAME NC State Wolfpack@Louisville Cardinals
+H Louisville Cardinals: 56 62
+H NC State Wolfpack: 36 41
+
+GAME Saint Francis Red Wolves@Chicago State Cougars
+H Chicago State Cougars: 36 44
+H Saint Francis Red Wolves: 33 42
+
+GAME Navy Midshipmen@Bucknell Bison
+H Bucknell Bison: 24 36
+H Navy Midshipmen: 35 41
+
+GAME Jackson State Tigers@Arkansas-Pine Bluff Golden Lions
+H Arkansas-Pine Bluff Golden Lions: 41 43
+H Jackson State Tigers: 31 32
+
+GAME Mid Atlantic Christian Mustangs@Davidson Wildcats
+H Davidson Wildcats: 50 64
+H Mid Atlantic Christian Mustangs: 17 36
+
+GAME Southern Illinois Salukis@Indiana State Sycamores
+H Indiana State Sycamores: 32 33
+H Southern Illinois Salukis: 37 43
+
+GAME Texas Southern Tigers@Bethune-Cookman Wildcats
+H Bethune-Cookman Wildcats: 31 33 15
+H Texas Southern Tigers: 31 33 5
+
+GAME Prairie View A&M Panthers@Florida A&M Rattlers
+H Florida A&M Rattlers: 56 44
+H Prairie View A&M Panthers: 34 62
+
+GAME Yale Bulldogs@Howard Bison
+H Howard Bison: 32 39 10
+H Yale Bulldogs: 38 33 16
+
+GAME Incarnate Word Cardinals@SE Louisiana Lions
+H SE Louisiana Lions: 40 34
+H Incarnate Word Cardinals: 26 36
+
+GAME Northwestern State Demons@Lamar Cardinals
+H Lamar Cardinals: 33 35
+H Northwestern State Demons: 37 33
+
+GAME Central Arkansas Bears@North Alabama Lions
+H North Alabama Lions: 37 28
+H Central Arkansas Bears: 29 43
+
+GAME Valparaiso Beacons@Drake Bulldogs
+H Drake Bulldogs: 40 36
+H Valparaiso Beacons: 38 43
+
+GAME Alabama A&M Bulldogs@Grambling Tigers
+H Grambling Tigers: 23 35
+H Alabama A&M Bulldogs: 36 30
+
+GAME UT Rio Grande Valley Vaqueros@Nicholls Colonels
+H Nicholls Colonels: 30 42
+H UT Rio Grande Valley Vaqueros: 55 37
+
+GAME Houston Christian Huskies@McNeese Cowboys
+H McNeese Cowboys: 37 36
+H Houston Christian Huskies: 33 36
+
+GAME East Texas A&M Lions@Stephen F. Austin Lumberjacks
+H Stephen F. Austin Lumberjacks: 36 38
+H East Texas A&M Lions: 34 36
+
+GAME Delaware State Hornets@North Carolina Central Eagles
+H North Carolina Central Eagles: 32 40
+H Delaware State Hornets: 33 30
+
+GAME Illinois State Redbirds@Evansville Purple Aces
+H Evansville Purple Aces: 45 43
+H Illinois State Redbirds: 32 48
+
+GAME Belmont Bruins@Bradley Braves
+H Bradley Braves: 31 49 15
+H Belmont Bruins: 33 47 4
+
+GAME Alcorn State Braves@Mississippi Valley State Delta Devils
+H Mississippi Valley State Delta Devils: 25 41
+H Alcorn State Braves: 36 38
+
+GAME UNC Wilmington Seahawks@Charleston Cougars
+H Charleston Cougars: 32 32
+H UNC Wilmington Seahawks: 42 34
+
+GAME Texas A&M-Corpus Christi Islanders@LSU New Orleans Privateers
+H LSU New Orleans Privateers: 35 32 17
+H Texas A&M-Corpus Christi Islanders: 30 37 11
+
+GAME Oregon Ducks@Indiana Hoosiers
+H Indiana Hoosiers: 36 56
+H Oregon Ducks: 30 44
+
+GAME Alabama State Hornets@Southern Jaguars
+H Southern Jaguars: 35 34
+H Alabama State Hornets: 37 31
+
+GAME Northern Iowa Panthers@Murray State Racers
+H Murray State Racers: 31 29
+H Northern Iowa Panthers: 39 50

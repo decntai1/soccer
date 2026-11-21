@@ -1,0 +1,81 @@
+# NCAAB results 2026-03-19 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:47Z
+
+GAME Siena Saints@Duke Blue Devils
+NEUTRAL
+H Duke Blue Devils: 32 39
+H Siena Saints: 43 22
+
+GAME Howard Bison@Michigan Wolverines
+NEUTRAL
+H Michigan Wolverines: 50 51
+H Howard Bison: 46 34
+
+GAME Idaho Vandals@Houston Cougars
+NEUTRAL
+H Houston Cougars: 48 30
+H Idaho Vandals: 24 23
+
+GAME North Dakota State Bison@Michigan State Spartans
+NEUTRAL
+H Michigan State Spartans: 45 47
+H North Dakota State Bison: 25 42
+
+GAME Pennsylvania Quakers@Illinois Fighting Illini
+NEUTRAL
+H Illinois Fighting Illini: 40 65
+H Pennsylvania Quakers: 30 40
+
+GAME Kennesaw State Owls@Gonzaga Bulldogs
+NEUTRAL
+H Gonzaga Bulldogs: 33 40
+H Kennesaw State Owls: 27 37
+
+GAME Troy Trojans@Nebraska Cornhuskers
+NEUTRAL
+H Nebraska Cornhuskers: 41 35
+H Troy Trojans: 25 22
+
+GAME Hawai'i Rainbow Warriors@Arkansas Razorbacks
+NEUTRAL
+H Arkansas Razorbacks: 54 43
+H Hawai'i Rainbow Warriors: 36 42
+
+GAME High Point Panthers@Wisconsin Badgers
+NEUTRAL
+H Wisconsin Badgers: 41 41
+H High Point Panthers: 39 44
+
+GAME McNeese Cowboys@Vanderbilt Commodores
+NEUTRAL
+H Vanderbilt Commodores: 38 40
+H McNeese Cowboys: 35 33
+
+GAME South Florida Bulls@Louisville Cardinals
+NEUTRAL
+H Louisville Cardinals: 37 46
+H South Florida Bulls: 27 52
+
+GAME VCU Rams@North Carolina Tar Heels
+NEUTRAL
+H North Carolina Tar Heels: 39 36 3
+H VCU Rams: 28 47 7
+
+GAME Texas Longhorns@BYU Cougars
+NEUTRAL
+H BYU Cougars: 37 34
+H Texas Longhorns: 46 33
+
+GAME Texas A&M Aggies@Saint Mary's Gaels
+NEUTRAL
+H Saint Mary's Gaels: 26 24
+H Texas A&M Aggies: 37 26
+
+GAME TCU Horned Frogs@Ohio State Buckeyes
+NEUTRAL
+H Ohio State Buckeyes: 24 40
+H TCU Horned Frogs: 39 27
+
+GAME Saint Louis Billikens@Georgia Bulldogs
+NEUTRAL
+H Georgia Bulldogs: 32 45
+H Saint Louis Billikens: 49 53

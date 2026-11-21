@@ -1,0 +1,152 @@
+# NCAAB results 2026-11-08 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:51Z
+
+GAME Arkansas Razorbacks@Virginia Cavaliers
+NEUTRAL
+H Virginia Cavaliers: 46 45
+H Arkansas Razorbacks: 27 45
+
+GAME California Golden Bears@Houston Cougars
+NEUTRAL
+H Houston Cougars: 43 43
+H California Golden Bears: 32 36
+
+GAME Iona Gaels@St. John's Red Storm
+H St. John's Red Storm: 54 50
+H Iona Gaels: 23 42
+
+GAME Wichita State Shockers@USC Trojans
+NEUTRAL
+H USC Trojans: 43 50
+H Wichita State Shockers: 45 41
+
+GAME Ripon Red Hawks@Milwaukee Panthers
+H Milwaukee Panthers: 47 52
+H Ripon Red Hawks: 29 19
+
+GAME Princeton Tigers@Siena Saints
+H Siena Saints: 39 43
+H Princeton Tigers: 29 39
+
+GAME Southeast Missouri State Redhawks@South Carolina Gamecocks
+H South Carolina Gamecocks: 33 45
+H Southeast Missouri State Redhawks: 32 36
+
+GAME Marist Red Foxes@UMass Lowell River Hawks
+H UMass Lowell River Hawks: 30 33
+H Marist Red Foxes: 29 32
+
+GAME Sacred Heart Pioneers@New Hampshire Wildcats
+H New Hampshire Wildcats: 34 39 3
+H Sacred Heart Pioneers: 33 40 8
+
+GAME Manhattan Jaspers@Maine Black Bears
+H Maine Black Bears: 29 33
+H Manhattan Jaspers: 27 41
+
+GAME Fairfield Stags@Bryant Bulldogs
+H Bryant Bulldogs: 30 29
+H Fairfield Stags: 26 42
+
+GAME Central Penn Knights@Navy Midshipmen
+H Navy Midshipmen: 52 50
+H Central Penn Knights: 14 32
+
+GAME Allen Yellow Jackets@Wofford Terriers
+H Wofford Terriers: 55 45
+H Allen Yellow Jackets: 22 45
+
+GAME Keuka Storm@Cornell Big Red
+H Cornell Big Red: 46 53
+H Keuka Storm: 31 28
+
+GAME Merrimack Warriors@UAlbany Great Danes
+H UAlbany Great Danes: 26 34
+H Merrimack Warriors: 30 43
+
+GAME Green Bay Phoenix@St. Thomas Tommies
+H St. Thomas Tommies: 33 34
+H Green Bay Phoenix: 33 43
+
+GAME Campbell Fighting Camels@Western Michigan Broncos
+H Western Michigan Broncos: 41 46
+H Campbell Fighting Camels: 35 36
+
+GAME Quinnipiac Bobcats@Vermont Catamounts
+H Vermont Catamounts: 40 36
+H Quinnipiac Bobcats: 37 42
+
+GAME Harvard Crimson@Chicago Maroons
+H Chicago Maroons: 20 27
+H Harvard Crimson: 35 28
+
+GAME Central Connecticut Blue Devils@Dartmouth Big Green
+H Dartmouth Big Green: 30 36 5
+H Central Connecticut Blue Devils: 33 33 12
+
+GAME Brown Bears@Lehigh Mountain Hawks
+H Lehigh Mountain Hawks: 25 30
+H Brown Bears: 27 38
+
+GAME Butler Bulldogs@Boise State Broncos
+H Boise State Broncos: 51 49
+H Butler Bulldogs: 31 50
+
+GAME Southern Jaguars@Drake Bulldogs
+H Drake Bulldogs: 33 42
+H Southern Jaguars: 27 41
+
+GAME Western Kentucky Hilltoppers@Tennessee Tech Golden Eagles
+H Tennessee Tech Golden Eagles: 50 47
+H Western Kentucky Hilltoppers: 41 53
+
+GAME Idaho State Bengals@Air Force Falcons
+H Air Force Falcons: 41 48
+H Idaho State Bengals: 42 40
+
+GAME Saint Peter's Peacocks@NJIT Highlanders
+H NJIT Highlanders: 25 29
+H Saint Peter's Peacocks: 18 34
+
+GAME Rider Broncs@Binghamton Bearcats
+H Binghamton Bearcats: 42 33
+H Rider Broncs: 32 31
+
+GAME Saint Mary's Gaels@Nevada Wolf Pack
+NEUTRAL
+H Nevada Wolf Pack: 42 37 17
+H Saint Mary's Gaels: 35 44 16
+
+GAME Lincoln (CA) Oaklanders@Idaho Vandals
+H Idaho Vandals: 59 49
+H Lincoln (CA) Oaklanders: 33 36
+
+GAME Richmond Spiders@Temple Owls
+NEUTRAL
+H Temple Owls: 23 30
+H Richmond Spiders: 37 42
+
+GAME Norfolk State Spartans@William & Mary Tribe
+H William & Mary Tribe: 54 50
+H Norfolk State Spartans: 35 38
+
+GAME North Dakota State Bison@Cal State Bakersfield Roadrunners
+H Cal State Bakersfield Roadrunners: 38 53
+H North Dakota State Bison: 32 48
+
+GAME Incarnate Word Cardinals@UTEP Miners
+H UTEP Miners: 46 33
+H Incarnate Word Cardinals: 29 31
+
+GAME Portland Pilots@Bethesda Flames
+NEUTRAL
+H Bethesda Flames: 30 26
+H Portland Pilots: 60 70
+
+GAME Pittsburgh Panthers@Penn State Nittany Lions
+NEUTRAL
+H Penn State Nittany Lions: 38 38
+H Pittsburgh Panthers: 42 40
+
+GAME UT Arlington Mavericks@Hawai'i Rainbow Warriors
+H Hawai'i Rainbow Warriors: 27 44
+H UT Arlington Mavericks: 27 35

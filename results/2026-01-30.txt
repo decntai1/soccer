@@ -1,0 +1,94 @@
+# NCAAB results 2026-01-30 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:46Z
+
+GAME Michigan Wolverines@Michigan State Spartans
+H Michigan State Spartans: 26 45
+H Michigan Wolverines: 42 41
+
+GAME Dayton Flyers@Saint Louis Billikens
+H Saint Louis Billikens: 46 56
+H Dayton Flyers: 29 42
+
+GAME Georgia Southern Eagles@UL Monroe Warhawks
+NEUTRAL
+H UL Monroe Warhawks: 33 43
+H Georgia Southern Eagles: 37 42
+
+GAME Princeton Tigers@Cornell Big Red
+H Cornell Big Red: 48 39
+H Princeton Tigers: 32 32
+
+GAME Kent State Golden Flashes@Akron Zips
+H Akron Zips: 38 31
+H Kent State Golden Flashes: 29 23
+
+GAME IU Indianapolis Jaguars@Youngstown State Penguins
+H Youngstown State Penguins: 34 51
+H IU Indianapolis Jaguars: 39 37
+
+GAME Siena Saints@Niagara Purple Eagles
+H Niagara Purple Eagles: 40 39
+H Siena Saints: 42 40
+
+GAME Rice Owls@Charlotte 49ers
+H Charlotte 49ers: 37 43
+H Rice Owls: 30 40
+
+GAME Fairfield Stags@Iona Gaels
+H Iona Gaels: 35 35
+H Fairfield Stags: 34 37
+
+GAME Providence Friars@Villanova Wildcats
+H Villanova Wildcats: 45 42
+H Providence Friars: 28 45
+
+GAME Sacred Heart Pioneers@Quinnipiac Bobcats
+H Quinnipiac Bobcats: 50 41
+H Sacred Heart Pioneers: 47 51
+
+GAME Dartmouth Big Green@Yale Bulldogs
+H Yale Bulldogs: 33 50
+H Dartmouth Big Green: 32 36
+
+GAME Cleveland State Vikings@Green Bay Phoenix
+H Green Bay Phoenix: 27 55
+H Cleveland State Vikings: 39 50
+
+GAME Northern Kentucky Norse@Detroit Mercy Titans
+H Detroit Mercy Titans: 44 46
+H Northern Kentucky Norse: 38 39
+
+GAME Marist Red Foxes@Canisius Golden Griffins
+H Canisius Golden Griffins: 35 38 13
+H Marist Red Foxes: 37 36 15
+
+GAME Rider Broncs@Manhattan Jaspers
+H Manhattan Jaspers: 45 50
+H Rider Broncs: 43 47
+
+GAME Harvard Crimson@Brown Bears
+H Brown Bears: 28 31
+H Harvard Crimson: 34 35
+
+GAME Pennsylvania Quakers@Columbia Lions
+H Columbia Lions: 32 40
+H Pennsylvania Quakers: 27 40
+
+GAME Wright State Raiders@Milwaukee Panthers
+H Milwaukee Panthers: 26 43
+H Wright State Raiders: 36 40
+
+GAME Mount St. Mary's Mountaineers@Saint Peter's Peacocks
+H Saint Peter's Peacocks: 32 34
+H Mount St. Mary's Mountaineers: 33 25
+
+GAME Loyola Chicago Ramblers@VCU Rams
+H VCU Rams: 46 43
+H Loyola Chicago Ramblers: 46 29
+
+GAME Boise State Broncos@Grand Canyon Lopes
+H Grand Canyon Lopes: 43 43
+H Boise State Broncos: 41 28
+
+GAME UNLV Rebels@Nevada Wolf Pack
+H Nevada Wolf Pack: 33 56
+H UNLV Rebels: 28 48

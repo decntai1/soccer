@@ -1,0 +1,125 @@
+# NCAAB results 2026-02-03 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:46Z
+
+GAME Xavier Musketeers@UConn Huskies
+H UConn Huskies: 50 42
+H Xavier Musketeers: 22 38
+
+GAME Boston College Eagles@Duke Blue Devils
+H Duke Blue Devils: 42 25
+H Boston College Eagles: 27 22
+
+GAME Pittsburgh Panthers@Virginia Cavaliers
+H Virginia Cavaliers: 33 34
+H Pittsburgh Panthers: 20 27
+
+GAME Saint Louis Billikens@Davidson Wildcats
+H Davidson Wildcats: 46 36
+H Saint Louis Billikens: 41 50
+
+GAME St. John's Red Storm@DePaul Blue Demons
+H DePaul Blue Demons: 28 28
+H St. John's Red Storm: 29 39
+
+GAME Miami (OH) RedHawks@Buffalo Bulls
+H Buffalo Bulls: 35 36
+H Miami (OH) RedHawks: 38 35
+
+GAME Ole Miss Rebels@Tennessee Volunteers
+H Tennessee Volunteers: 26 58
+H Ole Miss Rebels: 25 41
+
+GAME Akron Zips@Eastern Michigan Eagles
+H Eastern Michigan Eagles: 27 37
+H Akron Zips: 31 35
+
+GAME Canisius Golden Griffins@Niagara Purple Eagles
+H Niagara Purple Eagles: 38 27
+H Canisius Golden Griffins: 33 23
+
+GAME Southern Illinois Salukis@Illinois State Redbirds
+H Illinois State Redbirds: 24 26
+H Southern Illinois Salukis: 22 32
+
+GAME VCU Rams@Fordham Rams
+H Fordham Rams: 22 37
+H VCU Rams: 35 28
+
+GAME St. Bonaventure Bonnies@Dayton Flyers
+H Dayton Flyers: 41 31
+H St. Bonaventure Bonnies: 30 40
+
+GAME Western Michigan Broncos@Ohio Bobcats
+H Ohio Bobcats: 44 47
+H Western Michigan Broncos: 28 43
+
+GAME Kent State Golden Flashes@Toledo Rockets
+H Toledo Rockets: 36 36
+H Kent State Golden Flashes: 29 46
+
+GAME Central Michigan Chippewas@Massachusetts Minutemen
+H Massachusetts Minutemen: 40 55
+H Central Michigan Chippewas: 47 42
+
+GAME Ball State Cardinals@Bowling Green Falcons
+H Bowling Green Falcons: 40 37
+H Ball State Cardinals: 27 25
+
+GAME South Carolina Gamecocks@Texas Longhorns
+H Texas Longhorns: 35 49
+H South Carolina Gamecocks: 31 44
+
+GAME Indiana State Sycamores@Evansville Purple Aces
+H Evansville Purple Aces: 29 34
+H Indiana State Sycamores: 46 38
+
+GAME UIC Flames@Murray State Racers
+H Murray State Racers: 40 41
+H UIC Flames: 33 41
+
+GAME Valparaiso Beacons@Bradley Braves
+H Bradley Braves: 40 32
+H Valparaiso Beacons: 33 32
+
+GAME La Salle Explorers@Loyola Chicago Ramblers
+H Loyola Chicago Ramblers: 30 41
+H La Salle Explorers: 30 31
+
+GAME SIU Edwardsville Cougars@Lindenwood Lions
+H Lindenwood Lions: 41 31
+H SIU Edwardsville Cougars: 37 41
+
+GAME Little Rock Trojans@UT Martin Skyhawks
+H UT Martin Skyhawks: 23 32
+H Little Rock Trojans: 21 31
+
+GAME Drake Bulldogs@Belmont Bruins
+H Belmont Bruins: 51 52
+H Drake Bulldogs: 43 47
+
+GAME Nevada Wolf Pack@Boise State Broncos
+H Boise State Broncos: 39 40 12
+H Nevada Wolf Pack: 28 51 8
+
+GAME NC State Wolfpack@SMU Mustangs
+H SMU Mustangs: 42 41
+H NC State Wolfpack: 34 50
+
+GAME Air Force Falcons@Grand Canyon Lopes
+H Grand Canyon Lopes: 48 33
+H Air Force Falcons: 18 39
+
+GAME Rutgers Scarlet Knights@UCLA Bruins
+H UCLA Bruins: 52 46
+H Rutgers Scarlet Knights: 40 26
+
+GAME Indiana Hoosiers@USC Trojans
+H USC Trojans: 35 46
+H Indiana Hoosiers: 30 45
+
+GAME UNLV Rebels@Fresno State Bulldogs
+H Fresno State Bulldogs: 49 49
+H UNLV Rebels: 50 46
+
+GAME Wyoming Cowboys@San Diego State Aztecs
+H San Diego State Aztecs: 35 37
+H Wyoming Cowboys: 24 39

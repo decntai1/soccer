@@ -1,0 +1,142 @@
+# NCAAB results 2025-11-30 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:44Z
+
+GAME Wyoming Cowboys@Texas Tech Red Raiders
+H Texas Tech Red Raiders: 38 38
+H Wyoming Cowboys: 37 35
+
+GAME Le Moyne Dolphins@Ball State Cardinals
+NEUTRAL
+H Ball State Cardinals: 38 58
+H Le Moyne Dolphins: 38 47
+
+GAME Merrimack Warriors@La Salle Explorers
+NEUTRAL
+H La Salle Explorers: 36 24
+H Merrimack Warriors: 42 24
+
+GAME Mitchell Mariners@New Haven Chargers
+H New Haven Chargers: 54 38
+H Mitchell Mariners: 37 32
+
+GAME SUNY Oneonta Red Dragons@UAlbany Great Danes
+NEUTRAL
+H UAlbany Great Danes: 52 38
+H SUNY Oneonta Red Dragons: 30 32
+
+GAME Saint Joseph's Hawks@Princeton Tigers
+NEUTRAL
+H Princeton Tigers: 25 33
+H Saint Joseph's Hawks: 30 30
+
+GAME Siena Saints@Maine Black Bears
+NEUTRAL
+H Maine Black Bears: 25 35
+H Siena Saints: 36 28
+
+GAME Johnson & Wales Griffins@Central Connecticut Blue Devils
+H Central Connecticut Blue Devils: 55 67
+H Johnson & Wales Griffins: 28 29
+
+GAME App State Mountaineers@UNC Asheville Bulldogs
+NEUTRAL
+H UNC Asheville Bulldogs: 33 34
+H App State Mountaineers: 26 29
+
+GAME South Alabama Jaguars@UTSA Roadrunners
+H UTSA Roadrunners: 31 27
+H South Alabama Jaguars: 44 38
+
+GAME Tennessee State Tigers@Chattanooga Mocs
+H Chattanooga Mocs: 33 31
+H Tennessee State Tigers: 42 28
+
+GAME Old Dominion Monarchs@William & Mary Tribe
+H William & Mary Tribe: 39 49
+H Old Dominion Monarchs: 29 46
+
+GAME Stetson Hatters@Robert Morris Colonials
+H Robert Morris Colonials: 45 35
+H Stetson Hatters: 28 34
+
+GAME New Hampshire Wildcats@Fairfield Stags
+H Fairfield Stags: 35 37
+H New Hampshire Wildcats: 45 23
+
+GAME Stonehill Skyhawks@Quinnipiac Bobcats
+H Quinnipiac Bobcats: 41 35
+H Stonehill Skyhawks: 32 30
+
+GAME Yale Bulldogs@Vermont Catamounts
+H Vermont Catamounts: 31 43
+H Yale Bulldogs: 35 42
+
+GAME Cornell Big Red@Bucknell Bison
+H Bucknell Bison: 30 42
+H Cornell Big Red: 45 56
+
+GAME Monmouth Hawks@Lafayette Leopards
+H Lafayette Leopards: 32 42
+H Monmouth Hawks: 41 47
+
+GAME Hofstra Pride@Pennsylvania Quakers
+H Pennsylvania Quakers: 33 27
+H Hofstra Pride: 31 46
+
+GAME Northeastern State RiverHawks@Missouri State Bears
+H Missouri State Bears: 60 32
+H Northeastern State RiverHawks: 33 38
+
+GAME Mercyhurst Lakers@West Virginia Mountaineers
+H West Virginia Mountaineers: 39 31
+H Mercyhurst Lakers: 22 16
+
+GAME Fordham Rams@Colgate Raiders
+NEUTRAL
+H Colgate Raiders: 30 42
+H Fordham Rams: 17 45
+
+GAME Alabama A&M Bulldogs@Coastal Carolina Chanticleers
+H Coastal Carolina Chanticleers: 36 31
+H Alabama A&M Bulldogs: 31 29
+
+GAME St. Bonaventure Bonnies@Florida Atlantic Owls
+H Florida Atlantic Owls: 32 33
+H St. Bonaventure Bonnies: 34 36
+
+GAME Belmont Bruins@Charleston Cougars
+H Charleston Cougars: 31 42
+H Belmont Bruins: 49 47
+
+GAME St. Ambrose Fighting Bees@Western Illinois Leathernecks
+H Western Illinois Leathernecks: 34 55
+H St. Ambrose Fighting Bees: 26 47
+
+GAME Prairie View A&M Panthers@North Texas Mean Green
+H North Texas Mean Green: 30 42
+H Prairie View A&M Panthers: 36 33
+
+GAME Longwood Lancers@American University Eagles
+H American University Eagles: 40 52
+H Longwood Lancers: 34 32
+
+GAME Presbyterian Blue Hose@The Citadel Bulldogs
+NEUTRAL
+H The Citadel Bulldogs: 17 24
+H Presbyterian Blue Hose: 33 36
+
+GAME UC Irvine Anteaters@San José State Spartans
+H San José State Spartans: 34 29
+H UC Irvine Anteaters: 36 36
+
+GAME San Diego Toreros@Long Beach State Beach
+H Long Beach State Beach: 34 42
+H San Diego Toreros: 38 34
+
+GAME Cal State Bakersfield Roadrunners@Fresno State Bulldogs
+NEUTRAL
+H Fresno State Bulldogs: 40 31
+H Cal State Bakersfield Roadrunners: 34 42
+
+GAME Coppin State Eagles@Loyola Maryland Greyhounds
+H Loyola Maryland Greyhounds: 41 54
+H Coppin State Eagles: 39 45

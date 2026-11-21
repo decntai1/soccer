@@ -1,0 +1,6 @@
+# NCAAB results 2026-04-06 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:47Z
+
+GAME UConn Huskies@Michigan Wolverines
+NEUTRAL
+H Michigan Wolverines: 33 36
+H UConn Huskies: 29 34

@@ -1,0 +1,69 @@
+# NCAAB results 2026-01-12 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:45Z
+
+GAME North Carolina Central Eagles@Morgan State Bears
+H Morgan State Bears: 32 46
+H North Carolina Central Eagles: 35 54
+
+GAME Delaware State Hornets@Howard Bison
+H Howard Bison: 38 46
+H Delaware State Hornets: 25 33
+
+GAME Alcorn State Braves@Alabama State Hornets
+H Alabama State Hornets: 38 43
+H Alcorn State Braves: 32 34
+
+GAME Grambling Tigers@Florida A&M Rattlers
+H Florida A&M Rattlers: 39 52
+H Grambling Tigers: 36 48
+
+GAME Arkansas-Pine Bluff Golden Lions@Prairie View A&M Panthers
+H Prairie View A&M Panthers: 32 41
+H Arkansas-Pine Bluff Golden Lions: 30 31
+
+GAME Southern Jaguars@Bethune-Cookman Wildcats
+H Bethune-Cookman Wildcats: 44 29
+H Southern Jaguars: 36 41
+
+GAME Maryland Eastern Shore Hawks@Norfolk State Spartans
+H Norfolk State Spartans: 31 39
+H Maryland Eastern Shore Hawks: 32 42
+
+GAME South Carolina State Bulldogs@Coppin State Eagles
+H Coppin State Eagles: 23 49
+H South Carolina State Bulldogs: 28 46
+
+GAME Houston Christian Huskies@Lamar Cardinals
+H Lamar Cardinals: 23 41
+H Houston Christian Huskies: 29 27
+
+GAME Navy Midshipmen@American University Eagles
+H American University Eagles: 33 32
+H Navy Midshipmen: 17 34
+
+GAME Incarnate Word Cardinals@Stephen F. Austin Lumberjacks
+H Stephen F. Austin Lumberjacks: 28 28
+H Incarnate Word Cardinals: 19 27
+
+GAME LSU New Orleans Privateers@SE Louisiana Lions
+H SE Louisiana Lions: 34 42
+H LSU New Orleans Privateers: 38 41
+
+GAME UT Rio Grande Valley Vaqueros@Northwestern State Demons
+H Northwestern State Demons: 28 36
+H UT Rio Grande Valley Vaqueros: 28 35
+
+GAME Nicholls Colonels@McNeese Cowboys
+H McNeese Cowboys: 37 57
+H Nicholls Colonels: 19 49
+
+GAME Texas A&M-Corpus Christi Islanders@East Texas A&M Lions
+H East Texas A&M Lions: 29 21
+H Texas A&M-Corpus Christi Islanders: 33 28
+
+GAME Mississippi Valley State Delta Devils@Texas Southern Tigers
+H Texas Southern Tigers: 41 43
+H Mississippi Valley State Delta Devils: 24 27
+
+GAME Jackson State Tigers@Alabama A&M Bulldogs
+H Alabama A&M Bulldogs: 36 64
+H Jackson State Tigers: 40 51

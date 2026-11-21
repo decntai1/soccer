@@ -1,0 +1,86 @@
+# NCAAB results 2025-12-05 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:44Z
+
+GAME East Texas A&M Lions@UConn Huskies
+H UConn Huskies: 38 45
+H East Texas A&M Lions: 27 32
+
+GAME Gonzaga Bulldogs@Kentucky Wildcats
+NEUTRAL
+H Kentucky Wildcats: 20 39
+H Gonzaga Bulldogs: 43 51
+
+GAME South Carolina State Bulldogs@Bethune-Cookman Wildcats
+H Bethune-Cookman Wildcats: 43 37
+H South Carolina State Bulldogs: 30 29
+
+GAME NJIT Highlanders@High Point Panthers
+H High Point Panthers: 49 40
+H NJIT Highlanders: 34 38
+
+GAME South Alabama Jaguars@East Tennessee State Buccaneers
+H East Tennessee State Buccaneers: 36 55
+H South Alabama Jaguars: 31 34
+
+GAME Lewis & Clark River Otters@Portland Pilots
+H Portland Pilots: 53 51
+H Lewis & Clark River Otters: 45 42
+
+GAME Samford Bulldogs@VCU Rams
+H VCU Rams: 34 49
+H Samford Bulldogs: 31 26
+
+GAME Quinnipiac Bobcats@Iona Gaels
+H Iona Gaels: 34 34
+H Quinnipiac Bobcats: 36 53
+
+GAME Mercyhurst Lakers@Lafayette Leopards
+H Lafayette Leopards: 34 45
+H Mercyhurst Lakers: 34 37
+
+GAME Bryant Bulldogs@Brown Bears
+H Brown Bears: 41 34
+H Bryant Bulldogs: 28 28
+
+GAME Niagara Purple Eagles@Siena Saints
+H Siena Saints: 46 37
+H Niagara Purple Eagles: 21 33
+
+GAME Canisius Golden Griffins@Saint Peter's Peacocks
+H Saint Peter's Peacocks: 32 37
+H Canisius Golden Griffins: 32 25
+
+GAME Mount St. Mary's Mountaineers@Marist Red Foxes
+H Marist Red Foxes: 30 34
+H Mount St. Mary's Mountaineers: 20 36
+
+GAME Fairfield Stags@Manhattan Jaspers
+H Manhattan Jaspers: 31 39
+H Fairfield Stags: 26 40
+
+GAME Cleary University Cougars@Eastern Michigan Eagles
+H Eastern Michigan Eagles: 44 42
+H Cleary University Cougars: 23 25
+
+GAME UAB Blazers@Drake Bulldogs
+H Drake Bulldogs: 32 37
+H UAB Blazers: 33 41
+
+GAME Christendom Crusaders@VMI Keydets
+H VMI Keydets: 49 40
+H Christendom Crusaders: 18 18
+
+GAME Cincinnati Bearcats@Xavier Musketeers
+H Xavier Musketeers: 37 42
+H Cincinnati Bearcats: 37 37
+
+GAME Northwestern State Demons@McNeese Cowboys
+H McNeese Cowboys: 58 34
+H Northwestern State Demons: 24 30
+
+GAME Notre Dame Fighting Irish@TCU Horned Frogs
+H TCU Horned Frogs: 45 31 9
+H Notre Dame Fighting Irish: 36 40 11
+
+GAME San Diego Toreros@San José State Spartans
+H San José State Spartans: 52 34
+H San Diego Toreros: 34 35

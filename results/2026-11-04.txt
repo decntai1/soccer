@@ -1,0 +1,105 @@
+# NCAAB results 2026-11-04 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:51Z
+
+GAME Framingham State Rams@Dartmouth Big Green
+H Dartmouth Big Green: 51 56
+H Framingham State Rams: 25 25
+
+GAME Regent Regent Royals@Old Dominion Monarchs
+H Old Dominion Monarchs: 55 36
+H Regent Regent Royals: 19 28
+
+GAME Virginia Lynchburg Dragons@Morgan State Bears
+H Morgan State Bears: 47 48
+H Virginia Lynchburg Dragons: 26 32
+
+GAME Concordia Chicago Cougars@SIU Edwardsville Cougars
+H SIU Edwardsville Cougars: 35 50
+H Concordia Chicago Cougars: 34 27
+
+GAME Erskine Flying Fleet@UNC Asheville Bulldogs
+H UNC Asheville Bulldogs: 51 50
+H Erskine Flying Fleet: 35 39
+
+GAME Maryland Eastern Shore Hawks@High Point Panthers
+H High Point Panthers: 31 32
+H Maryland Eastern Shore Hawks: 19 30
+
+GAME Longwood Lancers@Saint Joseph's Hawks
+H Saint Joseph's Hawks: 40 42
+H Longwood Lancers: 28 45
+
+GAME Fairleigh Dickinson Knights@Butler Bulldogs
+H Butler Bulldogs: 52 47
+H Fairleigh Dickinson Knights: 29 36
+
+GAME Christendom Crusaders@App State Mountaineers
+H App State Mountaineers: 51 57
+H Christendom Crusaders: 15 28
+
+GAME Central College Dutch@Drake Bulldogs
+H Drake Bulldogs: 50 51
+H Central College Dutch: 22 26
+
+GAME Blue Mountain Christian Toppers@Tennessee Tech Golden Eagles
+H Tennessee Tech Golden Eagles: 67 50
+H Blue Mountain Christian Toppers: 31 39
+
+GAME Webster Gorloks@Southeast Missouri State Redhawks
+H Southeast Missouri State Redhawks: 42 48
+H Webster Gorloks: 37 28
+
+GAME Bob Jones Bruins@Furman Paladins
+H Furman Paladins: 60 61
+H Bob Jones Bruins: 26 26
+
+GAME Cal State Northridge Matadors@Wichita State Shockers
+H Wichita State Shockers: 47 32
+H Cal State Northridge Matadors: 40 27
+
+GAME Champion Christian Tigers@UL Monroe Warhawks
+H UL Monroe Warhawks: 57 42
+H Champion Christian Tigers: 25 30
+
+GAME Northern Kentucky Norse@South Dakota Coyotes
+H South Dakota Coyotes: 47 47
+H Northern Kentucky Norse: 52 50
+
+GAME Randolph Wildcats@Norfolk State Spartans
+H Norfolk State Spartans: 35 43
+H Randolph Wildcats: 34 37
+
+GAME Saint Mary of the Woods Pomeroys@Southern Indiana Screaming Eagles
+H Southern Indiana Screaming Eagles: 58 54
+H Saint Mary of the Woods Pomeroys: 17 25
+
+GAME SE Louisiana Lions@Auburn Tigers
+H Auburn Tigers: 42 50
+H SE Louisiana Lions: 25 34
+
+GAME West Coast Baptist Eagles@Boise State Broncos
+H Boise State Broncos: 69 63
+H West Coast Baptist Eagles: 26 27
+
+GAME Grace (CA) Talons@Utah Tech Trailblazers
+H Utah Tech Trailblazers: 57 46
+H Grace (CA) Talons: 25 27
+
+GAME Salish Kootenai Bison@Montana Grizzlies
+H Montana Grizzlies: 61 44
+H Salish Kootenai Bison: 19 21
+
+GAME Radford Highlanders@California Golden Bears
+H California Golden Bears: 45 39
+H Radford Highlanders: 37 33
+
+GAME Queens University Royals@Loyola Marymount Lions
+H Loyola Marymount Lions: 53 42
+H Queens University Royals: 50 46
+
+GAME Milwaukee Panthers@Santa Clara Broncos
+H Santa Clara Broncos: 46 49
+H Milwaukee Panthers: 27 45
+
+GAME North Dakota State Bison@Saint Mary's Gaels
+H Saint Mary's Gaels: 45 60
+H North Dakota State Bison: 26 38

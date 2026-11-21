@@ -1,0 +1,131 @@
+# NCAAB results 2025-12-18 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:45Z
+
+GAME Western Carolina Catamounts@Georgia Bulldogs
+H Georgia Bulldogs: 54 58
+H Western Carolina Catamounts: 40 42
+
+GAME Toccoa Falls Eagles@Gardner-Webb Runnin' Bulldogs
+H Gardner-Webb Runnin' Bulldogs: 39 66
+H Toccoa Falls Eagles: 32 33
+
+GAME North Florida Ospreys@Charleston Southern Buccaneers
+H Charleston Southern Buccaneers: 55 58
+H North Florida Ospreys: 41 49
+
+GAME Hampton Pirates@Jackson State Tigers
+NEUTRAL
+H Jackson State Tigers: 35 42
+H Hampton Pirates: 36 48
+
+GAME Morris Hornets@UNC Asheville Bulldogs
+H UNC Asheville Bulldogs: 41 48
+H Morris Hornets: 23 33
+
+GAME Coastal Carolina Chanticleers@App State Mountaineers
+H App State Mountaineers: 28 39
+H Coastal Carolina Chanticleers: 28 21
+
+GAME SIU Edwardsville Cougars@Eastern Illinois Panthers
+H Eastern Illinois Panthers: 33 30 13
+H SIU Edwardsville Cougars: 33 30 9
+
+GAME Bradley Braves@Indiana State Sycamores
+H Indiana State Sycamores: 41 33 9 9 7
+H Bradley Braves: 36 38 9 9 16
+
+GAME Penn State Hazleton Nittany Lions@Lehigh Mountain Hawks
+H Lehigh Mountain Hawks: 49 34
+H Penn State Hazleton Nittany Lions: 35 39
+
+GAME Temple Owls@Davidson Wildcats
+H Davidson Wildcats: 23 40
+H Temple Owls: 36 32
+
+GAME Radford Highlanders@William & Mary Tribe
+H William & Mary Tribe: 41 55
+H Radford Highlanders: 38 45
+
+GAME Furman Paladins@Manhattan Jaspers
+H Manhattan Jaspers: 33 35
+H Furman Paladins: 34 41
+
+GAME Southern Utah Thunderbirds@Northern Arizona Lumberjacks
+H Northern Arizona Lumberjacks: 30 35
+H Southern Utah Thunderbirds: 32 25
+
+GAME American University Eagles@VCU Rams
+H VCU Rams: 48 57
+H American University Eagles: 35 48
+
+GAME Delaware State Hornets@Saint Joseph's Hawks
+H Saint Joseph's Hawks: 33 34
+H Delaware State Hornets: 18 33
+
+GAME Lafayette Leopards@Charlotte 49ers
+H Charlotte 49ers: 36 45
+H Lafayette Leopards: 22 45
+
+GAME Fairfield Stags@Central Connecticut Blue Devils
+H Central Connecticut Blue Devils: 26 44
+H Fairfield Stags: 47 37
+
+GAME Norfolk State Spartans@Grambling Tigers
+NEUTRAL
+H Grambling Tigers: 38 42
+H Norfolk State Spartans: 21 47
+
+GAME Drake Bulldogs@Murray State Racers
+H Murray State Racers: 36 45
+H Drake Bulldogs: 30 42
+
+GAME Winthrop Eagles@North Dakota Fighting Hawks
+H North Dakota Fighting Hawks: 38 52
+H Winthrop Eagles: 47 41
+
+GAME Kansas City Roos@Oklahoma State Cowboys
+H Oklahoma State Cowboys: 48 43
+H Kansas City Roos: 44 35
+
+GAME Oral Roberts Golden Eagles@TCU Horned Frogs
+H TCU Horned Frogs: 38 34
+H Oral Roberts Golden Eagles: 25 28
+
+GAME Georgia State Panthers@Georgia Southern Eagles
+H Georgia Southern Eagles: 44 46
+H Georgia State Panthers: 41 26
+
+GAME Louisiana Ragin' Cajuns@Southern Miss Golden Eagles
+H Southern Miss Golden Eagles: 24 38
+H Louisiana Ragin' Cajuns: 17 37
+
+GAME UT Martin Skyhawks@Tennessee State Tigers
+H Tennessee State Tigers: 32 46
+H UT Martin Skyhawks: 37 34
+
+GAME Little Rock Trojans@Southern Indiana Screaming Eagles
+H Southern Indiana Screaming Eagles: 36 26
+H Little Rock Trojans: 34 43
+
+GAME Western Illinois Leathernecks@Lindenwood Lions
+H Lindenwood Lions: 42 50
+H Western Illinois Leathernecks: 28 48
+
+GAME Illinois State Redbirds@Southern Illinois Salukis
+H Southern Illinois Salukis: 35 33
+H Illinois State Redbirds: 30 45
+
+GAME Montana Western Bulldogs@Idaho State Bengals
+H Idaho State Bengals: 41 39
+H Montana Western Bulldogs: 33 31
+
+GAME Southeast Missouri State Redhawks@Tennessee Tech Golden Eagles
+H Tennessee Tech Golden Eagles: 34 51
+H Southeast Missouri State Redhawks: 35 39
+
+GAME Nobel Knights@Cal State Bakersfield Roadrunners
+H Cal State Bakersfield Roadrunners: 49 48
+H Nobel Knights: 32 34
+
+GAME Pepperdine Waves@Long Beach State Beach
+H Long Beach State Beach: 36 45
+H Pepperdine Waves: 37 41

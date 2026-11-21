@@ -1,0 +1,170 @@
+# NCAAB results 2026-03-13 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:47Z
+
+GAME Clemson Tigers@Duke Blue Devils
+NEUTRAL
+H Duke Blue Devils: 41 32
+H Clemson Tigers: 22 39
+
+GAME Iowa State Cyclones@Arizona Wildcats
+NEUTRAL
+H Arizona Wildcats: 37 45
+H Iowa State Cyclones: 43 37
+
+GAME Ohio State Buckeyes@Michigan Wolverines
+NEUTRAL
+H Michigan Wolverines: 39 32
+H Ohio State Buckeyes: 35 32
+
+GAME Kentucky Wildcats@Florida Gators
+NEUTRAL
+H Florida Gators: 37 34
+H Kentucky Wildcats: 28 35
+
+GAME Kansas Jayhawks@Houston Cougars
+NEUTRAL
+H Houston Cougars: 33 36
+H Kansas Jayhawks: 25 22
+
+GAME Georgetown Hoyas@UConn Huskies
+NEUTRAL
+H UConn Huskies: 32 35
+H Georgetown Hoyas: 21 30
+
+GAME UCLA Bruins@Michigan State Spartans
+NEUTRAL
+H Michigan State Spartans: 33 51
+H UCLA Bruins: 44 44
+
+GAME Wisconsin Badgers@Illinois Fighting Illini
+NEUTRAL
+H Illinois Fighting Illini: 36 42 10
+H Wisconsin Badgers: 30 48 13
+
+GAME Miami Hurricanes@Virginia Cavaliers
+NEUTRAL
+H Virginia Cavaliers: 38 46
+H Miami Hurricanes: 23 39
+
+GAME Purdue Boilermakers@Nebraska Cornhuskers
+NEUTRAL
+H Nebraska Cornhuskers: 28 30
+H Purdue Boilermakers: 41 33
+
+GAME Seton Hall Pirates@St. John's Red Storm
+H St. John's Red Storm: 38 40
+H Seton Hall Pirates: 30 38
+
+GAME Ole Miss Rebels@Alabama Crimson Tide
+NEUTRAL
+H Alabama Crimson Tide: 41 38
+H Ole Miss Rebels: 47 33
+
+GAME Oklahoma Sooners@Arkansas Razorbacks
+NEUTRAL
+H Arkansas Razorbacks: 37 45
+H Oklahoma Sooners: 39 40
+
+GAME Tennessee Volunteers@Vanderbilt Commodores
+NEUTRAL
+H Vanderbilt Commodores: 31 44
+H Tennessee Volunteers: 31 37
+
+GAME George Washington Revolutionaries@Saint Louis Billikens
+NEUTRAL
+H Saint Louis Billikens: 34 54
+H George Washington Revolutionaries: 48 33
+
+GAME Missouri State Bears@Louisiana Tech Bulldogs
+NEUTRAL
+H Louisiana Tech Bulldogs: 30 39
+H Missouri State Bears: 27 39
+
+GAME Charlotte 49ers@UAB Blazers
+NEUTRAL
+H UAB Blazers: 33 45
+H Charlotte 49ers: 31 52
+
+GAME Prairie View A&M Panthers@Alabama A&M Bulldogs
+NEUTRAL
+H Alabama A&M Bulldogs: 21 34
+H Prairie View A&M Panthers: 36 38
+
+GAME St. Bonaventure Bonnies@Dayton Flyers
+NEUTRAL
+H Dayton Flyers: 30 38
+H St. Bonaventure Bonnies: 27 36
+
+GAME Kennesaw State Owls@Sam Houston Bearkats
+NEUTRAL
+H Sam Houston Bearkats: 37 36
+H Kennesaw State Owls: 31 48
+
+GAME North Texas Mean Green@Tulsa Golden Hurricane
+NEUTRAL
+H Tulsa Golden Hurricane: 25 44 4 6 11
+H North Texas Mean Green: 36 33 4 6 5
+
+GAME Massachusetts Minutemen@Toledo Rockets
+NEUTRAL
+H Toledo Rockets: 43 34
+H Massachusetts Minutemen: 34 33
+
+GAME Duquesne Dukes@VCU Rams
+NEUTRAL
+H VCU Rams: 39 32
+H Duquesne Dukes: 29 37
+
+GAME South Carolina State Bulldogs@Howard Bison
+NEUTRAL
+H Howard Bison: 38 40
+H South Carolina State Bulldogs: 24 37
+
+GAME Kent State Golden Flashes@Akron Zips
+NEUTRAL
+H Akron Zips: 42 33
+H Kent State Golden Flashes: 28 40
+
+GAME Davidson Wildcats@Saint Joseph's Hawks
+NEUTRAL
+H Saint Joseph's Hawks: 33 37
+H Davidson Wildcats: 29 29
+
+GAME Southern Jaguars@Florida A&M Rattlers
+NEUTRAL
+H Florida A&M Rattlers: 37 33
+H Southern Jaguars: 43 30
+
+GAME UT Arlington Mavericks@Utah Valley Wolverines
+NEUTRAL
+H Utah Valley Wolverines: 33 34
+H UT Arlington Mavericks: 29 36
+
+GAME Cal State Northridge Matadors@UC Irvine Anteaters
+NEUTRAL
+H UC Irvine Anteaters: 49 44
+H Cal State Northridge Matadors: 37 41
+
+GAME Delaware State Hornets@North Carolina Central Eagles
+NEUTRAL
+H North Carolina Central Eagles: 32 27
+H Delaware State Hornets: 21 32
+
+GAME Nevada Wolf Pack@Utah State Aggies
+NEUTRAL
+H Utah State Aggies: 39 40
+H Nevada Wolf Pack: 32 34
+
+GAME Utah Tech Trailblazers@California Baptist Lancers
+NEUTRAL
+H California Baptist Lancers: 35 51
+H Utah Tech Trailblazers: 36 36
+
+GAME Cal State Fullerton Titans@Hawai'i Rainbow Warriors
+NEUTRAL
+H Hawai'i Rainbow Warriors: 29 49
+H Cal State Fullerton Titans: 21 42
+
+GAME New Mexico Lobos@San Diego State Aztecs
+NEUTRAL
+H San Diego State Aztecs: 37 27
+H New Mexico Lobos: 33 29

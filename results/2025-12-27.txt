@@ -1,0 +1,13 @@
+# NCAAB results 2025-12-27 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:45Z
+
+GAME Columbia (SC) Fighting Koalas@UNC Wilmington Seahawks
+H UNC Wilmington Seahawks: 47 53
+H Columbia (SC) Fighting Koalas: 24 32
+
+GAME Cleary University Cougars@Duquesne Dukes
+H Duquesne Dukes: 51 48
+H Cleary University Cougars: 25 24
+
+GAME Cal State Northridge Matadors@Stanford Cardinal
+H Stanford Cardinal: 33 55
+H Cal State Northridge Matadors: 38 42

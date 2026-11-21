@@ -1,0 +1,131 @@
+# NCAAB results 2025-12-14 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:45Z
+
+GAME Eastern Illinois Panthers@Iowa State Cyclones
+H Iowa State Cyclones: 44 34
+H Eastern Illinois Panthers: 28 25
+
+GAME Maryland Eastern Shore Hawks@Virginia Tech Hokies
+H Virginia Tech Hokies: 38 44
+H Maryland Eastern Shore Hawks: 29 24
+
+GAME Saint Francis Red Wolves@Temple Owls
+H Temple Owls: 47 48
+H Saint Francis Red Wolves: 24 43
+
+GAME Texas Southern Tigers@Minnesota Golden Gophers
+H Minnesota Golden Gophers: 45 44
+H Texas Southern Tigers: 25 28
+
+GAME Buffalo Bulls@East Carolina Pirates
+H East Carolina Pirates: 28 45
+H Buffalo Bulls: 47 23
+
+GAME North Central (IL) Cardinals@Bradley Braves
+H Bradley Braves: 46 40
+H North Central (IL) Cardinals: 29 24
+
+GAME Eureka Red Devils@SIU Edwardsville Cougars
+H SIU Edwardsville Cougars: 42 55
+H Eureka Red Devils: 19 35
+
+GAME Oakland City Mighty Oaks@Cleveland State Vikings
+H Cleveland State Vikings: 45 51
+H Oakland City Mighty Oaks: 22 30
+
+GAME Bethune-Cookman Wildcats@Missouri Tigers
+H Missouri Tigers: 39 43
+H Bethune-Cookman Wildcats: 25 35
+
+GAME Merrimack Warriors@Vermont Catamounts
+H Vermont Catamounts: 30 36
+H Merrimack Warriors: 21 38
+
+GAME High Point Panthers@App State Mountaineers
+NEUTRAL
+H App State Mountaineers: 34 37 15
+H High Point Panthers: 33 38 7
+
+GAME Monmouth Hawks@Fairfield Stags
+H Fairfield Stags: 32 41
+H Monmouth Hawks: 35 30
+
+GAME Thiel Tomcats@Youngstown State Penguins
+H Youngstown State Penguins: 46 57
+H Thiel Tomcats: 22 30
+
+GAME Ball State Cardinals@Campbell Fighting Camels
+H Campbell Fighting Camels: 30 39
+H Ball State Cardinals: 30 34
+
+GAME Indiana State Sycamores@Milwaukee Panthers
+H Milwaukee Panthers: 39 29
+H Indiana State Sycamores: 36 34
+
+GAME Coppin State Eagles@Radford Highlanders
+H Radford Highlanders: 43 64
+H Coppin State Eagles: 41 36
+
+GAME Saint Xavier Cougars@Southeast Missouri State Redhawks
+H Southeast Missouri State Redhawks: 46 42
+H Saint Xavier Cougars: 22 43
+
+GAME Troy Trojans@UAB Blazers
+H UAB Blazers: 39 46
+H Troy Trojans: 35 51
+
+GAME Northern New Mexico Eagles@Colorado State Rams
+H Colorado State Rams: 60 44
+H Northern New Mexico Eagles: 26 28
+
+GAME Western Michigan Broncos@Iowa Hawkeyes
+H Iowa Hawkeyes: 52 39
+H Western Michigan Broncos: 16 35
+
+GAME Florida Gulf Coast Eagles@New Mexico Lobos
+H New Mexico Lobos: 28 47
+H Florida Gulf Coast Eagles: 25 34
+
+GAME Charlotte 49ers@Charleston Cougars
+H Charleston Cougars: 39 35
+H Charlotte 49ers: 33 34
+
+GAME Evergreen State Geoducks@Idaho Vandals
+H Idaho Vandals: 56 53
+H Evergreen State Geoducks: 17 38
+
+GAME Kent State Golden Flashes@Portland Pilots
+H Portland Pilots: 39 49
+H Kent State Golden Flashes: 36 42
+
+GAME Queens University Royals@Wake Forest Demon Deacons
+H Wake Forest Demon Deacons: 57 54
+H Queens University Royals: 39 34
+
+GAME Detroit Mercy Titans@Purdue Fort Wayne Mastodons
+H Purdue Fort Wayne Mastodons: 40 41
+H Detroit Mercy Titans: 33 44
+
+GAME Chicago State Cougars@Loyola Chicago Ramblers
+H Loyola Chicago Ramblers: 28 47
+H Chicago State Cougars: 35 49
+
+GAME Champion Christian Tigers@UT Martin Skyhawks
+H UT Martin Skyhawks: 48 48
+H Champion Christian Tigers: 34 18
+
+GAME North Texas Mean Green@South Alabama Jaguars
+H South Alabama Jaguars: 26 31
+H North Texas Mean Green: 30 28
+
+GAME Saint Mary's Gaels@Boise State Broncos
+NEUTRAL
+H Boise State Broncos: 37 31
+H Saint Mary's Gaels: 32 35
+
+GAME Jacksonville Dolphins@Texas A&M Aggies
+H Texas A&M Aggies: 51 61
+H Jacksonville Dolphins: 26 49
+
+GAME Washington State Cougars@USC Trojans
+H USC Trojans: 33 35
+H Washington State Cougars: 26 35

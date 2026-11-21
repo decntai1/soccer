@@ -1,0 +1,117 @@
+# NCAAB results 2026-11-03 (US Eastern date) from ESPN scoreboard, fetched 2026-11-21 10:51Z
+
+GAME Wofford Terriers@Tennessee Volunteers
+H Tennessee Volunteers: 34 56
+H Wofford Terriers: 31 28
+
+GAME Drexel Dragons@Virginia Cavaliers
+H Virginia Cavaliers: 51 38
+H Drexel Dragons: 27 33
+
+GAME Arkansas-Pine Bluff Golden Lions@Arkansas Razorbacks
+H Arkansas Razorbacks: 47 59
+H Arkansas-Pine Bluff Golden Lions: 28 33
+
+GAME Sam Houston Bearkats@Alabama Crimson Tide
+H Alabama Crimson Tide: 40 56
+H Sam Houston Bearkats: 29 45
+
+GAME Manhattan Jaspers@Kentucky Wildcats
+H Kentucky Wildcats: 48 37
+H Manhattan Jaspers: 22 35
+
+GAME Milligan Buffaloes@UNC Greensboro Spartans
+H UNC Greensboro Spartans: 47 49
+H Milligan Buffaloes: 21 22
+
+GAME Purdue Fort Wayne Mastodons@Duquesne Dukes
+H Duquesne Dukes: 36 42
+H Purdue Fort Wayne Mastodons: 37 34
+
+GAME Stetson Hatters@South Carolina Gamecocks
+H South Carolina Gamecocks: 42 39
+H Stetson Hatters: 25 30
+
+GAME Warren Wilson Owls@North Carolina A&T Aggies
+H North Carolina A&T Aggies: 41 51
+H Warren Wilson Owls: 26 27
+
+GAME Coppin State Eagles@Virginia Tech Hokies
+H Virginia Tech Hokies: 45 43
+H Coppin State Eagles: 27 27
+
+GAME Hampton Pirates@Georgia Tech Yellow Jackets
+H Georgia Tech Yellow Jackets: 42 33
+H Hampton Pirates: 15 40
+
+GAME Holy Cross Crusaders@Rhode Island Rams
+H Rhode Island Rams: 58 45
+H Holy Cross Crusaders: 27 32
+
+GAME Wagner Seahawks@Boston College Eagles
+H Boston College Eagles: 38 38
+H Wagner Seahawks: 23 27
+
+GAME Lincoln (MO) Blue Tigers@Missouri State Bears
+H Missouri State Bears: 49 39
+H Lincoln (MO) Blue Tigers: 26 34
+
+GAME Cornell (IA) Rams@Northern Iowa Panthers
+H Northern Iowa Panthers: 45 61
+H Cornell (IA) Rams: 42 28
+
+GAME Louisiana Christian Wildcats@Houston Christian Huskies
+H Houston Christian Huskies: 58 50
+H Louisiana Christian Wildcats: 21 24
+
+GAME LSU New Orleans Privateers@LSU Tigers
+H LSU Tigers: 53 47
+H LSU New Orleans Privateers: 17 40
+
+GAME Cleveland State Vikings@Missouri Tigers
+H Missouri Tigers: 56 55
+H Cleveland State Vikings: 18 32
+
+GAME Alabama State Hornets@Texas A&M Aggies
+H Texas A&M Aggies: 44 53
+H Alabama State Hornets: 29 37
+
+GAME Lipscomb Bisons@Iowa Hawkeyes
+H Iowa Hawkeyes: 38 38
+H Lipscomb Bisons: 29 25
+
+GAME South Dakota State Jackrabbits@Kansas State Wildcats
+H Kansas State Wildcats: 28 38
+H South Dakota State Jackrabbits: 35 33
+
+GAME Western New Mexico Mustangs@New Mexico State Aggies
+H New Mexico State Aggies: 26 47
+H Western New Mexico Mustangs: 31 35
+
+GAME Regis University REGIS UNIVERSITY@Wyoming Cowboys
+H Wyoming Cowboys: 42 53
+H Regis University REGIS UNIVERSITY: 27 21
+
+GAME Chapman Panthers@UC Irvine Anteaters
+H UC Irvine Anteaters: 38 54
+H Chapman Panthers: 26 40
+
+GAME Lewis & Clark River Otters@Portland State Vikings
+H Portland State Vikings: 51 60
+H Lewis & Clark River Otters: 29 30
+
+GAME Northern Arizona Lumberjacks@UNLV Rebels
+H UNLV Rebels: 43 46
+H Northern Arizona Lumberjacks: 47 30
+
+GAME North Florida Ospreys@California Baptist Lancers
+H California Baptist Lancers: 31 32
+H North Florida Ospreys: 33 38
+
+GAME Cal State Fullerton Titans@San Diego State Aztecs
+H San Diego State Aztecs: 54 48
+H Cal State Fullerton Titans: 43 35
+
+GAME Bethesda Flames@Pacific Tigers
+H Pacific Tigers: 55 47
+H Bethesda Flames: 25 22
