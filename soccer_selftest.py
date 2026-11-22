@@ -106,6 +106,10 @@ def main() -> int:
         (R("SCORER_FIRST", "yes", pid=11), "won", 1), (R("SCORER_FIRST", "yes", pid=12), "lost", 0), (R("SCORER_FIRST", "yes", pid=13), None, None),
         (R("SCORER_FIRST", "yes", pid=14), "void", 0), (R("SCORER_FIRST", "yes", pid=11, fid=2), None, None),
         (R("PL_SOT", "over", 1.5, pid=11), "won", 2), (R("PL_SOT", "over", 1.5, pid=14), "void", 0),
+        (R("CORNERS_1X2", "1"), "won", 3), (R("CORNERS_1X2", "X"), "lost", 3), (R("SOT_1X2", "2"), "lost", 3), (R("SHOTS_1X2", "1"), "won", 5),
+        (R("CORNERS_1X2", "1", scope="H1"), None, None), (R("CARDS_1X2", "2"), None, None),
+        (R("PL_CARD", "over", 0.5, pid=11), "won", 1), (R("PL_CARD", "over", 0.5, pid=12), "lost", 0), (R("PL_CARD", "under", 0.5, pid=12), "won", 0),
+        (R("PL_CARD", "over", 0.5, pid=14), "void", 0), (R("PL_CARD", "over", 1.5, pid=21), None, None),
         (R("1X2", "1", fid=3), None, None), (R("1X2", "1", fid=4), "void", None), (R("1X2", "1", fid=77), None, None), (R(None), None, None),
     ]
     bad = []
@@ -116,9 +120,9 @@ def main() -> int:
     ok(f"settlement: {len(want)} hand-written cases (quarter lines, pushes, halves, own goals, void, unconfirmed rules)", not bad, bad[:3])
     S.RULES.update(second_yellow_is_two_cards=True, coach_cards_count=False, booking_points=dict(yellow=10, red=25), first_scorer_own_goal="next", first_scorer_late_sub="lost")
     a = [S.settle(R("CARDS", "over", 3.5), facts), S.settle(R("BOOKING_PTS", "over", 40.5), facts), S.settle(R("SCORER_FIRST", "yes", pid=11, fid=2), facts),
-         S.settle(R("SCORER_FIRST", "yes", pid=13), facts)]
-    ok("settlement: once the book rules are entered, the held-back rows grade (cards 3, booking points 45, first scorer after an own goal)",
-       [(x["result"], x["actual"]) for x in a] == [("lost", 3.0), ("won", 45.0), ("won", 1.0), ("lost", 0.0)], a)
+         S.settle(R("SCORER_FIRST", "yes", pid=13), facts), S.settle(R("CARDS_1X2", "2"), facts)]
+    ok("settlement: once the book rules are entered, the held-back rows grade (cards 3, booking points 45, first scorer after an own goal, cards 1X2 away)",
+       [(x["result"], x["actual"]) for x in a] == [("lost", 3.0), ("won", 45.0), ("won", 1.0), ("lost", 0.0), ("won", -1.0)], a)
     S.RULES.update(second_yellow_is_two_cards=None, coach_cards_count=None, booking_points=None, first_scorer_own_goal=None, first_scorer_late_sub=None)
 
     # ---------------------------------------------------------------- B2. wording read off real vegas.hu boards (EFL, 2026-11-21)
@@ -138,7 +142,10 @@ def main() -> int:
         (rr("Pontos végeredmény", "2:1"), ("CS", "FT", "2:1", None, None)), (rr("1. félidő - Pontos végeredmény", "1:0"), ("CS", "H1", "1:0", None, None)),
         (rr("Szögletek száma", "9,5 felett", "9.5"), ("CORNERS", "FT", "over", 9.5, None)), (rr("Szögletek száma", "9-11"), (None,) * 5),
         (rr("Millwall szögletek száma", "5,5 alatt", "5.5"), ("CORNERS", "FT", "under", 5.5, "home")),
-        (rr("Büntetőlapok száma", "4,5 felett", "4.5"), ("CARDS", "FT", "over", 4.5, None)), (rr("Büntetőlapok 1X2", "QPR", comp=2), (None,) * 5),
+        (rr("Büntetőlapok száma", "4,5 felett", "4.5"), ("CARDS", "FT", "over", 4.5, None)), (rr("Büntetőlapok 1X2", "QPR", comp=2), ("CARDS_1X2", "FT", "2", None, None)),
+        (rr("Szöglet 1X2", "Döntetlen"), ("CORNERS_1X2", "FT", "X", None, None)), (rr("1X2 kaput eltaláló lövések száma (Rendes játékidő)", "Millwall", comp=1), ("SOT_1X2", "FT", "1", None, None)),
+        (rr("1X2 kapura lövések száma (Rendes játékidő)", "QPR", comp=2), ("SHOTS_1X2", "FT", "2", None, None)),
+        (rr("Lapok - Csere játékossal együtt", "0,5 felett", "0.5", child="Paul Smyth", cc=2), (None,) * 5), (rr("Ki végez el elsőként 5 szögletet?", "QPR", comp=2), (None,) * 5),
         (rr("Kaput eltaláló lövések száma (Rendes játékidő)", "8,5 felett", "8.5"), ("SOT", "FT", "over", 8.5, None)),
         (rr("QPR összes kaput eltaláló lövések száma (Rendes játékidő)", "3,5 alatt", "3.5|13218"), ("SOT", "FT", "under", 3.5, "away")),
         (rr("Összes Lövés (Rendes játékidő)", "26,5 felett", "26.5"), ("SHOTS", "FT", "over", 26.5, None)),
@@ -148,7 +155,7 @@ def main() -> int:
         (rr("Hány gólt szerez?", "2+ gólt szerez", child="Josh Coburn", cc=1), ("SCORER_ANY", "FT", "yes", 1.5, None)),
         (rr("Kaput eltaláló lövések (Rendes játékidő)", "1,5 felett", "1.5", child="Josh Coburn", cc=1), ("PL_SOT", "FT", "over", 1.5, None)),
         (rr("Lövések (Rendes játékidő)", "2,5 felett", "2.5", child="Josh Coburn", cc=1), ("PL_SHOTS", "FT", "over", 2.5, None)),
-        (rr("Lapok", "0,5 felett", "0.5", child="Paul Smyth", cc=2), (None,) * 5),
+        (rr("Lapok", "0,5 felett", "0.5", child="Paul Smyth", cc=2), ("PL_CARD", "FT", "over", 0.5, None)),
         (rr("1. Gólszerző + 1X2", "Millwall", child=None), (None,) * 5), (rr("Gólszerző & pontos végeredmény", "1:0"), (None,) * 5),
         (rr("1X2 & gólok száma", "Millwall & 2,5 felett", "2.5"), (None,) * 5), (rr("Első/utolsó gólszerző", "Első vagy utolsó gólszerző", child="X", cc=1), (None,) * 5),
         (rr("Millwall nyeri és nem kap gólt", "Igen"), (None,) * 5), (rr("Félidő/végeredmény", "Millwall/Millwall"), (None,) * 5),
@@ -262,6 +269,12 @@ def main() -> int:
             L7 = pd.read_sql("SELECT * FROM slip_legs WHERE matchday = ? AND slip_id LIKE '%7legs'", con, params=[day.isoformat()])
             ok("slips: --legs 7 builds 7-leg slips, one leg per game", len(B7) and (B7.slip_id.str.endswith("7legs")).sum() >= 1
                and len(L7) and all(len(g) == 7 and g.game.nunique() == 7 for _, g in L7.groupby("slip_id")), B7)
+            SEp = S.statedge_pool(day.isoformat(), con)
+            ok("statedge: statistics legs only, priced 1.5-2.1, model above the book, one per game and quantity",
+               len(SEp) > 3 and SEp.type.isin(S.STAT_T).all() and SEp.odds.between(1.5, 2.1).all() and (SEp.p_model > SEp.p_book).all()
+               and not SEp.duplicated(["game", "quantity"]).any(), SEp[["game", "type", "odds", "p_book", "p_model"]].head())
+            ok("statedge: slips built and their stated chance is the book's, not the model's",
+               (B7.strategy == "statedge/legs").any() or (B7.strategy == "statedge").any(), B7)
             run_quiet(S.slips, day.isoformat(), con, (3, 6, 9), None, 1)                    # back to the default set
         clock[0] += dt.timedelta(days=2)
         W = mk(free=True)
@@ -341,6 +354,10 @@ def main() -> int:
     sl = pd.read_sql("SELECT * FROM slips", con)
     ok("slips: every built slip was graded; a lost leg loses the slip", (sl.status == "graded").all() and set(sl.result) <= {"won", "lost", "part", "void"}
        and (sl[sl.result == "lost"].paid == 0).all() and sl.played.sum() >= 3, sl[["slip_id", "result", "paid"]].head())
+    TP = S.team_profiles()
+    ok("teams: a profile per team (20) with corners, cards, shots, on target and fouls for and against",
+       len(TP) == 20 and TP[["corners_for", "corners_against", "cards_for", "sot_for", "fouls_for"]].notna().all().all() and TP.corners_for.between(3, 7).all(),
+       TP.head(3).T)
     (Wt, _) = run_quiet(S.fit_weights, con)
     ok("weights: with 30 games no family reaches t > 2 held out, so every weight is 0", len(Wt) > 5 and (Wt.w == 0).all(), Wt[Wt.w > 0])
     (txt, _) = run_quiet(S.report, con)

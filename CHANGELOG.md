@@ -1,5 +1,22 @@
 # Changelog: soccer system (decntai1/soccer)
 
+## soccer-0.2, 2026-11-21: statistics markets and team profiles
+- New markets read, priced and graded: corners 1X2, cards 1X2, shots 1X2 and shots-on-target 1X2 (which team has
+  more; "Szöglet 1X2", "Büntetőlapok 1X2", "1X2 kapura / kaput eltaláló lövések száma"), and player booked ("Lapok",
+  line 0.5). Still not read: race to N corners (no corner times in the data), player booked incl. substitute.
+- Cards 1X2 is graded only when the result is the same under every unconfirmed card rule (second yellow, bench).
+- Model: the 1X2 statistics markets and the corner handicap priced from the two teams' negative-binomial counts;
+  fouls fitted per team (football-data HF/AF, API team stats); player booked from cards per 90 x expected minutes.
+- `teams`: a profile per team this season (corners, cards, shots, on target, fouls; for and against; home, away,
+  last 6), written to data/soccer_<season>_team_profiles.csv.
+- `statedge` slip strategy: statistics legs only, priced 1.5-2.1, where the team model rates the leg above the book;
+  ranked by the model's view of value. Stated chance stays the book's (weight 0 until the record says otherwise).
+  Built for every target and for `--legs 7`; graded like all slips; bandit 2 has it as an arm.
+- Report: statistics markets book vs model vs happened, team over-lines by team, the statedge legs' record.
+- The book's margin on the statistics markets (real boards, 21-22 Nov): 8-10% on totals, 12-16% on the 1X2 ones.
+- MODEL_VERSION soccer-0.2: Saturday and Sunday re-priced; Friday stays graded under 0.1 and out of the weights.
+- Selftest: 53 checks.
+
 ## soccer-0.1, 2026-11-21: first real matchday graded
 - Friday 20 Nov: all 5 games fetched by the 23:41 UTC run (API-Football free plan) with events, lineups, team and
   player statistics; the three sanity checks passed on all 5 (goals = score, player goals + own goals = team goals,

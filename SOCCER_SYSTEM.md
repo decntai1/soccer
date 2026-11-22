@@ -80,6 +80,12 @@ own; no game+quantity is in two slips of one strategy. All paper. On the 21 Nov 
 7 legs at -24% to -27%, 9x at -39% to -41% expected return, because most legs that pass the 60-88% rule are
 1.15-1.30 lines and each pays the margin.
 
+## Statistics markets and statedge (soccer-0.2)
+
+`teams` prints and writes a profile per team. `slips` also builds `statedge` slips: corners, cards and shots
+legs priced 1.5-2.1 that the team model rates above the book. The model has no record yet, so its numbers are a
+hypothesis being tested, not a basis for staking. The report's "Statistics markets" section shows whether it wins.
+
 ## Not tested, in order of risk
 
 1. Whether the free plan serves our six leagues' current games through `fixtures?id=` (tested: Brazil's Serie A).

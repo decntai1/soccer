@@ -103,7 +103,8 @@ def load(seasons: list[int], book: str = "avg") -> pd.DataFrame:
             g = pd.DataFrame(dict(league=code, season=y, date=fd_date(d["Date"]).values, home=d.HomeTeam.astype(str).str.strip().values,
                                   away=d.AwayTeam.astype(str).str.strip().values, hg=d.FTHG.astype(int).values, ag=d.FTAG.astype(int).values))
             for new, old in (("hthg", "HTHG"), ("htag", "HTAG"), ("hst", "HST"), ("ast", "AST"), ("hc", "HC"), ("ac", "AC"),
-                             ("hsh", "HS"), ("ash", "AS"), ("hy", "HY"), ("ay", "AY"), ("hr", "HR"), ("ar", "AR")):
+                             ("hsh", "HS"), ("ash", "AS"), ("hy", "HY"), ("ay", "AY"), ("hr", "HR"), ("ar", "AR"),
+                             ("hf", "HF"), ("af", "AF")):
                 g[new] = pd.to_numeric(d[old], errors="coerce").values if old in d else np.nan
             g["referee"] = d["Referee"].astype(str).str.strip().values if "Referee" in d else None
             for key, names in (("x12", ("o_h", "o_d", "o_a")), ("ou", ("o_over", "o_under")), ("ah", ("ah_line", "o_ah_h", "o_ah_a"))):

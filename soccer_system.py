@@ -37,7 +37,7 @@ import pandas as pd
 
 from soccer_model import LeagueModel, PlayerModel, line_fracs, newcomer_starts
 
-MODEL_VERSION = "soccer-0.1"
+MODEL_VERSION = "soccer-0.2"
 OUT = Path(os.environ.get("SOCCER_OUT", "data"))
 DB = os.environ.get("SOCCER_DB", "ledger/soccer.sqlite")
 LEG_P, LEG_MIN_ODDS, SIDE_MIN = (0.60, 0.88), 1.15, 0.60
@@ -55,8 +55,11 @@ RULES = dict(
 )
 
 SIDE_T, GOAL_T = {"1X2", "DNB", "AH", "EH", "DC"}, {"TOTAL", "TEAM_TOTAL", "BTTS", "CS"}
-OU_T = {"TOTAL", "TEAM_TOTAL", "CORNERS", "CARDS", "SHOTS", "SOT", "BOOKING_PTS", "PL_SOT", "PL_SHOTS"}
-PLAYER_T = {"SCORER_ANY", "SCORER_FIRST", "PL_SOT", "PL_SHOTS"}
+OU_T = {"TOTAL", "TEAM_TOTAL", "CORNERS", "CARDS", "SHOTS", "SOT", "BOOKING_PTS", "PL_SOT", "PL_SHOTS", "PL_CARD"}
+PLAYER_T = {"SCORER_ANY", "SCORER_FIRST", "PL_SOT", "PL_SHOTS", "PL_CARD"}
+STAT3_T = {"CORNERS_1X2", "CARDS_1X2", "SHOTS_1X2", "SOT_1X2"}                 # which team has more
+STAT_T = {"CORNERS", "CORNERS_AH", "CARDS", "SHOTS", "SOT"} | STAT3_T          # the statistics markets (statedge pool)
+STATEDGE_ODDS = (1.5, 2.1)
 
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS predictions (
@@ -135,7 +138,9 @@ def quantity(typ: str, subject=None) -> str:
     """Legs with the same game + quantity fail together and count as one quantity in slips."""
     if typ in PLAYER_T:
         return f"player:{subject}"
-    return "side" if typ in SIDE_T else "goals" if typ in GOAL_T else typ.lower().replace("booking_pts", "cards").replace("corners_ah", "corners")
+    if typ in STAT_T or typ == "BOOKING_PTS":
+        return {"BOOKING_PTS": "cards"}.get(typ, typ.split("_")[0].lower())     # corners, corner handicap, corner 1X2: one quantity
+    return "side" if typ in SIDE_T else "goals" if typ in GOAL_T else typ.lower()
 
 
 # ------------------------------------------------------------------ ingest tables
@@ -277,7 +282,8 @@ def fd_matches(T: dict, out: Path | None = None) -> tuple[pd.DataFrame, dict]:
     tid = lambda n: m.get(n, -(int(hashlib.md5(n.encode()).hexdigest()[:7], 16)))
     X = pd.DataFrame(dict(fixture_id=None, date=FD.date, league=FD.league.map(lid_of), season=FD.season, home=FD.home.map(tid), away=FD.away.map(tid),
                           hg=FD.hg, ag=FD.ag, hthg=FD.hthg, htag=FD.htag, referee=FD.referee, h_corners=FD.hc, a_corners=FD.ac,
-                          h_cards=FD.hy + FD.hr, a_cards=FD.ay + FD.ar, h_shots=FD.hsh, a_shots=FD.ash, h_sot=FD.hst, a_sot=FD.ast, source="football-data"))
+                          h_cards=FD.hy + FD.hr, a_cards=FD.ay + FD.ar, h_shots=FD.hsh, a_shots=FD.ash, h_sot=FD.hst, a_sot=FD.ast,
+                          h_fouls=FD.hf if "hf" in FD else np.nan, a_fouls=FD.af if "af" in FD else np.nan, source="football-data"))
     cur_names = set(FD[FD.season == cur].home) | set(FD[FD.season == cur].away)
     info = dict(games=len(X), current=int((X.season == cur).sum()), mapped=len([n for n in cur_names if n in m]), teams=len(cur_names), unmapped=unmapped)
     return X, info
@@ -300,7 +306,7 @@ def matches_frame(T: dict, with_fd: bool = True) -> pd.DataFrame:
     if len(S):
         S = S.assign(cards=S.yellow.fillna(0) + S.red.fillna(0)).rename(columns={"shots_on_target": "sot"})
         for flag, pre in ((True, "h_"), (False, "a_")):
-            x = S[S.is_home == flag][["fixture_id", "corners", "cards", "shots", "sot"]].add_prefix(pre).rename(columns={pre + "fixture_id": "fixture_id"})
+            x = S[S.is_home == flag][["fixture_id", "corners", "cards", "shots", "sot", "fouls"]].add_prefix(pre).rename(columns={pre + "fixture_id": "fixture_id"})
             M = M.merge(x, on="fixture_id", how="left")
     M["source"] = "api"
     if with_fd:
@@ -425,6 +431,9 @@ def classify(r: dict, home: dict, away: dict) -> dict:
             return dict(over_under("PL_SOT"), subject=r["child"], who=None)
         if m == "lovesek rendes jatekido":
             return dict(over_under("PL_SHOTS"), subject=r["child"], who=None)
+        if m == "lapok":                                                     # player booked ('csere jatekossal' variant is not read)
+            x = over_under("PL_CARD")
+            return dict(x, subject=r["child"], who=None) if x["type"] and abs(x["line"] - 0.5) < 1e-9 else bad("player cards line other than 0.5")
         return bad("player market not read")
     # ---- match and team markets
     if m in ("1x2", "vegeredmeny") and out["who"] is None:
@@ -471,6 +480,10 @@ def classify(r: dict, home: dict, away: dict) -> dict:
         return over_under("SOT")
     if m == "osszes loves rendes jatekido":
         return over_under("SHOTS")
+    stat3 = {"szoglet 1x2": "CORNERS_1X2", "buntetolapok 1x2": "CARDS_1X2", "1x2 kapura lovesek szama rendes jatekido": "SHOTS_1X2",
+             "1x2 kaput eltalalo lovesek szama rendes jatekido": "SOT_1X2"}.get(m)
+    if stat3:
+        return dict(out, type=stat3, side=side) if side else bad("1X2 selection not read")
     return bad("unknown market")
 
 
@@ -584,7 +597,7 @@ def price_event(ev: dict, day: str, T: dict, M: pd.DataFrame, match: Matcher, mo
         G.setdefault((row["market_id"], t, row["scope"], row["who"] if t not in PLAYER_T else None, row["subject"], lk), []).append(i)
     for (mid, t, *_), idx in G.items():
         sides = [rows[i]["side"] for i in idx]
-        want = ({"1", "X", "2"} if t in ("1X2", "EH") else {"1X", "12", "X2"} if t == "DC" else {"1", "2"} if t in ("DNB", "AH", "CORNERS_AH") else
+        want = ({"1", "X", "2"} if t in ("1X2", "EH") or t in STAT3_T else {"1X", "12", "X2"} if t == "DC" else {"1", "2"} if t in ("DNB", "AH", "CORNERS_AH") else
                 {"yes", "no"} if t == "BTTS" else {"over", "under"} if t in OU_T else None)
         if t == "EH" and set(sides) == {"1", "2"} and len(idx) == 2:               # a plain "Hendikep" with two sides is Asian
             for i in idx:
@@ -615,6 +628,8 @@ def price_event(ev: dict, day: str, T: dict, M: pd.DataFrame, match: Matcher, mo
                     pmod = pm.p_anytime(row["player_id"], lam, int(row["line"] + 0.5))
                 elif t == "SCORER_FIRST":
                     pmod = pm.p_first(row["player_id"], lam, gm.lh + gm.la)
+                elif t == "PL_CARD":
+                    pmod = pm.p_card(row["player_id"], row["line"], row["side"]) if row["scope"] == "FT" else None
                 elif row["scope"] == "FT":
                     pmod = pm.p_count(row["player_id"], "shots_on_target" if t == "PL_SOT" else "shots", row["line"], row["side"])
             elif t == "CS":
@@ -773,6 +788,24 @@ def settle(r, facts: Facts) -> dict:
     if t == "EH":
         adj = h - a + r.line
         return done(*(1, 0) if {"1": adj > 0, "X": adj == 0, "2": adj < 0}[r.side] else (0, 1), h - a)
+    if t in STAT3_T:
+        col = {"CORNERS_1X2": "corners", "SHOTS_1X2": "shots", "SOT_1X2": "shots_on_target", "CARDS_1X2": None}[t]
+        if r.scope != "FT":
+            return no("no statistics by half in the data")
+        if col:
+            if cov is None or not cov.statistics_fixtures or len(g["ts"]) != 2 or g["ts"][col].isna().any():
+                return no(f"{col} not covered for this league/game")
+            v = g["ts"].set_index("is_home")[col]
+            dh = [float(v[True] - v[False])] * 2
+        else:
+            rh, ra = _card_range(g, fx.home_id), _card_range(g, fx.away_id)
+            if rh is None or ra is None:
+                return no("card events not covered for this league/game")
+            dh = [rh[0] - ra[1], rh[1] - ra[0]]                              # lowest and highest possible difference
+        res = {"1" if d > 0 else "X" if d == 0 else "2" for d in dh}
+        if len(res) > 1:
+            return no(f"result depends on an unconfirmed card rule (difference {dh[0]:g} to {dh[1]:g})")
+        return done(*(1, 0) if res == {r.side} else (0, 1), dh[0])
     if t == "CORNERS_AH":
         if r.scope != "FT":
             return no("no corners by half in the data")
@@ -846,6 +879,13 @@ def settle(r, facts: Facts) -> dict:
                 return no("no player statistics for this league: cannot tell whether he played")
         if minutes == 0:
             return dict(result="void", won=0.0, lost=0.0, actual=0.0, note="did not play (0 minutes)")
+        if t == "PL_CARD":
+            if r.scope != "FT" or abs(r.line - 0.5) > 1e-9:
+                return no("player card line other than 0.5 not read")
+            if cov is None or not cov.events or str(fx.has_events) != "True":
+                return no("card events not covered for this league/game")
+            booked = len(g["ev"]) > 0 and bool(((g["ev"].player_id == pid) & g["ev"].type.isin(["yellow", "second_yellow", "red"])).any())
+            return done(*(1, 0) if booked == (r.side == "over") else (0, 1), float(booked))
         if t in ("PL_SOT", "PL_SHOTS"):
             if not covered or r.scope != "FT":
                 return no("player shots not covered")
@@ -877,6 +917,30 @@ def settle(r, facts: Facts) -> dict:
             return dict(result="void", won=0.0, lost=0.0, actual=0.0, note="came on after kick-off: void by rule")
         return done(0, 1, 0)
     return no(f"no settlement for type {t}")
+
+
+def _card_range(g: dict, team_id) -> tuple | None:
+    """A team's card count in one game: (lowest, highest) under the rules still unconfirmed (second yellow counted as
+    one card or two; cards to the bench). None when the game has no card events."""
+    if str(g["fx"].has_events) != "True":
+        return None
+    E = g["ev"][g["ev"].type.isin(["yellow", "second_yellow", "red"]) & (g["ev"].team_id == team_id)] if len(g["ev"]) else g["ev"]
+    squad = set(g["lu"].player_id) if len(g["lu"]) else None
+    lo = hi = 0.0
+    for pid, ce in E.groupby("player_id", dropna=False):
+        y, off = int(ce.type.isin(["yellow", "second_yellow"]).sum()), bool(ce.type.isin(["red", "second_yellow"]).any())
+        base, extra = min(y, 1) + off, 1.0 if (off and y >= 1) else 0.0
+        if RULES["second_yellow_is_two_cards"] is True:
+            extra = 0.0
+        elif RULES["second_yellow_is_two_cards"] is False and y >= 2:
+            base, extra = base + 1, 0.0
+        staff = squad is not None and (pd.isna(pid) or pid not in squad)
+        if staff and RULES["coach_cards_count"] is not True:
+            if RULES["coach_cards_count"] is None:
+                hi += base + extra
+            continue
+        lo, hi = lo + base, hi + base + extra
+    return lo, hi
 
 
 def grade(day: str, con, boards: str | None = None, out: Path | None = None, quiet: bool = False) -> None:
@@ -1054,10 +1118,28 @@ STRATEGIES = {
 }
 
 
+def statedge_pool(day: str, con, band=STATEDGE_ODDS) -> pd.DataFrame:
+    """Statistics legs only (corners, corner handicap and 1X2, cards and cards 1X2, shots, shots on target), priced
+    inside `band`, where the team-statistics model is above the book's price without margin. Ranked by the model's
+    view of the leg's value, model x odds - 1. The stated chance stays the BOOK's (rule 1): the model's weight is 0
+    until the record gives it one, so these are paper legs that test the model, not legs the system believes in."""
+    P = pd.read_sql("SELECT * FROM predictions WHERE matchday = ? AND status = 'open' AND type IS NOT NULL", con, params=[day])
+    if P.empty:
+        return P
+    ok = (P.p_method == "no_vig") & P.type.isin(STAT_T) & P.odds.between(*band) & P.flag.isna() & P.fixture_id.notna() & P.p_model.notna()
+    P = P[ok & (P.p_model > P.p_book)].copy()
+    P["family"] = [family(t, s) for t, s in zip(P.type, P.scope)]
+    P["quantity"] = [quantity(t, s) for t, s in zip(P.type, P.subject)]
+    P["edge"] = P.p_model * P.odds - 1
+    P["votes"] = 1 + (P.p_model >= STAT_VOTE).astype(int)
+    P["score"] = np.log1p(P.edge.clip(lower=-0.99))
+    return P.sort_values("edge", ascending=False).groupby(["game", "quantity"]).head(1).reset_index(drop=True)
+
+
 def arm_stats(con) -> pd.DataFrame:
     S = pd.read_sql("SELECT strategy, target, paid FROM slips WHERE status = 'graded' AND result != 'void'", con)
     rows = []
-    for st in STRATEGIES:
+    for st in list(STRATEGIES) + ["statedge"]:
         for tg in sorted(set(S.target) | {3.0, 6.0, 9.0}):
             x = S[(S.strategy == st) & (S.target == tg)].paid - 1
             n, sd0 = len(x), math.sqrt(max(tg - 1, 0.5))
@@ -1096,9 +1178,14 @@ def slips(day: str, con, targets=(3, 6, 9), out: Path | None = None, seed: int |
             for r in show.itertuples():
                 v = f"B{'S' if r.v_stat else '-'}{'R' if r.v_rec else '-'}{'O' if r.v_out else '-' if r.v_out is not None else '?'}"
                 print(f"    {r.votes}/4 {v}  {r.game[:34]:<34} {r.market[:28]:<28} {r.selection[:22]:<22} @{r.odds:.2f}  book {r.p_book:.0%}  model {'' if pd.isna(r.p_model) else format(r.p_model, '.0%')}")
-    for st, pick in STRATEGIES.items():
+    SE = statedge_pool(day, con)
+    if not quiet:
+        print(f"  statedge pool: {len(SE)} statistics legs at {STATEDGE_ODDS[0]}-{STATEDGE_ODDS[1]} where the team numbers rate them above the book"
+              + (f" (best: {SE.game.iloc[0][:30]} {SE.market.iloc[0][:30]} {SE.selection.iloc[0][:18]} @{SE.odds.iloc[0]:.2f}, "
+                 f"book {SE.p_book.iloc[0]:.0%}, model {SE.p_model.iloc[0]:.0%})" if len(SE) else ""))
+    for st, pick in list(STRATEGIES.items()) + [("statedge", lambda P: SE)]:
         used = set()                                             # no quantity in two slips of one strategy
-        cand = pick(pool) if len(pool) else pool
+        cand = pick(pool) if (len(pool) or st == "statedge") else pool
         for kind, tg in [("x", t) for t in targets] + [("legs", n) for n in legs]:
             c = cand[[(g, q) not in used for g, q in zip(cand.game, cand.quantity)]] if len(cand) else cand
             L = (build_slip(c, tg, "score") if kind == "x" else fixed_legs(c, int(tg))) if len(c) else None
@@ -1116,7 +1203,8 @@ def slips(day: str, con, targets=(3, 6, 9), out: Path | None = None, seed: int |
             if not quiet:
                 print(f"\n  {sid}: pays {o:.2f}, {len(L)} legs, stated chance {p:.1%} (1 in {1 / p:.1f}), expected return {p * o - 1:+.1%}")
                 for r in L.sort_values("kickoff").itertuples():
-                    print(f"     {str(r.kickoff)[5:16]:<11} {r.game[:32]:<32} {r.market[:28]:<28} {r.selection[:22]:<22} @{r.odds:.2f}  {r.p:.0%}  votes {r.votes}/4")
+                    extra = f"  model {r.p_model:.0%}" if st == "statedge" else f"  votes {r.votes}/4"
+                    print(f"     {str(r.kickoff)[5:16]:<11} {r.game[:32]:<32} {r.market[:28]:<28} {r.selection[:22]:<22} @{r.odds:.2f}  {r.p:.0%}{extra}")
     B = pd.DataFrame(built)
     for tg in targets:                                           # bandit 2: which strategy would be played at each target
         a = A[(A.target == tg) & A.strategy.isin(B[B.target == tg].strategy if len(B) else [])]
@@ -1239,6 +1327,36 @@ def report(con, path: str | None = None) -> str:
         if len(pl):
             s = _cstat(pl)
             L += ["", f"Player lines (kept in a separate list, never in slips until this turns): {s['rows']} rows, return {s['ret']:+.1%} +- {s['se']:.1%}."]
+    if len(d):
+        st = d[d.type.isin(STAT_T) & (d.p_method == "no_vig")].copy()
+        L += ["", "## Statistics markets: book, model and what happened", ""]
+        if st.empty:
+            L.append("None graded yet.")
+        else:
+            L += ["| market | games | rows | book said | model said | happened | model minus book, t |", "|---|---|---|---|---|---|---|"]
+            for fam, x in sorted(st.groupby("family"), key=lambda kv: -kv[1].cluster.nunique()):
+                m = x[x.p_model.notna()]
+                g = (m.wt * ((m.y - m.p_book) ** 2 - (m.y - m.p_model) ** 2)).groupby(m.cluster).sum() if len(m) else pd.Series(dtype=float)
+                t = float(g.mean() / (g.std(ddof=1) / math.sqrt(len(g)))) if len(g) > 2 and g.std(ddof=1) > 0 else float("nan")
+                L.append(f"| {fam} | {x.cluster.nunique()} | {len(x)} | {(x.p_book * x.wt).sum() / x.wt.sum():.1%} | "
+                         f"{(m.p_model * m.wt).sum() / m.wt.sum() if len(m) else float('nan'):.1%} | {(x.y * x.wt).sum() / x.wt.sum():.1%} | {t:+.2f} |")
+            tm = st[st.who.notna()].copy()                          # team lines: corners / cards / shots of one team
+            if len(tm):
+                tm["team"] = [g_.split(" v ")[0 if w == "home" else 1] if " v " in g_ else g_ for g_, w in zip(tm.game, tm.who)]
+                tm["over"] = tm.side == "over"
+                agg = tm[tm.over].groupby(["team", "type"]).agg(games=("cluster", "nunique"), stated=("p_book", "mean"), happened=("y", "mean"))
+                agg = agg[agg.games >= 3].sort_values("games", ascending=False)
+                L += ["", "Team lines, the OVER side (a team whose overs keep winning beyond what the book stated is the kind of thing this "
+                          "is looking for; under ~15 games per team it is noise):", ""]
+                L += [agg.head(25).round(3).to_markdown()] if len(agg) else ["No team has 3 graded games yet."]
+        SEL = pd.read_sql("SELECT l.matchday, l.row_key FROM slip_legs l JOIN slips s USING (matchday, slip_id) WHERE s.strategy LIKE 'statedge%'", con)
+        if len(SEL):
+            x = d.merge(SEL.drop_duplicates(), on=["matchday", "row_key"])
+            if len(x):
+                s_ = _cstat(x)
+                L += ["", f"statedge legs graded: {s_['rows']} in {s_['games']} games. Book said {(x.p_book * x.wt).sum() / x.wt.sum():.1%}, "
+                          f"model said {(x.p_model * x.wt).sum() / x.wt.sum():.1%}, happened {(x.y * x.wt).sum() / x.wt.sum():.1%}; "
+                          f"return per leg {s_['ret']:+.1%} +- {s_['se']:.1%}. The model earns weight only when this beats the book on held-out weeks."]
     S = pd.read_sql("SELECT * FROM slips WHERE status = 'graded' AND result != 'void'", con)
     L += ["", "## Slips: hits against expected hits", ""]
     if S.empty:
@@ -1265,6 +1383,54 @@ def report(con, path: str | None = None) -> str:
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(text, encoding="utf-8")
     return text
+
+
+def team_profiles(out: Path | None = None, league=None, last: int = 6) -> pd.DataFrame:
+    """Per team, this season: games and per-game corners, cards, shots, shots on target and fouls, for and against,
+    home and away, and the last `last` games. From football-data plus the API's own games (no API requests)."""
+    T = load_tables(out)
+    M = matches_frame(T)
+    if M.empty:
+        sys.exit("no games in the tables yet")
+    cur = M.season.max()
+    M = M[M.season == cur]
+    names = {}
+    if len(T["fixtures"]):
+        F = T["fixtures"]
+        names = dict(zip(F.home_id, F.home)) | dict(zip(F.away_id, F.away))
+    fd = T.get("fd")
+    if fd is not None and len(fd[0]):
+        _, info = fd
+    rows = []
+    stats = ("corners", "cards", "shots", "sot", "fouls")
+    for (lg, team), _ in pd.concat([M[["league", "home"]].set_axis(["lg", "t"], axis=1), M[["league", "away"]].set_axis(["lg", "t"], axis=1)]).groupby(["lg", "t"]):
+        if league is not None and lg != league:
+            continue
+        H, A = M[(M.league == lg) & (M.home == team)], M[(M.league == lg) & (M.away == team)]
+        r = dict(league=int(lg), team_id=int(team), team=names.get(team, str(team)), games=len(H) + len(A), home=len(H), away=len(A))
+        both = pd.concat([H.assign(side="h"), A.assign(side="a")]).sort_values("date")
+        for s_ in stats:
+            fo = np.where(both.side == "h", both.get(f"h_{s_}"), both.get(f"a_{s_}")).astype(float) if f"h_{s_}" in both else np.full(len(both), np.nan)
+            ag = np.where(both.side == "h", both.get(f"a_{s_}"), both.get(f"h_{s_}")).astype(float) if f"h_{s_}" in both else np.full(len(both), np.nan)
+            r[f"{s_}_for"], r[f"{s_}_against"] = np.nanmean(fo) if np.isfinite(fo).any() else np.nan, np.nanmean(ag) if np.isfinite(ag).any() else np.nan
+            r[f"{s_}_for_home"] = np.nanmean(fo[both.side.values == "h"]) if (both.side == "h").any() and np.isfinite(fo[both.side.values == "h"]).any() else np.nan
+            r[f"{s_}_for_away"] = np.nanmean(fo[both.side.values == "a"]) if (both.side == "a").any() and np.isfinite(fo[both.side.values == "a"]).any() else np.nan
+            r[f"{s_}_for_last{last}"] = np.nanmean(fo[-last:]) if np.isfinite(fo[-last:]).any() else np.nan
+        rows.append(r)
+    P = pd.DataFrame(rows)
+    p = Path(out or OUT) / f"soccer_{cur}_team_profiles.csv"
+    P.round(2).to_csv(p, index=False)
+    return P
+
+
+def print_profiles(P: pd.DataFrame) -> None:
+    import soccer_ingest as SI
+    for lg, x in P.groupby("league"):
+        print(f"\n{SI.LEAGUES.get(lg, ('', str(lg)))[1]} ({len(x)} teams), per game this season: for / against (last 6 for)")
+        print(f"  {'team':<24}{'gp':>3}  {'corners':>15}  {'cards':>13}  {'shots':>15}  {'on target':>13}  {'fouls':>13}")
+        for r in x.sort_values("corners_for", ascending=False).itertuples():
+            f = lambda s_: f"{getattr(r, s_ + '_for'):4.1f}/{getattr(r, s_ + '_against'):4.1f} ({getattr(r, s_ + '_for_last6'):4.1f})"
+            print(f"  {str(r.team)[:23]:<24}{r.games:>3}  {f('corners'):>15}  {f('cards'):>13}  {f('shots'):>15}  {f('sot'):>13}  {f('fouls'):>13}")
 
 
 def unread(boards: str) -> None:
@@ -1298,6 +1464,7 @@ def main() -> None:
     s.add_argument("--legs", nargs="*", type=int, default=[], help="also build slips of exactly this many legs, e.g. --legs 7")
     s = sub.add_parser("grade"); s.add_argument("--date", required=True); s.add_argument("--boards")
     s = sub.add_parser("handcheck"); s.add_argument("--confirm", action="store_true")
+    s = sub.add_parser("teams"); s.add_argument("--league", type=int)
     sub.add_parser("report")
     a = ap.parse_args()
     if a.cmd == "selftest":
@@ -1305,6 +1472,10 @@ def main() -> None:
         sys.exit(soccer_selftest.main())
     if a.cmd == "unread":
         return unread(a.boards)
+    if a.cmd == "teams":
+        P = team_profiles(league=a.league)
+        print_profiles(P)
+        return print(f"\nwritten: {Path(OUT) / ('soccer_' + str(int(load_tables()['fixtures'].season.max())) + '_team_profiles.csv')}")
     con = connect()
     if a.cmd == "price":
         price(a.date, a.boards, con)

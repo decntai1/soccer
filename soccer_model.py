@@ -24,7 +24,8 @@ from scipy.stats import nbinom, poisson
 MAXG = 10                    # goals per team carried in the score matrix
 HALF_LIFE_DAYS = 365         # time decay: a game one season old weighs half
 PRIOR_SD = 0.25              # prior sd of a team's log attack / defence strength around its start value
-COUNT_STATS = ("corners", "cards", "shots", "sot")
+COUNT_STATS = ("corners", "cards", "shots", "sot", "fouls")
+STAT_3WAY = ("CORNERS_1X2", "CARDS_1X2", "SHOTS_1X2", "SOT_1X2")
 
 
 # ------------------------------------------------------------------ line settlement (shared with the grader)
@@ -196,7 +197,23 @@ class GameModel:
     def p(self, typ, scope="FT", side=None, line=None, who=None, score=None):
         """typ: 1X2 (side 1/X/2), DC (1X/12/X2), DNB (1/2), BTTS (yes/no), TOTAL / TEAM_TOTAL (over/under, who=home/away),
         AH (side 1/2, line = that side's handicap), EH (side 1/X/2, line = home handicap, 3-way), CS (score=(h, a)),
-        CORNERS / CARDS / SHOTS / SOT (over/under; who = None for the match, home/away for a team)."""
+        CORNERS / CARDS / SHOTS / SOT (over/under; who = None for the match, home/away for a team),
+        CORNERS_1X2 / CARDS_1X2 / SHOTS_1X2 / SOT_1X2 (which team has more: 1/X/2), CORNERS_AH (side 1/2, line = that side's)."""
+        if typ in STAT_3WAY or typ == "CORNERS_AH":
+            c = self.counts.get(typ.split("_")[0].lower())
+            if c is None or scope != "FT":
+                return None
+            ph, pa = nb_pmf(c["home"], c["phi_team"]), nb_pmf(c["away"], c["phi_team"])
+            J = np.outer(ph, pa)                                   # the two teams' counts taken as independent
+            k = np.arange(len(ph))
+            d = k[:, None] - k[None, :]
+            if typ == "CORNERS_AH":
+                if line is None or side not in ("1", "2"):
+                    return None
+                vals = np.arange(-len(ph) + 1, len(ph))
+                pr = np.array([J[d == v].sum() for v in vals])
+                return p_eff(vals if side == "1" else -vals, pr, -line, "over")
+            return float({"1": J[d > 0].sum(), "X": J[d == 0].sum(), "2": J[d < 0].sum()}.get(side, float("nan")))
         if typ in ("CORNERS", "CARDS", "SHOTS", "SOT"):
             c = self.counts.get(typ.lower())
             if c is None or scope != "FT" or line is None:
@@ -313,8 +330,9 @@ class PlayerModel:
         self.ok = len(P) > 0
         if not self.ok:
             return
-        for c in ("minutes", "goals", "shots", "shots_on_target"):
-            P[c] = pd.to_numeric(P[c], errors="coerce").fillna(0)
+        for c in ("minutes", "goals", "shots", "shots_on_target", "yellow", "red"):
+            P[c] = pd.to_numeric(P[c], errors="coerce").fillna(0) if c in P else 0.0
+        P["cards"] = ((P.yellow > 0) | (P.red > 0)).astype(float)            # booked at least once
         pens = {}
         self.team_pen_rate, self.pen_share = {}, {}
         if EV is not None and len(EV):
@@ -330,9 +348,9 @@ class PlayerModel:
                     self.pen_share[(t, pid)] = n / len(last)
         P["pen_goals"] = [pens.get((f, p), 0) for f, p in zip(P.fixture_id, P.player_id)]
         P["np_goals"] = (P.goals - P.pen_goals).clip(lower=0)
-        tot = P[["minutes", "np_goals", "shots", "shots_on_target"]].sum()
-        self.lg = {k: tot[k] / max(tot.minutes, 1) * 90 for k in ("np_goals", "shots", "shots_on_target")}
-        g = P.groupby("player_id")[["minutes", "np_goals", "shots", "shots_on_target"]].sum()
+        tot = P[["minutes", "np_goals", "shots", "shots_on_target", "cards"]].sum()
+        self.lg = {k: tot[k] / max(tot.minutes, 1) * 90 for k in ("np_goals", "shots", "shots_on_target", "cards")}
+        g = P.groupby("player_id")[["minutes", "np_goals", "shots", "shots_on_target", "cards"]].sum()
         self.rate = {k: ((g[k] + self.lg[k] * 10) / (g.minutes + 900) * 90).to_dict() for k in self.lg}
         self.exp_min, self.team_of = {}, {}
         for t, T in P.groupby("team_id"):
@@ -362,6 +380,14 @@ class PlayerModel:
         if x is None or not match_lambda:
             return None
         return float(min(x / match_lambda, 1) * (1 - math.exp(-match_lambda)))
+
+    def p_card(self, pid, line: float, side: str):
+        """Booked at least once (line 0.5 only): 1 - exp(-rate per 90 x expected minutes / 90)."""
+        if not self.ok or pid not in self.exp_min or abs(line - 0.5) > 1e-9:
+            return None
+        mu = self.rate["cards"].get(pid, 0) * self.exp_min[pid] / 90
+        p = 1 - math.exp(-mu)
+        return p if side == "over" else 1 - p
 
     def p_count(self, pid, stat: str, line: float, side: str):
         """stat: shots / shots_on_target. Poisson on rate x expected minutes."""

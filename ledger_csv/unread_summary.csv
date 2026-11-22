@@ -1,0 +1,31 @@
+matchday,reason,n
+2026-11-20,combination market not read,10377
+2026-11-20,correct-score selection not read,15
+2026-11-20,last scorer not read,164
+2026-11-20,"not an over/under selection (exact count, range or odd/even)",280
+2026-11-20,period or time-window market not read,432
+2026-11-20,player market not read,882
+2026-11-20,player not matched to one player of the two squads (no team tag: not priced),1304
+2026-11-20,price suspended on the board,7
+2026-11-20,super-sub variant: book rules not read,164
+2026-11-20,unknown market,1534
+2026-11-21,combination market not read,74203
+2026-11-21,correct-score selection not read,135
+2026-11-21,last scorer not read,932
+2026-11-21,"not an over/under selection (exact count, range or odd/even)",1413
+2026-11-21,period or time-window market not read,3475
+2026-11-21,player market not read,4421
+2026-11-21,player not matched to one player of the two squads (no team tag: not priced),8641
+2026-11-21,price suspended on the board,49
+2026-11-21,super-sub variant: book rules not read,1862
+2026-11-21,unknown market,11734
+2026-11-22,combination market not read,29200
+2026-11-22,correct-score selection not read,33
+2026-11-22,last scorer not read,425
+2026-11-22,"not an over/under selection (exact count, range or odd/even)",627
+2026-11-22,period or time-window market not read,1050
+2026-11-22,player market not read,2169
+2026-11-22,player not matched to one player of the two squads (no team tag: not priced),3951
+2026-11-22,price suspended on the board,20
+2026-11-22,super-sub variant: book rules not read,515
+2026-11-22,unknown market,3243

@@ -231,7 +231,7 @@ class World:
                      HomeTeam=self.fd_name(h), AwayTeam=self.fd_name(a), FTHG=f["goals"]["home"], FTAG=f["goals"]["away"],
                      HTHG=f["score"]["halftime"]["home"], HTAG=f["score"]["halftime"]["away"], HS=g(h, "Total Shots"), AS=g(a, "Total Shots"),
                      HST=g(h, "Shots on Goal"), AST=g(a, "Shots on Goal"), HC=g(h, "Corner Kicks"), AC=g(a, "Corner Kicks"),
-                     HY=g(h, "Yellow Cards"), AY=g(a, "Yellow Cards"), HR=g(h, "Red Cards"), AR=g(a, "Red Cards"))
+                     HY=g(h, "Yellow Cards"), AY=g(a, "Yellow Cards"), HR=g(h, "Red Cards"), AR=g(a, "Red Cards"), HF=g(h, "Fouls"), AF=g(a, "Fouls"))
             if f["league"]["id"] == 40:                          # only the English files carry the referee
                 n = f["fixture"]["referee"].split(",")[0].split()
                 r["Referee"] = f"{n[0][0]} {n[-1]}"

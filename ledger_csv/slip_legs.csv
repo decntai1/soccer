@@ -1,0 +1,171 @@
+matchday,slip_id,row_key,game,market,selection,odds,p,votes
+2026-11-20,book-3x,ed8cc391937d6731,Arminia Bielefeld v Magdeburg,Gólok száma,"4,5 alatt",1.1539,0.8360152336555678,2/4
+2026-11-20,book-3x,25b919b21bddc4d5,Darmstadt v Heidenheim,Gólok száma,"1,5 felett",1.1667,0.8258732263469016,2/4
+2026-11-20,book-3x,cd33b538b7e76690,Barnsley v Sheffield Wed,Gólok száma,"1,75 felett",1.1667,0.8258732263469016,2/4
+2026-11-20,book-3x,2c071ecc8914cd99,Andorra v Leganes,Büntetőlapok száma,"4,5 felett",1.4,0.6742888826512718,2/4
+2026-11-20,book-3x,575f5afc545a6375,Hellas Verona v Cesena,Büntetőlapok száma,"5,5 alatt",1.4,0.6742888826512718,2/4
+2026-11-20,stats-3x,e737a62ae54fc8a4,Barnsley v Sheffield Wed,Szögletek száma,"9,5 felett",1.2728,0.7478621193383892,2/4
+2026-11-20,stats-3x,b2974771f5afe43b,Darmstadt v Heidenheim,Szögletek száma,"8,5 felett",1.2728,0.7478621193383892,2/4
+2026-11-20,stats-3x,2c071ecc8914cd99,Andorra v Leganes,Büntetőlapok száma,"4,5 felett",1.4,0.6742888826512718,2/4
+2026-11-20,stats-3x,575f5afc545a6375,Hellas Verona v Cesena,Büntetőlapok száma,"5,5 alatt",1.4,0.6742888826512718,2/4
+2026-11-21,book-3x,2d34c43a4da1b15f,West Ham United v Preston,1X2,West Ham United,1.2,0.8109981728313204,2/4
+2026-11-21,book-3x,12105a462a8405fd,Southampton v Derby,1X2,Southampton,1.4,0.6933930582548874,2/4
+2026-11-21,book-3x,1096147d2278f1b9,Middlesbrough v Bristol City,1X2,Middlesbrough,1.4,0.6933930582548874,1/4
+2026-11-21,book-3x,1301791b7b015674,Wolves v Charlton,1X2,Wolves,1.32,0.7351823171427657,1/4
+2026-11-21,book-6x,8e194af250b4b28e,Sheffield Utd v Watford,1X2,Sheffield Utd,1.5556,0.6215434916556998,1/4
+2026-11-21,book-6x,616a33d09f8e8a44,Plymouth v Peterborough,Gólok száma,"1,75 felett",1.1539,0.8360152336555678,2/4
+2026-11-21,book-6x,681ecba2f210109b,Catanzaro v Palermo,Gólok száma,"4,75 alatt",1.1539,0.8360152336555678,2/4
+2026-11-21,book-6x,91310bf4e26e8a89,Real Sociedad B v Cadiz,Gólok száma,"4,25 alatt",1.1539,0.8360152336555678,2/4
+2026-11-21,book-6x,a1b0b28171b18069,Hannover v Greuther Furth,Gólok száma,"1,5 felett",1.1539,0.8360152336555678,2/4
+2026-11-21,book-6x,cc0d76cbc09dc84e,Newport v Swindon,Gólok száma,"4,25 alatt",1.1539,0.8360152336555678,2/4
+2026-11-21,book-6x,ca99335483f8a996,Tranmere v Colchester,Gólok száma,4 alatt,1.1539,0.8360152336555678,2/4
+2026-11-21,book-6x,faa4df0f94c5f844,Bradford v Doncaster,Gólok száma,"4,5 alatt",1.1539,0.8360152336555678,2/4
+2026-11-21,book-6x,0adeb10b784a6274,Leyton Orient v AFC Wimbledon,Gólok száma,"1,25 felett",1.1539,0.8360152336555678,2/4
+2026-11-21,book-6x,f9c8bd49b383d59c,Wolfsburg v Holstein Kiel,Gólok száma,5 alatt,1.1539,0.8360152336555678,2/4
+2026-11-21,book-6x,5090b44f9146216f,Blackpool v Wigan,Gólok száma,"4,5 alatt",1.1539,0.8360152336555678,2/4
+2026-11-21,book-9x,5f06a7fbed50d5f9,Accrington v Salford City,Gólok száma,"4,5 alatt",1.1539,0.8360152336555678,2/4
+2026-11-21,book-9x,012e24a539f0f0d6,Barnet v Port Vale,Gólok száma,"1,25 felett",1.1539,0.8360152336555678,2/4
+2026-11-21,book-9x,bd9426863f4e18e7,Chesterfield v Shrewsbury,Gólok száma,"4,25 alatt",1.1539,0.8360152336555678,2/4
+2026-11-21,book-9x,09132a2d8c472b57,Oxford Utd v Wycombe,Gólok száma,"4,5 alatt",1.1539,0.8360152336555678,2/4
+2026-11-21,book-9x,74e378c1f051efe8,Cheltenham v Bristol Rovers,Gólok száma,"4,5 alatt",1.1667,0.8258732263469016,2/4
+2026-11-21,book-9x,0c9dee8202812386,Carrarese v Virtus Entella,Gólok száma,"3,75 alatt",1.1667,0.8258732263469016,2/4
+2026-11-21,book-9x,0735a073e5d01f6f,1.FC Nürnberg v Braunschweig,Gólok száma,"1,75 felett",1.1667,0.8258732263469016,2/4
+2026-11-21,book-9x,7af7d06b3b56ad0d,Reading v Bromley,Gólok száma,"1,5 felett",1.1667,0.8258732263469016,2/4
+2026-11-21,book-9x,5ab88b429a5f5cdd,Huddersfield v Leicester City,Gólok száma,"1,5 felett",1.1667,0.8258732263469016,2/4
+2026-11-21,book-9x,c3c92aa2400c10d9,Modena v Juve Stabia,Gólok száma,"4,5 alatt",1.1667,0.8258732263469016,2/4
+2026-11-21,book-9x,4fddfbddf4d6180d,York City v Walsall,Gólok száma,"1,5 felett",1.1667,0.8258732263469016,2/4
+2026-11-21,book-9x,0dbfde0268f0540c,Ascoli v Vicenza,Gólok száma,"4,25 alatt",1.1667,0.8258732263469016,2/4
+2026-11-21,book-9x,119de743b76ea6f1,Southampton v Derby,Derby gólok száma,"1,5 alatt",1.2223,0.7860318049721094,2/4
+2026-11-21,book-9x,6a2005da5d6928a5,Wolves v Charlton,Wolves gólok száma,"3,5 alatt",1.2223,0.7860318049721094,2/4
+2026-11-21,book-7legs,31d0e9da1cc9cc28,Gillingham v Crewe,Gólok száma,"1,25 felett",1.1819,0.814350531045616,2/4
+2026-11-21,book-7legs,af744072a49cbec4,Grimsby v Rotherham,Gólok száma,"1,5 felett",1.1819,0.814350531045616,2/4
+2026-11-21,book-7legs,25734d72b12a74dd,Northampton v Rochdale,Gólok száma,"1,25 felett",1.1819,0.814350531045616,2/4
+2026-11-21,book-7legs,7f9ac2378663c5ff,Burton v Luton Town,Gólok száma,"1,5 felett",1.1819,0.814350531045616,2/4
+2026-11-21,book-7legs,7e33e373b03c7635,Mansfield v MK Dons,Gólok száma,"4,5 alatt",1.1819,0.814350531045616,2/4
+2026-11-21,book-7legs,c4cc82efe574c993,Cambridge Utd v Stockport,Gólok száma,"4,5 alatt",1.1819,0.814350531045616,2/4
+2026-11-21,book-7legs,3cb37d977a14e765,Sampdoria v Benevento,Gólok száma,"3,75 alatt",1.2,0.8012374508754575,2/4
+2026-11-21,stats-3x,3a5281212d18b092,Oldham v Exeter,Gólok száma,"3,75 alatt",1.2,0.8012374508754575,2/4
+2026-11-21,stats-3x,252c4ef39f954b5c,Carrarese v Virtus Entella,Szögletek száma,"11,5 alatt",1.25,0.763308180923466,2/4
+2026-11-21,stats-3x,96079b6ac019bc24,Cambridge Utd v Stockport,Szögletek száma,"8,5 felett",1.2728,0.7478621193383892,2/4
+2026-11-21,stats-3x,2bd09e4838908acf,Bradford v Doncaster,Szögletek száma,"8,5 felett",1.2728,0.7478621193383892,2/4
+2026-11-21,stats-3x,241e0635b047d9aa,Wolfsburg v Holstein Kiel,Szögletek száma,"8,5 felett",1.2728,0.7478621193383892,2/4
+2026-11-21,stats-6x,faa4df0f94c5f844,Bradford v Doncaster,Gólok száma,"4,5 alatt",1.1539,0.8360152336555678,2/4
+2026-11-21,stats-6x,f9c8bd49b383d59c,Wolfsburg v Holstein Kiel,Gólok száma,5 alatt,1.1539,0.8360152336555678,2/4
+2026-11-21,stats-6x,c3c92aa2400c10d9,Modena v Juve Stabia,Gólok száma,"4,5 alatt",1.1667,0.8258732263469016,2/4
+2026-11-21,stats-6x,f418bd1c9f23e5b6,Crawley v Fleetwood,Gólok száma,"4,25 alatt",1.2,0.8012374508754575,2/4
+2026-11-21,stats-6x,6a2005da5d6928a5,Wolves v Charlton,Wolves gólok száma,"3,5 alatt",1.2223,0.7860318049721094,2/4
+2026-11-21,stats-6x,b842669674872ac2,Hannover v Greuther Furth,Szögletek száma,"8,5 felett",1.25,0.763308180923466,2/4
+2026-11-21,stats-6x,677bc569e3b27de2,Burton v Luton Town,Szögletek száma,"12,5 alatt",1.3,0.7303137681770545,2/4
+2026-11-21,stats-6x,b4d3ce9fe5f7cf9c,Tranmere v Colchester,1. félidő - Kétesély,Tranmere vagy döntetlen,1.2667,0.7372155831659356,2/4
+2026-11-21,stats-6x,8baeef8ca745b005,Gillingham v Crewe,1. félidő - Kétesély,Gillingham vagy döntetlen,1.3,0.7133411114946487,2/4
+2026-11-21,stats-9x,ca99335483f8a996,Tranmere v Colchester,Gólok száma,4 alatt,1.1539,0.8360152336555678,2/4
+2026-11-21,stats-9x,5090b44f9146216f,Blackpool v Wigan,Gólok száma,"4,5 alatt",1.1539,0.8360152336555678,2/4
+2026-11-21,stats-9x,0c9dee8202812386,Carrarese v Virtus Entella,Gólok száma,"3,75 alatt",1.1667,0.8258732263469016,2/4
+2026-11-21,stats-9x,7af7d06b3b56ad0d,Reading v Bromley,Gólok száma,"1,5 felett",1.1667,0.8258732263469016,2/4
+2026-11-21,stats-9x,af744072a49cbec4,Grimsby v Rotherham,Gólok száma,"1,5 felett",1.1819,0.814350531045616,2/4
+2026-11-21,stats-9x,7f9ac2378663c5ff,Burton v Luton Town,Gólok száma,"1,5 felett",1.1819,0.814350531045616,2/4
+2026-11-21,stats-9x,1adbf5781d6b2f2e,Sheffield Utd v Watford,1. félidő - Sheffield Utd gólok száma,"1,5 alatt",1.2223,0.7860318049721094,2/4
+2026-11-21,stats-9x,34a1fd687d50a247,Gillingham v Crewe,Szögletek száma,"11,5 alatt",1.25,0.763308180923466,2/4
+2026-11-21,stats-9x,0ee9ae61ea776012,Ascoli v Vicenza,Szögletek száma,"7,5 felett",1.25,0.763308180923466,2/4
+2026-11-21,stats-9x,b5fd54ecd77664a5,Mansfield v MK Dons,Szögletek száma,"12,5 alatt",1.2858,0.7407546824898888,2/4
+2026-11-21,stats-9x,272e76906202728e,Huddersfield v Leicester City,1. félidő - Kétesély,Huddersfield vagy döntetlen,1.25,0.7508860745110666,2/4
+2026-11-21,stats-9x,1e92fa0bc0a14569,Barnet v Port Vale,2. félidő - Kétesély,Barnet vagy döntetlen,1.25,0.7498596503237482,2/4
+2026-11-21,stats-7legs,cc0d76cbc09dc84e,Newport v Swindon,Gólok száma,"4,25 alatt",1.1539,0.8360152336555678,2/4
+2026-11-21,stats-7legs,012e24a539f0f0d6,Barnet v Port Vale,Gólok száma,"1,25 felett",1.1539,0.8360152336555678,2/4
+2026-11-21,stats-7legs,6aa8fbf0238afec1,Wolfsburg v Holstein Kiel,1. félidő - Kétesély,Wolfsburg vagy döntetlen,1.2,0.7884015053760952,2/4
+2026-11-21,stats-7legs,f7a506477ded8f40,1.FC Nürnberg v Braunschweig,1. félidő - Kétesély,1.FC Nürnberg vagy döntetlen,1.2,0.7877161003935271,2/4
+2026-11-21,stats-7legs,dfb54a784e2da63d,Stoke v Birmingham,Gólok száma,"1,25 felett",1.2,0.7999999999999999,2/4
+2026-11-21,stats-7legs,be36d60203a62732,Sabadell v Granada,Gólok száma,"3,5 alatt",1.2,0.7999999999999999,2/4
+2026-11-21,stats-7legs,a6a6bea347730ad5,Plymouth v Peterborough,1. félidő - Kétesély,Plymouth vagy döntetlen,1.2308,0.7643972672203331,2/4
+2026-11-21,statedge-3x,cdb6cf2b2e6d4d51,Wolves v Charlton,Kaput eltaláló lövések száma (Rendes játékidő),"9,5 alatt",1.96,0.4631133575748217,2/4
+2026-11-21,statedge-3x,2feffaf1ada6cfa1,Wolfsburg v Holstein Kiel,Holstein Kiel szögletek száma,"4,5 felett",1.9,0.4772255750516613,2/4
+2026-11-21,statedge-6x,d19d9a396b1c6cad,Lincoln v Wrexham,Lincoln szögletek száma,"4,5 alatt",2.1,0.4248076809271921,1/4
+2026-11-21,statedge-6x,ad256aaff31c2f7c,Middlesbrough v Bristol City,Middlesbrough összes kaput eltaláló lövések száma (Rendes játékidő),"6,5 alatt",1.8462,0.4957939826145742,2/4
+2026-11-21,statedge-6x,779689904e7b60ee,Carrarese v Virtus Entella,Szögletek száma,"9,5 alatt",1.75,0.529514245966467,2/4
+2026-11-21,statedge-9x,d73a58295348cbd5,Chesterfield v Shrewsbury,Szögletek száma,"9,5 alatt",1.95,0.4704857540335331,2/4
+2026-11-21,statedge-9x,f2244139ff841685,Millwall v QPR,Millwall szögletek száma,"5,5 alatt",1.9,0.4772255750516613,2/4
+2026-11-21,statedge-9x,90c8e800887c5f23,Bradford v Doncaster,Szögletek száma,"10,5 felett",1.8,0.5147186257614298,2/4
+2026-11-21,statedge-9x,b87425f900b03f03,Modena v Juve Stabia,Büntetőlapok száma,"4,5 alatt",1.6,0.5857864376269051,2/4
+2026-11-21,statedge-7legs,e9032c4861845cbc,Southampton v Derby,Southampton szögletek száma,"6,5 alatt",2.1,0.4248076809271921,1/4
+2026-11-21,statedge-7legs,35db34174b2eeb38,Middlesbrough v Bristol City,Büntetőlapok száma,"3,5 alatt",1.9,0.4772255750516613,1/4
+2026-11-21,statedge-7legs,54354b55afc68808,Norwich v Cardiff,Kaput eltaláló lövések száma (Rendes játékidő),"10,5 felett",1.8889,0.4833167801983983,1/4
+2026-11-21,statedge-7legs,406b4390dad7aa13,Bolton v Portsmouth,Büntetőlapok száma,"3,5 alatt",2.0,0.4494959288541867,1/4
+2026-11-21,statedge-7legs,1913c65ffc2d3e39,Cambridge Utd v Stockport,Szögletek száma,"10,5 felett",1.8,0.5147186257614298,2/4
+2026-11-21,statedge-7legs,1e83b3b468a79941,Stoke v Birmingham,Stoke szögletek száma,"4,5 alatt",2.1,0.4248076809271921,1/4
+2026-11-21,statedge-7legs,ca9ceea145d99b9e,Swansea v West Brom,Büntetőlapok száma,"3,5 alatt",2.0,0.4494959288541867,1/4
+2026-11-22,book-3x,f4c51636101589d7,Burnley v Blackburn,Gólok száma,"4,25 alatt",1.1667,0.8304650753909834,2/4
+2026-11-22,book-3x,72fdedcc955870f9,Girona v SD Eibar,Gólok száma,"4,5 alatt",1.1539,0.8360152336555678,2/4
+2026-11-22,book-3x,827c405a144049e1,Cottbus v Hertha Berlin,Gólok száma,"5,25 alatt",1.1539,0.8360152336555678,2/4
+2026-11-22,book-3x,a8706a4fcbd2c339,Celta Vigo B v Valladolid,Gólok száma,"4,5 alatt",1.1667,0.8258732263469016,2/4
+2026-11-22,book-3x,3c60e5a657576e0d,Kaiserslautern v Dynamo Dresden,Gólok száma,"4,5 alatt",1.1667,0.8258732263469016,2/4
+2026-11-22,book-3x,a73d49717acd57aa,Karlsruhe v VfL Osnabruck,Gólok száma,"4,5 alatt",1.1819,0.814350531045616,2/4
+2026-11-22,book-3x,59ebecebfa2b0aaf,Cordoba v Oviedo,Gólok száma,"4,5 alatt",1.1819,0.814350531045616,2/4
+2026-11-22,book-3x,967db18c855ba538,Arezzo v Padova,Gólok száma,"3,75 alatt",1.1819,0.814350531045616,2/4
+2026-11-22,book-6x,121e419b763cfe9b,Avellino v Mantova,Gólok száma,"1,25 felett",1.1819,0.814350531045616,2/4
+2026-11-22,book-6x,c313f3d9093f7e2a,Burgos v Albacete,Gólok száma,"3,75 alatt",1.1819,0.814350531045616,2/4
+2026-11-22,book-6x,860421ceca0eed34,Burnley v Blackburn,Szögletek száma,"7,5 felett",1.2223,0.7860318049721094,2/4
+2026-11-22,book-6x,03b8802eb3a9e5bf,Sporting Gijon v Las Palmas,Gólok száma,"1,25 felett",1.1765,0.8166178013032152,2/4
+2026-11-22,book-6x,d41f107884d3fac6,Celta Vigo B v Valladolid,Szögletek száma,"11,5 alatt",1.25,0.763308180923466,2/4
+2026-11-22,book-6x,e02193bb2ec9e73a,Karlsruhe v VfL Osnabruck,Szögletek száma,"7,5 felett",1.2,0.7947869038423275,2/4
+2026-11-22,book-6x,9ec087e42cce8554,Cordoba v Oviedo,Szögletek száma,"12,5 alatt",1.2858,0.7407546824898888,2/4
+2026-11-22,book-6x,67936d5c75ba60b7,Arezzo v Padova,Szögletek száma,"7,5 felett",1.2858,0.7407546824898888,2/4
+2026-11-22,book-6x,351670a9c280ff0c,Girona v SD Eibar,Szögletek száma,"11,5 alatt",1.2728,0.7478621193383892,2/4
+2026-11-22,book-9x,cd8306dc0fa78160,Burnley v Blackburn,1. félidő - Kétesély,Burnley vagy döntetlen,1.2308,0.7760172483777164,2/4
+2026-11-22,book-9x,e08643a991c69425,Avellino v Mantova,Szögletek száma,"11,5 alatt",1.25,0.763308180923466,2/4
+2026-11-22,book-9x,9f29229d97a585f1,Sporting Gijon v Las Palmas,Szögletek száma,"7,5 felett",1.2858,0.7407546824898888,2/4
+2026-11-22,book-9x,b9f72eef8f227eea,Cottbus v Hertha Berlin,Szögletek száma,"8,5 felett",1.2728,0.7478621193383892,2/4
+2026-11-22,book-9x,a5d6ee27193c2344,Kaiserslautern v Dynamo Dresden,Szögletek száma,"12,5 alatt",1.2728,0.7478621193383892,2/4
+2026-11-22,book-9x,26a31b9d88872784,Girona v SD Eibar,1. félidő - Kétesély,Girona vagy döntetlen,1.1819,0.803620610586825,2/4
+2026-11-22,book-9x,ae109ea46284a244,Arezzo v Padova,Büntetőlapok száma,"2,5 felett",1.3,0.7303137681770545,2/4
+2026-11-22,book-9x,ed308c9febcf54df,Burgos v Albacete,Büntetőlapok száma,"6,5 alatt",1.3637,0.6956439873490103,2/4
+2026-11-22,book-9x,8d023b126daae968,Celta Vigo B v Valladolid,Büntetőlapok száma,"7,5 alatt",1.4,0.6742888826512718,1/4
+2026-11-22,book-7legs,07417c25922ba7fe,Burgos v Albacete,Szögletek száma,"7,5 felett",1.2223,0.7786237481523407,2/4
+2026-11-22,book-7legs,82c28bc0ac7f233e,Cottbus v Hertha Berlin,1. félidő - Kétesély,Döntetlen vagy Hertha Berlin,1.1819,0.8031215021206751,2/4
+2026-11-22,book-7legs,a84afe3de6c70683,Sporting Gijon v Las Palmas,Büntetőlapok száma,"6,5 alatt",1.3637,0.6956439873490103,2/4
+2026-11-22,book-7legs,179fc64b4e701d98,Avellino v Mantova,Büntetőlapok száma,"5,5 alatt",1.3334,0.7100814673564481,2/4
+2026-11-22,book-7legs,24363d9559333555,Girona v SD Eibar,Büntetőlapok száma,"7,5 alatt",1.4,0.6742888826512718,2/4
+2026-11-22,book-7legs,0e9e5181b7d68fc4,Cordoba v Oviedo,1. félidő - Kétesély,Cordoba vagy döntetlen,1.2308,0.7641994336635113,2/4
+2026-11-22,book-7legs,87739209a72f9632,Celta Vigo B v Valladolid,1. félidő - Kétesély,Döntetlen vagy Valladolid,1.2308,0.7640420848070452,2/4
+2026-11-22,stats-3x,3c60e5a657576e0d,Kaiserslautern v Dynamo Dresden,Gólok száma,"4,5 alatt",1.1667,0.8258732263469016,2/4
+2026-11-22,stats-3x,ed308c9febcf54df,Burgos v Albacete,Büntetőlapok száma,"6,5 alatt",1.3637,0.6956439873490103,2/4
+2026-11-22,stats-3x,24363d9559333555,Girona v SD Eibar,Büntetőlapok száma,"7,5 alatt",1.4,0.6742888826512718,2/4
+2026-11-22,stats-3x,12db17d75992f932,Burnley v Blackburn,Büntetőlapok száma,"6,5 alatt",1.3637,0.6816002720868176,2/4
+2026-11-22,stats-6x,e08643a991c69425,Avellino v Mantova,Szögletek száma,"11,5 alatt",1.25,0.763308180923466,2/4
+2026-11-22,stats-6x,b9f72eef8f227eea,Cottbus v Hertha Berlin,Szögletek száma,"8,5 felett",1.2728,0.7478621193383892,2/4
+2026-11-22,stats-6x,2939af3879f4fcfd,Burnley v Blackburn,1X2 kapura lövések száma (Rendes játékidő),Burnley,1.3637,0.6809333496002653,2/4
+2026-11-22,stats-6x,c463e68060a32215,Girona v SD Eibar,1X2 kapura lövések száma (Rendes játékidő),Girona,1.3,0.7118569163604378,2/4
+2026-11-22,stats-6x,c2513f167fdf22aa,Burgos v Albacete,1X2 kapura lövések száma (Rendes játékidő),Burgos,1.48,0.617231626242736,2/4
+2026-11-22,stats-6x,3cae0013d13498b6,Kaiserslautern v Dynamo Dresden,1X2 kapura lövések száma (Rendes játékidő),Kaiserslautern,1.48,0.617231626242736,2/4
+2026-11-22,stats-9x,827c405a144049e1,Cottbus v Hertha Berlin,Gólok száma,"5,25 alatt",1.1539,0.8360152336555678,2/4
+2026-11-22,stats-9x,967db18c855ba538,Arezzo v Padova,Gólok száma,"3,75 alatt",1.1819,0.814350531045616,2/4
+2026-11-22,stats-9x,e02193bb2ec9e73a,Karlsruhe v VfL Osnabruck,Szögletek száma,"7,5 felett",1.2,0.7947869038423275,2/4
+2026-11-22,stats-9x,351670a9c280ff0c,Girona v SD Eibar,Szögletek száma,"11,5 alatt",1.2728,0.7478621193383892,2/4
+2026-11-22,stats-9x,796afcadd9c52811,Burgos v Albacete,1. félidő - Kétesély,Burgos vagy döntetlen,1.2,0.7884015053760951,2/4
+2026-11-22,stats-9x,e779bf6424a7c290,Sporting Gijon v Las Palmas,1. félidő - Kétesély,Sporting Gijon vagy döntetlen,1.2223,0.7706938572037793,2/4
+2026-11-22,stats-9x,51a180e643e3f185,Kaiserslautern v Dynamo Dresden,1. félidő - Kétesély,Kaiserslautern vagy döntetlen,1.25,0.7495640560684798,2/4
+2026-11-22,stats-9x,59e27a727e9513f9,Burnley v Blackburn,Burnley összes kaput eltaláló lövések száma (Rendes játékidő),"5,5 alatt",1.35,0.693982487365947,2/4
+2026-11-22,stats-9x,5ec33ba040b03e4c,Avellino v Mantova,1. félidő - Kétesély,Avellino vagy döntetlen,1.2667,0.7363738504637773,2/4
+2026-11-22,stats-9x,c86aac15bfb95f48,Cordoba v Oviedo,1X2 kapura lövések száma (Rendes játékidő),Cordoba,1.4445,0.6319765194216559,2/4
+2026-11-22,stats-7legs,85e872b72415a542,Girona v SD Eibar,1X2 kaput eltaláló lövések száma (Rendes játékidő),Girona,1.5,0.6117863749257083,2/4
+2026-11-22,stats-7legs,265687cbacb90c1c,Karlsruhe v VfL Osnabruck,Kétesély,Karlsruhe vagy VfL Osnabruck,1.2667,0.7371895600520775,2/4
+2026-11-22,stats-7legs,860421ceca0eed34,Burnley v Blackburn,Szögletek száma,"7,5 felett",1.2223,0.7860318049721094,2/4
+2026-11-22,stats-7legs,179fc64b4e701d98,Avellino v Mantova,Büntetőlapok száma,"5,5 alatt",1.3334,0.7100814673564481,2/4
+2026-11-22,stats-7legs,d41f107884d3fac6,Celta Vigo B v Valladolid,Szögletek száma,"11,5 alatt",1.25,0.763308180923466,2/4
+2026-11-22,stats-7legs,03b8802eb3a9e5bf,Sporting Gijon v Las Palmas,Gólok száma,"1,25 felett",1.1765,0.8166178013032152,2/4
+2026-11-22,stats-7legs,07417c25922ba7fe,Burgos v Albacete,Szögletek száma,"7,5 felett",1.2223,0.7786237481523407,2/4
+2026-11-22,statedge-3x,190b1aef24afaa81,Karlsruhe v VfL Osnabruck,Összes Lövés (Rendes játékidő),"28,5 felett",1.7778,0.5121478391790457,2/4
+2026-11-22,statedge-3x,926d8936c4b4a7f9,Cottbus v Hertha Berlin,Hertha Berlin Összes Lövés (Rendes játékidő),"15,5 felett",1.9334,0.46660842636138694,1/4
+2026-11-22,statedge-6x,29d5a6a01875bfd3,Burnley v Blackburn,Összes Lövés (Rendes játékidő),"27,5 felett",2.1,0.4248076809271921,1/4
+2026-11-22,statedge-6x,6ea845b826548d41,Sporting Gijon v Las Palmas,Las Palmas Összes Lövés (Rendes játékidő),"10,5 alatt",1.8334,0.4948874292752098,2/4
+2026-11-22,statedge-6x,b4d3701f3c30edc4,Karlsruhe v VfL Osnabruck,Kaput eltaláló lövések száma (Rendes játékidő),"9,5 felett",1.8182,0.5000000000000001,2/4
+2026-11-22,statedge-9x,c7fbef09ed4dd92a,Avellino v Mantova,Avellino szögletek száma,"4,5 alatt",1.95,0.4619012860600182,1/4
+2026-11-22,statedge-9x,5e420a46472ae80e,Karlsruhe v VfL Osnabruck,VfL Osnabruck szögletek száma,"4,5 alatt",1.8334,0.5000000000000001,2/4
+2026-11-22,statedge-9x,0698747cbfa4d71d,Kaiserslautern v Dynamo Dresden,Dynamo Dresden szögletek száma,"4,5 felett",1.6667,0.5505040711458135,2/4
+2026-11-22,statedge-9x,ae387b1881792e31,Girona v SD Eibar,Girona Összes Lövés (Rendes játékidő),"16,5 felett",1.8334,0.4948874292752098,1/4
+2026-11-22,statedge-7legs,6eb9e9772a8bb708,Girona v SD Eibar,SD Eibar szögletek száma,"3,5 alatt",1.9,0.4772255750516613,1/4
+2026-11-22,statedge-7legs,43d99ecd4fc0deb0,Celta Vigo B v Valladolid,Celta Vigo B összes kaput eltaláló lövések száma (Rendes játékidő),"4,5 felett",2.0,0.4494959288541867,1/4
+2026-11-22,statedge-7legs,05521afa41e17268,Kaiserslautern v Dynamo Dresden,Összes Lövés (Rendes játékidő),"26,5 felett",1.7143,0.5333915736386131,2/4
+2026-11-22,statedge-7legs,7a8437fa7fae14d4,Sporting Gijon v Las Palmas,1X2 kaput eltaláló lövések száma (Rendes játékidő),Sporting Gijon,1.7273,0.5250819604596256,2/4
+2026-11-22,statedge-7legs,74a68a85ddb59cc5,Arezzo v Padova,1X2 kapura lövések száma (Rendes játékidő),Arezzo,1.5295,0.5964670054489524,2/4
+2026-11-22,statedge-7legs,7ac3c2ed26851ac4,Burgos v Albacete,Büntetőlapok száma,"5,5 alatt",1.7,0.550510257216822,1/4
+2026-11-22,statedge-7legs,52866b8f3c7110d3,Cordoba v Oviedo,Cordoba szögletek száma,"6,5 felett",2.1,0.4248076809271921,1/4
