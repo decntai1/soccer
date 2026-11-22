@@ -67,6 +67,31 @@ def download(seasons: list[int]) -> None:
                 print(f"  {p}")
             except Exception as e:                              # noqa: BLE001
                 print(f"  FAILED {url}: {e}")
+    fixtures()
+
+
+def fixtures() -> None:
+    """football-data.co.uk fixtures.csv: the coming week, every division they cover. Kept whole in fd/ and, for our six
+    divisions, copied to data/soccer_fd_fixtures.csv (committed) so boards can be matched when the API is down."""
+    url = "https://www.football-data.co.uk/fixtures.csv"
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+        raw = urllib.request.urlopen(req, timeout=60).read()
+    except Exception as e:                                      # noqa: BLE001
+        print(f"  FAILED {url}: {e}")
+        return
+    FD.mkdir(parents=True, exist_ok=True)
+    (FD / "fixtures.csv").write_bytes(raw)
+    try:
+        d = pd.read_csv(FD / "fixtures.csv", encoding="utf-8-sig", on_bad_lines="skip")
+    except UnicodeDecodeError:
+        d = pd.read_csv(FD / "fixtures.csv", encoding="latin-1", on_bad_lines="skip")
+    d.columns = [c.strip() for c in d.columns]
+    d = d[d.Div.isin(list(CODES))]
+    out = Path(os.environ.get("SOCCER_OUT", "data"))
+    out.mkdir(parents=True, exist_ok=True)
+    d.to_csv(out / "soccer_fd_fixtures.csv", index=False)
+    print(f"  {FD / 'fixtures.csv'}: {len(d)} coming games in our divisions -> {out / 'soccer_fd_fixtures.csv'}")
 
 
 def fd_date(col: pd.Series) -> pd.Series:

@@ -156,7 +156,138 @@ def load_tables(out: Path | None = None) -> dict:
     T["prematch"] = pd.read_csv(pre) if pre.exists() else pd.DataFrame()
     if len(T["fixtures"]):
         T["fixtures"]["date"] = pd.to_datetime(T["fixtures"]["date"], utc=True).dt.tz_localize(None)
+        T["fixtures"]["source"] = "api"
+        fd_fill(T, out)
     return T
+
+
+# ------------------------------------------------------------------ football-data.co.uk fallback (API down or late)
+FD_DEAD = ("ABD", "CANC", "AWD", "WO")
+
+
+def fd_id(league, season, home: str, away: str) -> int:
+    """A stable fixture id for a game known only from football-data: negative, from the fd names (a pair meets once
+    per season at one ground)."""
+    return -(int(hashlib.md5(f"{league}|{season}|{home}|{away}".encode()).hexdigest()[:8], 16) % 2_000_000_000 + 1)
+
+
+def fd_upcoming(out: Path | None = None) -> pd.DataFrame:
+    """football-data.co.uk fixtures.csv (the coming week, all their divisions): our six divisions only."""
+    try:
+        import soccer_bandit as SB
+    except ImportError:
+        return pd.DataFrame()
+    for p in (Path(SB.FD) / "fixtures.csv", Path(out or OUT) / "soccer_fd_fixtures.csv"):
+        if p.exists():
+            try:
+                d = pd.read_csv(p, encoding="utf-8-sig", on_bad_lines="skip")
+            except UnicodeDecodeError:
+                d = pd.read_csv(p, encoding="latin-1", on_bad_lines="skip")
+            except pd.errors.EmptyDataError:
+                return pd.DataFrame()
+            d.columns = [c.strip() for c in d.columns]
+            if "Div" not in d:
+                return pd.DataFrame()
+            d = d[d.Div.isin(list(SB.CODES))].dropna(subset=["HomeTeam", "AwayTeam", "Date"])
+            if d.empty:
+                return d
+            t = d["Time"].astype(str).str.strip() if "Time" in d else "12:00"
+            when = pd.to_datetime(SB.fd_date(d["Date"]).dt.strftime("%Y-%m-%d") + " " + t, errors="coerce")
+            return pd.DataFrame(dict(league=d.Div.values, date=when.values, home=d.HomeTeam.astype(str).str.strip().values,
+                                     away=d.AwayTeam.astype(str).str.strip().values,
+                                     referee=d["Referee"].astype(str).str.strip().where(d["Referee"].notna(), None).values if "Referee" in d else None))
+    return pd.DataFrame()
+
+
+def fd_fill(T: dict, out: Path | None = None) -> None:
+    """When the API has no result for a game (account blocked, a missed day), football-data.co.uk supplies it: the
+    score, half-time score and the full-time team statistics (shots, shots on target, corners, fouls, yellows, reds).
+    No events, no players, no statistics by half: those rows stay ungraded. Games the API never listed (it stopped)
+    are added from football-data with a negative fixture id, played ones from the results files and coming ones from
+    fixtures.csv, so boards can still be matched and priced. Only from the first day the API holds onwards: older
+    games are the model's history (matches_frame) and are not fixtures."""
+    import soccer_ingest as SI
+    F = T["fixtures"]
+    cur = int(F.season.max())
+    X, info = fd_matches(T, out)
+    T["fd"], T["fd_info"] = (X, info), info
+    code_of = {lid: v[2] for lid, v in SI.LEAGUES.items()}
+    lid_of = {v[2]: lid for lid, v in SI.LEAGUES.items()}
+    start = F[F.season == cur].date.min().normalize()
+    names = {}
+    for g in (F[["home_id", "home"]].values.tolist() + F[["away_id", "away"]].values.tolist()):
+        names[int(g[0])] = g[1]
+    m, _ = map_fd_teams(T, _fd_raw(T, out), out)
+    tid = lambda n: m.get(n, -(int(hashlib.md5(n.encode()).hexdigest()[:7], 16)))
+    def find(league, h, a, d):
+        c = F[(F.league_id == league) & (F.home_id == h) & (F.away_id == a) & ((F.date.dt.normalize() - d.normalize()).abs() <= pd.Timedelta(days=1))]
+        return c.index[0] if len(c) else None
+    new_fx, new_ts, filled, added, coming = [], [], 0, 0, 0
+    raw = _fd_raw(T, out)
+    raw = raw[(raw.season == cur) & (raw.date >= start)] if len(raw) else raw
+    for r in raw.itertuples():
+        lg, h, a = lid_of.get(r.league), tid(r.home), tid(r.away)
+        if lg is None:
+            continue
+        i = find(lg, h, a, r.date)
+        if i is not None and F.at[i, "status"] in ("FT", "AET", "PEN") + FD_DEAD:
+            continue                                              # the API has it: the API wins
+        fid = int(F.at[i, "fixture_id"]) if i is not None else fd_id(r.league, cur, r.home, r.away)
+        vals = dict(status="FT", ft_home=int(r.hg), ft_away=int(r.ag),
+                    ht_home=None if pd.isna(r.hthg) else int(r.hthg), ht_away=None if pd.isna(r.htag) else int(r.htag),
+                    check_goals="True", check_ht="True" if not pd.isna(r.hthg) else "False", has_events=False, has_stats=True,
+                    has_players=False, source="football-data")
+        if i is not None:
+            for k, v in vals.items():
+                if k in F.columns or k == "source":
+                    F.at[i, k] = v
+            filled += 1
+        else:
+            new_fx.append(dict(fixture_id=fid, league_id=lg, season=cur, date=r.date, status="FT", referee=r.referee if isinstance(r.referee, str) else None,
+                               home_id=h, home=names.get(h, r.home), away_id=a, away=names.get(a, r.away), **{k: v for k, v in vals.items() if k != "status"}))
+            added += 1
+        for home, team, pre in ((True, h, "h"), (False, a, "a")):
+            g = lambda c: getattr(r, pre + c) if not pd.isna(getattr(r, pre + c)) else np.nan
+            new_ts.append(dict(fixture_id=fid, team_id=team, is_home=home, goals=r.hg if home else r.ag, shots=g("sh"), shots_on_target=g("st"),
+                               corners=g("c"), fouls=g("f"), yellow=g("y"), red=g("r"), season=cur, source="football-data"))
+    U = fd_upcoming(out)
+    for r in U.itertuples() if len(U) else []:
+        lg, h, a = lid_of.get(r.league), tid(r.home), tid(r.away)
+        if lg is None or pd.isna(r.date) or find(lg, h, a, pd.Timestamp(r.date)) is not None:
+            continue
+        fid = fd_id(r.league, cur, r.home, r.away)
+        if any(x["fixture_id"] == fid for x in new_fx):
+            continue
+        new_fx.append(dict(fixture_id=fid, league_id=lg, season=cur, date=pd.Timestamp(r.date), status="NS", referee=r.referee if isinstance(r.referee, str) else None,
+                           home_id=h, home=names.get(h, r.home), away_id=a, away=names.get(a, r.away), has_events=False, has_stats=False,
+                           has_players=False, source="football-data"))
+        coming += 1
+    if new_fx:
+        F = pd.concat([F, pd.DataFrame(new_fx)], ignore_index=True)
+    if new_ts:
+        S = T["team_match_stats"]
+        done = {x["fixture_id"] for x in new_ts}
+        S = S[~S.fixture_id.isin(done)] if len(S) else S
+        T["team_match_stats"] = pd.concat([S, pd.DataFrame(new_ts)], ignore_index=True)
+    T["fixtures"] = F
+    T["fd_fill"] = dict(filled=filled, added=added, coming=coming)
+
+
+def _fd_raw(T: dict, out: Path | None = None) -> pd.DataFrame:
+    """football-data rows of the current season with fd team names (load() layout)."""
+    if "fd_raw" in T:
+        return T["fd_raw"]
+    import soccer_bandit as SB
+    cur = int(T["fixtures"].season.max())
+    R = SB.load([cur]) if Path(SB.FD).exists() else pd.DataFrame()
+    played = Path(out or OUT) / f"soccer_{cur}_played_fd.csv"
+    if R.empty and played.exists():
+        R = pd.read_csv(played, parse_dates=["date"])
+    for c in ("hf", "af", "referee"):
+        if len(R) and c not in R:
+            R[c] = np.nan
+    T["fd_raw"] = R
+    return R
 
 
 def ref_key(r) -> str | None:
@@ -822,6 +953,18 @@ def settle(r, facts: Facts) -> dict:
             return no(f"{col} not covered for this league/game")
         v = g["ts"].set_index("is_home")[col]
         return ou(v.sum() if r.who is None else v[r.who == "home"])
+    if t in ("CARDS", "BOOKING_PTS") and _from_fd(g):
+        if t == "BOOKING_PTS":
+            return no("booking points: not graded from football-data")
+        if r.scope != "FT":
+            return no("no cards by half in football-data")
+        rg = _fd_cards(g, None if r.who is None else (fx.home_id if r.who == "home" else fx.away_id))
+        if rg is None:
+            return no("cards missing in football-data for this game")
+        lo, hi = rg
+        if line_fracs(lo, r.line, r.side) != line_fracs(hi, r.line, r.side):
+            return no(f"red card in the game: count is {lo:g}-{hi:g} under football-data's and the book's unconfirmed rules")
+        return ou(lo, "football-data (players' cards; bench cards not in it)" if lo == hi else f"football-data, count {lo:g}-{hi:g}: same result either way")
     if t in ("CARDS", "BOOKING_PTS"):
         if cov is None or not cov.events or g["ev"].empty and str(fx.has_events) != "True":
             return no("card events not covered for this league/game")
@@ -859,6 +1002,8 @@ def settle(r, facts: Facts) -> dict:
         if a_ != b_:
             return no(f"result depends on an unconfirmed card rule (count is {lo:g} or {hi:g})")
         return ou(lo, None if lo == hi else f"card count {lo:g}-{hi:g} under unconfirmed rules: same result either way")
+    if t in PLAYER_T and _from_fd(g):
+        return no("player market: football-data has no player data (needs the API)")
     if t in PLAYER_T:
         if r.player_id is None or pd.isna(r.player_id):
             return no("player not matched")
@@ -922,6 +1067,8 @@ def settle(r, facts: Facts) -> dict:
 def _card_range(g: dict, team_id) -> tuple | None:
     """A team's card count in one game: (lowest, highest) under the rules still unconfirmed (second yellow counted as
     one card or two; cards to the bench). None when the game has no card events."""
+    if _from_fd(g):
+        return _fd_cards(g, team_id)
     if str(g["fx"].has_events) != "True":
         return None
     E = g["ev"][g["ev"].type.isin(["yellow", "second_yellow", "red"]) & (g["ev"].team_id == team_id)] if len(g["ev"]) else g["ev"]
@@ -941,6 +1088,23 @@ def _card_range(g: dict, team_id) -> tuple | None:
             continue
         lo, hi = lo + base, hi + base + extra
     return lo, hi
+
+
+def _from_fd(g: dict) -> bool:
+    return str(g["fx"].get("source")) == "football-data"
+
+
+def _fd_cards(g: dict, team_id=None) -> tuple | None:
+    """Cards from football-data's yellow and red counts. A sending-off for a second yellow may be in their file as one
+    yellow or two, and the book may count it as two cards or three: each red widens the count by one either way."""
+    ts = g["ts"]
+    if len(ts) != 2 or ts[["yellow", "red"]].isna().any().any():
+        return None
+    x = ts if team_id is None else ts[ts.team_id == team_id]
+    if x.empty:
+        return None
+    y, r = float(x.yellow.sum()), float(x.red.sum())
+    return y, y + 2 * r                                          # (yellows + reds) -/+ one per red
 
 
 def grade(day: str, con, boards: str | None = None, out: Path | None = None, quiet: bool = False) -> None:
@@ -971,6 +1135,9 @@ def grade(day: str, con, boards: str | None = None, out: Path | None = None, qui
     if not quiet:
         G = pd.read_sql("SELECT * FROM predictions WHERE matchday = ?", con, params=[day])
         print(f"{day}: graded {int((G.status == 'graded').sum())} of {len(G)} rows in {G[G.status == 'graded'].game.nunique()} games")
+        fdg = [f for f in G[G.status == "graded"].fixture_id.dropna().unique() if int(f) in facts.F.index and _from_fd(dict(fx=facts.F.loc[int(f)]))]
+        if fdg:
+            print(f"  {len(fdg)} games graded from football-data.co.uk (no API result): full-time statistics only, no player markets")
         ng = G[G.status == "open"].groupby("grade_note").size().sort_values(ascending=False)
         for note, n in ng.items():
             print(f"    not graded x{n}: {note}")

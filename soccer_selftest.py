@@ -367,6 +367,63 @@ def main() -> int:
     (txt, _) = run_quiet(S.report, con)
     ok("report: banner gone after `handcheck --confirm` on five rows of five types", hc.count("settled on actual") == 5 and "NOT VERIFIED" not in txt, hc[:300])
 
+    # ---------------------------------------------------------------- E. API account blocked: football-data.co.uk takes over
+    clock[0] = dt.datetime(2026, 12, 11, 9, 0, tzinfo=dt.timezone.utc)
+    W = mk(free=True)
+    blocked = lambda path, params: ({"errors": {"access": "Your account is suspended, check on https://dashboard.api-football.com."}, "response": []}, {})
+    before = pd.read_csv(tmp / "data/soccer_2026_fixtures.csv")
+    (_, out_b) = run_quiet(lambda: (I.run_free(I.Api(key="x", fetch=blocked)), I.build()))
+    ok("blocked API: the ingest stops cleanly with a clear message and leaves the tables as they were",
+       "API ACCOUNT BLOCKED" in out_b and len(pd.read_csv(tmp / "data/soccer_2026_fixtures.csv")) == len(before), out_b[-400:])
+    day4 = dt.date(2026, 12, 5)                                  # as if the API had died before it listed the 5th
+    clock[0] = dt.datetime(2026, 12, 4, 9, 0, tzinfo=dt.timezone.utc)
+    W = mk(free=True)
+    W.write_fd(tmp / "fd")                                       # results up to the 28th
+    g4 = [f for f, x in W.fx.items() if x["fixture"]["date"][:10] == day4.isoformat()]
+    code = {40: "E1", 79: "D2"}
+    pd.DataFrame([dict(Div=code[W.fx[f]["league"]["id"]], Date=day4.strftime("%d/%m/%Y"), Time="15:00",
+                       HomeTeam=W.fd_name(W.fx[f]["teams"]["home"]["id"]), AwayTeam=W.fd_name(W.fx[f]["teams"]["away"]["id"]), Referee="")
+                  for f in g4]).to_csv(tmp / "fd/fixtures.csv", index=False)
+    dE = tmp / "dataE"
+    shutil.copytree(tmp / "data", dE)
+    for t in dE.glob("soccer_2026_*.csv"):
+        x = pd.read_csv(t)
+        if "fixture_id" in x and t.name != "soccer_2026_played_fd.csv":
+            x[~x.fixture_id.isin(g4)].to_csv(t, index=False)
+    (dE / "soccer_2026_played_fd.csv").unlink(missing_ok=True)
+    S.OUT, out_old = dE, S.OUT
+    con = S.connect(str(tmp / "ledger/e.sqlite"))
+    b4 = tmp / "boards" / day4.isoformat()
+    (D4, out_p4) = run_quiet(S.price, day4.isoformat(), str(b4), con)
+    typed4 = D4[D4.type.notna()]
+    ok("blocked API: games the API never listed are taken from football-data's fixtures.csv, matched to their boards and priced",
+       len(g4) >= 4 and typed4.fixture_id.notna().all() and (typed4.fixture_id < 0).all() and typed4.fixture_id.nunique() == len(g4)
+       and typed4.p_model.notna().sum() > 50, (len(g4), typed4.fixture_id.nunique(), out_p4[:300]))
+    clock[0] = dt.datetime(2026, 12, 6, 9, 0, tzinfo=dt.timezone.utc)
+    W = mk(free=True)
+    W.write_fd(tmp / "fd")                                       # the results file now holds the 5th
+    (_, out_g4) = run_quiet(S.grade, day4.isoformat(), con, str(b4))
+    G4 = pd.read_sql("SELECT * FROM predictions WHERE matchday = ? AND type IS NOT NULL", con, params=[day4.isoformat()])
+    gx = G4[(G4.type == "1X2") & (G4.scope == "FT") & (G4.status == "graded")]
+    fx4 = {W.fx[f]["teams"]["home"]["id"]: W.fx[f] for f in g4}
+    sc = {r.fixture_id: r for r in S.load_tables()["fixtures"].itertuples()}
+    right = all((r.won == 1) == ({"1": sc[r.fixture_id].ft_home > sc[r.fixture_id].ft_away, "X": sc[r.fixture_id].ft_home == sc[r.fixture_id].ft_away,
+                                  "2": sc[r.fixture_id].ft_home < sc[r.fixture_id].ft_away}[r.side]) for r in gx.itertuples())
+    truth4 = {(W.fx[f]["teams"]["home"]["id"], W.fx[f]["teams"]["away"]["id"]): (W.fx[f]["goals"]["home"], W.fx[f]["goals"]["away"]) for f in g4}
+    same = all(truth4.get((sc[i].home_id, sc[i].away_id)) == (sc[i].ft_home, sc[i].ft_away) for i in gx.fixture_id.unique())
+    ok("blocked API: results, goal, corner and shots markets graded from football-data; the scores are the simulation's",
+       len(gx) == 3 * len(g4) and right and same and (G4[G4.type.isin(["TOTAL", "CORNERS", "SHOTS", "SOT", "AH"]) & (G4.scope == "FT")].status == "graded").all()
+       and f"{len(g4)} games graded from football-data" in out_g4, (len(gx), len(g4), right, same, out_g4[:300]))
+    pl, h1 = G4[G4.type.isin(list(S.PLAYER_T))], G4[G4.type.isin(["CORNERS", "CARDS"]) & (G4.scope != "FT")]
+    ok("blocked API: player markets and statistics by half stay open, with the reason",
+       len(pl) > 20 and (pl.status == "open").all() and pl.grade_note.str.contains("football-data has no player data").all()
+       and (h1.status == "open").all(), (len(pl), pl.grade_note.value_counts().head(3)))
+    ck = G4[(G4.type == "CARDS") & (G4.scope == "FT")]
+    ok("blocked API: card lines graded from yellows + reds, a line a red card could flip is held back",
+       len(ck) > 10 and ck[ck.status == "graded"].grade_note.str.contains("football-data").all()
+       and ck[ck.status == "open"].grade_note.str.contains("red card|not graded from", regex=True).all(), ck.grade_note.value_counts().head())
+    S.OUT = out_old
+
     width = max(len(n) for n, _, _ in checks)
     for n, good, info in checks:
         print(f"  {'ok  ' if good else 'FAIL'} {n:<{width}}" + ("" if good else f"\n       {str(info)[:1500]}"))

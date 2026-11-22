@@ -1,5 +1,21 @@
 # Changelog: soccer system (decntai1/soccer)
 
+## 2026-11-22 football-data.co.uk fallback (API-Football account suspended)
+- The API answered every call with "Your account is suspended". soccer_ingest.py now treats that as a clean stop
+  (prints API ACCOUNT BLOCKED, builds the tables from what it has, exits 0) instead of a traceback.
+- soccer_system.load_tables fills from football-data.co.uk every game the API has no result for, from the first day
+  the API holds onwards: score, half-time score and full-time team statistics (shots, on target, corners, fouls,
+  yellows, reds). Games the API never listed get a negative fixture id: played ones from the season files, coming ones
+  from fixtures.csv, so boards are still matched and priced. The API wins whenever it has the game.
+- Graded from football-data: 1X2, DC, DNB, BTTS, CS, goal totals and team totals (FT, H1, H2), AH, EH, corners, cards,
+  shots and shots on target over/under and 1X2, corner handicap (all full time). Cards = yellows + reds; each red widens
+  the count by one either way (second-yellow rules) and a line that could flip is held back.
+- Not graded from football-data (kept open): player markets, statistics by half, booking points, goal timing.
+- soccer_bandit.py download also fetches fixtures.csv and writes data/soccer_fd_fixtures.csv (our six divisions).
+- Pricing unchanged (old and new code price Sunday's boards identically): MODEL_VERSION stays soccer-0.2.
+- selftest: 58 checks (5 new: blocked ingest, fixtures.csv matching, grading from football-data, player/half rows
+  open, card rule).
+
 ## 2026-11-22 workflow: ingest log committed
 - Ingest and lineups output is written to results/ingest-<date>_<HHMM>.txt and committed every run, failed or not, so a failure can be read from the repo.
 

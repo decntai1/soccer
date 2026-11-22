@@ -144,6 +144,8 @@ class Api:
         if err:                                             # the API answers 200 with an errors object
             msg = json.dumps(err, ensure_ascii=False)
             low = msg.lower()
+            if "suspend" in low or (isinstance(err, dict) and "access" in err):
+                raise Stop(f"API ACCOUNT BLOCKED, nothing fetched (grading falls back to football-data.co.uk): {msg}")
             if "plan" in low or "subscription" in low:
                 raise PlanError(msg)
             if "limit" in low or "requests" in low:
