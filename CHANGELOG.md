@@ -1,5 +1,8 @@
 # Changelog: soccer system (decntai1/soccer)
 
+## 2026-11-22 workflow: ingest log committed
+- Ingest and lineups output is written to results/ingest-<date>_<HHMM>.txt and committed every run, failed or not, so a failure can be read from the repo.
+
 ## soccer-0.2, 2026-11-21: statistics markets and team profiles
 - New markets read, priced and graded: corners 1X2, cards 1X2, shots 1X2 and shots-on-target 1X2 (which team has
   more; "Szöglet 1X2", "Büntetőlapok 1X2", "1X2 kapura / kaput eltaláló lövések száma"), and player booked ("Lapok",
