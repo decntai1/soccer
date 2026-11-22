@@ -53,11 +53,11 @@ fixture_id,league_id,season,round,date,ts,status,referee,venue,home_id,home,away
 1601608,136,2026,Regular Season - 12,2026-11-21T18:30:00Z,1795285800,FT,Federico La Penna,Carlo Castellani,511,Empoli,801,Pisa,0.0,1.0,0.0,1.0,True,True,True,True,True,True,True
 1576240,79,2026,Regular Season - 12,2026-11-21T19:30:00Z,1795289400,FT,Daniel Schlager,Millerntor-Stadion,186,FC St. Pauli,176,VfL Bochum,2.0,0.0,1.0,0.0,True,True,True,True,True,True,True
 1570035,141,2026,Regular Season - 15,2026-11-21T20:00:00Z,1795291200,FT,"Gordillo, Juan",Heliodoro Rodríguez López,719,Tenerife,798,Mallorca,0.0,0.0,0.0,0.0,True,True,True,True,True,True,True
-1563264,40,2026,Regular Season - 16,2026-11-22T12:00:00Z,1795348800,NS,Lewis Smith,Turf Moor,44,Burnley,67,Blackburn,,,,,False,False,False,False,,,
-1576234,79,2026,Regular Season - 12,2026-11-22T12:30:00Z,1795350600,NS,Florian Exner,Stadion der Freundschaft,1320,Energie Cottbus,159,Hertha BSC,,,,,False,False,False,False,,,
-1576237,79,2026,Regular Season - 12,2026-11-22T12:30:00Z,1795350600,NS,Lars Erbst,Fritz-Walter-Stadion,745,1. FC Kaiserslautern,183,Dynamo Dresden,,,,,False,False,False,False,,,
-1576238,79,2026,Regular Season - 12,2026-11-22T12:30:00Z,1795350600,NS,Cristian Ballweg,BBBank Wildpark,785,Karlsruher SC,1324,VfL Osnabrück,,,,,False,False,False,False,,,
-1570030,141,2026,Regular Season - 15,2026-11-22T13:00:00Z,1795352400,NS,Daniel Palencia Caballero,Estadio Nuevo Arcángel,713,Cordoba,718,Oviedo,,,,,False,False,False,False,,,
+1563264,40,2026,Regular Season - 16,2026-11-22T12:00:00Z,1795348800,2H,Lewis Smith,Turf Moor,44,Burnley,67,Blackburn,2.0,1.0,1.0,1.0,False,False,False,False,,,
+1576234,79,2026,Regular Season - 12,2026-11-22T12:30:00Z,1795350600,HT,Florian Exner,Stadion der Freundschaft,1320,Energie Cottbus,159,Hertha BSC,0.0,1.0,0.0,1.0,False,False,False,False,,,
+1576237,79,2026,Regular Season - 12,2026-11-22T12:30:00Z,1795350600,HT,Lars Erbst,Fritz-Walter-Stadion,745,1. FC Kaiserslautern,183,Dynamo Dresden,1.0,2.0,1.0,2.0,False,False,False,False,,,
+1576238,79,2026,Regular Season - 12,2026-11-22T12:30:00Z,1795350600,HT,Cristian Ballweg,BBBank Wildpark,785,Karlsruher SC,1324,VfL Osnabrück,0.0,0.0,0.0,0.0,False,False,False,False,,,
+1570030,141,2026,Regular Season - 15,2026-11-22T13:00:00Z,1795352400,1H,Daniel Palencia Caballero,Estadio Nuevo Arcángel,713,Cordoba,718,Oviedo,1.0,0.0,1.0,0.0,False,False,False,False,,,
 1601605,136,2026,Regular Season - 12,2026-11-22T14:00:00Z,1795356000,NS,Mattia Drigo,Partenio-Adriano Lombardi,528,Avellino,1693,Mantova,,,,,False,False,False,False,,,
 1570031,141,2026,Regular Season - 15,2026-11-22T15:15:00Z,1795360500,NS,Damaso Arcediano Monescillo,El Molinón-Enrique Castro Quini,731,Sporting Gijon,534,Las Palmas,,,,,False,False,False,False,,,
 1601603,136,2026,Regular Season - 12,2026-11-22T16:15:00Z,1795364100,NS,Daniele Perenzoni,Stadio Città di Arezzo,876,Arezzo,870,Padova,,,,,False,False,False,False,,,
