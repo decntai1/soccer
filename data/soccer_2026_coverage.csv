@@ -1,5 +1,7 @@
 league_id,season,league,country,fd_code,start,end,current,events,lineups,statistics_fixtures,statistics_players,source
-41,2026,League One,England,E2,,,,True,True,True,True,inferred from 1 games
-79,2026,2. Bundesliga,Germany,D2,,,,True,True,True,True,inferred from 2 games
-136,2026,Serie B,Italy,I2,,,,True,True,True,True,inferred from 1 games
-141,2026,Segunda División,Spain,SP2,,,,True,True,True,True,inferred from 1 games
+40,2026,Championship,England,E1,,,,True,True,True,True,inferred from 11 games
+41,2026,League One,England,E2,,,,True,True,True,True,inferred from 12 games
+42,2026,League Two,England,E3,,,,True,True,True,True,inferred from 12 games
+79,2026,2. Bundesliga,Germany,D2,,,,True,True,True,True,inferred from 6 games
+136,2026,Serie B,Italy,I2,,,,True,True,True,True,inferred from 8 games
+141,2026,Segunda División,Spain,SP2,,,,True,True,True,True,inferred from 5 games

@@ -4,63 +4,64 @@ fixture_id,league_id,season,round,date,ts,status,referee,venue,home_id,home,away
 1570025,141,2026,Regular Season - 15,2026-11-20T19:30:00Z,1795203000,FT,Jose Guzman,Estadi de la FAF,8157,FC Andorra,537,Leganes,1.0,3.0,1.0,2.0,True,True,True,True,True,True,True
 1601612,136,2026,Regular Season - 12,2026-11-20T19:30:00Z,1795203000,FT,Simone Galipo,Marc'Antonio Bentegodi,504,Hellas Verona,509,Cesena,0.0,2.0,0.0,1.0,True,True,True,True,True,True,True
 1564415,41,2026,Regular Season - 16,2026-11-20T20:00:00Z,1795204800,FT,,Oakwell Ground,747,Barnsley,74,Sheffield Wednesday,1.0,2.0,1.0,2.0,True,True,True,True,True,True,True
-1576236,79,2026,Regular Season - 12,2026-11-21T12:00:00Z,1795262400,NS,Marc Philip Eckermann,Heinz-von-Heiden-Arena ,166,Hannover 96,178,SpVgg Greuther Fürth,,,,,False,False,False,False,,,
-1576239,79,2026,Regular Season - 12,2026-11-21T12:00:00Z,1795262400,NS,Justin Joel Hasmann,Max-Morlock-Stadion,171,1. FC Nürnberg,744,Eintracht Braunschweig,,,,,False,False,False,False,,,
-1576241,79,2026,Regular Season - 12,2026-11-21T12:00:00Z,1795262400,NS,Felix Prigan,Volkswagen Arena,161,VfL Wolfsburg,191,Holstein Kiel,,,,,False,False,False,False,,,
-1563267,40,2026,Regular Season - 16,2026-11-21T12:30:00Z,1795264200,NS,Josh Smith,The Den,58,Millwall,72,QPR,,,,,False,False,False,False,,,
-1563268,40,2026,Regular Season - 16,2026-11-21T12:30:00Z,1795264200,NS,Matt Donohue,Carrow Road,71,Norwich,43,Cardiff,,,,,False,False,False,False,,,
-1563270,40,2026,Regular Season - 16,2026-11-21T12:30:00Z,1795264200,NS,Sam Allison,St. Mary's Stadium,41,Southampton,69,Derby,,,,,False,False,False,False,,,
-1563868,42,2026,Regular Season - 16,2026-11-21T12:30:00Z,1795264200,NS,,Priestfield Stadium,1347,Gillingham,1363,Crewe,,,,,False,False,False,False,,,
-1563870,42,2026,Regular Season - 16,2026-11-21T12:30:00Z,1795264200,NS,,Rodney Parade,1367,Newport County,1353,Swindon Town,,,,,False,False,False,False,,,
-1564416,41,2026,Regular Season - 16,2026-11-21T12:30:00Z,1795264200,NS,,Bloomfield Road,1356,Blackpool,61,Wigan,,,,,False,False,False,False,,,
-1564426,41,2026,Regular Season - 16,2026-11-21T12:30:00Z,1795264200,NS,,Madejski Stadium,53,Reading,1832,Bromley,,,,,False,False,False,False,,,
-1570034,141,2026,Regular Season - 15,2026-11-21T13:00:00Z,1795266000,NS,Rafael Sanchez Lopez,Nova Creu Alta,9593,Sabadell,715,Granada CF,,,,,False,False,False,False,,,
-1601604,136,2026,Regular Season - 12,2026-11-21T14:00:00Z,1795269600,NS,Michael Fabbri,Cino e Lillo Del Duca,507,Ascoli,1584,Vicenza Virtus,,,,,False,False,False,False,,,
-1601606,136,2026,Regular Season - 12,2026-11-21T14:00:00Z,1795269600,NS,Dario Madonia,Stadio dei Marmi,1581,Carrarese,527,Virtus Entella,,,,,False,False,False,False,,,
-1601609,136,2026,Regular Season - 12,2026-11-21T14:00:00Z,1795269600,NS,Rosario Abisso,Alberto Braglia,899,Modena,863,Juve Stabia,,,,,False,False,False,False,,,
-1601610,136,2026,Regular Season - 12,2026-11-21T14:00:00Z,1795269600,NS,Paride Tremolada,Luigi Ferraris,498,Sampdoria,506,Benevento,,,,,False,False,False,False,,,
-1601611,136,2026,Regular Season - 12,2026-11-21T14:00:00Z,1795269600,NS,Mario Perri,Stadio Druso,1578,Sudtirol,520,Cremonese,,,,,False,False,False,False,,,
-1563263,40,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,NS,Tom Reeves,Toughsheet Community Stadium,68,Bolton,1355,Portsmouth,,,,,False,False,False,False,,,
-1563265,40,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,NS,Edward Duckworth,Sincil Bank,1379,Lincoln,1837,Wrexham,,,,,False,False,False,False,,,
-1563266,40,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,NS,Ruebyn Ricardo,Riverside Stadium,70,Middlesbrough,56,Bristol City,,,,,False,False,False,False,,,
-1563269,40,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,NS,Tim Robinson,Bramall Lane,62,Sheffield Utd,38,Watford,,,,,False,False,False,False,,,
-1563271,40,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,NS,Bobby Madley,bet365 Stadium,75,Stoke City,54,Birmingham,,,,,False,False,False,False,,,
-1563272,40,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,NS,Thomas Kirk,Swansea.com Stadium,76,Swansea,60,West Brom,,,,,False,False,False,False,,,
-1563273,40,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,NS,Will Finnie,London Stadium,48,West Ham,59,Preston,,,,,False,False,False,False,,,
-1563274,40,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,NS,Simon Hooper,Molineux Stadium,39,Wolves,1335,Charlton,,,,,False,False,False,False,,,
-1563863,42,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,NS,,The Crown Ground,1360,Accrington ST,1844,Salford City,,,,,False,False,False,False,,,
-1563864,42,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,NS,,The Hive Stadium,1369,Barnet,1351,Port Vale,,,,,False,False,False,False,,,
-1563865,42,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,NS,,Whaddon Road,1372,Cheltenham,1334,Bristol Rovers,,,,,False,False,False,False,,,
-1563866,42,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,NS,,Proact Stadium,1345,Chesterfield,1352,Shrewsbury,,,,,False,False,False,False,,,
-1563867,42,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,NS,,Broadfield Stadium,1362,Crawley Town,1336,Fleetwood Town,,,,,False,False,False,False,,,
-1563869,42,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,NS,,Blundell Park,1365,Grimsby,73,Rotherham,,,,,False,False,False,False,,,
-1563871,42,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,NS,,Sixfields Stadium,1337,Northampton,1339,Rochdale,,,,,False,False,False,False,,,
-1563872,42,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,NS,,Boundary Park,1349,Oldham,1364,Exeter City,,,,,False,False,False,False,,,
-1563873,42,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,NS,,Prenton Park,1381,Tranmere,1361,Colchester,,,,,False,False,False,False,,,
-1563874,42,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,NS,,York`s LNER Community Stadium,1828,York,1342,Walsall,,,,,False,False,False,False,,,
-1564417,41,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,NS,,Valley Parade,1343,Bradford,1354,Doncaster,,,,,False,False,False,False,,,
-1564418,41,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,NS,,Pirelli Stadium,748,Burton Albion,1359,Luton,,,,,False,False,False,False,,,
-1564419,41,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,NS,,Abbey Stadium,1370,Cambridge United,4686,Stockport County,,,,,False,False,False,False,,,
-1564420,41,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,NS,,John Smith's Stadium,37,Huddersfield,46,Leicester,,,,,False,False,False,False,,,
-1564421,41,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,NS,,Matchroom Stadium,1373,Leyton Orient,1333,AFC Wimbledon,,,,,False,False,False,False,,,
-1564422,41,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,NS,,Field Mill,1374,Mansfield Town,1348,Milton Keynes Dons,,,,,False,False,False,False,,,
-1564423,41,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,NS,,Meadow Lane,1376,Notts County,1368,Stevenage,,,,,False,False,False,False,,,
-1564424,41,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,NS,,Kassam Stadium,1338,Oxford United,1358,Wycombe,,,,,False,False,False,False,,,
-1564425,41,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,NS,,Home Park,1357,Plymouth,1350,Peterborough,,,,,False,False,False,False,,,
-1570033,141,2026,Regular Season - 15,2026-11-21T15:15:00Z,1795274100,NS,Saul Ais Reig,Estadio Ciudad Deportiva Zubieta,9585,Real Sociedad II,724,Cadiz,,,,,False,False,False,False,,,
-1601607,136,2026,Regular Season - 12,2026-11-21T16:15:00Z,1795277700,NS,Ermanno Feliciani,Stadio Nicola Ceravolo,1687,Catanzaro,522,Palermo,,,,,False,False,False,False,,,
-1570027,141,2026,Regular Season - 15,2026-11-21T17:30:00Z,1795282200,NS,Morales Moreno Pablo,Estadio Municipal Castalia,5254,Castellón,9692,Eldense,,,,,False,False,False,False,,,
-1601608,136,2026,Regular Season - 12,2026-11-21T18:30:00Z,1795285800,NS,Federico La Penna,Carlo Castellani,511,Empoli,801,Pisa,,,,,False,False,False,False,,,
-1576240,79,2026,Regular Season - 12,2026-11-21T19:30:00Z,1795289400,NS,Daniel Schlager,Millerntor-Stadion,186,FC St. Pauli,176,VfL Bochum,,,,,False,False,False,False,,,
-1570035,141,2026,Regular Season - 15,2026-11-21T20:00:00Z,1795291200,NS,"Gordillo, Juan",Heliodoro Rodríguez López,719,Tenerife,798,Mallorca,,,,,False,False,False,False,,,
+1576236,79,2026,Regular Season - 12,2026-11-21T12:00:00Z,1795262400,FT,Marc Philip Eckermann,Heinz-von-Heiden-Arena ,166,Hannover 96,178,SpVgg Greuther Fürth,2.0,1.0,0.0,1.0,True,True,True,True,True,True,True
+1576239,79,2026,Regular Season - 12,2026-11-21T12:00:00Z,1795262400,FT,Justin Joel Hasmann,Max-Morlock-Stadion,171,1. FC Nürnberg,744,Eintracht Braunschweig,1.0,2.0,1.0,0.0,True,True,True,True,True,True,True
+1576241,79,2026,Regular Season - 12,2026-11-21T12:00:00Z,1795262400,FT,Felix Prigan,Volkswagen Arena,161,VfL Wolfsburg,191,Holstein Kiel,3.0,0.0,0.0,0.0,True,True,True,True,True,True,True
+1563267,40,2026,Regular Season - 16,2026-11-21T12:30:00Z,1795264200,FT,Josh Smith,The Den,58,Millwall,72,QPR,0.0,1.0,0.0,1.0,True,True,True,True,True,True,True
+1563268,40,2026,Regular Season - 16,2026-11-21T12:30:00Z,1795264200,FT,Matt Donohue,Carrow Road,71,Norwich,43,Cardiff,2.0,1.0,0.0,0.0,True,True,True,True,True,True,True
+1563270,40,2026,Regular Season - 16,2026-11-21T12:30:00Z,1795264200,FT,Sam Allison,St. Mary's Stadium,41,Southampton,69,Derby,2.0,0.0,0.0,0.0,True,True,True,True,True,True,True
+1563868,42,2026,Regular Season - 16,2026-11-21T12:30:00Z,1795264200,FT,,Priestfield Stadium,1347,Gillingham,1363,Crewe,3.0,3.0,2.0,1.0,True,True,True,True,True,True,True
+1563870,42,2026,Regular Season - 16,2026-11-21T12:30:00Z,1795264200,FT,,Rodney Parade,1367,Newport County,1353,Swindon Town,2.0,0.0,2.0,0.0,True,True,True,True,True,True,True
+1564416,41,2026,Regular Season - 16,2026-11-21T12:30:00Z,1795264200,FT,,Bloomfield Road,1356,Blackpool,61,Wigan,1.0,2.0,1.0,1.0,True,True,True,True,True,True,True
+1564426,41,2026,Regular Season - 16,2026-11-21T12:30:00Z,1795264200,FT,,Madejski Stadium,53,Reading,1832,Bromley,0.0,1.0,0.0,0.0,True,True,True,True,True,True,True
+1570034,141,2026,Regular Season - 15,2026-11-21T13:00:00Z,1795266000,FT,Rafael Sanchez Lopez,Nova Creu Alta,9593,Sabadell,715,Granada CF,1.0,1.0,0.0,1.0,True,True,True,True,True,True,True
+1601604,136,2026,Regular Season - 12,2026-11-21T14:00:00Z,1795269600,FT,Michael Fabbri,Cino e Lillo Del Duca,507,Ascoli,1584,Vicenza Virtus,2.0,2.0,1.0,1.0,True,True,True,True,True,True,True
+1601606,136,2026,Regular Season - 12,2026-11-21T14:00:00Z,1795269600,FT,Dario Madonia,Stadio dei Marmi,1581,Carrarese,527,Virtus Entella,1.0,0.0,1.0,0.0,True,True,True,True,True,True,True
+1601609,136,2026,Regular Season - 12,2026-11-21T14:00:00Z,1795269600,FT,Rosario Abisso,Alberto Braglia,899,Modena,863,Juve Stabia,2.0,0.0,0.0,0.0,True,True,True,True,True,True,True
+1601610,136,2026,Regular Season - 12,2026-11-21T14:00:00Z,1795269600,FT,Paride Tremolada,Luigi Ferraris,498,Sampdoria,506,Benevento,3.0,1.0,3.0,1.0,True,True,True,True,True,True,True
+1601611,136,2026,Regular Season - 12,2026-11-21T14:00:00Z,1795269600,FT,Mario Perri,Stadio Druso,1578,Sudtirol,520,Cremonese,1.0,0.0,1.0,0.0,True,True,True,True,True,True,True
+1563263,40,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,FT,Tom Reeves,Toughsheet Community Stadium,68,Bolton,1355,Portsmouth,1.0,1.0,1.0,1.0,True,True,True,True,True,True,True
+1563265,40,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,FT,Edward Duckworth,Sincil Bank,1379,Lincoln,1837,Wrexham,0.0,1.0,0.0,0.0,True,True,True,True,True,True,True
+1563266,40,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,FT,Ruebyn Ricardo,Riverside Stadium,70,Middlesbrough,56,Bristol City,2.0,0.0,1.0,0.0,True,True,True,True,True,True,True
+1563269,40,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,FT,Tim Robinson,Bramall Lane,62,Sheffield Utd,38,Watford,4.0,0.0,2.0,0.0,True,True,True,True,True,True,True
+1563271,40,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,FT,Bobby Madley,bet365 Stadium,75,Stoke City,54,Birmingham,1.0,0.0,0.0,0.0,True,True,True,True,True,True,True
+1563272,40,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,FT,Thomas Kirk,Swansea.com Stadium,76,Swansea,60,West Brom,2.0,2.0,2.0,2.0,True,True,True,True,True,True,True
+1563273,40,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,FT,Will Finnie,London Stadium,48,West Ham,59,Preston,1.0,1.0,0.0,1.0,True,True,True,True,True,True,True
+1563274,40,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,FT,Simon Hooper,Molineux Stadium,39,Wolves,1335,Charlton,2.0,1.0,0.0,0.0,True,True,True,True,True,True,True
+1563863,42,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,FT,,The Crown Ground,1360,Accrington ST,1844,Salford City,1.0,1.0,0.0,0.0,True,True,True,True,True,True,True
+1563864,42,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,FT,,The Hive Stadium,1369,Barnet,1351,Port Vale,2.0,1.0,1.0,1.0,True,True,True,True,True,True,True
+1563865,42,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,FT,,Whaddon Road,1372,Cheltenham,1334,Bristol Rovers,0.0,3.0,0.0,2.0,True,True,True,True,True,True,True
+1563866,42,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,FT,,Proact Stadium,1345,Chesterfield,1352,Shrewsbury,4.0,1.0,3.0,1.0,True,True,True,True,True,True,True
+1563867,42,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,FT,,Broadfield Stadium,1362,Crawley Town,1336,Fleetwood Town,2.0,1.0,1.0,0.0,True,True,True,True,True,True,True
+1563869,42,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,FT,,Blundell Park,1365,Grimsby,73,Rotherham,0.0,0.0,0.0,0.0,True,True,True,True,True,True,True
+1563871,42,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,FT,,Sixfields Stadium,1337,Northampton,1339,Rochdale,3.0,2.0,1.0,0.0,True,True,True,True,True,True,True
+1563872,42,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,FT,,Boundary Park,1349,Oldham,1364,Exeter City,1.0,1.0,1.0,0.0,True,True,True,True,True,True,True
+1563873,42,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,FT,,Prenton Park,1381,Tranmere,1361,Colchester,2.0,1.0,1.0,1.0,True,True,True,True,True,True,True
+1563874,42,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,FT,,York`s LNER Community Stadium,1828,York,1342,Walsall,0.0,0.0,0.0,0.0,True,True,True,True,True,True,True
+1564417,41,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,FT,,Valley Parade,1343,Bradford,1354,Doncaster,2.0,2.0,0.0,0.0,True,True,True,True,True,True,True
+1564418,41,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,FT,,Pirelli Stadium,748,Burton Albion,1359,Luton,1.0,2.0,1.0,1.0,True,True,True,True,True,True,True
+1564419,41,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,FT,,Abbey Stadium,1370,Cambridge United,4686,Stockport County,0.0,3.0,0.0,0.0,True,True,True,True,True,True,True
+1564420,41,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,FT,,John Smith's Stadium,37,Huddersfield,46,Leicester,0.0,1.0,0.0,0.0,True,True,True,True,True,True,True
+1564421,41,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,FT,,Matchroom Stadium,1373,Leyton Orient,1333,AFC Wimbledon,4.0,1.0,3.0,0.0,True,True,True,True,True,True,True
+1564422,41,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,FT,,Field Mill,1374,Mansfield Town,1348,Milton Keynes Dons,1.0,1.0,1.0,0.0,True,True,True,True,True,True,True
+1564423,41,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,FT,,Meadow Lane,1376,Notts County,1368,Stevenage,0.0,1.0,0.0,0.0,True,True,True,True,True,True,True
+1564424,41,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,FT,,Kassam Stadium,1338,Oxford United,1358,Wycombe,4.0,3.0,0.0,1.0,True,True,True,True,True,True,True
+1564425,41,2026,Regular Season - 16,2026-11-21T15:00:00Z,1795273200,FT,,Home Park,1357,Plymouth,1350,Peterborough,0.0,2.0,0.0,1.0,True,True,True,True,True,True,True
+1570033,141,2026,Regular Season - 15,2026-11-21T15:15:00Z,1795274100,FT,Saul Ais Reig,Estadio Ciudad Deportiva Zubieta,9585,Real Sociedad II,724,Cadiz,0.0,3.0,0.0,1.0,True,True,True,True,True,True,True
+1601607,136,2026,Regular Season - 12,2026-11-21T16:15:00Z,1795277700,FT,Ermanno Feliciani,Stadio Nicola Ceravolo,1687,Catanzaro,522,Palermo,3.0,1.0,1.0,1.0,True,True,True,True,True,True,True
+1570027,141,2026,Regular Season - 15,2026-11-21T17:30:00Z,1795282200,FT,Morales Moreno Pablo,Estadio Municipal Castalia,5254,Castellón,9692,Eldense,2.0,0.0,1.0,0.0,True,True,True,True,True,True,True
+1601608,136,2026,Regular Season - 12,2026-11-21T18:30:00Z,1795285800,FT,Federico La Penna,Carlo Castellani,511,Empoli,801,Pisa,0.0,1.0,0.0,1.0,True,True,True,True,True,True,True
+1576240,79,2026,Regular Season - 12,2026-11-21T19:30:00Z,1795289400,FT,Daniel Schlager,Millerntor-Stadion,186,FC St. Pauli,176,VfL Bochum,2.0,0.0,1.0,0.0,True,True,True,True,True,True,True
+1570035,141,2026,Regular Season - 15,2026-11-21T20:00:00Z,1795291200,FT,"Gordillo, Juan",Heliodoro Rodríguez López,719,Tenerife,798,Mallorca,0.0,0.0,0.0,0.0,True,True,True,True,True,True,True
 1563264,40,2026,Regular Season - 16,2026-11-22T12:00:00Z,1795348800,NS,Lewis Smith,Turf Moor,44,Burnley,67,Blackburn,,,,,False,False,False,False,,,
 1576234,79,2026,Regular Season - 12,2026-11-22T12:30:00Z,1795350600,NS,Florian Exner,Stadion der Freundschaft,1320,Energie Cottbus,159,Hertha BSC,,,,,False,False,False,False,,,
 1576237,79,2026,Regular Season - 12,2026-11-22T12:30:00Z,1795350600,NS,Lars Erbst,Fritz-Walter-Stadion,745,1. FC Kaiserslautern,183,Dynamo Dresden,,,,,False,False,False,False,,,
 1576238,79,2026,Regular Season - 12,2026-11-22T12:30:00Z,1795350600,NS,Cristian Ballweg,BBBank Wildpark,785,Karlsruher SC,1324,VfL Osnabrück,,,,,False,False,False,False,,,
-1570030,141,2026,Regular Season - 15,2026-11-22T13:00:00Z,1795352400,NS,,Estadio Nuevo Arcángel,713,Cordoba,718,Oviedo,,,,,False,False,False,False,,,
+1570030,141,2026,Regular Season - 15,2026-11-22T13:00:00Z,1795352400,NS,Daniel Palencia Caballero,Estadio Nuevo Arcángel,713,Cordoba,718,Oviedo,,,,,False,False,False,False,,,
 1601605,136,2026,Regular Season - 12,2026-11-22T14:00:00Z,1795356000,NS,Mattia Drigo,Partenio-Adriano Lombardi,528,Avellino,1693,Mantova,,,,,False,False,False,False,,,
-1570031,141,2026,Regular Season - 15,2026-11-22T15:15:00Z,1795360500,NS,,El Molinón-Enrique Castro Quini,731,Sporting Gijon,534,Las Palmas,,,,,False,False,False,False,,,
+1570031,141,2026,Regular Season - 15,2026-11-22T15:15:00Z,1795360500,NS,Damaso Arcediano Monescillo,El Molinón-Enrique Castro Quini,731,Sporting Gijon,534,Las Palmas,,,,,False,False,False,False,,,
 1601603,136,2026,Regular Season - 12,2026-11-22T16:15:00Z,1795364100,NS,Daniele Perenzoni,Stadio Città di Arezzo,876,Arezzo,870,Padova,,,,,False,False,False,False,,,
-1570028,141,2026,Regular Season - 15,2026-11-22T17:30:00Z,1795368600,NS,,Municipal de Balaídos,9571,Celta de Vigo II,720,Valladolid,,,,,False,False,False,False,,,
-1570032,141,2026,Regular Season - 15,2026-11-22T17:30:00Z,1795368600,NS,,Estadi Montilivi,547,Girona,545,Eibar,,,,,False,False,False,False,,,
-1570026,141,2026,Regular Season - 15,2026-11-22T20:00:00Z,1795377600,NS,,Municipal El Plantio,9580,Burgos,722,Albacete,,,,,False,False,False,False,,,
+1570028,141,2026,Regular Season - 15,2026-11-22T17:30:00Z,1795368600,NS,Jose Antonio Sanchez Villalobos,Municipal de Balaídos,9571,Celta de Vigo II,720,Valladolid,,,,,False,False,False,False,,,
+1570032,141,2026,Regular Season - 15,2026-11-22T17:30:00Z,1795368600,NS,"Morilla Turrion, Alejandro",Estadi Montilivi,547,Girona,545,Eibar,,,,,False,False,False,False,,,
+1570026,141,2026,Regular Season - 15,2026-11-22T20:00:00Z,1795377600,NS,Marta Huerta de Aza,Municipal El Plantio,9580,Burgos,722,Albacete,,,,,False,False,False,False,,,
+1570029,141,2026,Regular Season - 15,2026-11-23T19:30:00Z,1795462200,NS,,Estadio Municipal Alfonso Murube,10139,AD Ceuta FC,723,Almeria,,,,,False,False,False,False,,,
