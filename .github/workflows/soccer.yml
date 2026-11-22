@@ -84,14 +84,20 @@ jobs:
         id: ingest
         if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && github.event.inputs.job == 'daily')
         continue-on-error: true        # a failed ProLyt upload must not stop the grading; the CSVs are already written
-        run: python soccer_ingest.py run
+        run: |                         # the output is committed to results/ so a failure can be read from the repo
+          set -o pipefail
+          mkdir -p results
+          python soccer_ingest.py run 2>&1 | tee "results/ingest-$(date -u +%F_%H%M).txt"
         env:
           APIFOOTBALL_KEY: ${{ secrets.APIFOOTBALL_KEY }}
           PROLYT_API_KEY: ${{ secrets.PROLYT_API_KEY }}
 
       - name: Pre-match lineups
         if: github.event_name == 'workflow_dispatch' && github.event.inputs.job == 'lineups'
-        run: python soccer_ingest.py lineups --date "${DATE:-$(date -u +%F)}"
+        run: |
+          set -o pipefail
+          mkdir -p results
+          python soccer_ingest.py lineups --date "${DATE:-$(date -u +%F)}" 2>&1 | tee "results/lineups-$(date -u +%F_%H%M).txt"
         env:
           DATE: ${{ github.event.inputs.date }}
           APIFOOTBALL_KEY: ${{ secrets.APIFOOTBALL_KEY }}
