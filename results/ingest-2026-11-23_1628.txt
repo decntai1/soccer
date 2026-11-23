@@ -1,0 +1,29 @@
+plan: free
+stopped: API KEY REJECTED, nothing fetched (grading falls back to football-data.co.uk): {"token": "Error/Missing application key. Go to https://www.api-football.com/documentation-v3 to learn how to get your API application key."}
+window 2026-11-22..2026-11-24: 12 of our games listed, 0 finished games fetched; calls used today: 5 (API says None left)
+Traceback (most recent call last):
+  File "/home/runner/work/soccer/soccer/soccer_ingest.py", line 751, in <module>
+    main()
+  File "/home/runner/work/soccer/soccer/soccer_ingest.py", line 745, in main
+    res = build()
+          ^^^^^^^
+  File "/home/runner/work/soccer/soccer/soccer_ingest.py", line 575, in build
+    old = pd.read_csv(p, usecols=["season", "has_events"])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1866, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 423, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 2721, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 3006, in _make_engine
+    return mapping[engine](f, **self.options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 152, in __init__
+    self._validate_usecols_names(usecols, self.orig_names)
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/pandas/io/parsers/base_parser.py", line 674, in _validate_usecols_names
+    raise ValueError(
+ValueError: Usecols do not match columns, columns expected but not found: ['has_events', 'season']
