@@ -1,0 +1,12 @@
+plan: free
+Traceback (most recent call last):
+  File "/home/runner/work/soccer/soccer/soccer_ingest.py", line 749, in <module>
+    main()
+  File "/home/runner/work/soccer/soccer/soccer_ingest.py", line 742, in main
+    (run_free if PLAN == "free" else run)(Api())
+  File "/home/runner/work/soccer/soccer/soccer_ingest.py", line 334, in run_free
+    day = api.get("fixtures", date=d.isoformat())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/soccer/soccer/soccer_ingest.py", line 153, in get
+    raise RuntimeError(f"API error on {path} {params}: {msg}")
+RuntimeError: API error on fixtures {'date': '2026-11-22'}: {"token": "Error/Missing application key. Go to https://www.api-football.com/documentation-v3 to learn how to get your API application key."}
