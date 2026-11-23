@@ -373,6 +373,9 @@ def main() -> int:
     blocked = lambda path, params: ({"errors": {"access": "Your account is suspended, check on https://dashboard.api-football.com."}, "response": []}, {})
     before = pd.read_csv(tmp / "data/soccer_2026_fixtures.csv")
     (_, out_b) = run_quiet(lambda: (I.run_free(I.Api(key="x", fetch=blocked)), I.build()))
+    nokey = lambda path, params: ({"errors": {"token": "Error/Missing application key. Go to https://www.api-football.com/documentation-v3"}, "response": []}, {})
+    (_, out_k) = run_quiet(lambda: (I.run_free(I.Api(key="x", fetch=nokey)), I.build()))
+    ok("rejected key: the ingest stops cleanly with a clear message", "API KEY REJECTED" in out_k, out_k[-300:])
     ok("blocked API: the ingest stops cleanly with a clear message and leaves the tables as they were",
        "API ACCOUNT BLOCKED" in out_b and len(pd.read_csv(tmp / "data/soccer_2026_fixtures.csv")) == len(before), out_b[-400:])
     day4 = dt.date(2026, 12, 5)                                  # as if the API had died before it listed the 5th

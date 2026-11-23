@@ -146,6 +146,8 @@ class Api:
             low = msg.lower()
             if "suspend" in low or (isinstance(err, dict) and "access" in err):
                 raise Stop(f"API ACCOUNT BLOCKED, nothing fetched (grading falls back to football-data.co.uk): {msg}")
+            if isinstance(err, dict) and "token" in err:          # key revoked, regenerated or the account gone
+                raise Stop(f"API KEY REJECTED, nothing fetched (grading falls back to football-data.co.uk): {msg}")
             if "plan" in low or "subscription" in low:
                 raise PlanError(msg)
             if "limit" in low or "requests" in low:

@@ -1,5 +1,12 @@
 # Changelog: soccer system (decntai1/soccer)
 
+## 2026-11-23 ingest: rejected key is a clean stop
+- Since 2026-11-23 the API answers {"token": "Error/Missing application key"} (key no longer valid after the suspension). The ingest now stops cleanly on it (API KEY REJECTED) like on the suspension, so runs stay green and grading uses football-data.co.uk.
+- selftest: 59 checks.
+
+## 2026-11-22 workflow: commits signed as github-actions[bot]
+- The commit step used soccer-bot@users.noreply.github.com, which GitHub credits to whoever owns the account "soccer-bot". Now GitHub's own Actions bot identity.
+
 ## 2026-11-22 football-data.co.uk fallback (API-Football account suspended)
 - The API answered every call with "Your account is suspended". soccer_ingest.py now treats that as a clean stop
   (prints API ACCOUNT BLOCKED, builds the tables from what it has, exits 0) instead of a traceback.
