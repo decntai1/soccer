@@ -571,7 +571,7 @@ def build() -> dict:
     D["players"] = pl.sort_values("fixture_id").drop_duplicates("player_id", keep="last").drop(columns="fixture_id")
     # A lost cache must never shrink the published tables: a season that had more finished games with detail on disk
     # than it has now is not overwritten.
-    for p in sorted(OUT.glob("soccer_*_fixtures.csv")):
+    for p in sorted(OUT.glob("soccer_[0-9][0-9][0-9][0-9]_fixtures.csv")):
         old = pd.read_csv(p, usecols=["season", "has_events"])
         new = D["fixtures"][D["fixtures"].season == old.season.iloc[0]] if len(D["fixtures"]) and len(old) else pd.DataFrame()
         if len(old) and int(old.has_events.sum()) > (int(new.has_events.sum()) if len(new) else 0) and not os.environ.get("SOCCER_ALLOW_SHRINK"):

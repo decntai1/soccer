@@ -148,7 +148,7 @@ def load_tables(out: Path | None = None) -> dict:
     out = Path(out or OUT)
 
     def rd(name):
-        fs = sorted(glob.glob(str(out / f"soccer_*_{name}.csv")))
+        fs = sorted(glob.glob(str(out / f"soccer_[0-9][0-9][0-9][0-9]_{name}.csv")) + glob.glob(str(out / f"soccer_all_{name}.csv")))
         return pd.concat([pd.read_csv(f) for f in fs], ignore_index=True) if fs else pd.DataFrame()
 
     T = {n: rd(n) for n in ("fixtures", "team_match_stats", "events", "player_match_stats", "lineups", "teams", "players", "coverage")}
@@ -177,7 +177,7 @@ def fd_upcoming(out: Path | None = None) -> pd.DataFrame:
         import soccer_bandit as SB
     except ImportError:
         return pd.DataFrame()
-    for p in (Path(SB.FD) / "fixtures.csv", Path(out or OUT) / "soccer_fd_fixtures.csv"):
+    for p in (Path(SB.FD) / "fixtures.csv", Path(out or OUT) / "fd_fixtures.csv"):
         if p.exists():
             try:
                 d = pd.read_csv(p, encoding="utf-8-sig", on_bad_lines="skip")

@@ -72,7 +72,7 @@ def download(seasons: list[int]) -> None:
 
 def fixtures() -> None:
     """football-data.co.uk fixtures.csv: the coming week, every division they cover. Kept whole in fd/ and, for our six
-    divisions, copied to data/soccer_fd_fixtures.csv (committed) so boards can be matched when the API is down."""
+    divisions, copied to data/fd_fixtures.csv (committed) so boards can be matched when the API is down."""
     url = "https://www.football-data.co.uk/fixtures.csv"
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
@@ -90,8 +90,8 @@ def fixtures() -> None:
     d = d[d.Div.isin(list(CODES))]
     out = Path(os.environ.get("SOCCER_OUT", "data"))
     out.mkdir(parents=True, exist_ok=True)
-    d.to_csv(out / "soccer_fd_fixtures.csv", index=False)
-    print(f"  {FD / 'fixtures.csv'}: {len(d)} coming games in our divisions -> {out / 'soccer_fd_fixtures.csv'}")
+    d.to_csv(out / "fd_fixtures.csv", index=False)
+    print(f"  {FD / 'fixtures.csv'}: {len(d)} coming games in our divisions -> {out / 'fd_fixtures.csv'}")
 
 
 def fd_date(col: pd.Series) -> pd.Series:

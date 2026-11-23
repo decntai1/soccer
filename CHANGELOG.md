@@ -1,5 +1,12 @@
 # Changelog: soccer system (decntai1/soccer)
 
+## 2026-11-23 fix: football-data fixtures file read as an API table
+- data/soccer_fd_fixtures.csv matched the pattern soccer_*_fixtures.csv: the ingest's shrink guard crashed on it
+  (ValueError: Usecols ... has_events, season) and load_tables would have mixed it into the fixtures.
+- Renamed to data/fd_fixtures.csv; both patterns now only match a four-digit season (soccer_2026_fixtures.csv) or
+  soccer_all_*. Delete data/soccer_fd_fixtures.csv from the repo (harmless if left: no longer matched).
+- selftest: 60 checks (new: a stale fd fixtures file in data/ during a blocked ingest; fails on the old code).
+
 ## 2026-11-23 ingest: rejected key is a clean stop
 - Since 2026-11-23 the API answers {"token": "Error/Missing application key"} (key no longer valid after the suspension). The ingest now stops cleanly on it (API KEY REJECTED) like on the suspension, so runs stay green and grading uses football-data.co.uk.
 - selftest: 59 checks.
