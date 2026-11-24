@@ -1,0 +1,17 @@
+plan: free
+stopped: API KEY REJECTED, nothing fetched (grading falls back to football-data.co.uk): {"token": "Error/Missing application key. Go to https://www.api-football.com/documentation-v3 to learn how to get your API application key."}
+window 2026-11-23..2026-11-25: 1 of our games listed, 0 finished games fetched; calls used today: 2 (API says None left)
+football-data: 943 games played this season -> soccer_2026_played_fd.csv
+  D2   2. Bundesliga       108 games, last 2026-11-22, with shots 100%, corners 100%, cards 100%
+  E1   Championship        192 games, last 2026-11-22, with shots 100%, corners 100%, cards 100%
+  E2   League One          175 games, last 2026-11-21, with shots 100%, corners 100%, cards 100%
+  E3   League Two          186 games, last 2026-11-21, with shots 100%, corners 100%, cards 100%
+  I2   Serie B             120 games, last 2026-11-22, with shots 100%, corners 100%, cards 100%
+  SP2  Segunda División    162 games, last 2026-11-23, with shots 100%, corners 100%, cards 100%
+keys: 6 primary, 10 foreign declared; rejected: ["PK soccer_player_match_stats['fixture_id', 'player_id']: 22 null or duplicate rows", "PK soccer_lineups['fixture_id', 'player_id']: 2 null or duplicate rows"]
+Sanity 1. goals in events (incl. own goals) = full-time score: OK (54 of 54 games)
+Sanity 2. player goals + opponent's own goals = team goals: OK (54 of 54 games)
+Sanity 3. half-time score = goals up to minute 45(+): OK (54 of 54 games)
+Own goals: 7; the API lists 7 under the team that got the goal, 0 under the scorer's own team, 0 unreadable
+Fixtures: 66 listed, 54 finished, 54 with detail; with stats 54, players 54, lineups 54
+PROLYT_API_KEY not set: upload skipped
