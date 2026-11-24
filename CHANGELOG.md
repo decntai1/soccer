@@ -1,5 +1,13 @@
 # Changelog: soccer system (decntai1/soccer)
 
+## 2026-11-24 slips: no legs football-data cannot grade
+- First live boards with the API gone (28 games, 24-25 Nov): all matched from fd_fixtures.csv (negative ids), all 132
+  teams mapped, priced as before.
+- Two slips held a first-half corners leg (book-9x 24 Nov, book-7legs 25 Nov): football-data has no statistics by half,
+  so those slips could never have been graded. New gradable(): on a game known only from football-data, leg_pool and
+  statedge_pool drop player markets, statistics by half and booking points. Removed 7 such legs on 24 Nov, 2 on 25 Nov.
+- selftest: 61 checks (new check fails with the filter off).
+
 ## 2026-11-23 fix: football-data fixtures file read as an API table
 - data/soccer_fd_fixtures.csv matched the pattern soccer_*_fixtures.csv: the ingest's shrink guard crashed on it
   (ValueError: Usecols ... has_events, season) and load_tables would have mixed it into the fixtures.

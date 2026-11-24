@@ -408,6 +408,12 @@ def main() -> int:
     ok("blocked API: games the API never listed are taken from football-data's fixtures.csv, matched to their boards and priced",
        len(g4) >= 4 and typed4.fixture_id.notna().all() and (typed4.fixture_id < 0).all() and typed4.fixture_id.nunique() == len(g4)
        and typed4.p_model.notna().sum() > 50, (len(g4), typed4.fixture_id.nunique(), out_p4[:300]))
+    bad = lambda d: int(((d.fixture_id < 0) & (d.type.isin(list(S.PLAYER_T) + ["BOOKING_PTS"]) | (d.type.isin(list(S.STAT_T | {"CARDS"})) & (d.scope != "FT")))).sum())
+    raw4 = pd.read_sql("SELECT * FROM predictions WHERE matchday = ? AND status = 'open' AND type IS NOT NULL", con, params=[day4.isoformat()])
+    pools = run_quiet(lambda: (S.leg_pool(day4.isoformat(), con), S.statedge_pool(day4.isoformat(), con)))[0]
+    ok("blocked API: leg pools on football-data-only games hold no player legs and no statistics by half (could never be graded)",
+       bad(raw4) > 20 and bad(pools[0]) == 0 and bad(pools[1]) == 0 and len(pools[0]) > 5 and int((~S.gradable(raw4)).sum()) == bad(raw4),
+       (bad(raw4), int((~S.gradable(raw4)).sum()), bad(pools[0]), bad(pools[1]), len(pools[0])))
     clock[0] = dt.datetime(2026, 12, 6, 9, 0, tzinfo=dt.timezone.utc)
     W = mk(free=True)
     W.write_fd(tmp / "fd")                                       # the results file now holds the 5th

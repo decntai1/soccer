@@ -1221,12 +1221,21 @@ def record(con) -> dict:
 
 
 # ------------------------------------------------------------------ slips (section 5) and bandit 2 (section 6)
+def gradable(P: pd.DataFrame) -> pd.Series:
+    """A game known only from football-data (negative fixture id: the API never listed it) can only be graded on what
+    football-data holds: no player markets, no statistics by half. Such legs would leave a slip open for good."""
+    fd_only = P.fixture_id < 0
+    by_half_stat = P.type.isin(STAT_T | {"CARDS"}) & (P.scope != "FT")
+    return ~(fd_only & (P.type.isin(PLAYER_T) | by_half_stat | (P.type == "BOOKING_PTS")))
+
+
 def leg_pool(day: str, con, out: Path | None = None) -> pd.DataFrame:
     P = pd.read_sql("SELECT * FROM predictions WHERE matchday = ? AND status = 'open' AND type IS NOT NULL", con, params=[day])
     if P.empty:
         return P
     ok = (P.p_method == "no_vig") & P.p_book.between(*LEG_P) & (P.odds >= LEG_MIN_ODDS) & P.flag.isna() & P.fixture_id.notna()   # rules 1, 2
     ok &= ~P.type.isin(["DNB", "BOOKING_PTS"])                   # DNB's price is "given no draw"; booking points cannot be graded yet
+    ok &= gradable(P)
     side1 = P[(P.type == "1X2") & (P.scope == "FT")].sort_values("p_book").groupby("game").tail(1).set_index("game")
     fav = {g: (r.side if r.p_book >= SIDE_MIN else None) for g, r in side1.iterrows()}
     is_side = P.type.isin(["1X2", "AH", "EH"])
@@ -1294,6 +1303,7 @@ def statedge_pool(day: str, con, band=STATEDGE_ODDS) -> pd.DataFrame:
     if P.empty:
         return P
     ok = (P.p_method == "no_vig") & P.type.isin(STAT_T) & P.odds.between(*band) & P.flag.isna() & P.fixture_id.notna() & P.p_model.notna()
+    ok &= gradable(P)
     P = P[ok & (P.p_model > P.p_book)].copy()
     P["family"] = [family(t, s) for t, s in zip(P.type, P.scope)]
     P["quantity"] = [quantity(t, s) for t, s in zip(P.type, P.subject)]
