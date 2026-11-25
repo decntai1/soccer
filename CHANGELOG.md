@@ -1,5 +1,13 @@
 # Changelog: soccer system (decntai1/soccer)
 
+## 2026-11-25 price: the newest capture wins by file time, and replaces the game's board
+- A second capture of the same day (25 Nov, 07:19 and 07:23, file names _0719/_0723) sat next to the previous day's
+  (_1140). The newest was picked by file NAME, so yesterday's 11:40 beat today's 07:23. newest_captures() now orders
+  by file time (unzip keeps the capture time; copy with cp -p), name only as a tie-break.
+- Re-pricing a game deletes its open rows first: a newer capture replaces the whole board, so no row of an older
+  capture stays open beside it.
+- selftest: 62 checks.
+
 ## 2026-11-24 slips: no legs football-data cannot grade
 - First live boards with the API gone (28 games, 24-25 Nov): all matched from fd_fixtures.csv (negative ids), all 132
   teams mapped, priced as before.

@@ -439,6 +439,17 @@ def main() -> int:
        and ck[ck.status == "open"].grade_note.str.contains("red card|not graded from", regex=True).all(), ck.grade_note.value_counts().head())
     S.OUT = out_old
 
+    # ---------------------------------------------------------------- F. two captures of one game: the newer file wins
+    cdir = tmp / "boards" / "captures"
+    cdir.mkdir(parents=True, exist_ok=True)
+    f0 = sorted((tmp / "boards" / day4.isoformat()).glob("*.net.json"))[0]
+    shutil.copy(f0, cdir / "x_1140.net.json")
+    shutil.copy(f0, cdir / "x_0723.net.json")
+    os.utime(cdir / "x_1140.net.json", (1_700_000_000, 1_700_000_000))          # yesterday's capture, later name
+    os.utime(cdir / "x_0723.net.json", (1_700_090_000, 1_700_090_000))          # today's capture
+    pick = {k: os.path.basename(v[0]) for k, v in S.newest_captures(str(cdir)).items()}
+    ok("two captures of a game: the newer file wins, not the later name", set(pick.values()) == {"x_0723.net.json"}, pick)
+
     width = max(len(n) for n, _, _ in checks)
     for n, good, info in checks:
         print(f"  {'ok  ' if good else 'FAIL'} {n:<{width}}" + ("" if good else f"\n       {str(info)[:1500]}"))

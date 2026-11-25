@@ -787,6 +787,17 @@ COLS = ["matchday", "row_key", "fixture_id", "league", "game", "kickoff", "marke
         "captured", "model_version"]
 
 
+def newest_captures(boards: str) -> dict:
+    """The newest capture of each game is its closing price. Newest by file time, not by name: the HHMM in a file name
+    has no date, so yesterday's 11:40 would beat today's 07:23. Unzip keeps the capture time; copy with cp -p."""
+    latest = {}
+    files = sorted(glob.glob(os.path.join(boards, "*.net.json")), key=lambda f: (os.path.getmtime(f), f))
+    for f in files:
+        for ev in read_capture(f):
+            latest[norm(ev.get("name") or f)] = (f, ev)
+    return latest
+
+
 def price(day: str, boards: str, con, out: Path | None = None, quiet: bool = False) -> pd.DataFrame:
     T = load_tables(out)
     M = matches_frame(T)
@@ -796,10 +807,7 @@ def price(day: str, boards: str, con, out: Path | None = None, quiet: bool = Fal
         aliases = dict(pd.read_csv(ap)[["board_name", "team_id"]].values)
     match, models, w = Matcher(T["fixtures"], aliases), {}, weights_now(con)
     cal = current(con, "calib", (None, 0, 0.0, 1.0))[2:4]
-    latest = {}
-    for f in sorted(glob.glob(os.path.join(boards, "*.net.json"))):          # the newest capture of a game is its closing price
-        for ev in read_capture(f):
-            latest[norm(ev.get("name") or f)] = (f, ev)
+    latest = newest_captures(boards)
     allrows = []
     for f, ev in latest.values():
         cap = pd.Timestamp(os.path.getmtime(f), unit="s").isoformat(timespec="seconds")
@@ -812,6 +820,8 @@ def price(day: str, boards: str, con, out: Path | None = None, quiet: bool = Fal
     old = dict(con.execute("SELECT row_key, odds_first FROM predictions WHERE matchday = ?", [day]).fetchall())
     D["odds_first"] = [old.get(k) or o for k, o in zip(D.row_key, D.odds)]
     con.executemany("DELETE FROM predictions WHERE matchday = ? AND status = 'open' AND row_key = ?", [(day, k) for k in D.row_key])
+    # a newer capture replaces the game's whole board: open rows of an older capture that it no longer lists go
+    con.executemany("DELETE FROM predictions WHERE matchday = ? AND status = 'open' AND game = ?", [(day, g) for g in D.game.dropna().unique()])
     graded = {r[0] for r in con.execute("SELECT row_key FROM predictions WHERE matchday = ? AND status != 'open'", [day])}
     N = D[~D.row_key.isin(graded)]
     con.executemany(f"INSERT INTO predictions ({','.join(COLS)}) VALUES ({','.join('?' * len(COLS))})",
