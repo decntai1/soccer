@@ -787,6 +787,52 @@ COLS = ["matchday", "row_key", "fixture_id", "league", "game", "kickoff", "marke
         "captured", "model_version"]
 
 
+def board_fixtures(T: dict, events: list, day: str, match: "Matcher", out: Path | None = None) -> pd.DataFrame:
+    """A board whose game is in no fixture list yet (the API is gone and football-data's fixtures.csv lags a day or
+    two): the fixture is built from the board itself. Both teams must match a current-season team of the same league
+    (best >= 0.72, the runner-up 0.08 behind), the home team at home. Its id is the one football-data's results file
+    will give the game (fd_id over the football-data names), so grading finds it later. Never guessed: no clear match,
+    no fixture."""
+    import soccer_ingest as SI
+    F = T["fixtures"]
+    if F.empty:
+        return pd.DataFrame()
+    cur = int(F.season.max())
+    m, _ = map_fd_teams(T, _fd_raw(T, out), out)
+    fdname = {v: k for k, v in m.items()}
+    C = F[F.season == cur]
+    teams = {}
+    for lg, g in C.groupby("league_id"):
+        t = dict(zip(g.home_id, g.home)) | dict(zip(g.away_id, g.away))
+        teams[int(lg)] = t
+    rows = []
+    for ev in events:
+        if match.find(ev, day)[0] is not None:
+            continue
+        h, a = ev["competitors"][0]["name"], ev["competitors"][1]["name"]
+        best = []
+        for lg, t in teams.items():
+            sh = sorted(((_sim(h, n), i) for i, n in t.items()), reverse=True)
+            sa = sorted(((_sim(a, n), i) for i, n in t.items()), reverse=True)
+            if not sh or not sa:
+                continue
+            clear = lambda x: x[0][0] >= 0.72 and (len(x) < 2 or x[1][0] < x[0][0] - 0.08)
+            if clear(sh) and clear(sa) and sh[0][1] != sa[0][1]:
+                best.append((min(sh[0][0], sa[0][0]), lg, sh[0][1], sa[0][1]))
+        best.sort(reverse=True)
+        if not best or (len(best) > 1 and best[1][0] > best[0][0] - 0.08):
+            continue
+        _, lg, hi, ai = best[0]
+        code = SI.LEAGUES[lg][2]
+        hn, an = fdname.get(hi, teams[lg][hi]), fdname.get(ai, teams[lg][ai])
+        when = pd.Timestamp(str(ev.get("startDate") or day)).tz_localize(None) if pd.Timestamp(str(ev.get("startDate") or day)).tzinfo is None \
+            else pd.Timestamp(str(ev.get("startDate"))).tz_convert("UTC").tz_localize(None)
+        rows.append(dict(fixture_id=fd_id(code, cur, hn, an), league_id=lg, season=cur, date=when, status="NS", referee=None,
+                         home_id=hi, home=teams[lg][hi], away_id=ai, away=teams[lg][ai], has_events=False, has_stats=False,
+                         has_players=False, source="board"))
+    return pd.DataFrame(rows).drop_duplicates("fixture_id") if rows else pd.DataFrame()
+
+
 def newest_captures(boards: str) -> dict:
     """The newest capture of each game is its closing price. Newest by file time, not by name: the HHMM in a file name
     has no date, so yesterday's 11:40 would beat today's 07:23. Unzip keeps the capture time; copy with cp -p."""
@@ -808,6 +854,11 @@ def price(day: str, boards: str, con, out: Path | None = None, quiet: bool = Fal
     match, models, w = Matcher(T["fixtures"], aliases), {}, weights_now(con)
     cal = current(con, "calib", (None, 0, 0.0, 1.0))[2:4]
     latest = newest_captures(boards)
+    add = board_fixtures(T, [ev for _, ev in latest.values()], day, match, out)
+    if len(add):
+        T["fixtures"] = pd.concat([T["fixtures"], add], ignore_index=True)
+        match = Matcher(T["fixtures"], aliases)
+        print(f"  {len(add)} games not yet in any fixture list, taken from their boards: {list(add.home + ' v ' + add.away)}")
     allrows = []
     for f, ev in latest.values():
         cap = pd.Timestamp(os.path.getmtime(f), unit="s").isoformat(timespec="seconds")

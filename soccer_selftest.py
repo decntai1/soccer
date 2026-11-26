@@ -392,7 +392,7 @@ def main() -> int:
     code = {40: "E1", 79: "D2"}
     pd.DataFrame([dict(Div=code[W.fx[f]["league"]["id"]], Date=day4.strftime("%d/%m/%Y"), Time="15:00",
                        HomeTeam=W.fd_name(W.fx[f]["teams"]["home"]["id"]), AwayTeam=W.fd_name(W.fx[f]["teams"]["away"]["id"]), Referee="")
-                  for f in g4]).to_csv(tmp / "fd/fixtures.csv", index=False)
+                  for f in g4[1:]]).to_csv(tmp / "fd/fixtures.csv", index=False)     # g4[0]: in no fixture list, only on its board
     dE = tmp / "dataE"
     shutil.copytree(tmp / "data", dE)
     for t in dE.glob("soccer_2026_*.csv"):
@@ -414,6 +414,10 @@ def main() -> int:
     ok("blocked API: leg pools on football-data-only games hold no player legs and no statistics by half (could never be graded)",
        bad(raw4) > 20 and bad(pools[0]) == 0 and bad(pools[1]) == 0 and len(pools[0]) > 5 and int((~S.gradable(raw4)).sum()) == bad(raw4),
        (bad(raw4), int((~S.gradable(raw4)).sum()), bad(pools[0]), bad(pools[1]), len(pools[0])))
+    x0 = W.fx[g4[0]]
+    id0 = S.fd_id(code[x0["league"]["id"]], 2026, W.fd_name(x0["teams"]["home"]["id"]), W.fd_name(x0["teams"]["away"]["id"]))
+    ok("a game in no fixture list is built from its board, with the id football-data's results will give it",
+       "taken from their boards" in out_p4 and id0 in set(typed4.fixture_id), (id0, out_p4[:300]))
     clock[0] = dt.datetime(2026, 12, 6, 9, 0, tzinfo=dt.timezone.utc)
     W = mk(free=True)
     W.write_fd(tmp / "fd")                                       # the results file now holds the 5th

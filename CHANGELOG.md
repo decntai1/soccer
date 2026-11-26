@@ -1,5 +1,13 @@
 # Changelog: soccer system (decntai1/soccer)
 
+## 2026-11-26 price: a game in no fixture list is built from its board
+- Friday's boards (27 Nov) came before football-data put Friday in fixtures.csv: 4 games NOT MATCHED. New
+  board_fixtures(): when a board matches no fixture, both teams are matched to current-season teams of one league
+  (best >= 0.72, runner-up 0.08 behind, else nothing) and the fixture is built from the board with fd_id over the
+  football-data names, the id their results file will give the game, so grading finds it. All 4 matched correctly.
+- Midweek 24-25 Nov graded from football-data (28 games). Quarter-line half losses checked by hand against the scores.
+- selftest: 63 checks (new check fails with the fallback off).
+
 ## 2026-11-25 price: the newest capture wins by file time, and replaces the game's board
 - A second capture of the same day (25 Nov, 07:19 and 07:23, file names _0719/_0723) sat next to the previous day's
   (_1140). The newest was picked by file NAME, so yesterday's 11:40 beat today's 07:23. newest_captures() now orders
