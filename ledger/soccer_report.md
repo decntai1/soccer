@@ -1,4 +1,4 @@
-# Soccer ledger report (soccer-0.2, 2026-11-26)
+# Soccer ledger report (soccer-0.2, 2026-11-27)
 
 **NOT VERIFIED. Five results across market types have not been hand-checked (`handcheck`). Do not quote any number below.**
 
