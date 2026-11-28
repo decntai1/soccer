@@ -11,6 +11,7 @@ from __future__ import annotations
 
 import datetime as dt
 import json
+import os
 import math
 from pathlib import Path
 
@@ -305,4 +306,6 @@ class World:
         if path:
             path.parent.mkdir(parents=True, exist_ok=True)
             path.write_text(json.dumps(cap, ensure_ascii=False), encoding="utf-8")
+            t = dt.datetime.fromisoformat(f["fixture"]["date"].replace("Z", "+00:00")).timestamp() - 3600
+            os.utime(path, (t, t))                               # captured an hour before kick-off, like a real capture
         return ev

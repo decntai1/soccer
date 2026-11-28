@@ -840,6 +840,12 @@ def newest_captures(boards: str) -> dict:
     files = sorted(glob.glob(os.path.join(boards, "*.net.json")), key=lambda f: (os.path.getmtime(f), f))
     for f in files:
         for ev in read_capture(f):
+            ko = pd.to_datetime(ev.get("startDate"), utc=True, errors="coerce")
+            cap = pd.Timestamp(os.path.getmtime(f), unit="s", tz="UTC")
+            # taken during the game: in-play prices, never used (days later = a copy that lost its time, not in-play)
+            if pd.notna(ko) and ko + pd.Timedelta(minutes=2) < cap < ko + pd.Timedelta(hours=3):
+                print(f"  in-play capture skipped: {os.path.basename(f)} (captured {cap:%H:%M}, kick-off {ko:%H:%M} UTC)")
+                continue
             latest[norm(ev.get("name") or f)] = (f, ev)
     return latest
 
@@ -872,7 +878,9 @@ def price(day: str, boards: str, con, out: Path | None = None, quiet: bool = Fal
     D["odds_first"] = [old.get(k) or o for k, o in zip(D.row_key, D.odds)]
     con.executemany("DELETE FROM predictions WHERE matchday = ? AND status = 'open' AND row_key = ?", [(day, k) for k in D.row_key])
     # a newer capture replaces the game's whole board: open rows of an older capture that it no longer lists go
-    con.executemany("DELETE FROM predictions WHERE matchday = ? AND status = 'open' AND game = ?", [(day, g) for g in D.game.dropna().unique()])
+    # (rows that are legs of a slip stay: a market pulled at kick-off must not leave its slip ungradable)
+    con.executemany("DELETE FROM predictions WHERE matchday = ? AND status = 'open' AND game = ? AND row_key NOT IN "
+                    "(SELECT row_key FROM slip_legs WHERE matchday = ?)", [(day, g, day) for g in D.game.dropna().unique()])
     graded = {r[0] for r in con.execute("SELECT row_key FROM predictions WHERE matchday = ? AND status != 'open'", [day])}
     N = D[~D.row_key.isin(graded)]
     con.executemany(f"INSERT INTO predictions ({','.join(COLS)}) VALUES ({','.join('?' * len(COLS))})",

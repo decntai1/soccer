@@ -453,6 +453,11 @@ def main() -> int:
     os.utime(cdir / "x_0723.net.json", (1_700_090_000, 1_700_090_000))          # today's capture
     pick = {k: os.path.basename(v[0]) for k, v in S.newest_captures(str(cdir)).items()}
     ok("two captures of a game: the newer file wins, not the later name", set(pick.values()) == {"x_0723.net.json"}, pick)
+    ko = pd.to_datetime(S.read_capture(str(f0))[0]["startDate"], utc=True).timestamp()
+    shutil.copy(f0, cdir / "x_1501.net.json")
+    os.utime(cdir / "x_1501.net.json", (ko + 600, ko + 600))                     # 10 minutes after kick-off
+    (pick2, out_ip) = run_quiet(lambda: {k: os.path.basename(v[0]) for k, v in S.newest_captures(str(cdir)).items()})
+    ok("a capture taken after kick-off (in-play prices) is never used", set(pick2.values()) == {"x_0723.net.json"} and "in-play" in out_ip, (pick2, out_ip))
 
     width = max(len(n) for n, _, _ in checks)
     for n, good, info in checks:
