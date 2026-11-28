@@ -1,5 +1,15 @@
 # Changelog: soccer system (decntai1/soccer)
 
+## 2026-11-28 price: in-play captures skipped; slip legs survive a re-price
+- Saturday was re-captured 1-2 minutes before the 15:00 kick-offs. newest_captures() now skips a capture taken during
+  the game (2 minutes to 3 hours after kick-off by its file time): in-play prices are never priced. A file dated days
+  later is a copy that lost its time, not in-play, and is used.
+- A re-price deleted every open row of a game before inserting the new board. One leg of Saturday's stats-6x (Bromley v
+  Burton under 12.5 corners) was gone from the closing board: its slip would have become ungradable. Rows that are slip
+  legs are now never deleted by a re-price. Saturday's slips (built before any kick-off) were kept as they were.
+- soccer_fake.py: simulated boards carry a capture time an hour before kick-off (os.utime), like a real capture.
+- selftest: 64 checks. Not covered by a test: the slip-leg survival (checked on the real Saturday ledger: 0 legs lost).
+
 ## 2026-11-26 price: a game in no fixture list is built from its board
 - Friday's boards (27 Nov) came before football-data put Friday in fixtures.csv: 4 games NOT MATCHED. New
   board_fixtures(): when a board matches no fixture, both teams are matched to current-season teams of one league
